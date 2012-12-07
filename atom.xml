@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Jorge Alvarez]]></title>
+  <link href="http://www.alvareznavarro.es/atom.xml" rel="self"/>
+  <link href="http://www.alvareznavarro.es/"/>
+  <updated>2012-12-07T16:08:17+01:00</updated>
+  <id>http://www.alvareznavarro.es/</id>
+  <author>
+    <name><![CDATA[Jorge]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[AngularJS y el futuro del desarrollo web]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/"/>
+    <updated>2012-10-17T22:24:12+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/10/AngularJS-300x84.png" alt="javascript framework" />Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de pantallas, formas de uso (táctil, no táctil, offline, online&#8230;) quizás no sea la forma más adecuada.</p>
+
+<p><strong>El problema</strong></p>
+
+<p>Hace 2 años publiqué un post en el que hablaba sobre la necesidad de <a href="http://www.alvareznavarro.es/5832/acabaremos-todos-programando-en-javascript/">cambiar el modelo cliente/servidor en el desarrollo web</a>, donde toda la lógica de la aplicación reside en el servidor, para tender hacia un modelo donde la lógica reside en el cliente y permite el uso de aplicaciones web incluso cuando no hay conexión a Internet.</p>
+
+<p>Con el auge de los dispositivos móviles el uso de aplicaciones web cuando no hay conexión se convierte en algo necesario.</p>
+
+<p>Comentaba en dicho post que hoy por hoy en los navegadores web solo se puede programar en Javascript y por lo tanto si vamos a desarrollar nuestra aplicación en Javascript para que esté disponible en el lado del cliente, también parece lógico desarrollar en dicho lenguaje en el lado del servidor para estandarizar y aprovechar al máximo nuestro conocimiento del lenguaje.</p>
+
+<p><strong>La solución</strong></p>
+
+<p>Hasta ahora no había visto ninguna tecnología que permitiese realizar este tipo de desarrollo de forma eficiente y aunque existen muchos frameworks de desarrollo web en Javascript casi todos se basan en el modelo actual cliente/servidor.</p>
+
+<p><a href="http://angularjs.org/">AngularJS</a> cambia este <a href="http://docs.angularjs.org/guide/concepts">tipo de concepto</a> y es un framework que permite dotar de un mayor peso al cliente web y además lo hace de una forma eficiente y sencilla.</p>
+
+<p>Como principal novedad aporta una extensión del leguaje HTML que le permite manipular datos.</p>
+
+<p>Hasta ahora HTML permitia un marcado del tipo de datos a representar, su contenido y el aspecto.  AngularJS añade el <a href="http://docs.angularjs.org/guide/compiler">tratamiento de datos</a> a esta ecuación y el navegador ya dispone de información suficiente como para saber como mostrar todos los registros de un array o filtrar los registros para mostrar un subconjunto de ellos, por poner 2 ejemplos.</p>
+
+<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/10/view_component-300x209.png" alt="" /></p>
+
+<p>Otra característica relevante es que la conexión entre los datos en el navegador y nuestro modelo <a href="http://docs.angularjs.org/guide/dev_guide.mvc.understanding_view">se realiza de forma automática y bidireccional</a>, no tenemos que actualizar de forma manual nada, angularjs actualizará automáticamente nuestra vista cuando se produzcan cambios en el modelo y viceversa.  En el modelo actual de desarrollo cualquier cambio en el navegador del cliente implica enviar esos datos al modelo y repintar de nuevo la parte actualizada para reflejar esos cambios.  Todo ese trabajo se realiza automáticamente en AngularJS sin necesidad de repintar ni actualizar manualmente.</p>
+
+<p>AngularJS está desarrollado por Google lo que si bien no le garantiza el éxito si que garantiza un producto de calidad, con recursos y soporte.  Además quien impide a Google incluir en su navegador Chrome todas estas funcionalidades de forma nativa.</p>
+
+<p><strong>Resumen</strong></p>
+
+<p>Los grandes avances en el desarrollo de aplicaciones web dan más y más peso a Javascript como lenguaje de desarrollo.  No voy a entrar en el debate, estéril por otra parte, de si Javascript es un lenguaje adecuado y bien construido.  Es el lenguaje que entienden todos los navegadores y por lo tanto la única alternativa para desarrollar en el lado del cliente.</p>
+
+<p>AngularJS pone a nuestro alcance la posibilidad de desarrollar aplicaciones web que proporcionan una mejor experiencia a quienes la usan, que debe ser la finalidad de todo desarrollador web.  En mi opinión es hacía este tipo de desarrollos hacía donde avanzaremos en un futuro cercano.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eres tan bueno como tus usuarios dicen que eres]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2012/07/23/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/"/>
+    <updated>2012-07-23T08:09:59+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2012/07/23/eres-tan-bueno-como-tus-usuarios-dicen-que-eres</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/07/users_first-300x199.jpeg" alt="Eres tan bueno como tus usuarios dicen que eres" />En Internet hay una única medida de satisfacción válida: lo que dicen tus usuarios.  Tu web vale tanto como quienes la usan dicen que vale.  Ni más ni menos.  Tener la mejor tecnología, la mejor estrategia de marketing o el mejor comité de dirección no te va a servir de nada si quienes usan tu web piensan que es mala.</p>
+
+<p>La verdad está ahí fuera, decía una famosa serie de televisión, y en el caso de las empresas de Internet no es solo un dicho, es un axioma.  Una buena web se crea pensando en quien la va a utilizar.  Desde el tamaño del logotipo hasta la terminología empleada.  Todo debe estar pensado por y para quienes van a visitar esa web.</p>
+
+<p>Sin embargo es muy fácil perder el foco y pensar primero en nuestras necesidades como empresa en lugar de en nuestros usuarios.  Hay dos motivos fundamentales por los que se suelen torcer los proyectos web:</p>
+
+<p><strong>La Tecnología</strong>:  En un sector como Internet la tecnología juega un papel fundamental.  Además su continua evolución nos obliga a estar constantemente informándonos de las nuevas posibilidades que se abren ante nosotros.  Sin embargo es muy fácil caer en la trampa de que la tecnología por si misma es la base del éxito.  La tecnología nos dotará de las herramientas adecuadas para realizar nuestra web pero no es un factor determinante del éxito final.  Un buen cincel no es garantía de una buena escultura.</p>
+
+<p><strong>La Empresa</strong>:  El otro factor de riesgo es el anteponer las necesidades de la empresa a las necesidades de los usuarios.  Es muy fácil perder el norte y realizar proyectos web pensando en satisfacer las necesidades que tiene la propia empresa, en lugar de pensar en los usuarios.  No tenemos más que acudir a muchas de las webs más populares, sobre todo de medios de comunicación, para darnos cuenta de que son webs pensadas en cubrir las necesidades que ellos tienen como empresa y no las verdaderas necesidades de los usuarios que las visitan.</p>
+
+<p>La solución para estos problemas pasa por escuchar activamente lo que pasa en tu web.  Una forma inmediata, sencilla y de bajo coste es la analítica web, pero existen otras formas, desde la integración de encuestas hasta los estudios de usabilidad.    Lo que debemos hacer es establecer una política de escucha activa de lo que pasa en nuestra web.  Es la única forma de conocer las necesidades de nuestros visitantes y poder solventarlas.</p>
+
+<p>Si no anteponemos a quienes visitan nuestra web sobre todo lo demás perderemos su confianza, si no cubrimos sus necesidades acabarán marchándose para no volver.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[El aviso de confidencialidad - La excusa de los torpes]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2012/07/17/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/"/>
+    <updated>2012-07-17T15:04:17+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2012/07/17/el-aviso-de-confidencialidad-la-excusa-de-los-torpes</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/07/aviso_confidencialidad-300x200.jpeg" alt="el aviso de confidencialidad la excusa de los torpes" /></p>
+
+<p>Estoy viendo en los emails que los avisos de confidencialidad cada vez ocupan más tamaño y con una tipografía cada vez mayor.  Los avisos de confidencialidad, además de ser inútiles dejan en muy mal lugar a quien los crea.</p>
+
+<p>En primer lugar es inútil porque puede que tu política de confidencialidad choque con la mía que dice que todo lo que llega a mi email es susceptible de ser tratado como yo decida. Cualquier cláusula debe ser aprobada por ambas partes y en este caso tu me estás imponiendo unas condiciones de manera unilateral.</p>
+
+<p>Y en segundo lugar porque te estás llamando torpe a tí mismo.  Me estás diciendo: Te he mandado un email, pero no estoy seguro de si era a tí a quien quería mandarlo y por si acaso adjunto <a href="http://iabogado.com/esp/blogcfm/1/2007/12/Los-avisos-de-confidencialidad-en-los-correos-esos-engendros-jurdicos.html">una parrafada que carece de validez legal</a> para decirte que si te hago llegar un mensaje por error debes borrarlo y la culpa es del email que es un medio inseguro que no garantiza la correcta recepción, ni la confidencialidad y bla bla bla&#8230;</p>
+
+<p>En resumen, hazte un favor a tí mismo y quita el aviso de confidencialidad de tus emails.  Además de no perder el tiempo, ni los bytes, enviando textos inútiles, no quedarás como un torpe.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[El análisis web no es (solo) marketing]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2012/07/02/el-analisis-web-no-es-solo-marketing/"/>
+    <updated>2012-07-02T09:25:22+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2012/07/02/el-analisis-web-no-es-solo-marketing</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/07/web_analytics_2_0_demystified-300x227.png" alt="El analista web no pertenece a marketing" />La mayoría de empresas que conozco tienen integrado el análisis web en el departamento de marketing.  Si bien hemos de reconocer que los primeros que supieron ver la utilidad de la analítica web fueron &#8220;los de marketing&#8221; ni mucho menos es el único departamento que puede beneficiarse de la labor de un analista cuya utilidad es mucho más transversal.</p>
+
+<p>Vamos a ver algunos ejemplos de departamentos que pueden verse beneficiados si tienen acceso a la información que proporciona nuestro analista web.</p>
+
+<p><strong>Marketing</strong>:  Fueron los primeros en ver la utilidad del análisis web y sin ellos muchas empresas no se plantearían tener una herramienta de análisis web ni gente especializada en dicho análisis.  Por lo tanto ellos deben ocupar un lugar especial en el corazón de todo analista web :-).</p>
+
+<p>La adquisición de tráfico, gestión de campañas, redes sociales, son sus principales puntos de atención, sin olvidar optimización de landing pages, a/b testing, contenidos más vistos.</p>
+
+<p><strong>Desarrollo</strong>:  La analítica web también sirve, y mucho, de ayuda para los desarrolladores.  Conocer la <a href="http://www.alvareznavarro.es/5808/medir-el-tiempo-de-carga-de-tu-pagina-con-google-analytics/">velocidad de carga de las páginas</a> en el cliente, secciones más visitadas y por lo tanto susceptibles de optimización y mejora de rendimiento, <a href="http://www.alvareznavarro.es/5820/medir-las-paginas-de-error-con-google-analytics/">control de errores (404, 500&#8230;.)</a>.</p>
+
+<p><strong>Usabilidad y Experiencia de Usuario</strong>:  Medición del uso de formularios, rutas y patrones de navegación de los usuarios, dispositivos utilizados.</p>
+
+<p><strong>Atención al cliente y soporte a usuarios</strong>: Páginas de ayuda más visitadas, consultas más frecuentes en el buscador de la web, uso del formulario de contacto.</p>
+
+<p><strong>Dirección</strong>:  Comportamiento de las ventas online, costes de adquisición de clientes, fidelización, ROI del canal online</p>
+
+<p>Estos son solo algunos ejemplos de departamentos que se pueden beneficiar de la información que un analista web puede proporcionar a la empresa.  Es labor del propio analista evangelizar dentro de la empresa y hacer ver que su función es de gran utilidad para muchos departamentos.</p>
+
+<p>Es hora de que los analistas web salgan del departamento de marketing y ocupen una posición propia en las empresas.  La gran cantidad de herramientas que los analistas tienen a su disposición les proporcionan datos, que una vez procesados y debidamente puestos en contexto, proporcionan información muy valiosa a los diferentes departamentos.</p>
+
+<p>A pesar de que disponemos de datos y herramientas de análisis desde el mismo inicio de la web todavía la gran mayoría de empresas no les sacan todo el partido posible ni aprovechan todo su potencial y esto les supone ni más ni menos que estar perdiendo dinero.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[La publicidad en la era de los smartphones]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2012/06/28/la-publicidad-en-la-era-de-los-smartphones/"/>
+    <updated>2012-06-28T17:22:47+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2012/06/28/la-publicidad-en-la-era-de-los-smartphones</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/06/publicidad-300x258.jpeg" alt="publicidad en la era de los smartphones" />Cuando estoy viendo una serie o una película por televisión y empiezan los anuncios lo primero que hago es coger mi iPad y si no lo tengo a mano me levanto y lo busco.  Esto es así.  Incluso a veces me &#8220;disgusta&#8221; que las pausas sean tan cortas que no puedo terminar de leer alguna noticia o terminar de responder un email.</p>
+
+<p>Seguro que a muchos os pasa lo mismo, si no es con el iPad es con otra tableta o bien con el móvil.  La publicidad nos sirve para actualizar Twitter o hablar por Whatsapp.</p>
+
+<p>Esta actitud no es más que la consecuencia de un hecho:  La publicidad es intrusiva y en su mayoría poco interesante.  De 20 anuncios solamente uno puede llegar a despertar mi interés.   Mientras no existían alternativas este formato funcionaba bien (era el único disponible).  Te anuncias en un programa que ven 2 millones de personas esperando que al menos un 1% esté interesado (no os recuerda esto al spam?).</p>
+
+<p>Ahora hay alternativas, se llama Internet y permite ofrecer publicidad acorde a los gustos e intereses de los usuarios.  Publicidad que no nos resulte intrusiva sino útil.</p>
+
+<p>No tengo ninguna intención de comprar un coche a medio plazo, pero si que estoy planificando mis vacaciones de verano ahora por lo que los anuncios de coches me resultan inservibles mientras que anuncios de cruceros, hoteles o viajes exóticos hacen que sí que muestre interés.</p>
+
+<p>El gran problema es que los medios online han copiado a los medios tradicionales.  Solo saben poner publicidad intrusiva y molesta.  Imágenes que se despliegan tapando el texto para forzarnos a verlos, banners que aparecen por todas partes en los artículos buscando desviar nuestra atención hacia ellos.</p>
+
+<p>Es decir <strong>publicidad inútil, ineficiente y molesta.</strong></p>
+
+<p>El único formato publicitario que funciona en Internet es el que realmente nos ofrece anuncios útiles: AdWords.  Es cierto que Google lo tiene muy fácil, cuando buscamos algo estamos mostrando claramente que es lo que queremos y que grado de interés tenemos por ello.  Si lo analizas bien, y Google lo hace, puedes ofrecer publicidad que interesa en lugar de publicidad que molesta.</p>
+
+<p>Los medios online podrían hacer algo similiar.  Tienen muchísimos datos de la gente que los visita.  Cada vez que yo accedo a un periódico online sigo un patrón de navegación.  Hay secciones que raramente visito mientras que otras las visito una o varias veces al día.  Todo este comportamiento, lejos de aprovecharlo para ofrecerme publicidad que pudiera interesarme, es directamente ignorado por los medios.</p>
+
+<p>Si un medio me ofreciese incentivos para registrarme, lo haría (y no, poder comentar noticias NO es un incentivo).  Si además me ofreciese mayores incentivos para ir completando mi perfil de usuario lo haría.  Por ejemplo, un sorteo de entradas a un concierto para los usuarios que añadan su edad en su perfil.</p>
+
+<p>Si, por visitar un determinado medio, haciendo login, dicho medio entiende que contenidos me gustan y se adapta a mis gustos, yo, cada vez que acceda a dicho medio lo haré no como un usuario anónimo, sino con mi usuario y password.  El tendrá información sobre mí y sobre mis intereses (por lo que podrá ofrecerme publicidad relevante) y yo a cambio tendré información personalizada y de mi interés.</p>
+
+<p>En lugar de quejarse del declive de la publicidad tradicional los medios deberían dedicarse a mejorar sus webs, a generar contenidos de calidad y adaptados a los gustos de quienes los visitan y olvidarse de ofrecer lo mismo para todos.</p>
+
+<p>Cuanto antes entiendan que en la personalización está el futuro de los contenidos, antes nos beneficiaremos todos.</p>
+
+<p>Y la publicidad en la televisión? me preguntareis algunos&#8230;  En un futuro no muy lejano, la televisión no será más que un navegador.  Todos los contenidos vendrán a través de la red y por lo tanto también existirá la posibilidad de personalización.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Utiliza el API de Google Analytics de forma sencilla]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2012/05/01/utiliza-el-api-de-google-analytics-de-forma-sencill/"/>
+    <updated>2012-05-01T09:35:43+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2012/05/01/utiliza-el-api-de-google-analytics-de-forma-sencill</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/04/developers-300x168.jpg" alt="Ariadna Google Analytica API for developers" />El API de Google Analytics nos permite utilizar directamente toda la información que Google Analytics almacena sobre nuestra página web.  Al tener acceso de forma directa a los datos, podemos cruzarlos, agruparlos y segmentarlos de formas que la herramienta web de Google Analytics no permite.</p>
+
+<p>Cuando tenemos que realizar informes complejos o necesitamos cruzar datos de forma no prevista por la herramienta web de Google Analytics tenemos dos opciones.  Armarnos de paciencia y realizar complejas hojas de cálculo difíciles de actualizar y de mantener libres de errores, o bien realizar un programa que recolecte y procese la información por nosotros y nos la muestre automáticamente.</p>
+
+<p>El <a href="https://developers.google.com/analytics/devguides/">API de Google Analytics</a> es una herramienta que nos permite recolectar &#8220;en bruto&#8221; los datos que Google tiene almacenados sobre nuestro sitio para posteriormente poder tratarlos a nuestro gusto.  Pero, como cualquier API, su función es intercambiar información de forma ágil entre ordenadores, no entre humanos.</p>
+
+<p>Para que podamos consumir la información que Google Analytics nos proporciona de forma sencilla y cómoda, he creado una librería que te ayudará a utilizar y sacar todo el partido de dicha API.  El nombre de la librería es <a href="https://rubygems.org/gems/ariadna">Ariadna</a>, está programada en <a href="http://www.ruby-lang.org/es/">Ruby</a> y puedes utilizarla y/o <a href="https://github.com/jorgegorka/ariadna">descargar el código fuente</a> y modificarla a tu gusto.</p>
+
+<p><a href="https://rubygems.org/gems/ariadna">Ariadna</a> extrae toda la información de Google Analytics y te la presenta en forma de objetos que puedes utilizar.</p>
+
+<p>Ariadna utiliza como <a href="https://github.com/jorgegorka/ariadna/wiki/Connexion">forma de autentificación</a> Oauth2 que es la forma recomendada por Google para acceder a su API.</p>
+
+<p>Veamos un ejemplo:</p>
+
+<pre><code>results  = profile.results.select(
+      :metrics    =&gt; [:visits, :bounces, :timeOnSite],
+      :dimensions =&gt; [:country]
+    )
+    .where(
+      :start_date =&gt; Date.today,
+      :end_date   =&gt; 2.months.ago,
+      :browser    =&gt; "==Firefox"
+    )
+    .order([:visits, :bounces])
+    .all
+</code></pre>
+
+<p>Esta consulta pide a Google todas las visitas, tasa de rebote, tiempo en el sitio y país de todas las visitas a nuestra web desde hace dos meses hasta hoy y que hayan empleado el navegador Firefox.  Además nos muestra los resultados ordenados por visitas y tasa de rebote.</p>
+
+<p>Para conocer todos los resultados solo tenemos que iterar sobre el objeto results donde toda la información enviada por Google está disponible en forma de atributos.</p>
+
+<pre><code>results.each do |result|
+  puts result.visits
+  puts result.bounces
+  puts result.timeOnSite
+  puts result.country
+end
+</code></pre>
+
+<p>Además de consultar datos, también podemos conocer toda la información de cuentas, propiedades y perfiles disponibles.</p>
+
+<pre><code>Ariadna::Analytics.new(access_token)
+
+
+
+
+accounts    = analytics.accounts.all
+
+
+
+
+properties = accounts.first.properties.all
+
+
+
+
+profiles    = properties.first.profiles.all
+</code></pre>
+
+<p>Cualquier duda o comentario sobre la gema es bienvenido y por supuesto <a href="https://github.com/jorgegorka/ariadna/wiki/Contributing">contribuciones y mejoras</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3 Consejos para crear un Dashboard]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2012/04/19/3-consejos-para-crear-un-dashboard-de-analitica/"/>
+    <updated>2012-04-19T14:07:24+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2012/04/19/3-consejos-para-crear-un-dashboard-de-analitica</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/04/dashboard1-300x234.png" alt="Como crear un dashboard tras un analisis web" />Un dashboard condensa en un único cuadro/gráfico/página el saber hacer de un buen analista web.  Puede que suene un poco melodramático pero es la realidad.  Eres tan bueno como lo son tus dashboards.  La misión de un analista es generar buenos informes, ayudar a que la empresa que lo ha contratado mejore.</p>
+
+<p>Aunque pueda parecer extraño, a las empresas <strong>no les interesa realmente lo que pasa en sus webs, les interesa como mejorar</strong>.  Cuando estás hablando para un comité de dirección o simplemente informando a tu jefe, no te centres en lo que ha pasado, centrate en ofrecer soluciones para mejorar lo que pasa.  Habla de lo que estáis haciendo bien, para seguir haciéndolo bien y de lo que estáis haciendo mal, para mejorarlo.</p>
+
+<p>No les digas cosas como &#8220;Los anuncios de AdWords no están funcionando&#8221;.  Probablemente ya lo sepan, y si no lo sabían esa información tampoco les aporta ningún valor.  Diles cosas como: &#8220;Los anuncios basados en los términos A, B  y C no atraen visitantes de calidad, el 80% de ellos solamente ve una página y se van de nuestro sitio.  Sin embargo cuando usamos términos como X, Y y Z las visitas se comportan mucho mejor&#8221;.  Ahora estás aportando valor.  Es ahora cuando tu jefe piensa: &#8220;Hice bien contratando a este chico&#8221;.</p>
+
+<p>Olvídate también de poner muchos gráficos y datos.  Tu jefe no quiere estar 30 minutos leyendo tu informe.  <strong>Un buen dashboard debe poder leerse en su totalidad en menos de 5 minutos.</strong>  Sintetiza tus opiniones en frases de 1 línea.  Si tu jefe quiere saber más sobre un determinado gráfico o comentario ya te pedirá detalles.</p>
+
+<p>Para cada dato que quieras mostrar en tu dashboard ten siempre claras estas tres cuestiones:</p>
+
+<ol>
+<li><p><strong>Contexto</strong>.- No muestres cifras, sino tendencias.  La mejor manera de crear contexto es recurrir a periodos de tiempo (mensual, semanal, diario&#8230;.).  Tu jefe no quiere que le digas cuantas visitas tiene la web de tu empresa.  Quiere saber que las visitas han crecido un 10% en lo que va de año y un 3,5% sobre el mes anterior y el crecimiento ha sido debido gracias a las mejoras en posicionamiento en buscadores.</p></li>
+<li><p><strong>Motivo</strong>.- Porqué muestras esa métrica? cual es el  valor que aporta a la empresa?  Muchas veces puedes decir lo mismo de diferentes formas.  En lugar de decir que las conversiones han crecido puedes hablar sobre los ingresos provenientes de la web .</p></li>
+<li><p><strong>Mejora</strong>.- Este es el lugar donde realmente vas a aportar valor ya que no te limitas a contar lo que pasa sino a dar soluciones para mejorar las cosas.  También es la parte más peligrosa puesto que te tienes que mojar.  No sirve con decir &#8220;el carrito de la compra no funciona&#8221;.  Tienes que aportar soluciones y demostrar dichas soluciones.  Aquí no sirve saber mucho de herramientas de analítica ni dominar el excel.  Aquí es donde entra en juego lo que sabes de Internet, el medio en el que te mueves.</p></li>
+</ol>
+
+
+<p>Has invertido mucho tiempo realizando tu análisis.  No lo tires por la borda comunicando información que no aporta ningún valor.  Habla de lo que realmente les interesa a tus jefes.  <strong>Ofrece soluciones</strong>.</p>
+
+<p>Un libro que realmente me ha ayudado y al que suelo recurrir de forma frecuente es: <a href="http://www.webanalyticsdemystified.com/content/books.asp">The Big Book of KPIs</a> de Eric T. Peterson y que te recomiendo que lo tengas siempre a mano como referencia.</p>
+
+<p>Cual es tu experiencia creando dashboards e informes para tus jefes?  Hay algún otro consejo que quieras añadir?  Tus comentarios son siempre bienvenidos.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Comercio electrónico - No todo vale]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/11/24/comercio-electronico-no-todo-vale/"/>
+    <updated>2011-11-24T13:20:52+01:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/11/24/comercio-electronico-no-todo-vale</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/capsulas_nespresso.jpeg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/11/capsulas_nespresso.jpeg" alt="capsulas nespresso" /></a></p>
+
+<p><strong>LLevo bastante tiempo comprando en Internet.  Mi primer pedido online, que fueron unos libros a Amazon, es del año 2002.  Desde entonces he comprado una gran variedad tanto de artículos como de servicios.  Estoy acostumbrado a utilizar tiendas online y por mi trabajo a analizarlas y optimizarlas.</strong></p>
+
+<p>La mayoría de estudios coinciden en que 2011 está siendo el año del despegue del comercio electrónico y las empresas están apostando fuerte por tiendas online en todo tipo de sectores.</p>
+
+<p>Pero no todo vale.</p>
+
+<h2>En comercio electrónico el cliente no es lo primero, es lo único</h2>
+
+<p>Preparandome el café de la mañana me he dado cuenta de que mi cafetera Nespresso (que compré online en Privalia) no ha utilizando nunca cápsulas originales (excepto las 10 que regalaban con la cafetera).  Siempre he empleado las cápsulas de Marcilla y me he puesto a analizar el porqué.</p>
+
+<p>La conclusión es la siguiente: Nespresso no pone al cliente como centro del proceso de compra.</p>
+
+<p>La compra, que realizo online, la hago en la web de Mercadona (esta web daría en si misma para un post) y utilizo la función de las listas que me permite guardar los productos que más compro y añadirlos de golpe.  Entre esos productos está el café que con un simple click lo tengo añadido a mi cesta de la compra junto con otros productos.</p>
+
+<p>Pero Nespresso tiene una web online, yo podría comprar las cápsulas directamente en su web y si realmente merece la pena no parece  mucho problema comprar las cápsulas allí.  Hasta que entras en www.nespresso.com.</p>
+
+<p>Para empezar la web está hecha en flash.  En el año 2011 solo puede haber empresas que tienen webs hechas 100% en flash por dos motivos:</p>
+
+<p>1.- No han entendido de que va Internet (todavía, a estas alturas).</p>
+
+<p>2.- Les importa más su apariencia que los usuarios.  Usuarios con discapacidad no pueden entrar en su web, no es visible desde iphone, ipad, etc&#8230; (tienen una web específica para móviles, es lo que tiene hacer las cosas mal, que las tienes que hacer 2 veces).</p>
+
+<p>Tras mucho navegar por la web consigo ver los productos y sus precios, la diferencia de coste con respecto a las cápsulas de Marcilla es mínima.  Para mi no es el precio un factor decisivo que me llevará a apostar por unas cápsulas o por otras.  Pero tenemos que tener en cuenta los gastos de envío, en la web de Mercadona pago una sola vez por todo el pedido.  Si compro las cápsulas en la web de Nespresso debo pagar gastos de envío adicionales o bien comprar una gran cantidad que me permita tener los gastos de envío gratis.</p>
+
+<p>Además, para realizar un pedido me obligan a registrarme.  Si hay algo que odio y desde luego, si hay <strong>un indicador básico de que una tienda de comercio electrónico está mal hecha es que te obliguen a registrate antes de empezar con el pedido</strong>.  Yo quiero añadir productos a la cesta, ver el importe, saber los gastos de envío y sólamente cuando sepa el total exacto de la compra decidiré si la confirmo o no.</p>
+
+<p>Por lo tanto la web de Nespresso no me aporta ninguna de las dos ventajas principales que me llevan a comprar online:</p>
+
+<ol>
+<li><p><strong>Mejor precio</strong>.  Si tu precio es mejor entonces perfecto, me compensa los gastos de envío y el tiempo de espera hasta recibir el producto.</p></li>
+<li><p><strong>Valor añadido</strong>.  Si me das algo que no tengo en el canal tradicional si me ofreces alguna ventaja respecto a comprar otras cápsulas en otro sitio, me has ganado como cliente.</p></li>
+</ol>
+
+
+<h2>Resumen</h2>
+
+<p>Que conste que el modelo de Nespresso me parece muy inteligente.  Es trasladar el modelo de Apple a la alimentación.  Me vendes un Hardware (cafetera) a la espera de que yo compre tu software (cápsulas).  El problema radica en que <strong>los usuarios no tragamos con todo</strong>, algo que incluso Apple ha podido comprobar, si quieres que te compre dame buen precio o aporta valor.  Tienes que poner al cliente y no tu modelo de negocio, como centro del proceso.  Dame motivos por los que comprar tus cápsulas y seré el primero en la fila pero si me lo pones complicado: <em>&#8220;Heaven must wait for its capsules, George&#8221;</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Datos de uso de Internet - comScore Septiembre de 2011]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/11/19/datos-de-uso-de-internet-comscore-septiembre-de-2011/"/>
+    <updated>2011-11-19T08:07:51+01:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/11/19/datos-de-uso-de-internet-comscore-septiembre-de-2011</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/internet-usage.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/11/internet-usage.jpg" alt="internet usage september 2011" /></a><strong>comScore ha presentado un <a href="http://www.comscore.com/Press_Events/Press_Releases/2011/11/comScore_Releases_Overview_of_European_Internet_Usage_in_September_2011">resumen del uso de Internet en Europa</a> durante el mes de septiembre de 2011.  El informe ha sido realizado teniendo en cuenta 49 paises y proporcionando información detallada de 18 de ellos.  Sobre una población de 373,4 millones de visitantes únicos que  pasan en Internet 26,4 horas de media.</strong></p>
+
+<h2>Empleo y Formación areas emergentes</h2>
+
+<p><strong>Un 30% de usuarios (108,4 millones) han visitado webs de empleo y formación</strong>.  La formación ha sufrido un incremento del 28% mientras que la búsqueda de empleo ha crecido un 21%.</p>
+
+<p>De entre los portales Moster Inc. ha recibido 9,4 millones de visitantes, Indeed.com 8,3 millones, con un crecimiento del 39% respecto al mes anterior y Jobrapido un agregador de ofertas de empleo que ha sido tercero con 7,7 millones de visitantes únicos.</p>
+
+<h2>Webs más vistas</h2>
+
+<p><strong>Los portales de Google continúan liderando</strong> el ranking con 341,1 millones de visitantes únicos, alcanzando a <strong>mas del 91% de la audiencia europea de Internet</strong>.</p>
+
+<p>Los portales de Microsoft ocupan el segundo lugar con 263,3 millones de visitantes y una cobertura del 70,5% de la población internauta.  Le sigue muy de cerca Facebook.com con 250 millones de visitantes y un 66,9% de cobertura.</p>
+
+<p>Como curiosidad, comentar que la red social rusa VKontakte tiene la media de uso mas alta entre sus visitantes con una media de uso de 7,1 horas.</p>
+
+<p>De entre las webs que más han crecido desde agosto hasta septiembre tenemos a Populis con un 44% de crecimiento, el portal de juegos EA Online con un 16% y la organización Mozilla con un 14% de crecimiento.</p>
+
+<p><strong>Top 15 Fastest Growing Properties in Europe by Total Unique Visitors (000)</strong>
+<strong>September 2011 vs. August 2011</strong>
+<strong>Total Europe Audience, Age 15+, Home and Work Locations</strong>
+<strong>Source: <a href="http://www.comscore.com/Products_Services/Product_Index/Media_Metrix_Suite">comScore Media Metrix</a></strong></p>
+
+<p><strong>Properties</strong></p>
+
+<p><strong>Total Unique Visitors (000)</strong></p>
+
+<p><strong>Aug-2011</strong></p>
+
+<p><strong>Sep-2011</strong></p>
+
+<p><strong>Percent Change</strong></p>
+
+<p><em>Total Internet : Total Audience</em></p>
+
+<p><em>372,066</em></p>
+
+<p><em>373,433</em></p>
+
+<p><em>0%</em></p>
+
+<p>Populis</p>
+
+<p>12,162</p>
+
+<p>17,533</p>
+
+<p>44%</p>
+
+<p>Seznam.cz AS</p>
+
+<p>11,358</p>
+
+<p>14,151</p>
+
+<p>25%</p>
+
+<p>EA Online</p>
+
+<p>13,267</p>
+
+<p>15,336</p>
+
+<p>16%</p>
+
+<p>WIND Telecomunicazioni</p>
+
+<p>15,363</p>
+
+<p>17,653</p>
+
+<p>15%</p>
+
+<p>The Mozilla Organization</p>
+
+<p>58,041</p>
+
+<p>66,428</p>
+
+<p>14%</p>
+
+<p>Vivendi</p>
+
+<p>16,659</p>
+
+<p>18,796</p>
+
+<p>13%</p>
+
+<p>Opera Software</p>
+
+<p>16,720</p>
+
+<p>18,763</p>
+
+<p>12%</p>
+
+<p>Gameforge Sites</p>
+
+<p>12,738</p>
+
+<p>14,293</p>
+
+<p>12%</p>
+
+<p>New York Times Digital</p>
+
+<p>17,304</p>
+
+<p>19,351</p>
+
+<p>12%</p>
+
+<p>RCS Media Group</p>
+
+<p>13,744</p>
+
+<p>15,347</p>
+
+<p>12%</p>
+
+<p>WordPress</p>
+
+<p>60,339</p>
+
+<p>67,219</p>
+
+<p>11%</p>
+
+<p>Ask Network</p>
+
+<p>56,547</p>
+
+<p>62,932</p>
+
+<p>11%</p>
+
+<p>Ucoz Web Services</p>
+
+<p>28,219</p>
+
+<p>31,162</p>
+
+<p>10%</p>
+
+<p>LinkedIn.com</p>
+
+<p>24,834</p>
+
+<p>27,296</p>
+
+<p>10%</p>
+
+<p>Rakuten Inc</p>
+
+<p>13,301</p>
+
+<p>14,564</p>
+
+<p>9%</p>
+
+<h2>Uso de Internet por país - comScore Septiembre 2011</h2>
+
+<p>Estos son los datos de uso de Internet en los 18 paises en lso que comScore proporciona información individualizada.</p>
+
+<p><strong>Rusia adelanta a Alemania como el país con mayor número de visitantes únicos.</strong>  El Reino Unido es el país en el que más horas pasan conectados sus usuarios con una media de 36 horas.</p>
+
+<p><strong>Overview of European Internet Usage by Country</strong>
+<strong>Ranked by Total Unique Visitors (000)</strong>
+<strong>September 2011</strong>
+<strong>Total Europe Audience, Age 15+, Home and Work Locations</strong>
+<strong>Source: <a href="http://www.comscore.com/Products_Services/Product_Index/Media_Metrix_Suite">comScore Media Metrix</a></strong></p>
+
+<p><strong>Total Unique Visitors (000)</strong></p>
+
+<p><strong>Average Hours per Visitor</strong></p>
+
+<p><strong>Average Pages per Visitor</strong></p>
+
+<p><em>World-Wide</em></p>
+
+<p><em>1,420,316</em></p>
+
+<p><em>24.0</em></p>
+
+<p><em>2,292</em></p>
+
+<p><em>Europe</em></p>
+
+<p><em>373,433</em></p>
+
+<p><em>26.4</em></p>
+
+<p><em>2,805</em></p>
+
+<p>Russian Federation</p>
+
+<p>50,810</p>
+
+<p>22.4</p>
+
+<p>2,439</p>
+
+<p>Germany</p>
+
+<p>50,139</p>
+
+<p>24.4</p>
+
+<p>2,750</p>
+
+<p>France</p>
+
+<p>42,349</p>
+
+<p>27.2</p>
+
+<p>2,780</p>
+
+<p>United Kingdom</p>
+
+<p>37,197</p>
+
+<p>35.6</p>
+
+<p>3,272</p>
+
+<p>Italy</p>
+
+<p>23,748</p>
+
+<p>18.5</p>
+
+<p>1,986</p>
+
+<p>Turkey</p>
+
+<p>23,167</p>
+
+<p>32.2</p>
+
+<p>3,807</p>
+
+<p>Spain</p>
+
+<p>21,046</p>
+
+<p>27.1</p>
+
+<p>2,373</p>
+
+<p>Poland</p>
+
+<p>18,193</p>
+
+<p>24.8</p>
+
+<p>2,947</p>
+
+<p>Netherlands</p>
+
+<p>11,913</p>
+
+<p>33.4</p>
+
+<p>3,303</p>
+
+<p>Sweden</p>
+
+<p>6,208</p>
+
+<p>24.9</p>
+
+<p>2,489</p>
+
+<p>Belgium</p>
+
+<p>6,026</p>
+
+<p>19.4</p>
+
+<p>2,072</p>
+
+<p>Switzerland</p>
+
+<p>4,738</p>
+
+<p>18.7</p>
+
+<p>1,947</p>
+
+<p>Austria</p>
+
+<p>4,722</p>
+
+<p>14.1</p>
+
+<p>1,586</p>
+
+<p>Portugal</p>
+
+<p>4,239</p>
+
+<p>21.8</p>
+
+<p>2,191</p>
+
+<p>Denmark</p>
+
+<p>3,671</p>
+
+<p>22.2</p>
+
+<p>2,298</p>
+
+<p>Finland</p>
+
+<p>3,374</p>
+
+<p>24.9</p>
+
+<p>2,455</p>
+
+<p>Norway</p>
+
+<p>3,257</p>
+
+<p>27.8</p>
+
+<p>2,516</p>
+
+<p>Ireland</p>
+
+<p>2,343</p>
+
+<p>20.2</p>
+
+<p>1,979</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Entrevista con Alejandro Doncel]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/11/16/entrevista-con-alejandro-doncell/"/>
+    <updated>2011-11-16T15:35:47+01:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/11/16/entrevista-con-alejandro-doncell</id>
+    <content type="html"><![CDATA[<p>[caption id=&#8221;attachment_6650&#8221; align=&#8221;alignleft&#8221; width=&#8221;171&#8221; caption=&#8221;Alejandro Doncel&#8221;]<a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/alejandrodoncel.png"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/11/alejandrodoncel.png" alt="Alejandro Doncel director de Kschool" /></a>[/caption]</p>
+
+<p><strong>Inicio hoy una serie en la que iré entrevistando a personalidades relevantes del marketing online.  No busco entrevistar a gurús mediáticos sino a gente que está en el día a día del marketing online, que experimenta, que se equivoca, que aprende&#8230; gente que nos pueda aportar su visión y su perspectiva sobre esta disciplina que cambia día a día.  Inauguramos la sección con todo un referente del marketing online en España:  Alejandro Doncel.</strong></p>
+
+<p>Para iniciar una serie de entrevistas como esta nada mejor que empezar por <strong>una de las personalidades más relevantes del panorama actual del marketing en España</strong>.  Se trata de <a href="http://alejandrodoncel.com/">Alejandro Doncel</a>.</p>
+
+<p>Alejandro lleva más de 12 años desarrollando e impartiendo seminarios y conferencias en diversas escuelas de negocios, entre las que se encuentran el Instituto de Empresa, ESIC, ICADE y EAE, sobre cómo gestionar áreas de marketing y ventas desde nuevas perspectivas.  Actualmente es el director de <a href="http://kschool.com/">Kschool</a>.  KSchool es una escuela que cubre la demanda de cursos y formación para profesionales de internet y de las nuevas tecnologías. Marketing online, analítica web, usabilidad, ux, móvil&#8230;</p>
+
+<p><strong>Pregunta:</strong> <strong>La demanda de profesionales del marketing online, analistas web, expertos en usabilidad, etc… cada día crece más.  ¿Crees que es consecuencia de que las empresas han tomado conciencia de las ventajas que el marketing online puede ofrecerles?</strong></p>
+
+<p>Creo que es más consecuencia de la evolución natural de las cosas. Las organizaciones están entendiendo que internet es un campo de juego multidimensional. Y este campo de juego puede servir para generar nuevos productos, como canal de distribución, como medio para diseñar y ejecutar eficientes estudios de mercado, como canal de comunicación&#8230;</p>
+
+<p><strong>P: Habéis conseguido que Kschool se convierta en el referente de enseñanza de los nuevos profesionales de Internet.  Vuestros máster están más orientados a que el alumno diga &#8220;Yo sé hacer esto&#8221; en lugar de &#8220;Yo tengo un máster&#8221;.  ¿Cómo se logra este cambio?</strong></p>
+
+<p>Ofreciendo conocimiento relevante para los nuevos oficios que el siglo XXI está demandando, y entendiendo la falta de sincronización que existe entre el sistema productivo y el educativo, de la que te hablare con detalle contestando a las próximas preguntas. Una prueba es el tipo de conversación que se está produciendo entre los empleadores y los candidatos. Es de esta guisa:</p>
+
+<p>Empleador: necesitamos a alguien que sepa realizar el trabajo X.
+Candidato: mire usted yo tengo un máster, una carrera, y lo que haga falta.
+Empleador: ya, pero ¿Sabe usted desarrollar el trabajo X? ¿Que sabe hacer?
+Candidato: &#8230;y además hablo tres idiomas diferentes&#8230;.</p>
+
+<p>Esta situación es la que se está dando como consecuencia de la falta de sincronización entre el sistema educativo y el productivo. Las empresas quieren una serie de habilidades y conocimientos concretos. Y el sistema educativo no los da. Así de sencillo.</p>
+
+<p><strong>P: Hablando de enseñanza.  En un mercado como el de la tecnología y el marketing online donde cada 18 meses todo ha cambiado de manera drástica no crees que tiene poco sentido seguir formando a la gente en carreras que duran entre 3 y 5 años y donde lo que han aprendido en los primeros años no tiene utilidad práctica cuando sales al mercado laboral.</strong></p>
+
+<p>La cuestión es de fondo, aunque el impacto se aprecia mucho más en áreas de conocimiento relacionadas con internet y las nuevas tecnologías. El follón es inmenso, y está producido por la falta de sincronización de los elementos que conforman el sistema educativo-productivo. Este binomio es la esencia de la creación de prosperidad y con relación a las nuevas tecnologías, y nuevo conocimiento hace aguas por todos sitios.</p>
+
+<p>La clave radica en tener conocimiento relevante, no una gran cantidad de conocimiento. El sistema educativo actual provee de una ingente cantidad de conocimiento que no es ya relevante para ejercer una profesión o un oficio. Es un conocimiento obsoleto. Se confunde calidad con cantidad. Se deben pasar un montón de años cursando un montón de asignaturas que no aportan ningún conocimiento ni habilidad relevante (relevante en el mercado de trabajo) cuando uno intenta insertarse en el mercado laboral.</p>
+
+<p>Las empresas Tienen que pisar el ritmo del acelerador, obligadas a mover cada día mas rápido sus productos, servicios y relaciones, para adaptarse a las cambiantes demandas de sus clientes.
+Y en medio de todo esto tenemos un sistema de enseñanza, que permanece imperturbable y rígido, incapaz de adaptarse y seguir las exigencias que marcan las nuevas formas de hacer las cosas, y de generar prosperidad. Resumiendo, una parte del sistema se mueve con el acelerador pisado a fondo, y la otra parte lo hace pisando a fondo el pedal del freno.</p>
+
+<p>Es el resultado normal, cuando para ser profesor de universidad tiene infinitamente más peso tener un doctorado que una experiencia profesional relevante. Por supuesto, el caso de los profesores de formación profesional reglada es similar. Y con Bolonia la cosa irá a peor. Conozco a decenas de profesores que no han pisado una empresa en su vida. Eso sí, sientan cátedra cada día en la universidad.</p>
+
+<p><strong>P: Dinos 3 razones por las que una pyme debe contratar un consultor que analice su web y le asesore sobre cómo mejorarla.</strong></p>
+
+<p>Porque eso es dinero
+Porque eso les provee de una visión de su negocio y de su competencia imposible de tener de otra forma.
+Porque les va a proporcionar una capacidad de análisis de su negocio que ni en sus mejores sueños piensan que existe.</p>
+
+<p><strong>P: Saca tu bola de cristal, que sabemos que tienes una y cuéntanos, ¿Donde ves al marketing online dentro de 2 años?</strong></p>
+
+<p>Veo al mk online junto con la analítica como las dos patas donde se va a sostener la inteligencia de negocio en el siglo XXI. Pero esto se conseguirá, únicamente si las estructuras de gestión que tienen que soportar estas disciplinas consiguen evolucionar.</p>
+
+<p><strong>Alguna cosa más que añadir</strong></p>
+
+<p>Únicamente darte las gracias por darme la oportunidad de ofrecer mi punto de vista. Y decirte que este país necesitas más personas como vosotros. Con la energía, y el conocimiento relevante para hacer que nuestro sociedad avance. Un abrazo.</p>
+
+<p>Muchas gracias Alejandro tu tiempo y por tu interés en contestar a mis preguntas ha sido todo un placer.</p>
+
+<p>[author] [author_image timthumb=&#8217;on&#8217;]http://www.alvareznavarro.es/wp-content/uploads/2011/11/alejandrodoncel.png[/author_image] [author_info]Mi interés está centrado en cómo desarrollar enfoques diferentes desde las áreas de marketing y ventas. En cómo abrir las organizaciones a la participación de clientes y profesionales, y en el comportamiento de las personas. Si las empresas y los mercados no son los mismos que hace cinco, diez o veinte años, parece una locura seguir aplicando técnicas de Marketing y Ventas soportados en principios y técnicas ya superadas.[/author_info] [/author]</p>
+
+<p>Estos son algunos de los cursos que ofrece Kschool:</p>
+
+<p><a href="http://kschool.com/analitica-web/cursos/master-analitica-web/">Master de Analítica Web</a></p>
+
+<p><a href="http://kschool.com/marketing-online/cursos/master-de-tecnicas-de-marketing-online/">Master de Técnicas de Marketing Online</a></p>
+
+<p><a href="http://kschool.com/ecommerce/cursos/programa-avanzado-proyectos-ecommerce/">Programa Avanzado de Proyectos Ecommerce</a></p>
+
+<p><a href="http://kschool.com/marketing-online/cursos/programa-avanzado-de-marketing-online/">Programa Avanzado de Marketing Online</a></p>
+
+<p><a href="http://kschool.com/social-media/cursos/social-media-para-pymes/">Social Media para Pymes</a></p>
+
+<p><a href="http://kschool.com/usabilidad-ux/cursos/master-en-usabilidad-y-experiencia-de-usuario/">Master en Usabilidad y Experiencia de Usuario</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[El visitante como centro del análisis web]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/11/15/el-visitante-como-centro-del-analisis-web/"/>
+    <updated>2011-11-15T02:55:43+01:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/11/15/el-visitante-como-centro-del-analisis-web</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/user-centered.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/11/user-centered-300x188.jpg" alt="el usuario como centro del análisis web" /></a><strong>Cuando nos enfrentamos al análisis de una web lo primero que debemos tener muy claro son los objetivos y los indicadores que nos servirán para cumplir dichos objetivos.  Este es el primer paso que todo buen analista web debe realizar.  De una buena definición de objetivos y de sus indicadores, dependerá que todo el esfuerzo que realicemos después tenga éxito o no.  Si nuestros indicadores están mal elegidos o no son los correctos, las conclusiones a las que nos lleven serán erroneas y no servirán para mejorar la web analizada.</strong></p>
+
+<p>Existen diversas metodologías que nos permiten afrontar la creación de objetivos e indicadores web con garantías, y es posible encontrar mucha documentación sobre este tema (adjunto unos cuantos recursos al final de este post).</p>
+
+<p>Otro punto indispensable para un buen analista web es realizar informes que puedan ser fácilmente entendibles por las personas  a las que van dirigidos y sobre todo, que les propongan soluciones a los problemas detectados o iniciativas para mejorar y crecer.</p>
+
+<h2>El visitante/usuario como centro del proceso de análisis web</h2>
+
+<p>Las webs están hechas para que las personas las usen y parece natural poner al visitante/usuario como centro de todo el proceso, si bien esto en la práctica es mucho menos frecuente de lo que debería ser.  En función del grado de vinculación que una persona tiene con nuestra web podemos hablar de:</p>
+
+<ol>
+<li><p><strong>Visitantes:</strong> quienes interactúan con la web pero cuya vinculación no es muy grande.</p></li>
+<li><p><strong>Usuarios:</strong> aquellos acostumbrados a visitarnos, que conocen nuestra web y nuestros servicios</p></li>
+<li><p><strong>Clientes:</strong> Quienes han realizado un objetivo principal de nuestra web.</p></li>
+</ol>
+
+
+<p>A su vez, podemos dividir las webs en cuatro grandes grupos según el motivo para el que fueron creadas:</p>
+
+<ol>
+<li><p><strong>Comercio:</strong> Webs creadas con la finalidad de vender un producto o servicio.  No es necesario que la transacción se lleve a cabo directamente en la web.</p></li>
+<li><p><strong>Contenido:</strong> Webs de artículos, prensa, revistas, blogs, foros&#8230;. Donde lo importante es el contenido, tanto propio, como generado por los usuarios.</p></li>
+<li><p><strong>Marketing:</strong>  Comunmente llamadas webs presenciales.  Webs donde se dan a conocer los productos o servicios de una empresa de una forma genérica.</p></li>
+<li><p><strong>Soporte:</strong> Webs destinadas a ayudar a los visitantes a resolver sus dudas tanto antes, durante como después de un proceso de compra.</p></li>
+</ol>
+
+
+<p>En función del tipo de web y del tipo de visitante deberemos segmentar los datos con los que trabajamos para obtener la información adecuada.</p>
+
+<p>En los cuatro tipos de webs que hemos visto, se dan los tres tipos de personas que hemos definido.  Es evidente que no todos los tipos de personas tienen la misma importancia en todos los casos:  En una web de comercio nos interesa que la mayoría de visitantes se conviertan en clientes, mientras que en una web de soporte puede ser interesante tener cuantos menos usuarios mejor, ya que eso indicará que no necesitan de nuestra ayuda de forma recurrente.</p>
+
+<p>Por lo tanto debemos tener muy claro a que tipo de web nos vamos a enfrentar antes de comenzar con el análisis.  El tipo de empresa también condicionará las herramientas a utilizar.  Por ejemplo un site de contenidos, como un periódico, que basa sus ingresos en audiencias dispondrá tanto de herramientas de medición basadas en paneles (ComScore, Nielsen&#8230;) como de herramientas basadas en tags (SiteCatalyst, Analytics, WebTrends&#8230;)</p>
+
+<p>Para complicar aún más la cosa, no todos los departamentos de una empresa necesitan la misma información por lo que nuestros informes también deben tener en cuenta a quien nos dirigimos para presentarles únicamente aquellos datos que les puedan ser de utilidad y ofrecerles nuestras recomendaciones en un lenguaje perfectamente comprensible por ellos.</p>
+
+<h2>Resumen</h2>
+
+<p>Realizar un análisis serio, riguroso y que aporte valor al cliente es un trabajo que requiere tener en cuenta muchos factores.  Hemos hablado de como enfocar el análisis de una web teniendo al visitante como centro del mismo.  En un próximo post veremos las fases en las que dividir el análisis para ofrecer información útil a nuestros clientes.</p>
+
+<h3>Recursos de interés</h3>
+
+<ul>
+<li><p><a href="http://www.visualrevenue.com/media/pdf/Implementing_WA_Nokia.pdf">Implementing Web Analytics The Nokia Way (pdf)</a></p></li>
+<li><p><a href="http://www.amazon.com/Cult-Analytics-strategies-Emarketing-Essentials/dp/1856176118">Steve Jackson - The Cult of Analytics</a></p></li>
+<li><p><a href="http://www.elartedemedir.com/">El Arte de Medir</a></p></li>
+<li><p><a href="http://www.webanalyticsdemystified.com/content/books.asp">The Big Book of KPIs</a></p></li>
+<li><p><a href="http://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0321683684/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1321314510&amp;sr=1-1">The Elements of User Experience</a></p></li>
+</ul>
+
+
+<p>[box] Si deseas un análisis que te permita conocer con detalle lo que pasa en tu página web, <a href="http://www.alvareznavarro.es/contactar/">contacta conmigo</a>.[/box]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eventos no interactivos en Google Analytics]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/11/03/eventos-no-interactivos-en-google-analytics/"/>
+    <updated>2011-11-03T20:57:45+01:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/11/03/eventos-no-interactivos-en-google-analytics</id>
+    <content type="html"><![CDATA[<p><strong><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/bounce-rate.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/11/bounce-rate-300x199.jpg" alt="eventos no interactivos en Google Analytics" /></a>Hasta ahora cuando lanzábamos un evento en Google Analytics contaba como una interacción del usuario en nuestra web y anulaba el rebote.  Es decir aunque el usuario hubiera visto una sola página si había ocurrido algún evento, no existía rebote.  Desde hoy ya podemos decidir nosotros si queremos que un evento sea interactivo o no interactivo.</strong></p>
+
+<h2>Gestión de eventos en Google Analytics</h2>
+
+<p>Google ha añadido un nuevo parámetro al método _trackEvent() que nos permite decidir si queremos que nuestro evento sea interactivo y cancele el rebote o bien no interactivo y no afecte al rebote de esa visita.</p>
+
+<p>El formato del nuevo método _trackEvent queda como sigue:</p>
+
+<h4><em>_trackEvent(category, action, opt_label, opt_value, opt_noninteraction)</em></h4>
+
+<p>Hace poco publiqué un script que añades a tu web y que te permite <a href="http://www.alvareznavarro.es/6579/seguimiento-de-enlaces-externos-con-google-analytics/">saber que enlaces externos pulsan los visitantes de tu web</a>.  Por ejemplo, si tienes un post de un blog y enlazas a otras webs, cuando alguien que está leyendo tu post pulsa en ese enlace quedará contabilizado y podrás saber que enlaces tienen más éxito entre tus lectores.</p>
+
+<p>Un efecto secundario de este script es que aunque el visitante solo vea una página de tu web <strong>cuando se lanzaba el evento Google Analytics lo entendía como una interación del visitante con tu web y cancelaba el rebote</strong>.</p>
+
+<p>Desde ahora ya podemos decidir si queremos que esto sea así o no.  Por defecto, nada cambiará, es decir que si no modificas tus eventos estos seguirán siendo interpretados como una interacción del visitante y cancelarán el rebote.  Pero si añades un nuevo parámetro y pones el valor <strong><em>true </em></strong>Google Analytics contabilizará el evento y no cancelará el rebote.</p>
+
+<h2>Resumen</h2>
+
+<p>No todos los eventos tienen la misma importancia ni afectan por igual al comportamiento de los visitantes en nuestra web.  Desde ahora es responsabilidad del analista web configurar correctamente los eventos para que afecten o no afecten a la tasa de rebote.  Personalmente <strong>creo que existe mucho miedo a tener una tasa de rebote alta</strong>, cuando no siempre es un síntoma malo.  Debemos <a href="http://www.alvareznavarro.es/servicios/consultoria-web/auditoria-y-analisis-web/">analizar cada web en su contexto</a> y decidir lo más adecuado según sus circunstancias particulares.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[El sector de la moda online en España]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/10/30/el-sector-de-la-moda-online-en-espana/"/>
+    <updated>2011-10-30T12:30:16+01:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/10/30/el-sector-de-la-moda-online-en-espana</id>
+    <content type="html"><![CDATA[<p><strong><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/10/las_celebrities_se_visten_de_venca.es_receta_main_landscape1.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/las_celebrities_se_visten_de_venca.es_receta_main_landscape1.jpg" alt="tienda de moda online" /></a>El volumen de negocio generado en España por el comercio electrónico B2C superará en 2011 los 11 millones de euros, lo que significa un incremento del 24% respecto a 2010.  La pujanza del comercio electrónico se está manteniendo pese a la crisis y, además, el número de usuarios de Internet que compran online sigue creciendo; en 2011 alcanzará los 14,8 millones, lo que supuso un aumento del 16,5% respecto a los 12,7 millones registrados en 2008.</strong></p>
+
+<p>Google ha realizado un <a href="http://googleespana.blogspot.com/2011/10/asi-compran-moda-los-espanoles-en.html">estudio analizando el sector de la moda online</a> en España y las tendencias y comportamiento de los consumidores.  El estudio ha sido llevado a cabo por dos prestigiosas empresas: <a href="http://www.tcanalysis.com/">The Cocktail Analysis</a> y  <a href="http://es.nielsen.com/site/index.shtml">Nielsen</a>.</p>
+
+<h2>El comportamiento del comprador de moda online</h2>
+
+<p>Estas son las conclusiones más relevantes del primero de los estudios, realizado por The Cocktail Analysis y titulado “El comportamiento del comprador de moda online”.</p>
+
+<ul>
+<li><p><strong>De los casi 12 millones de internautas que hay en España, 10 millones afirman haber comprado moda en el último año</strong>. De esa cifra, el 40%, unos 4,2 millones, lo ha hecho además online.</p></li>
+<li><p>El 40% del total de compradores de moda online ha adoptado el canal online en los últimos 18 meses.</p></li>
+<li><p><strong>A finales de este año la facturación estimada de venta online superará los 1.200 millones de euros.</strong> Desglosando esta cantidad, el 57% correspondería a compra de ropa de joven y adultos; el 17% a calzado; el 15% a ropa infantil; el 8% a complementos y el 3% restante a ropa interior.</p></li>
+<li><p>Un 17% de los compradores de moda online accede desde su móvil a sitios web relacionados con moda y el 3,5% además, ejecuta una compra. En cuanto al uso del móvil en relación con la moda, el 72% declara que se informa, lee o mira a través del terminal; el 35% busca dónde están las tiendas; el 25% redirecciona contenido a sus páginas; el 22% compra y el 14% participa en foros sobre moda.</p></li>
+<li><p><strong>Un 30% de los compradores online reduce la visita a la tienda física mientras que sólo un 5% la aumenta</strong>. Sin embargo, un 22% de los compradores aumenta el gasto total en moda y un 66% lo mantiene.</p></li>
+<li><p>Los que gastan más a través de Internet admiten hacerlo porque hay más oportunidades de compra y una mejor oferta. El 31% destaca la comodidad y la facilidad, el 29% valora la mayor disponibilidad de productos mientras que el 20% señala que los precios son más bajos.</p></li>
+<li><p>En cuanto a las principales barreras a la compra de moda online, los gastos de envío y la devolución son dos de los grandes frenos a la compra online.</p></li>
+</ul>
+
+
+<p>[caption id=&#8221;attachment_6621&#8221; align=&#8221;aligncenter&#8221; width=&#8221;522&#8221; caption=&#8221;Recuerdo de primera compra online&#8221;]<a href="http://www.alvareznavarro.es/wp-content/uploads/2011/10/estudio_modal_online.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/estudio_modal_online.jpg" alt="￼Un 40% de los compradores de moda online se han incorporado al canal en el último año y medio" /></a>[/caption]</p>
+
+<p>Además el estudio de The Cocktail Analysis identifica cinco perfiles de usuarios en función de su relación con la moda, los motivos de compra o los soportes a través de los cuales se accede a las tiendas online</p>
+
+<ol>
+<li><p>La fashionista (un 6% del total), que se declara fascinada por la moda: Es quien accede en mayor medida a contenidos de moda desde el móvil y quien más gasta en moda, tanto online como offline.</p></li>
+<li><p>La práctica (que representa el 14%) y que en la compra busca la practicidad. Valora la rapidez, la comodidad y el mayor surtido de productos. Compra más en sites de tiendas/cadenas españolas que en clubs de compra.</p></li>
+<li><p>El Gestor (un 23%), al que le interesa poco la moda y evita ir de tiendas. Compra en Internet porque aquí encuentra los precios más competitivos, y por tanto, recurre más a los outlets y clubs de compra.</p></li>
+<li><p>La sensata  (26%) que ha comprado moda online, pero hace más de un año.</p></li>
+<li><p>El pautado (32% del total) que nunca ha comprado moda por Internet. Estos dos últimos estarían considerados como compradores offline.</p></li>
+</ol>
+
+
+<h2>  Comportamiento en los sites de moda</h2>
+
+<p>El estudio elaborado por Nielsen, “Análisis de navegación en la compra de moda online”, analizó el comportamiento de los internautas en su proceso de investigación y compra de moda en la red en función de aspectos como el tipo de sites visitados, la frecuencia de visita, webs en las que se compra, etc. durante los meses de septiembre a noviembre de 2010.</p>
+
+<p>Estas son las conclusiones más relevantes:</p>
+
+<ul>
+<li><p>Durante el periodo mencionado, hubo 9,3 millones de usuarios que navegaron por sites de moda, un 13% de los cuales, es decir 1,2 millones, realizaron compras online. Además, de los 160 millones de visitas a webs de moda y 2,7 millones de compras online realizadas en ese tiempo, <strong>el 74% de las visitas y el 77% de las compras tuvieron lugar en los clubes de venta privada</strong>.</p></li>
+<li><p>En los últimos tres años, el tráfico que reciben los clubes de venta privada se ha multiplicado por tres, pasando de los 2.000 millones en 2007 a los más de 6.000 millones en 2010.</p></li>
+<li><p><strong>Las páginas de las tiendas y cadenas de moda tradicionales recogieron un 15% de las visitas y un 10% de las compras online.</strong> En este segmento sobresalen Zara y Kiabi, que obtuvieron 34% y 32% del total de las compras de este segmento. Las websites de venta por catálogo junto con los “pure players” (websites sin tiendas físicas) recibieron el 9% de las visitas. Aquí destacan La Redoute/Vertbaudet, que acaparó un 53% de las compras de este segmento, y Venca, con un 19%.</p></li>
+<li><p><strong>El perfil comprador de moda online es mayoritariamente femenino</strong>, al representar un 64% del total, y en un rango de edad de 25 a 44 años.</p></li>
+<li><p><strong>El número medio de compras por usuario es de 2,2 al trimestre de media</strong>; los clubes de venta tienen una recurrencia de compra mucho más alta al estar en 2,5 al trimestre, mientras que catálogos y tiendas tradicionales están muy lejos de los clubs, con 1,4 y 1,3 respectivamente.</p></li>
+<li><p><strong>Los internautas españoles tardan una media de 28 días en realizar la primera adquisición de moda online</strong>, y tras haber realizado una media de 21,7 visitas al sitio con una estancia media en la página web de 108 minutos. En general el proceso de compra de moda online se alarga en el tiempo, y un 40% de las compras tienen lugar más de un mes después de haber visitado la tienda.</p></li>
+<li><p>Los localizadores de tienda son clave a la hora de dirigir tráfico a las tiendas físicas: un 22% de los que compraron online, y un 10% de la audiencia total visitaron el localizador. Este dato contrasta con el hecho de que un 27% de las 30 primeras cadenas de moda no ofrecen un localizador de tiendas en sus webs.</p></li>
+<li><p>Finalmente, Nielsen analiza la correlación entre compradores online que realizan búsquedas activas y los que no, y concluye que los que buscan, tienen una probabilidad dos veces mayor de terminar comprando. Esta probabilidad aumenta un 2,5 si se trata de anuncios patrocinados.</p></li>
+</ul>
+
+
+<h2>Resumen</h2>
+
+<p>El sector de la moda online está en constante crecimiento.  Además en el último año y medio hemos podido observar un importante aumento de usuarios.</p>
+
+<p>El lanzamiento de un canal online supone un complemento a las ventas en la tienda, ya que <strong>un 89% de los compradores online afirma gastar lo mismo o más en moda que los compradores tradicionales</strong>. Los compradores online afirman que Internet aporta comodidad, una mayor oferta y, en definitiva, nuevas ocasiones de compra.</p>
+
+<p>Entender el comportamiento de quienes visitan nuestra web es vital a la hora de plantear una estrategia de venta y fidelización.  El número de visitas antes de la primera compra es elevado (21,7 visitas de media)  y es un dato que debemos tener muy en cuenta a la hora de diseñar nuestra web.</p>
+
+<p><strong>Disponer de una herramienta de analítica bien configurada</strong> y que nos aporte información fiable y exhaustiva de lo que sucede en nuestra tienda online <strong>es necesario para poder competir con ventaja</strong> y ofrecer a nuestros usuarios una experiencia de calidad cuando nos visitan.</p>
+
+<p>[box type=&#8221;info&#8221;] Si deseas un <a href="http://www.alvareznavarro.es/servicios/consultoria-web/auditoria-y-analisis-web/">estudio personalizado de tu tienda online</a> o bien <a href="http://www.alvareznavarro.es/servicios/consultoria-web/formacion-personalizada-en-google-analytics/">implantación y formación avanzada de Google Analytics</a><a href="http://www.alvareznavarro.es/contactar/"> contacta conmigo</a>.[/box]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Alertas personalizadas en Google Analytics]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/10/27/alertas-personalizadas-en-google-analytics/"/>
+    <updated>2011-10-27T16:34:21+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/10/27/alertas-personalizadas-en-google-analytics</id>
+    <content type="html"><![CDATA[<p><strong><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/10/google-analytics.png"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/google-analytics.png" alt="Google Analytics - Jorge Alvarez" /></a>Una de las funciones que menos se utilizan de Google Analytics son sus alertas.  Sin embargo es una de las herramientas más útiles que nos proporciona Google Analytics para controlar lo que sucede en nuestra web.  Veamos para que sirven y como se utilizan las alertas.</strong></p>
+
+<p>Las alertas es una funcionalidad que está englobada dentro de &#8220;Eventos de Inteligencia&#8221;.</p>
+
+<h2>Que son los eventos de inteligencia (Intelligence Events)</h2>
+
+<p>Los eventos de inteligencia son alertas que Google Analytics nos avisan cuando algo que &#8220;se sale de lo normal&#8221; ocurre en nuestro sitio web.  Es más sencillo explicarlo con ejemplos.  Si de un día para otro aumenta el número de visitas, si cae el tiempo medio de estancia en la web, si la tasa de rebote sube de forma alarmante, etc.  <strong>Google Analytics va a monitorizar una serie de parámetros y nos va a indicar cuando está ocurriendo algo que no encaja dentro de la media habitual de nuestro sitio</strong> y nos avisa para que lo repasemos.</p>
+
+<p>Para controlar estos cambios tiene en cuenta tres intervalos de tiempo: diario, semanal y mensual.  Es decir nos puede avisar tanto de que el número de visitantes de hoy es el doble que el de ayer como de que el porcentaje de rebote ha subido un 10% durante esta semana.  Y por si esto fuera poco además segmenta las alertas por procedencia de tráfico por lo que podemos llegar tener alertas que nos dicen que el tráfico de visitantes de España se ha incrementado en un 25% durante este mes.</p>
+
+<p>Otro punto muy interesante y útil de las alertas es la Importancia.  Google Analytics asigna un indicador que va de 0 a 9 según el grado de importancia de la Alerta.  Para Google <strong>la Importancia es la probabilidad de que dicha alerta se haya producido por azar</strong>.  Para saber un poco más sobre como calcula Google la Importancia vamos a ver un poco de estadística.</p>
+
+<h2>Como calcula Google Analytics sus alertas</h2>
+
+<p>Para calcular las alertas GA tiene en cuenta la <a href="http://es.wikipedia.org/wiki/Distribuci%C3%B3n_normal">distribución normal</a>.  Una distribución normal o Gaussiana se define por dos parámetros principales:  La media o valor medio y la desviación estándar que es la diferencia media de un valor respecto a su media.  En una distribución Gaussiana el 68% de los valores están a menos de 1 desviación estándar, el 95% a menos de 2 y el 0,999999998027% a menos de 6.</p>
+
+<p>[caption id=&#8221;attachment_6612&#8221; align=&#8221;aligncenter&#8221; width=&#8221;400&#8221; caption=&#8221;Fuente: Wikipedia&#8221;]<a href="http://es.wikipedia.org/wiki/Distribuci%C3%B3n_normal"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/campana-de-gauss.png" alt="Cálculo de alertas en Google Analytics" /></a>[/caption]</p>
+
+<p>Cuanto más lejos esté un valor de la media, menor será la probabilidad de que dicho valor se produzca y por lo tanto menor la probabilidad de que dicho valor se haya producido por azar.</p>
+
+<p><strong>Por lo tanto GA asignará mayor Importancia a aquellos eventos cuya desviación estándar esté más alejada de la media ya que consecuentemente, la probabilidad de que dicho evento se haya producido por azar será menor</strong>.</p>
+
+<p>Como ves tenemos a nuestro alcance una información muy útil que nos permite detectar tanto posibles problemas como mejoras que han dado sus frutos (campañas, posicionamiento, adwords&#8230;).  Por defecto Google Analytics nos muestra las que él considera que son las alertas más destacables que debemos tener en cuenta, pero, como se espera de una herramienta tan potente, nos permite configurar nuestras propias alertas.</p>
+
+<h2>Como configurar nuestras propias alertas en Google Analytics</h2>
+
+<p>Aunque las alertas que GA nos proporciona automáticamente están muy bien y debería ser una de las dos primeras cosas que miras al acceder a tu GA (la otra es tu dashboard personalizado, porque tienes un dashboard personalizado con los datos que más te interesan, verdad?), configurar alertas personalizadas nos permite recibir avisos cuando ocurran hechos en nuestra web que nosotros consideramos relevantes.</p>
+
+<p>Por ejemplo:  En mi blog tengo una alerta que me avisa si el tráfico semanal de buscadores cae un 30%.  Es decir si de una semana a otra el número de personas que llega a mi blog a través de Google ha bajado un 30% es algo que debe preocuparme y sobre lo que debo investigar más a fondo.</p>
+
+<p>Vamos a ver como se configura esta alerta.</p>
+
+<p>En primer lugar accedemos al apartado &#8220;Alertas personalizadas&#8221; como podeis ver en la siguiente figura:</p>
+
+<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/10/configurar-alertas-google-analytics.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/configurar-alertas-google-analytics.jpg" alt="Acceder a alertas personalizadas en Google analytics" /></a></p>
+
+<p>Una vez allí pulsamos el botón &#8220;Administrar alertas personalizadas&#8221; y de nuevo otro botón que se llama &#8220;Crear alerta nueva&#8221; y llegaremos a una pantalla como la de la siguiente figura:</p>
+
+<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/10/crear-alerta-personalizada.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/crear-alerta-personalizada.jpg" alt="crear alerta personalizada" /></a></p>
+
+<p>Los pasos a realizar son los siguientes:</p>
+
+<ol>
+<li><p>Asignamos un nombre a la alerta</p></li>
+<li><p>Seleccionamos la periodicidad de la alerta y marcamos la casilla de aviso por email en caso de que nos interese recibir un aviso en nuestro correo electrónico (muy recomendable).</p></li>
+<li><p>Seleccionamos el tipo de tráfico que generará la alerta, en este caso el tráfico orgánico.</p></li>
+<li><p>Seleccionamos la condición que disparará la alerta, en este caso cuando el porcentaje de visitas se reduzca en un 50%.</p></li>
+</ol>
+
+
+<p>Pulsamos en &#8220;Guardar alerta&#8221; y ya tendremos creado el aviso.</p>
+
+<h3>La periodicidad.  O porqué quieres algo diario cuando no lo necesitas?</h3>
+
+<p>Permitidme un pequeño apunte basado en mi experiencia.  Cuando configuro este tipo de alertas para los clientes a quienes estoy realizando una <a href="http://www.alvareznavarro.es/servicios/consultoria-web/implantacion-de-herramientas-de-medicion/">implantación personalizada de Google Analytics</a> y llega el momento de configurar la periodicidad de la alerta casi todo el mundo me pide que sea diaria o semanal.</p>
+
+<p>Hay muchas empresas, la mayoría, que no tienen capacidad para modificar su web en tiempo real.  Realizar cambios les lleva semanas e incluso meses, desde que se proponen hasta que se aprueban y el departamento de desarrollo los sube a producción.  Para que quieres llenar tu buzón con alertas diarias si no vas a poder reaccionar ante ellas?.</p>
+
+<p>Esto también sucede con la nueva funcionalidad de real time de GA.  Creo que para el 99% de las empresas no es necesaria.  No es mas que un dashboard divertido con números que se van moviendo pero que no les aporta información útil ya que no pueden reaccionar ante lo que están viendo.  Sin embargo, si yo tuviese un comercio electrónico tendría muchas alertas configuradas con aviso diario y real time estaría siempre abierto en una ventana de mi navegador, eso sí, siempre y cuando sea capaz de reaccionar ante lo que se está produciendo.</p>
+
+<h2>Resumen</h2>
+
+<p>Si todavía no lo has hecho, entra en Google Analytics y revisa las alertas automáticas y configura las tuyas propias para que GA te avise por email ante cambios inesperados, bien sean positivos o negativos.</p>
+
+<p>Configura la periodicidad en función de la capacidad que tengas para modificar tu web.  No necesitas alertas diarias si tu velocidad de respuesta ante los cambios no es diaria.  Además <strong>las alertas no son una herramienta de monitorización en tiempo real</strong> sino que detectan situaciones que conviene investigar más a fondo, en caso de que no hayamos detectado ya ese evento por otros cauces.</p>
+
+<p>[box type=&#8221;info&#8221;] Si quieres que ayude a tu empresa a configurar y personalizar Google Analytics y formar a tus empleados para aprovechar a fondo su potencial,<a href="http://www.alvareznavarro.es/contactar/"> contacta conmigo</a>.[/box]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Seguimiento de enlaces externos con Google Analytics]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/10/20/seguimiento-de-enlaces-externos-con-google-analytics/"/>
+    <updated>2011-10-20T10:05:00+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/10/20/seguimiento-de-enlaces-externos-con-google-analytics</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/6579/seguimiento-de-enlaces-externos-con-google-analytics/enlaces-salientes/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/enlaces-salientes.png" alt="enlaces salientes con google analytics" /></a><strong>Enlazar a nuestras fuentes de datos, contenido adicional, sitios relacionados, etc.. aporta valor a quienes visitan nuestro sitio web.  Aquí tienes un fichero javascript que te permitirá contabilizar automáticamente en Google Analytics cuando alguien pulse un enlace de tu web que lleva a otras webs.</strong></p>
+
+<p>Para que sirve saber que enlaces externos son los más visitados</p>
+
+<p>Saber que enlaces externos son los más visitados nos permite conocer mejor a nuestros visitantes.  Cuando escribimos un artículo, un post o la descripción de un producto y añadimos enlaces externos, como por ejemplo un vídeo de Youtube, estamos aportando información útil a nuestros visitantes y saber quien pulsa en estos enlaces nos dirá si efectivamente ellos también han encontrado interesante esta información.</p>
+
+<p>Sin embargo, una vez que el visitante ha abandonado nuestro sitio ya no podemos saber que está haciendo.  Esto es un problema, ya que en una instalación básica de Google Analytics no podemos controlar cuales de estos enlaces se pulsan.</p>
+
+<h2>Como efectuar el seguimiento de enlaces externos</h2>
+
+<p>Para controlar que enlaces externos son los más visitados voy ha hacer uso de <a href="http://code.google.com/apis/analytics/docs/tracking/eventTrackerGuide.html">la gestión de eventos de Google Analytics</a>.  Podríamos contabilizar estos enlaces como una visita a una página pero creo que esto puede desvirtuar las estadísticas ya que en realidad no son visitas a nuestras páginas sino a páginas externas.  Es decir, cada vez que un visitante pulse en un enlace de nuestra web que lleva a otra web que no es la nuestra quedará contabilizado como un evento.</p>
+
+<p>El formato de gestión de eventos en Google Analytics es el siguiente:</p>
+
+<p>[box type=&#8221;info&#8221;] _trackEvent(category, action, opt_label, opt_value)</p>
+
+<p>En cada evento podemos definir una categoría, una acción una etiqueta y un valor.  Categoría y acción son obligatorios el resto pueden quedar en blanco.  [/box]</p>
+
+<h2> Instalar el fichero javascript de seguimiento de enlaces</h2>
+
+<p>En primer lugar y lo más importante, descargate el <a href="http://www.alvareznavarro.es/wp-content/uploads/2011/10/track_external_links1.js">fichero que contabiliza los enlaces externos</a>.  Es un fichero escrito en javascript que ocupa muy poco espacio.  Vamos a ver ahora como personalizarlo a tu gusto.</p>
+
+<p>Abre el fichero con un editor de textos y verás una serie de líneas como estas:</p>
+
+<blockquote><pre><code>var ga_category = "external"
+var ga_action   = "link"
+var ga_value    = "0"  
+
+var my_site     = "yoursite.com"
+</code></pre></blockquote>
+
+<p>Estas cuatro líneas te permiten personalizar la información que recibas a tu gusto. En la categoría, donde ahora pone &#8220;external&#8221; tú puedes poner el texto que quieras, por ejemplo &#8220;enlaces externos&#8221;.  Lo mismo en la acción y el campo valor, en caso de que quieras asignar un valor a estos enlaces.</p>
+
+<p>Donde pone my_site tienes que poner el nombre de tu web, para que el programa sepa distinguir que enlaces son externos y cuales no.  Veamos un ejemplo:</p>
+
+<p>Yo pondría lo siguiente: <em>var my_site = &#8220;alvareznavarro.es&#8221;</em> ya que es el nombre de mi sitio y así, todos los enlaces que no apunten a alvareznavarro.es se contabilizarán como externos.</p>
+
+<p>Una vez configurado a tu gusto no tienes más que subirlo a tu servidor y añadir una línea a todas tus páginas web para que puedan cargar este nuevo fichero.  La línea que tienes que añadir es esta (escríbela antes de la etiqueta </head> de tu web).</p>
+
+<blockquote><p><script type="text/javascript" src="http://www.nombre_de_tu_web.es/track_external_links.js"></script></p></blockquote>
+
+<p>Si empleas Wordpress tienes que añadir esta línea desde el menú Aspecto -> Editor y selecciona el fichero Cabecera (header.php) escribe allí esta información y el fichero se cargará automáticamente en todas tus páginas.</p>
+
+<p>[box type=&#8221;download&#8221;] <a href="http://www.alvareznavarro.es/wp-content/uploads/2011/10/track_external_links1.js">Seguimiento de enlaces salientes (fichero javascript)</a>[/box]</p>
+
+<h2>Resumen</h2>
+
+<p>Gracias a la potencia y flexibilidad de Google Analytics podemos modificarlo a nuestro gusto para obtener información de utilidad que con la instalación estándar no podemos controlar.  Instalando este simple fichero podrás controlar todos los enlaces salientes y saber cuales son los que más éxito tienen.</p>
+
+<p>Si tienes dudas o consultas sobre el script te invito a usar los comentarios para preguntar lo que quieras.</p>
+
+<p>[box type=&#8221;info&#8221;] Si necesitas <a href="http://www.alvareznavarro.es/servicios/consultoria-web/formacion-personalizada-en-google-analytics/">formación en Google Analytics</a> o necesitas una instalación avanzada y a medida de tu empresa puedes <a href="http://www.alvareznavarro.es/contactar/">contactar conmigo</a>.[/box]</p>
+
+<h3>Actualización 25-10-2011</h3>
+
+<p>He incluido el host por defecto, como bien apuntaba @trasgu en su comentario, para que  no sea necesario editar el script.  Puedes copiarlo directamente sin tener que modificarlo, a no ser que quieras cambiar los nombres de categoría, acción, etiqueta y valor que vienen por defecto.</p>
+
+<p>También he añadido la detección en función de si estamos empleando la versión síncrona o asíncrona de analytics y ahora funciona en ambos casos.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[¿Necesita mi empresa un analista web?]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/10/11/c2bfnecesita-mi-empresa-un-analista-web/"/>
+    <updated>2011-10-11T14:51:29+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/10/11/c2bfnecesita-mi-empresa-un-analista-web</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/6557/%c2%bfnecesita-mi-empresa-un-analista-web/webanalytics/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/webanalytics.jpg" alt="" /></a><strong>Esta pregunta junto con la de ¿para qué sirve un analista web? son las preguntas más usuales que te realizan cuando hablas con empresas y les cuentas que eres analista web. Voy a tratar de aclarar estas cuestiones y explicar las funciones de un analista web y las ventajas que aporta a una empresa.</strong></p>
+
+<h2></h2>
+
+<h2>Cuando es necesario contar con los servicios de un analista web</h2>
+
+<p>Para responder a esta cuestión hazte la siguiente pregunta:  ¿Es importante mi página web en la estrategia de mi empresa?</p>
+
+<p>Si la respuesta es SÍ, entonces necesitas los servicios de un analista web.</p>
+
+<h2>Que beneficios aporta un analista web</h2>
+
+<p>La misión principal de un analista web es la de <strong>ayudarte a ganar más dinero con tu web</strong>.</p>
+
+<p>La manera de convertir este proposito en una realidad es la siguiente:</p>
+
+<h3>Definir unos objetivos</h3>
+
+<p>Cada web se crea con unos objetivos distintos y cada empresa tiene unas expectativas diferentes.  Si eres un e-commerce lo que quieres es vender y fidelizar a tus clientes,  si eres un periódico quieres difundir tus contenidos para generar publicidad, si tu web es un catálogo de productos quieres generar contactos, que los visitantes descarguen un pdf, que vean un vídeo demostrativo, etc&#8230;.   En empresas de tamaño medio/grande además, diferentes departamentos pueden tener diferentes objetivos a lograr con la web y debemos dar respuesta a todos ellos de forma coherente.</p>
+
+<p><strong>El analista web te ayudará en la definición de los objetivos y sobre todo en la forma de medir su cumplimiento</strong>.  Tan importante como saber que queremos lograr con nuestra web es definir métricas e indicadores que nos muestren si lo estamos logrando o no.</p>
+
+<h3>Análisis de la situación actual</h3>
+
+<p>Una vez establecidos los objetivos procederemos a realizar un análisis en profundidad de la situación actual de tu web.  Este análisis debe ir enfocado a responder a todos los objetivos que nos planteamos en el primer paso.  El análisis no debe ser un mero informe de datos cuantitativos: cuantas visitas tengo, cuantas páginas se consultan, cuanto tiempo pasan los usuarios en mi web&#8230; .  <strong>El análisis nos debe proporcionar información cualitativa</strong>: recibo visitantes de calidad, les gusta mi contenido, encuentran lo que buscan, estoy consiguiendo fidelizarles&#8230; .</p>
+
+<h3>Propuestas de mejora</h3>
+
+<p>Un buen análisis no nos proporcionará datos, sino soluciones para mejorar nuestra web.  Como en el primer paso ya establecimos unos indicadores que nos permitirían comprobar si nuestra web cumple con los objetivos para los que fue creada, <strong>todas las soluciones que aportemos irán encaminadas a cumplir con los objetivos planteados</strong> y gracias a los indicadores será muy fácil comprobar si realmente son útiles.</p>
+
+<h2>Resumen</h2>
+
+<p>Si consideras tu web como un elemento estratégico para tu empresa necesitas establecer formas de evaluar su funcionamiento.  Un análisis de tu web debe proporcionarte no solo información sino pautas a seguir para mejorarla y atraer a visitantes de calidad.   No se trata de conseguir muchas visitas sino muchos clientes.</p>
+
+<p>[box] Si quieres saber como puedo ayudarte a mejorar tu web, <a href="http://www.alvareznavarro.es/contactar/">contacta conmigo</a>.[/box]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Como vincular tu cuenta de Google Analytics con Webmaster Tools]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/10/10/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/"/>
+    <updated>2011-10-10T11:03:28+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/10/10/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/google-webmaster-toos/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/google-webmaster-toos.gif" alt="Herramienta para webmasters" /></a><strong>Por fin Google Analytics puede vincularse con Webmaster Tools.  Al igual que es necesario vincular tu cuenta de AdWords con tu cuenta de Analytics, vincular la cuenta de Webmaster Tools nos proporcionará información que nos ayudará a detectar que optimizar de nuestra web para mejorar su posicionamiento en buscadores (SEO).</strong></p>
+
+<p>Sin ninguna configuración adicional Google Analytics únicamente proporciona información de visitas a nuestra web.  Para que quede contabilizada dicha visita el código de analytics que debemos insertar en cada una de nuestras páginas, tiene que ejecutarse.  Desde la herramienta de Webmaster Tools disponemos de información sobre las consultas que se han realizado en Google en las que ha aparecido nuestra página en sus resultados (SERPS).  La combinación de ambos datos nos proporcionará información muy valiosa y necesaria para <a href="http://www.alvareznavarro.es/servicios/optimizacion-web/posicionamiento-en-buscadores-seo/">optimizar el posicionamiento de nuestra web</a> de forma efectiva.</p>
+
+<h2>Enlazar Google Analytics y Webmaster Tools</h2>
+
+<p>Veamos como enlazar nuestra cuenta de Google Analytics con nuestra cuenta de Webmaster Tools.</p>
+
+<p>En primer lugar entramos en la cuenta de Google Analytics y pulsamos en <em>Fuentes de tráfico</em> y allí en <em>Optimización en buscadores</em>.</p>
+
+<p>Como podemos ver en la imágen <em>Paso 1</em> aparecerá un botón sobre el que deberemos hacer click.</p>
+
+<p>[caption id=&#8221;attachment_6520&#8221; align=&#8221;aligncenter&#8221; width=&#8221;500&#8221; caption=&#8221;Paso 1 Vincular Google Analytics y Webmaster Tools&#8221;]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/configurar_google_analytics/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/configurar_google_analytics.jpg" alt="configurar optimización en buscadores en google analytics" /></a>[/caption]</p>
+
+<p>LLegaremos a una pantalla como la que se vé en la imagen Paso 2 donde deberemos hacer click en un enlace que lleva por nombre Editar.</p>
+
+<p>[caption id=&#8221;attachment_6522&#8221; align=&#8221;aligncenter&#8221; width=&#8221;500&#8221; caption=&#8221;Paso 2.- Editar configuración de Webmaster Tools&#8221;]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/enlazar_webmaster_tools/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/enlazar_webmaster_tools.jpg" alt="enlazar webmaster tools" /></a>[/caption]</p>
+
+<p>Al pulsar en este enlace llegaremos a la web de Webmaster Tools donde una vez identificados veremos un listado de todas las webs que gestionamos en Webmaster Tools (en caso de que gestionemos más de una web.  Seleccionamos la web que queremos vincular y pulsamos el botón de guardar cambios.</p>
+
+<p>[caption id=&#8221;attachment_6519&#8221; align=&#8221;aligncenter&#8221; width=&#8221;500&#8221; caption=&#8221;Paso 3.- Aprobar enlace entre Webmaster Tools y Google Analytics&#8221;]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/aprobar_webmaster_tools/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/aprobar_webmaster_tools.jpg" alt="aprobar enlace entre google analytics y webmaster tools" /></a>[/caption]</p>
+
+<p>Una vez finalizado este último paso nuestras cuentas de Google Analytics y Webmaster Tools habrán quedado vinculadas y ya podremos acceder a toda la información desde Google Analytics.</p>
+
+<h2>Que información nos aporta Webmaster Tools</h2>
+
+<p>Desde el nuevo menú llamado <em>Optimización en buscadores </em>tenemos acceso a tres nuevos informes:</p>
+
+<ul>
+<li><p>Consultas</p></li>
+<li><p>Páginas de destino</p></li>
+<li><p>Resumen geográfico</p></li>
+</ul>
+
+
+<p>Todos estos informes están orientados a conocer el rendimiento de tu sitio en Google y por lo tanto son una fuente de información muy poderosa para conocer como está funcionando el posicionamiento en buscadores de nuestro sitio web.  Veamos en detalle cada uno de estos tres informes.</p>
+
+<h3>Optimización para buscadores -> Consultas</h3>
+
+<p>Con este informe conoceremos aquellos términos de búsqueda en los que han aparecido páginas de nuestra web en los resultados.  La información que obtenemos es el  número de veces que han aparecido páginas nuestras, las veces que alguien hizo click en ellas, la posición media y el CTR, esto es el ratio entre el número de impresiones y clicks.</p>
+
+<p>[caption id=&#8221;attachment_6521&#8221; align=&#8221;aligncenter&#8221; width=&#8221;500&#8221; caption=&#8221;Optimización para buscadores -> Consultas&#8221;]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/consultas_webmaster_tools/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/consultas_webmaster_tools.jpg" alt="webmaster tools: consultas" /></a>[/caption]</p>
+
+<p>[box type=&#8221;info&#8221;] Es muy interesante analizar este informe desde dos perspectivas: <a href="http://www.alvareznavarro.es/6087/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca/">Filtrando los términos puramente seo de aquellos términos que consideramos como tráfico de marca</a>. El análisis del CTR y la posición media nos ofrecerá pistas muy interesantes para poder mejorar nuestro posicionamiento en buscadores. [/box]</p>
+
+<h3>Optimización para buscadores -> Páginas de destino</h3>
+
+<p>Este informe nos muestra las páginas que Google ofrece a quienes buscan en su sitio.   La información que obtenemos es: la dirección de la página, el número de veces que nuestra página ha aparecido en los resultados, el número de clicks que hicieron los visitantes, la posición media y el CTR, esto es el ratio entre el número de impresiones y clicks.</p>
+
+<p>[caption id=&#8221;attachment_6524&#8221; align=&#8221;aligncenter&#8221; width=&#8221;500&#8221; caption=&#8221;Optimización para buscadores -> Páginas de destino&#8221;]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/paginas_de_destino/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/paginas_de_destino.jpg" alt="paginas de destino / landing pages" /></a>[/caption]</p>
+
+<p>[box type=&#8221;info&#8221;] Si comparamos las páginas que reciben clicks en este informe con el informe de Páginas de Destino que hay en la sección contenido y observamos diferencias podremos descubrir páginas de nuestra web que no tienen instalado el código de Google Analytics o no lo tienen instalado correctamente.[/box]</p>
+
+<h3>Optimización para buscadores -> Resumen geográfico</h3>
+
+<p>Este tercer y último informe nos muestra la procedencia de quienes realizan las consultas.  De este informe conoceremos el pais de origen de quien hizo la consulta, el número de impresiones de páginas de nuestra web y el CTR, esto es el ratio entre el número de impresiones y clicks.</p>
+
+<p>[caption id=&#8221;attachment_6525&#8221; align=&#8221;aligncenter&#8221; width=&#8221;500&#8221; caption=&#8221;Optimización para buscadores -> Resumen geográfico&#8221;]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/resumen_geografico/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/resumen_geografico.jpg" alt="resumen geográfico" /></a>[/caption]</p>
+
+<p>[box type=&#8221;info&#8221;] Desde este informe también podremos filtrar por tipo de propiedad de Google, es decir desde que web se ha realizado la consulta: buscador, imágenes, móvil.[/box]</p>
+
+<h2>Resumen</h2>
+
+<p>Con unos sencillos pasos tendremos vinculada la cuenta de Google Analytics y Google Webmaster Tools.  Una vez que ambas estén enlazadas tendremos acceso a <strong>información relevante para mejorar el posicionamiento en buscadores de nuestra web</strong>.  Como casi siempre, la verdadera potencia de esta información se obtiene cuando realizamos informes personalizados donde combinamos la información que más nos interesa en función de nuestra web,  hemos hablado de segmentar el tráfico SEO del tráfico de marca como personalización más evidente, pero hay muchas más opciones.</p>
+
+<p>[box] Si necesitas ayuda configurando Google Analytics o deseas obtener información avanzada y precisa de lo que ocurre en tu web <a href="http://www.alvareznavarro.es/contactar/">contacta conmigo</a>.[/box]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Deja que tus visitantes organicen tu web]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/10/04/deja-que-tus-visitantes-organicen-tu-web/"/>
+    <updated>2011-10-04T15:02:00+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/10/04/deja-que-tus-visitantes-organicen-tu-web</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/?attachment_id=6438"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/network_people-300x225.jpg" alt="" /></a>Tu web no te pertenece a tí sino a tus visitantes.  Ellos son el único motivo por el que haces todo el esfuerzo de tiempo y dinero que requiere mantener una web de calidad.  Y tus visitantes esperan de tu web algo claro y concreto:  que les informes, que les vendas algo, que les des soporte, tus datos de contacto, conversar, etc.</p>
+
+<h2>Escucha a tus visitantes</h2>
+
+<p>Quienes visitan nuestra web son nuestros mejores aliados a la hora de conseguir tener una web de calidad, que guste a nuestros visitantes y les transforme en clientes.</p>
+
+<p>[caption id=&#8221;attachment_6484&#8221; align=&#8221;aligncenter&#8221; width=&#8221;650&#8221; caption=&#8221;Menú principal del diario El País&#8221;]<a href="http://www.alvareznavarro.es/6481/deja-que-tus-visitantes-organicen-tu-web/menu_el_pais/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/menu_el_pais-650x37.jpg" alt="menu principal el pais" /></a>[/caption]</p>
+
+<p>Por eso es muy importante saber que les interesa y que no.  Mediante una correcta <a href="http://www.alvareznavarro.es/servicios/consultoria-web/implantacion-de-herramientas-de-medicion/">implantación de herramientas de medición</a> en nuestra web podremos saber mucho acerca de quienes nos visitan.  Pero nuestra estrategia debe ir mas allá y debemos saber que  páginas de nuestra web generan más comentarios, se han tuiteado, compartido&#8230; en definitiva saber que prefieren y que opinan quienes nos visitan.</p>
+
+<h2>Crea expectativas&#8230; y cumplelas.</h2>
+
+<p>No buscamos lo mismo cuando entramos a <a href="http://www.abc.es/">abc.es</a> que cuando entramos en <a href="http://www.elpais.com/">elpais.es</a> ni cuando entramos en <a href="http://www.hola.com/">hola.es</a> o en <a href="http://www.marca.com/">marca.es</a> nuestras necesidades son distintas y queremos satisfacerlas rápido.  Dame lo que busco o me voy a buscarlo a otra web.</p>
+
+<p>[caption id=&#8221;attachment_6488&#8221; align=&#8221;aligncenter&#8221; width=&#8221;650&#8221; caption=&#8221;Menú principal hola.es&#8221;]<a href="http://www.alvareznavarro.es/6481/deja-que-tus-visitantes-organicen-tu-web/menu_hola/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/menu_hola-650x40.jpg" alt="Menú principal revista Hola" /></a>[/caption]</p>
+
+<p>Una forma rápida de saber si una web va a cumplir tus expectativas es el menú principal.  Todo lo que ofreces en tu web debe quedar claro en tu menú principal.  Y en un lenguaje comprensible por quienes te visitan.</p>
+
+<p>Los medios de comunicación han entendido perfectamente esta necesidad y plantean todos sus menús de forma que quienes les visitan puedan encontrar lo que buscan rápidamente.</p>
+
+<p>[caption id=&#8221;attachment_6490&#8221; align=&#8221;aligncenter&#8221; width=&#8221;650&#8221; caption=&#8221;Menú principal marca.es&#8221;]<a href="http://www.alvareznavarro.es/6481/deja-que-tus-visitantes-organicen-tu-web/menu_marca/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/menu_marca-650x40.jpg" alt="Menú principal diario Marca" /></a>[/caption]</p>
+
+<p>Como estamos acostumbrados a leer de izquierda a derecha la parte izquierda del menú debe contener las zonas más relevantes de nuestra web, aquellas que más interesan a nuestros usuarios e ir desplazando hacia la derecha las que menos.</p>
+
+<p>En abc.es la opción más importante es Actualidad seguida de opinión y deportes.  <a href="http://www.elmundo.es/">Elmundo.es</a> tiene España, mundo y europa como las tres principales secciones de su diario online mientras que en elpais.es las tres opciones principales son Inicio (??) Internacional y Política.</p>
+
+<p>[caption id=&#8221;attachment_6493&#8221; align=&#8221;aligncenter&#8221; width=&#8221;650&#8221; caption=&#8221;menu principal publico.es&#8221;]<a href="http://www.alvareznavarro.es/6481/deja-que-tus-visitantes-organicen-tu-web/menu_publico/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/menu_publico-650x36.jpg" alt="menu principal diario Público" /></a>[/caption]</p>
+
+<h1>Habla mi idioma</h1>
+
+<p>Debemos conocer el tipo de público que accede a nuestra web y hablar como ellos.  Si mi web la visitan fundamentalmente distribuidores de mis productos, puedo emplear un lenguaje más técnico ya que ellos lo entenderá sin problemas.  Pero si mi web está destinada a mis clientes finales tengo que hablar en un lenguaje que ellos entiendan, sin emplear tecnicismos innecesarios o poco comunes en el lenguaje corriente.</p>
+
+<p>Inicio es un término muy usado en páginas web y el que usa elpais.es para enlazar a su página principal sin embargo en webs de medios de comunicación hay un término que define mejor esta acción y que es el que emplea hola.es: Portada.</p>
+
+<p>[caption id=&#8221;attachment_6489&#8221; align=&#8221;aligncenter&#8221; width=&#8221;650&#8221; caption=&#8221;Menú principal de abc.es&#8221;]<a href="http://www.alvareznavarro.es/6481/deja-que-tus-visitantes-organicen-tu-web/menu_abc/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/menu_abc-650x43.jpg" alt="Menú principal del diario ABC" /></a>[/caption]</p>
+
+<p>Casi todos los medios tienen una sección de tecnología sin embargo <a href="http://www.publico.es/">publico.es</a> tiene esta sección englobada en una más genérica denominada Ciencia.</p>
+
+<p>El contexto también es importante.  Tanto abc.es como hola.es tienen una sección denominada Actualidad pero con contenidos diametralmente opuestos aunque totalmente comprensibles por sus visitantes.  Quien visita hola.es y pulsa en actualidad tiene unas expectativas totalmente distintas de quien entra en la sección de actualidad de abc.es.</p>
+
+<p>[caption id=&#8221;attachment_6494&#8221; align=&#8221;aligncenter&#8221; width=&#8221;650&#8221; caption=&#8221;Menú principal elmundo.es&#8221;]<a href="http://www.alvareznavarro.es/6481/deja-que-tus-visitantes-organicen-tu-web/menu_elmundo/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/menu_elmundo-650x42.jpg" alt="Menú principal diario El Mundo" /></a>[/caption]</p>
+
+<p>Abc.es y publico.es tienen la sección de Opinión como la segunda más importante dejando claro que los columnistas son una pieza importante de ambos medios y que despiertan el interés de sus respectivos lectores.  Sin embargo elpais.es la tiene muy a la derecha ocupando la posición 11 de su menú principal.</p>
+
+<p>Marca.es cumple muy bien la premisa de hablar el idioma de sus lectores.  Conocen perfectamente a su público y les dan aquello que buscan.  Como detalle, en lugar de tener una lista con los nombres de los equipos de fútbol de primera división tienen sus escudos.  Para alguien a quien no le guste el fútbol o que no siga la liga española resultará muy complicado saber encima de que escudo pulsar si necesita información de un equipo, pero para la gran mayoría de visitantes de marca.es es un juego de niños.</p>
+
+<h2>Resumen</h2>
+
+<p>Saber lo que buscan nuestros usuarios en nuestra web, que contenido es el que más consumen, nos servirá para poder conocerlos y entenderlos mejor.  Además debemos hacer todo lo posible por ofrecerles lo que buscan de forma rápida y sencilla.</p>
+
+<p>Webs aparentemente similares como las de prensa online organizan sus contenidos de forma totalmente distinta e incluso los llaman de distinta manera.</p>
+
+<p><strong>La clave es entender a tus usuarios y darles lo que buscan de la forma en que ellos esperan encontrarlo.</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Resumen del Tweet Trip]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/09/29/resumen-del-tweet-trip/"/>
+    <updated>2011-09-29T10:59:43+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/09/29/resumen-del-tweet-trip</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/09/tweet_trip_logo.png"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/09/tweet_trip_logo.png" alt="la tierra con nombre de vino" /></a>El pasado martes 27 se celebró en Logroño el primer <a href="http://tweettrip.wordpress.com/">Tweet Trip</a> organizado por La Rioja Turismo.</p>
+
+<p>El evento se compuso de tres mesas redondas donde se trataron diversos temas relacionados con el turismo y Twitter principalmente aunque sin olvidar otras redes sociales.</p>
+
+<p>Estas fueron las tres mesas redondas que se celebraron:</p>
+
+<p><strong># RT: Reputación en Twitter. La influencia y el Turismo. </strong></p>
+
+<p>La importancia de la marca personal como referencia de prescripción en Twitter. Casos de éxito a tener en cuenta en las estrategias de las empresas turísticas.</p>
+
+<ul>
+<li><p>Alfonso Alcántara (<a href="http://twitter.com/yoriento">@yoriento</a>)</p></li>
+<li><p>Andrés Pérez (<a href="http://twitter.com/marcapersonal">@marcapersonal</a>)</p></li>
+<li><p>Diana González (<a href="http://twitter.com/dianagonzalez">@dianagonzalez</a>)</p></li>
+<li><p>Emilio Rey (<a href="http://twitter.com/digitalmeteo">@digitalmeteo</a>)</p></li>
+<li><p>Iván Rodríguez (<a href="http://twitter.com/twittboy">@twittboy</a>)</p></li>
+<li><p>Javier Marín (<a href="http://twitter.com/loogic">@loogic</a>)</p></li>
+</ul>
+
+
+<p>Como no podía ser de otra manera con estos ponentes se habló principalmente de marca personal.  De como, cuando haces lo que te gusta y lo complementas con esfuerzo y calidad la gente lo reconoce y te conviertes en una referencia para tu tema.  Una frase de @yoriento:  <em>No basta con ser experto, también hay que ser experto en parecerlo.</em></p>
+
+<p>@marcapersonal tocó también un tema que a mí me parece muy importante pero del que apenas se habló.  Muchas empresas debido al boom de las redes sociales, están basando toda su presencia online en las redes sociales, anunciando únicamente su página de Facebook y dejando de lado su página de empresa y/o su blog.  Esto es un error muy grave ya que como bien dice @marcapersonal tus opciones dependen exclusivamente de lo que Mark Zuckenberg decida que se puede hacer.   Estas dejando tu empresa en manos de otras personas.</p>
+
+<p>La siguiente mesa redonda fue:</p>
+
+<p><strong># TT: Twitter y Turismo. Tendencias y tópicos. </strong></p>
+
+<p>Twitter como canal para difundir un relato único, dotado de contenido diferencial, con valor y trascendencia; casos de éxito que aprovechan al máximo la potencia de la red. Un viaje que abarca desde la casa rural a la cadena hotelera, pasando por la organización de eventos.</p>
+
+<ul>
+<li><p>Ana Santos (<a href="http://twitter.com/eventosfera">@eventosfera</a> / <a href="http://twitter.com/gastrosfera">@gastrosfera</a>)</p></li>
+<li><p>Fernando Goñi (<a href="http://twitter.com/fgoni">@fgoni</a>)</p></li>
+<li><p>Juan Carlos Sanjuán (<a href="http://twitter.com/olympiavalencia">@olympiavalencia</a>)</p></li>
+<li><p>Laura Lafarinelli (<a href="http://twitter.com/nomaders">@nomaders</a> / <a href="http://twitter.com/laura_lafari">@Laura_LaFari</a>)</p></li>
+<li><p>Lorena G. Díaz (<a href="http://twitter.com/hoteleshusa">@hoteleshusa</a> / <a href="http://twitter.com/lorenagdiaz">@lorenagdiaz</a>)</p></li>
+<li><p>Marta Bonet Barceló (<a href="http://twitter.com/peppersantblai">@peppersantblai</a> / <a href="http://twitter.com/marta_bonet">@marta_bonet</a>)</p></li>
+</ul>
+
+
+<p>Me parecieron muy interesantes las intervenciones de Marta Bonet, Juan Carlos Sanjuán y Fernando Goñi.  En mi opinión son las pequeñas empresas las que más tienen que ganar con su presencia en redes sociales ya que al ser pequeñas el trato con el cliente puede ser directo.  Juan Carlos que dirige un <a href="http://www.olympiahotelvalencia.com/">hotel-spa en Valencia</a> contó una anécdota, muy significativa, de una huésped que le hizo una petición algo delicada, que no se atrevía a pedir al recepcionista pero puesto que a Juan Carlos <a href="http://webtv.olympiagrupo.com/">ya lo había visto en un vídeo</a> antes de ir al hotel y ya existia una cierta &#8220;familiaridad&#8221;.  Una gran frase de Juan Carlos:<em> A los hoteles que cobran el Wi-Fi habría que denunciarlos</em>.</p>
+
+<p>Marta que tiene un <a href="http://santblai.com/">hotel rural en Mallorca</a> también habló de como su estrategia de emplear al burro @peppersantblai como representante de su establecimiento en las redes sociales ha funcionado muy bien acercando sus establecimiento a mucha gente y recibiendo visitantes, atraidos por la fama del burro, que luego se convierten en clientes.</p>
+
+<p>Creo que el trato directo en redes sociales, <a href="http://www.alvareznavarro.es/5867/tu-empresa-no-necesita-un-community-manager/">sin intermediarios ni community managers</a>, donde los propios empleados son los que se involucran y participan, donde hablas con gente que toma decisiones, que conoce su trabajo y tus problemas y preocupaciones es <strong>la diferenciación de calidad que hace que aportes valor</strong> y los visitantes se conviertan en clientes.</p>
+
+<p>Y llegamos a la última mesa redonda de la mañana.</p>
+
+<p><strong># DM: Directo al Mantel. Gastronomía como motor del Turismo. </strong></p>
+
+<p>Cuando la cocina es Twitter. Estrategias que se guisan en 140 caracteres, y que transforman la red en el centro de operaciones de las iniciativas gastronómicas y turísticas.</p>
+
+<ul>
+<li><p>Alicia Estrada (<a href="http://twitter.com/vinoturismo">@vinoturismo</a>)</p></li>
+<li><p>Cristina Martínez (<a href="http://twitter.com/garbancita">@garbancita</a>)</p></li>
+<li><p>Diego Coquillat (<a href="http://twitter.com/elranchomadrid">@elranchomadrid</a>)</p></li>
+<li><p>Erika Silva (<a href="http://twitter.com/erisofi">@erisofi</a>)</p></li>
+<li><p>Robert Mcintosh (<a href="http://twitter.com/thirstforwine">@thirstforwine</a>)</p></li>
+<li><p>Txaber Allué Martí (<a href="http://twitter.com/elcocinerofiel">@elcocinerofiel</a>)</p></li>
+</ul>
+
+
+<p>Muy reveladora la visión de @vinoturismo acerca de como conseguir atraer a un mundo tan tradicional y 1.0 como es el de las bodegas a un mundo mucho más participativo y colaborativo.  No es algo que se pueda hacer de la noche a la mañana sino que hay que ir por fases y poco a poco, midiendo mucho los pasos y los tiempos.</p>
+
+<p>La presentación de @elranchomadrid fue también de las que más me gustó.  Como han ido evolucionando e integrando todas aquellas redes que les permitían aportar valor a sus clientes y mejorar la experiencia de acudir a su restaurante.  No se trata de estar por estar, sino estar con un objetivo claro, definido y medible.  Al tratarse de un <a href="http://www.elranchomadrid.com/">restaurante argentino en Madrid</a> ellos tienen cowmunnity managers, muy apropiado y da una idea de lo bien que han llevado a cabo la integración de las redes sociales en el propio restaurante.</p>
+
+<p><strong>Resumen</strong></p>
+
+<p>Quedó claro que lo primero que debemos hacer antes de lanzarnos al mundo de las redes sociales es tener una estrategia clara y definida.</p>
+
+<p>Las empresas pequeñas con su trato directo y cercano pueden llegar de forma más convincente al usuario y establecer auténticas conversaciones.</p>
+
+<p>Una pregunta que se me quedó en la recamara era saber si algunos de los presentes medía el impacto de sus acciones.  De nada sirve tener un objetivo si luego no podemos medirlo para saber si ha funcionado.  Poder medir el retorno de la inversión (ROI) de cada acción que realizamos tanto en redes sociales como en cualquier otro medio, es fundamental.</p>
+
+<p>Como sugerencia para posteriores ediciones quizás convendría evitar que cada invitado se presente, ya que a veces las presentaciones se alargaban y quedaba luego poco tiempo para el debate.</p>
+
+<p>Agradecer a <a href="http://lariojaturismo.com/">La Rioja Turismo</a> su amabilidad al facilitarme una invitación y felicitar a <a href="http://www.historiasdemarketing.com/">Puy Trigueros</a> que ejerció de excelente moderadora y anfitriona.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Master de Analítica Web - Impresiones finales]]></title>
+    <link href="http://www.alvareznavarro.es/blog/2011/09/28/master-de-analitica-web-impresiones-finales/"/>
+    <updated>2011-09-28T10:47:57+02:00</updated>
+    <id>http://www.alvareznavarro.es/blog/2011/09/28/master-de-analitica-web-impresiones-finales</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/09/Gemma-Jorge.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/09/Gemma-Jorge.jpg" alt="master de analítica web" /></a>La gente de <a href="http://kschool.com/">Kschool</a>, me ha pedido que escribiese un <a href="http://kschool.com/blog/analitica-web/el-master-supero-con-creces-mis-expectativas/">post contando mis impresiones sobre el Master de Analítica Web</a> que acabo de cursar junto con un gran grupo de compañeros que nos enorgullecemos de ser la primera promoción de analistas web.</p>
+
+<p>Ha sido un gran curso en el que hemos aprendido todos mucho.  No solo a nivel académico, pues como bien indica <a href="http://www.brainsins.es/">Luis Martín</a> si lo único que buscas es conocimiento académico tienes a Google y a Amazon.  Pero la experiencia de grandes profesionales del sector (y en este master están los mejores) es algo que no se puede aprender de un libro o un post de un blog sino que hay que estar con ellos, oirles y recoger sus enseñanzas.</p>
+
+<p>Muchas gracias compañeros, profesores y gente de Kschool.  Nos vemos.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,821 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="Me he inscrito al [Master de Analítica Web](http://www.secuoyasacademy.com/master-analitica-web.html) que imparte [Secuoyas](http://www. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.alvareznavarro.es/blog/page/6/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.alvareznavarro.es" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/03/16/medir-las-paginas-de-error-con-google-analytics/">Medir Las Páginas De Error Con Google Analytics</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-16T10:27:13+01:00" pubdate data-updated="true">Mar 16<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><pre><code>Me he inscrito al [Master de Analítica Web](http://www.secuoyasacademy.com/master-analitica-web.html) que imparte [Secuoyas](http://www.secuoyasacademy.com/).  Creo que tiene unos contenidos muy interesantes y unos profesores de primer nivel así que doy por seguro que será un tiempo muy bien aprovechado.
+</code></pre>
+
+<p>Como preparación para el master me estoy estudiando en profundidad el funcionamiento de Google Analytics, AdWords y Website Optimizer.  Creo que si conozco las herramientas será mucho más fácil aplicar y sacar partido a los conocimientos que recibiré.</p>
+
+<p>Leyendo &#8221;<a href="http://advanced-web-metrics.com/">Advanced Web Metrics with Google Analytics</a>&#8220; he encontrado una forma de medir tanto las páginas que están dando error en nuestra web como las páginas o enlaces que están conduciendo a los usuarios a dichos errores. </p>
+
+<p><strong>Controlar páginas de error y enlaces rotos Google Analytics</strong></p>
+
+<p>Cuando ocurre un error en nuestra web normalmente servimos una página genérica indicando el error al usuario y que alternativas u opciones tiene y ayudándole para que pueda llegar a la página que busca.</p>
+
+<p>En estas páginas (las dos más comunes son la 404 y la 500) añadiremos un pequeño cambio en el código de seguimiento de Google para poder saber más de dicho error.</p>
+
+<p>Buscaremos en el código de seguimiento de Google que hemos añadido a nuestra página (normalmente justo antes de la etiqueta </body>)  el método <em>trackPageview y le añadiremos los siguientes parámetros </em>trackPageview(&#8220;error &#8221; + document.location.pathname);</p>
+
+<p>Si queremos controlar el tipo de error ocurrido podemos ser más específicos y por ejemplo en la página de error 404 (la que ocurre cuando una página no se encuentra) pondremos esto: _trackPageview(&#8220;error 404&#8221; + document.location.pathname);</p>
+
+<p>El código d_ocument.location.pathname_ guarda la dirección de la página que ha provocado el error. </p>
+
+<p>De esta forma el error quedará registrado y será muy sencillo aplicar filtros en Analytics para ver únicamente las páginas con error.</p>
+
+<p>Además de eso si para cada página de error seleccionamos el resumen de navegación podremos ver en que página se encontraba el usuario antes de producirse el error lo que nos será de gran utilidad para detectar enlaces rotos o posibles problemas.</p>
+
+<p>Un truco sencillo de implementar y de gran utilidad para conocer y detectar posibles problemas en nuestro sitio web.</p>
+
+<p>La información de este truco está sacada del libro &#8221;<a href="http://advanced-web-metrics.com/">Advanced Web Metrics with Google Analytics</a>&#8221; escrito por <a href="http://www.advanced-web-metrics.com/blog/about-brian-clifton/">Brian Clifton</a>.  Un libro excelente, muy bien escrito y de recomendada lectura para todo aquel que quiera conocer en profundidad el funcionamiento de Google Analytics.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/02/28/el-seo-es-para-los-mediocres/">El SEO Es Para Los Mediocres</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-02-28T10:57:54+01:00" pubdate data-updated="true">Feb 28<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hace aproximadamente un año y medio escribí un artículo titulado <a href="http://www.alvareznavarro.es/porque-no-debes-hacer-seo">Porqué no debes hacer SEO</a>  Todo lo que dije allí sigue siendo válido y esta plenamente vigente.  Hoy intentaré profundizar un poco más en el tema.</p>
+
+<p><strong>Piensa en tus usuarios</strong></p>
+
+<p>Aunque parezca una perogrullada no hacemos webs para máquinas ni para robots, hacemos webs para personas.  Queremos que otras personas lean nuestros artículos, compren nuestros productos, contacten con nosotros, les guste lo que hacemos.</p>
+
+<p>Por lo tanto <strong>cualquier decisión que tomes en una web</strong> debe ir encaminada a mejorar la experiencia de uso de las personas.  Cuando vayas a realizar un cambio en tu web piensa siempre <strong>como beneficiará eso a quienes la visitan</strong>.   Si no se te ocurre ningún motivo, ese cambio es absolutamente prescindible.</p>
+
+<p><strong>Escribe contenido relevante</strong></p>
+
+<p>Esta es la parte más difícil y complicada de todas.  Aportar valor con tu web.  Escribir contenido que interese a quienes te visitan.  Eso será lo que haga que tu web cumpla con su función: Que genere contactos, que convierta a visitantes en clientes, que compren tus productos o que se suscriban a tu newsletter&#8230;.</p>
+
+<p>Olvídate de tonterías como la densidad de keywords.  No escribas pensando en como te van a encontrar o si una determinada palabra que es clave en tu artículo se repite suficientes veces.  Escribe pensando en quienes te leen, que tu lenguaje sea claro, sencillo, comprensible, que tu página les transmita el mensaje para el que fue creada.</p>
+
+<p>Yo tengo dos opciones: Escribir un post donde repita las palabras SEO, posicionamiento, mejorar posicionamiento, aparecer primero en google, etc&#8230; un número determinado de veces buscando atraer visitantes o bien escribir un post donde trato de explicar lo que pienso con claridad y sencillez (que lo consiga o no es otra historia, pero lo intento).  En este segundo caso el número de apariciones de las palabras consideradas &#8220;clave&#8221;, los enlaces, etc&#8230; dependerán exclusivamente de si son o no necesarias para que se entienda mejor lo que quiero decir.  <strong>No me importan las palabras, me importa el mensaje.</strong></p>
+
+<p>Veamos un ejemplo de la importancia del contenido:</p>
+
+<p>Hace 3 meses lancé un proyecto personal llamado <a href="http://Buxmi.com">Buxmi.com</a> y tanto <a href="http://wwwhatsnew.com/">Wwwhatsnew</a> como <a href="http://loogic.com/">Loogic</a> fueron tan amables de comentarlo en sus webs.  Si buscamos en Google por el título exacto del post, que en Loogic es: <a href="http://loogic.com/buxmi-y-los-anuncios-clasificados-a-demanda/">Buxmi y los anuncios clasificados a demanda</a>  y en Wwwhatsnew es: <a href="http://wwwhatsnew.com/2010/12/01/pide-lo-que-necesitas-y-buxmi-com-lo-buscara-por-ti/">Pide lo que necesitas y Buxmi.com lo buscará por ti</a> vemos como hay multitud de webs que se limitan a copiar su contenido, simples clones, zombies del copy/paste.</p>
+
+<p>Si tuviésemos una mentalidad SGAE gritaríamos de rabia y de dolor viendo nuestra propiedad intelectual vulnerada y mancillada y presionaríamos a ministras mediocres para que cambiasen las leyes a nuestro gusto, para acabar con este expolio que pone en peligro la cultura, la creatividad y la paz en oriente medio.</p>
+
+<p>Pero como no somos gilipollas pues debemos pensar que en el fondo eso es bueno.  Las personas <a href="http://www.alvareznavarro.es/el-peligro-de-que-copien-tu-idea">tendemos a copiar y reproducir lo que nos gusta</a>.  Así que que existan muchos clones solo confirma que lo que hacemos es bueno.  La gente no es idiota y aunque lleguen a la web clon antes que a la original enseguida se darán cuenta de que aquello no es mas que un copy/paste y al poco tiempo acabaremos en la web original.</p>
+
+<p>Mirando las estadísticas de tráfico veo que además tampoco las webs clon aportan una cantidad de tráfico relevante hacia mi web.  Google tampoco es idiota y aunque al principio pueda caer en la trampa enseguida sabe reconocer el contenido original del clonado y mostrará primero a quien verdaderamente se lo merece.</p>
+
+<p>Visitantes sí, pero de calidad</p>
+
+<p>A veces ocurre que una empresa contrata a otra para que mejore su posicionamiento.  Esta otra empresa empieza a pensar única y exclusivamente en Google y cambia todo los contenidos de nuestra web pensando en Google. Lo que se dice, como está redactado, que textos se enlazan y a donde se enlazan&#8230; Todo se enfoca bajo la óptica del SEO y pasados unos meses:  <strong>El número de visitantes aumenta</strong>.  Victoria, prueba superada, <strong>el SEO funciona y tú Jorge eres idiota</strong> por escribir un artículo como éste.</p>
+
+<p>Analicemos esto mas detenidamente:</p>
+
+<p>Es cierto, y lo reconozco, que hay veces en que el SEO logra atraer más visitantes a nuestra web.  Lo que ocurre es que esto, de por sí, no es ninguna ventaja.  No queremos tener más visitantes a cualquier precio.  Queremos visitantes de calidad, gente que busca lo que nuestra web ofrece.  Esto es como poner un puesto de venta de estampitas de santos en la Meca.  Seguro que cada año millones de personas pasan por delante de tu tienda, pero no son tu publico objetivo, la verdad.</p>
+
+<p>Para saber si tenemos visitas de calidad lo mejor es analizar el comportamiento de nuestros visitantes.  Consulta las estadísticas de tu web de forma frecuente.  Mide el comportamiento de quienes te visitan y olvídate del total de visitantes y el número de páginas vistas.  Son datos que no aportan ningún valor cualitativo.  Consulta la tasa de rebote de tu web (gente que ha llegado a tu web <strong>ha visto una única página</strong> y se ha ido).  Establece objetivos y analiza su cumplimiento ( un objetivo es que se suscriban a nuestra newsletter, que rellenen el formulario de contacto, que hagan un pedido online, que descarguen un folleto de nuestro producto, etc&#8230;.)</p>
+
+<p>Resumen</p>
+
+<p><strong>Piensa siempre en tus visitantes</strong>.  Tu web esta ahí para y por ellos.  Escribe pensando en ellos, enlaza pensando en ellos, modifica pensando en ellos.   </p>
+
+<p><strong>Genera contenidos de calidad</strong>, bien explicados y conseguirás visitantes de calidad.</p>
+
+<p><strong>Analiza lo que pasa en tu web</strong>.  Es la mejor manera de saber si lo estás haciendo bien.</p>
+
+<p>Google es el número uno porque <strong>es capaz de devolver resultados de calidad</strong> cuando hacemos una búsqueda.  Sabe separar el grano de la paja.  Si tu web es estándar, relevante y de calidad aparecerá bien posicionada.  Deja el SEO para los mediocres, para los que no pueden aportar valor, ellos lo necesitan, tú no.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/02/24/la-educacion-en-el-siglo-xxi-con-sistemas-del-siglo-xv/">La Educación en El Siglo XXI Con Sistemas Del Siglo XV</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-02-24T11:58:12+01:00" pubdate data-updated="true">Feb 24<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><pre><code>Tengo dos hijos en edad escolar.  Uno de ellos tiene 6 años y acaba de empezar su etapa de primaria y la otra tiene 13 años y ha comenzado primero de la E.S.O.
+</code></pre>
+
+<p>Como padre, me preocupa la educación que están recibiendo ya que indudablemente será la base que deban aplicar el resto de su vida, pero me estoy dando cuenta de que en realidad me preocupa mucho más la educación que NO están recibiendo.</p>
+
+<p>El problema principal que detecto es que seguimos utilizando sistemas del sigo XV en pleno siglo XXI.  El profesor acude a clase, imparte su lección, los alumnos atienden, preguntan y se realizan unos ejercicios sobre el tema.  Un sistema totalmente arcaico e ineficaz no solo para los tiempos en los que vivimos sino, sobre todo, para los que van a vivir las generaciones a las que estamos educando.</p>
+
+<p>La transmisión de conocimiento es totalmente unidireccional.  No se fomenta el dialogo, la comunicación, la capacidad de autoaprendizaje, la puesta en común.  Yo te cuento lo que yo sé y tu te lo aprendes, punto.</p>
+
+<p>Por ejemplo, mi hija está estudiando ahora un montón de países y capitales de memoria.  En la era de la wikipedia eso es tan ineficiente como absurdo.  Hace 100 años la única forma de conocer estos datos era memorizándolos.  Hoy en día cualquier adolescente enciende el móvil y en 15 segundos no solo sabe cual es la capital de cualquier país del mundo, sino su forma de gobierno, renta per cápita, población y los hechos más notables de su historia.</p>
+
+<p>Memorizar ya no sirve, ya no es necesario.  Lo que necesitamos es <a href="http://blog.cabreramc.com/2009/10/08/escuelas-2-0-¿autoridad-o-liderazgo/">gente con capacidad para razonar</a>, para dialogar, para enfrentarse a retos, para solucionar problemas.  Imaginación, creatividad, responsabilidad, trabajo en grupo, capacidad de integración&#8230; No queremos robots.</p>
+
+<p>Vivimos en una época en la que todo cambia con mucha rapidez (incluidos los países que mi hija está estudiando y que no coinciden con los que yo tuve que estudiar).  Necesitamos formar a gente que aprenda a convivir con el cambio continuo.   Los modelos jerárquicos ya no sirven, <a href="http://blog.cabreramc.com/2009/11/01/redarquia-el-nuevo-orden-emergente-en-la-era-de-la-colaboracion/">vivimos en la Era de la Colaboración, la redarquía</a>.</p>
+
+<p>Nuestros hijos son <a href="http://yonativodigital.com/">nativos digitales</a> el mundo en el que van a tener que vivir no se parece en nada al de sus abuelos y en muy poco al de sus padres.  Y sin embargo les estamos educando como a nuestros Tatarabuelos.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/02/07/html-5-nuevos-elementos-header-y-footer/">HTML 5 - Nuevos Elementos: Header Y Footer</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-02-07T12:25:52+01:00" pubdate data-updated="true">Feb 7<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>Nuevos elementos: Header y Footer</strong></p>
+
+<p><strong>HEADER</strong></p>
+
+<p>El elemento header permite definir contenido que servirá como introducción al contenido principal.   Header puede aparecer más de una vez pero nunca dentro del mismo elemento &#8220;padre&#8221;.  </p>
+
+<p>Contenido susceptible de aparecer como header son: Títulos identificativos, logotipos, menús de navegación, índices o formularios de búsqueda</p>
+
+<p>Ejemplo:</p>
+
+<p><body></p>
+
+<p>  <header></p>
+
+<p>    <h1>Mi maravilloso blog</h1></p>
+
+<p>    <nav></p>
+
+<p>      <ul></p>
+
+<p>        <li>Artículos</li></p>
+
+<p>        <li>Acerca de</li></p>
+
+<p>        <li>Contactar</li></p>
+
+<p>      </ul></p>
+
+<p>    </nav></p>
+
+<p>  </header></p>
+
+<p>  <article></p>
+
+<p>    <header></p>
+
+<p>      <h1>Título de mi maravilloso post</h1></p>
+
+<p>      <time datetime=”2011-01-04T22:04:49+01:00” pubdate></p>
+
+<p>        Martes, 4 de Enero de 2011</p>
+
+<p>        </time></p>
+
+<p>      </header></p>
+
+<p> &#8230;. resto de la página</p>
+
+<p><strong>FOOTER</strong></p>
+
+<p>El elemento footer permite vincular información del tipo enlaces adicionales, información de copyright, autoría del documento y similares, al contenido principal.</p>
+
+<p>Footer puede aparecer más de una vez pero nunca dentro del mismo elemento &#8220;padre&#8221;.  </p>
+
+<p><body></p>
+
+<p>&#8230;.contenido principal</p>
+
+<p>  <footer></p>
+
+<p>  <small></p>
+
+<p>    © 2011 Metaleros sin fronteras | Diseño web Tom araya</p>
+
+<p>  </small></p>
+
+<p>  <nav></p>
+
+<p>    <ul> </p>
+
+<p>      <li>Conciertos</li></p>
+
+<p>      <li>Entrevistas</li></p>
+
+<p>      <li>Noticias</li></p>
+
+<p>      <li>Contactar</li></p>
+
+<p>    </ul></p>
+
+<p>  </nav></p>
+
+<p> </footer> </p>
+
+<p></body></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/24/html-5-marcado-semantico/">HTML 5 - Marcado Semántico</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-24T10:17:58+01:00" pubdate data-updated="true">Jan 24<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><pre><code>**Marcado semántico**
+</code></pre>
+
+<p>Una de las grandes mejoras que incorpora HTML5 es un mejor y más completo marcado semántico.  </p>
+
+<p>Gracias al marcado semántico cuando creamos una página web no solo estamos poniendo un contenido (mediante html) y dotandolo de una apariencia (mediante css) sino que además estamos ayudando a los robots de búsqueda (si, estoy pensando en Google, el resto hoy por hoy son irrelevantes) a entender mejor de que va nuestra web, como está organizada, que contenido es importante y cual secundario, cual es el menú de navegación, el pié de página, etc&#8230;..</p>
+
+<p><strong>Mejorará HTML5 mi posicionamiento en Google?</strong></p>
+
+<p>La respuesta larga es NO y la respuesta muy larga es PUEDE, veamos porqué.</p>
+
+<p>Google hace muy bien una cosa: Analizar páginas web, determinar su contenido y devolvernos páginas lo suficientemente relevantes para la pregunta que nosotros le hemos hecho.  La calidad de tu contenido no va a verse afectada por usar un marcado semántico, los post de tu blog, los artículos de la web de tu empresa, sus productos, etc&#8230; no van a ser mejores ni más relevantes solo por usar marcado semántico.  </p>
+
+<p>Por otro lado, el marcado semántico va a ayudar a los robots a determinar con mayor precisión que parte es contenido, que parte es navegación, que secciones son más importantes que otras, etc&#8230; es decir, a entender mejor tu web y lo que contiene.  Quizás, fruto de esa mejora en entender mejor tu web, detecte contenido relevante que antes no había indexado correctamente y tus páginas se muestren en consultas en las que antes no aparecían.</p>
+
+<p><strong>Podemos usar hoy en día HTML5 y el marcado semántico?</strong></p>
+
+<p>Mi opinión es que si.  El soporte de las nuevas etiquetas en los navegadores modernos (Firefox, Chrome, Safari y Opera) es bueno y con unos pequeños trucos (<a href="http://remysharp.com/2009/01/07/html5-enabling-script/">javascript</a> ó <a href="http://www.debeterevormgever.nl/html5-ie-without-javascript/">css</a>) podemos emplearlas incluso en navegadores antiguos como Internet Explorer 8 o anteriores.</p>
+
+<p>Una opción muy cómoda es emplear <a href="http://modernizr">Modernizr</a> que nos permite emplear estas etiquetas semánticas en Internet Explorer y además detectar el soporte, en todos los navegadores, de otras funciones avanzadas que incorpora HTML 5 y CSS 3</p>
+
+<p>Mañana empezaremos a ver los nuevos elementos de HTML 5 :</p>
+
+<p>Header, Footer, Section, Article, Aside, Nav, Hgroup y Figure</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/23/instalar-lector-dnie-snow-leopard/">Instalar Lector DNIe Snow Leopard</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-23T23:00:57+01:00" pubdate data-updated="true">Jan 23<span>rd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><pre><code>Si vas a instalar un lector de DNIe necesitas saber dos cosas:
+</code></pre>
+
+<ol>
+<li>Sigue los pasos de la estupenda <a href="http://blog.pencadores.es/2009/11/configuracion-efectiva-del-lector-de.html">guia de instalación de Alvarito en Pencadores</a> (muchas gracias por tu curro)</li>
+<li>A día de hoy no funciona con Firefox 4 Así que debes utilizar la versión 3.5</li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/20/la-importancia-de-la-solidaridad/">La Importancia De La Solidaridad</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-20T10:25:53+01:00" pubdate data-updated="true">Jan 20<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><pre><code>Siempre he pensado que los que somos ateos debemos ser doblemente solidarios.  Nosotros no esperamos que ningún dios ayude a nadie ni haga milagros.  Si las personas no nos ayudamos entre nosotros nadie nos ayudará.
+</code></pre>
+
+<p>Por eso me gusta trabajar en una empresa como <a href="http://aspgems.com/">Aspgems</a> que no solo se dedica a ganar dinero (para eso es una empresa) sino que decide actuar y ayudar a la comunidad (en el sentido más amplio del término) y crea iniciativas como <a href="http://lohagopor.com/">Lo Hago Por</a> donde se ha invertido una cantidad importante de recursos tanto humanos como técnicos.</p>
+
+<p>Pero esto no es suficiente, debemos poder hacer algo más para ayudar a otras personas y ayer mismo descubrí una iniciativa que me ha encantado: <a href="http://Kiva.org">Kiva.org</a></p>
+
+<p><a href="http://Kiva.org">Kiva.org</a> trabaja con ONG&#8217;s especializadas en la <a href="http://www.kiva.org/about/how">concesión de microcréditos</a> a gente que vive en zonas de gran pobreza o colectivos con riesgo de exclusión y para los que es imposible acceder a vías de financiación tradicional.</p>
+
+<p>Al ser créditos la cantidad que has prestado será finalmente devuelta a plazos y sin intereses.  De esta forma ayudas a gente con dificultades a conseguir financiación que les permita salir de la pobreza y tu recuperas tu dinero.</p>
+
+<p>Lo interesante del proyecto es que una vez recuperado tu dinero puedes volver a invertirlo en otro proyecto y continuar contribuyendo.  Te conviertes de esta manera en una especie de Bussiness Angel solidario donde vas <a href="http://www.kiva.org/lend">invirtiendo en diversos proyectos</a> y una vez recuperada la inversión vuelves a invertir en más proyectos.</p>
+
+<p>Evidentemente existe el riesgo de que algún proyecto fracase y pierdas tu dinero.  Pero al ser inversiones pequeñas (tú decides que cantidad invertir en cada proyecto) tampoco es un problema excesivo.</p>
+
+<p>Me ha parecido una iniciativa muy buena, seguro que habrá otras similares pero yo no conocía ninguna y me ha sorprendido gratamente el modo de funcionamiento.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/17/html-5-elementos-obsoletos/">HTML 5 - Elementos Obsoletos</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-17T09:41:00+01:00" pubdate data-updated="true">Jan 17<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Inicio hoy una serie de posts sobre HTML5 tomando como base <a href="http://www.slideshare.net/jorgegorka/presentacin-en-aspgems-html5">la charla </a>que di en <a href="http://aspgems.com/">Aspgems</a> el dia 12/1/11 y en los que intentare profundizar en los principales aspectos de la especificacion HTML 5.</p>
+
+<p>Al ser <a href="http://dev.w3.org/html5/spec/Overview.html">una especificacion</a> que esta siendo debatida, modificada y actualizada inevitablemente algunas de las cosas que en estos posts se mencionen acabaran siendo incorrectas y/o incompletas.  Intentare mantener los posts actualizados y te invito a utilizar los comentarios para indicarme cualquier cambio o mejora.</p>
+
+<p>Presentacion y contenido</p>
+
+<p>HTML 5 hace especial hincapie en separar presentacion y contenido.  Para ello convierte en obsoletos muchos elementos y atributos que todavia encontramos frecuentemente en gran parte de las paginas web.  La gran mayoria de editores web wysiwyg hacen uso y abuso de estos elementos.</p>
+
+<p>Separar presentacion y contenido es una norma basica y un indicador de la calidad de una pagina web.  Aquellas webs que lo mezclan presentan 3 problemas fundamentales:</p>
+
+<p><strong>Mala accesibilidad</strong></p>
+
+<p>Cuando hablamos de accesibilidad tendemos a pensar que esto solo afecta a los usuarios con alguna discapacidad fisica sin darnos cuenta de que todos nos convertimos en discapacitados muchas veces a lo largo del dia.  Navegar sin volumen porque estamos en una sala compartida, navegar utilizando mal el puntero porque vamos en el metro o andando por la calle, tipos de letra ilegibles en un smartphone, webs en flash que no se ven en los ipad, iphone, etc&#8230;.</p>
+
+<p><strong>Mayor coste de mantenimiento</strong></p>
+
+<p>Las webs que mezclan el contenido y la presentacion son mas caras de crear y de mantener.  Si queremos cambiar el color de un texto, el tamaño de letra de un menu, etc&#8230; debemos repasar y modificar todas las paginas del sitio web mientras que hacer lo mismo en una web bien hecha requiere modificar un unico fichero CSS.</p>
+
+<p><strong>Mayor tamaño de pagina</strong></p>
+
+<p>Al incluir la presentacion en el contenido nos vemos obligados a escribir codigo redundante que detalle la apariencia de los elementos en cada una de las paginas donde aparecen.</p>
+
+<p>La gran mayoria de elementos empleados para la presentacion se han eliminado de HTML 5, excepto el elemento style y el atributo style.  Otros han cambiado su significado y ya no denotan la apariencia sino que definen el tipo de contenido que incluyen.  Estos son los elementos obsoletos:</p>
+
+<p>Listado de elementos obsoletos</p>
+
+<p><strong>basefont, big, center, font, s, strike, tt, u, frame, frameset, noframes, acronym, applet, dir, align, link, vlink, alink, </strong></p>
+
+<p><strong>bgcolor, height, width, scrolling, valign, hspace, vspace, cellpadding, cellspacing, border, target, longdesc</strong></p>
+
+<p>Elementos que cambian su significado</p>
+
+<p><strong>small</strong></p>
+
+<p>Desde ahora el elemento small se debe emplear para hacer referencia a condiciones legales, informaciones de copyright, exenciones de responsabilidad, etc..  Normalmente en España denominamos a eso como &#8220;letra pequeña&#8221; por lo que resultara muy sencillo para nosotros aplicarlo de forma correcta.</p>
+
+<p>Ejemplo:</p>
+
+<p><small>(c) 2011 Nuestra empresa.  Nuestra empresa no se hace responsable de los comentarios realizados en nuestro blog.  Siendo estos, responsabilidad de quien lo realiza</small></p>
+
+<p><strong>b</strong></p>
+
+<p>El elemento b se empleara cuando deseemos resaltar algun aspecto de un parrafo pero sin otorgarle importancia semantica al elemento resaltado.  La norma indica que b debe usarse como ultimo recurso y emplear los encabezados (h1..h6), el elemento em, strong o mark en funcion del tipo de contenido a resaltar.</p>
+
+<p><strong>i</strong></p>
+
+<p>Emplearemos i cuando queramos indicar algun aspecto diferenciador en el parrafo actual.  Por ejemplo: un nombre propio, una frase en otro idioma, una idea, un pensamiento.  Al igual que b debe ser usado en ultimo recurso cuando otros elementos como em o como dfn, por ejemplo, no encajen.</p>
+
+<p><strong>s</strong></p>
+
+<p>El elemento s indicara contenidos en un parrafo que ya no son relevantes y/o fiables.</p>
+
+<p>Por ejemplo:</p>
+
+<p>Visitanos</p>
+
+
+
+
+<p><s>Direccion antigua: Avda. de las Acacias, 22</s></p>
+
+
+
+
+<p><strong>Nueva direccion:  Avda. de las Acacias, 666</strong></p>
+
+
+<p><strong>style</strong></p>
+
+<p>Tanto el elemento style como el atributo style permanecen en la especificacion.  Si bien se desaconseja su uso y se recomienda utilizar las hojas de estilo siempre que sea posible, pueden existir situaciones especificas donde esto no sea posible o recomendable.  Es en estas situaciones excepcionales donde podremos aplicar estilos a los elementos utilizando su atributo style.</p>
+
+<p>Dos elementos que me han sorprendido que desaparezcan son <strong>target y longdesc</strong>.</p>
+
+<p>El primero, porque la unica alternativa que se propone para abrir contenido en nuevas ventanas es mediante javascript y el segundo ya que era muy empleado y util para mejorar la accesibilidad de las webs.  Seguramente en breve veremos cambios en la especificacion que propongan alternativas a ambos elementos.</p>
+
+<p>Resumen</p>
+
+<p>HTML 5 define unas bases muy acertadas para la creacion y desarrollo de webs, obligando a separar el contenido de la presentacion.  Esta forma de trabajo nos llevara a ser desarrolladores web mas eficientes y a crear paginas de mayor calidad y a menor coste.</p>
+
+<p>El uso de elementos que HTML 5 define como obsoletos es un sintoma de que nuestro proceso de desarrollo debe mejorar.  Incluso con el soporte incompleto de HTML 5 por parte de los navegadores actuales, la mayoria de elementos marcados como obsoletos son facilmente reemplazables por estilos incluidos en hojas CSS y por elementos que aportan un mayor valor semantico a nuestras webs.</p>
+
+<p>En un proximo post hablaremos de semantica y veremos las nuevas etiquetas y elementos definidos por la especificacion.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/13/introduccion-al-html-5/">Introducción Al HTML 5</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-13T16:25:27+01:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><pre><code>Estas son las diapositivas de la charla de introducción al HTML 5 que   
+</code></pre>
+
+<p>ofrecí en Aspgems el 12/01/11</p>
+
+<p>Durante los próximos días publicaré los contenidos mucho más <br/>
+desarrollados y detallados.</p>
+
+<p><strong><a href="http://www.slideshare.net/jorgegorka/presentacin-en-aspgems-html5">Presentación en Aspgems html5</a></strong><a href="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=aspgemshtml5-110113091958-phpapp01&amp;stripped_title=presentacin-en-aspgems-html5&amp;userName=jorgegorka">http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=aspgemshtml5-110113091958-phpapp01&amp;stripped_title=presentacin-en-aspgems-html5&amp;userName=jorgegorka</a></p>
+
+<p>View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/jorgegorka">jorgegorka</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/10/hay-que-trabajar-menos/">Hay Que Trabajar Menos</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-10T09:43:55+01:00" pubdate data-updated="true">Jan 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><pre><code>Hoy comienza para mí, laboralmente hablando, el nuevo año.  Después de unas vacaciones sorprendentemente entretenidas (hay que ver la de cosas que se pueden hacer que no sea trabajar) toca volver al curro.
+</code></pre>
+
+<p>Aunque lo que yo hago no se puede llamar trabajo, ya que es algo que me divierte y me encanta.  Si tuviese el dinero suficiente para no trabajar más seguiría desarrollando webs (a otro ritmo y con otros horarios, pero haciendo lo mismo).</p>
+
+<p>Y como proposito de este nuevo año me he propuesto trabajar menos.  Se acabo pasar 11 ó 12 horas delante del ordenador.  A partir de ahora no quiero estar online más de 7 u 8 horas diarias.  El problema (o la ventaja) es que esas 8 horas me tienen que cundir como 12 y por lo tanto debo aumentar mi productividad.</p>
+
+<p>Así que mi propósito de este nuevo año es ser mucho más productivo de lo que soy ahora.  No se trata de hacer más cosas en un día, se trata de hacer lo mismo en menos tiempo.  En concentrarme al máximo en cada tarea para realizarla de forma eficiente y rápida.  En no dispersarme.  En no estar haciendo 4 cosas a la vez.</p>
+
+<p>Iré probando diversas fórmulas que me ayuden a mejorar y ya os iré contando que tal me va.</p>
+
+<p>Veremos a ver donde queda todo esto, si en un mero propósito más o realmente me sirve para ser más eficiente.  Si conoces algún sistema que te funcione, no dudes en comentármelo.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/7/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/5/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/23/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/17/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/02/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/28/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

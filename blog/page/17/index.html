@@ -1,0 +1,757 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="Unos enlaces interesantes sobre optimización de bases de datos e índices. Un artículo de Jamis Buck sobre mejorar el rendimiento de tu base de datos &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.alvareznavarro.es/blog/page/17/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.alvareznavarro.es" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/11/22/hablemos-de-base-de-datos-y-de-ndices/">Hablemos De Base De Datos Y De índices</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-22T11:09:00+01:00" pubdate data-updated="true">Nov 22<span>nd</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Unos enlaces interesantes sobre optimización de bases de datos e índices.</p>
+
+<p>Un artículo de Jamis Buck sobre <a href="http://weblog.jamisbuck.org/2006/10/23/indexing-for-db-performance">mejorar el rendimiento de tu base de datos</a>.<br/>
+Para añadir un índice a una tabla desde una migración:</p>
+
+<p><code>add_index table, [field1, field2], :name =&gt; index_name, :unique =&gt; true</code></p>
+
+<p>Otro, también de Jamis, sobre el funcionamiento de <a href="http://weblog.jamisbuck.org/2006/11/20/under-the-hood-activerecord-base-find-part-2">ActiveRecord#find</a>.</p>
+
+<p>Un plugin muy útil <a href="http://www.agilewebdevelopment.com/plugins/query_analyzer">query analyzer</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/11/21/links-interesantes/">Links Interesantes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-21T11:05:00+01:00" pubdate data-updated="true">Nov 21<span>st</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><p><a href="http://www.techcrunch.com/2006/11/17/pricefight-because-theres-more-to-shopping-than-low-prices/">Price Fight:</a> En esta web además de mostrarte los precios más baratos para un producto, puntuan al vendedor en base al número de compradores y la valoración de éstos.</p></li>
+<li><p><a href="http://www.digital-web.com/articles/css_styling_for_print_and_other_media/">Digital web</a> habla sobre <a href="http://www.amazon.com/exec/obidos/ASIN/159059732X/digitalwebmagazi">Pro CSS Techniques</a> y publica un capítulo de ejemplo sobre el empleo de css para diferentes tipos de formato: screen, print, projection…</p></li>
+<li><p>Una excelente noticia: <a href="http://www.techcrunch.com/2006/11/15/google-yahoo-and-microsoft-agree-to-standard-sitemaps-protocol/">Google, Yahoo y Microsoft</a> se ponen de acuerdo para emplear el mismo formato en los ficheros sitemap.</p></li>
+<li><p>Un <a href="http://www.37signals.com/svn/posts/113-how-to-make-money-on-cars-with-less">entretenido post de 37 Signals</a> y muy esclarecedor: el que mucho abarca poco aprieta.</p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/11/18/creacin-de-webs-wireframes/">Creación De Webs - Wireframes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-18T17:07:00+01:00" pubdate data-updated="true">Nov 18<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://www.weebly.com">Weebly es un servicio de creación de webs online</a>.<br/>
+Creas una web, vas añadiendo páginas con contenido y puedes publicar automáticamente la web o bien descargarla en pdf.  Y gratis.</p>
+
+<p><img src="http://www.riojasoft.com/files/weebly-logo.gif" alt="logo weebly" /></p>
+
+<p>Me ha sorprendido lo fácil que es de usar y lo bien que integra todas las posibilidades que el xhtml + css + ajax ofrece.  Como único pero creo que abusa de las ventanas modales</p>
+
+<p>Mediante acciones tan sencillas como arrastra y soltar puedes añadir feeds de rss a tu web o Google Maps.</p>
+
+<p>Desde luego no es la herramienta adecuada para crear webs para empresas, pero para crear wireframes y compartirlos entre varias personas o bien para crear webs personales lo veo una herramienta excelente.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/11/16/nuevo-pedido-a-amazon/">Nuevo Pedido a Amazon</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-16T12:13:00+01:00" pubdate data-updated="true">Nov 16<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Acabo de pedir los siguientes libros en Amazón (plazo de entrega estimado el 6 de Diciembre):</p>
+
+<ul>
+<li><p><a href="http://www.amazon.com/gp/product/0321432061/105-1039373-3403646">Designing for Interaction: Creating Smart Applications and Clever Devices</a></p></li>
+<li><p><a href="http://www.amazon.com/gp/product/020172149X/105-1039373-3403646">The Design of Sites: Patterns, Principles, and Processes for Crafting a Customer-Centered Web Experience</a></p></li>
+<li><p><a href="http://www.amazon.com/Designing-Obvious-Common-Approach-Application/dp/032145345X/sr=1-1/qid=1164968244/ref=sr_1_1/105-1039373-3403646?ie=UTF8&amp;s=books">Designing the Obvious: A Common Sense Approach to Web Application Design</a></p></li>
+</ul>
+
+
+<p>En cuanto los vaya leyendo pondré un comentario sobre ellos.<br/>
+Si has leido alguno agradezco mucho que me des tu opinión.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/11/08/rake-lista-de-opciones/">Rake Lista De Opciones</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-08T14:45:00+01:00" pubdate data-updated="true">Nov 8<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><p>rake cache:clear                      # Clears all cached pages</p></li>
+<li><p>rake db:bootstrap                     # Loads a schema.rb file into the database and then loads the initial database fixtures.</p></li>
+<li><p>rake db:bootstrap:copy_default_theme  # Copy default theme to site theme</p></li>
+<li><p>rake db:migrate                       # Migrate the database through scripts in db/migrate. Target specific version with VERSION=x</p></li>
+<li><p>rake db:schema:dump                   # Create a db/schema.rb file that can be portably used against any DB supported by AR</p></li>
+<li><p>rake db:schema:load                   # Load a schema.rb file into the database</p></li>
+<li><p>rake db:bootstrap:load                # Load initial database fixtures (in db/bootstrap/*.yml) into the current environment&#8217;s database.  Load specific fixtures using FIXTURES=x,y</p></li>
+<li><p>rake db:fixtures:load                 # Load fixtures into the current environment&#8217;s database.  Load specific fixtures using FIXTURES=x,y</p></li>
+<li><p>rake db:sessions:clear                # Clear the sessions table</p></li>
+<li><p>rake db:sessions:create               # Creates a sessions table for use with CGI::Session::ActiveRecordStore</p></li>
+<li><p>rake db:structure:dump                # Dump the database structure to a SQL file</p></li>
+<li><p>rake db:test:clone                    # Recreate the test database from the current environment&#8217;s database schema</p></li>
+<li><p>rake db:test:clone_structure          # Recreate the test databases from the development structure</p></li>
+<li><p>rake db:test:prepare                  # Prepare the test database and load the schema</p></li>
+<li><p>rake db:test:purge                    # Empty the test database</p></li>
+<li><p>rake deploy                           # Push the latest revision into production using the release manager</p></li>
+<li><p>rake diff_from_last_deploy            # Describe the differences between HEAD and the last production release</p></li>
+<li><p>rake doc:app                          # Build the app HTML Files</p></li>
+<li><p>rake doc:clobber_app                  # Remove rdoc products</p></li>
+<li><p>rake doc:clobber_plugins              # Remove plugin documentation</p></li>
+<li><p>rake doc:clobber_rails                # Remove rdoc products</p></li>
+<li><p>rake doc:plugins                      # Generate documation for all installed plugins</p></li>
+<li><p>rake doc:rails                        # Build the rails HTML Files</p></li>
+<li><p>rake doc:reapp                        # Force a rebuild of the RDOC files</p></li>
+<li><p>rake doc:rerails                      # Force a rebuild of the RDOC files</p></li>
+<li><p>rake edge                             # freeze rails edge</p></li>
+<li><p>rake log:clear                        # Truncates all *.log files in log/ to zero bytes</p></li>
+<li><p>rake rails:freeze:edge                # Lock to latest Edge Rails or a specific revision with REVISION=X (ex: REVISION=4021) or a tag with TAG=Y (ex: TAG=rel_1-1-0)</p></li>
+<li><p>rake rails:freeze:gems                # Lock this application to the current gems (by unpacking them into vendor/rails)</p></li>
+<li><p>rake rails:unfreeze                   # Unlock this application from freeze of gems or edge and return to a fluid use of system gems</p></li>
+<li><p>rake rails:update                     # Update both configs, scripts and public/javascripts from Rails</p></li>
+<li><p>rake rails:update:configs             # Update config/boot.rb from your current rails install</p></li>
+<li><p>rake rails:update:javascripts         # Update your javascripts from your current rails install</p></li>
+<li><p>rake rails:update:scripts             # Add new scripts to the application script/ directory</p></li>
+<li><p>rake remote_exec                      # Execute a specific action using the release manager</p></li>
+<li><p>rake rollback                         # Rollback to the release before the current release in production</p></li>
+<li><p>rake show_deploy_tasks                # Enumerate all available deployment tasks</p></li>
+<li><p>rake stats                            # Report code statistics (KLOCs, etc) from the application</p></li>
+<li><p>rake test                             # Test all units and functionals</p></li>
+<li><p>rake test:functionals                 # Run tests for functionalsdb:test:prepare</p></li>
+<li><p>rake test:integration                 # Run tests for integrationdb:test:prepare</p></li>
+<li><p>rake test:plugins                     # Run tests for pluginsenvironment</p></li>
+<li><p>rake test:recent                      # Run tests for recentdb:test:prepare</p></li>
+<li><p>rake test:uncommitted                 # Run tests for uncommitteddb:test:prepare</p></li>
+<li><p>rake test:units                       # Run tests for unitsdb:test:prepare</p></li>
+<li><p>rake tmp:cache:clear                  # Clears all files and directories in tmp/cache</p></li>
+<li><p>rake tmp:clear                        # Clear session, cache, and socket files from tmp/</p></li>
+<li><p>rake tmp:create                       # Creates tmp directories for sessions, cache, and sockets</p></li>
+<li><p>rake tmp:pids:clear                   # Clears all files in tmp/pids</p></li>
+<li><p>rake tmp:sessions:clear               # Clears all files in tmp/sessions</p></li>
+<li><p>rake tmp:sockets:clear                # Clears all files in tmp/sockets</p></li>
+<li><p>rake update_dialog_helper             # Copies the latest dialog.js to the application&#8217;s public directory</p></li>
+</ul>
+
+
+<p>Esta lista está copiada de <a href="http://www.rubyonrailsblog.com/articles/2006/09/14/rails-rake-tasks-reference">rubyonrailsblog</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/10/05/fundamentos-web-da-i/">Fundamentos Web - Día I</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-10-05T22:12:00+02:00" pubdate data-updated="true">Oct 5<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Este primer día de <a href="http://www.fundamentosweb.com">Fundamentos web</a> ha tenido altibajos.</p>
+
+<p><strong>Sinopsis (si vas con prisa lee esto)</strong></p>
+
+<p>Como destacado, en mi opinión, las ponencias de <a href="http://www.fundamentosweb.org/2006/Ponentes/#richard">Richard</a> y de <a href="http://www.fundamentosweb.org/2006/Ponentes/#ben">Ben</a> .  Esperaba aprender un poco más de <a href="http://www.fundamentosweb.org/2006/Ponentes/#dave">David</a> , me ha sorprendido su charla, muy poco técnica.</p>
+
+<p>Resumo el primer día en dos frases:</p>
+
+<p><a href="http://www.fundamentosweb.org/2006/Ponentes/#ben">Ben Hammersley</a> <strong>Internet 2.0 es cuando sabemos lo que estamos haciendo</strong></p>
+
+<p><a href="http://www.fundamentosweb.org/2006/Ponentes/#sindo">Gumersindo Lafuente</a>  <strong>La prensa no cuenta lo que pasa, ni lo que ellos creen que pasa, sino lo que ellos quieren que pase.</strong></p>
+
+<p>La organización perfecta.  Sin retrasos, sin aglomeraciones, el sitio quizas es mejorable (al menos las butacas) pero el resto todo muy bien.</p>
+
+<p><strong>Paso a paso (para los no estresados)</strong></p>
+
+<p><img src="http://www.riojasoft.com/files/robert.jpg" alt="" /></p>
+
+<p>Richard Ishida (es de EEUU pero se ha puesto el apellido de su mujer, japonesa) nos ha hablado de los problemas que conlleva el crear webs que deben estar disponibles en varios idiomas.</p>
+
+<p>Nos ha puesto en antecedentes de los principales problemas a los que se enfrentan estos sitios: textos, colores, gráficos, semántica.</p>
+
+<p>Una frase: <em>*Desarrollar una web en un idioma y traducirla luego, es mucho más caro y costoso (hasta el doble) que desarrollarla en varios idiomas desde su concepción</em>.</p>
+
+<p><img src="http://jorgegorka.files.wordpress.com/bob.jpg" alt="" /></p>
+
+<p>Como segundo ponenete hemos tenido a <a href="http://www.fundamentosweb.org/2006/Ponentes/#bob">Bob Regan</a> de <a href="http://www.adobe.com/">Adobe</a> .</p>
+
+<p>Su charla ha estado basada en las implicaciones de accesibilidad de las &#8220;Aplicaciones ricas&#8221;.  Pero básicamente se ha limitado a contarnos que Flash está haciendo grandes progresos en ser accesible, que cada día lo son más, que usar flash ya no es como antes y que podemos emplearlo (Flash+flesh) sin miedo.</p>
+
+<p>Personalmente creo que lo que quería es venir a España (no había estado nunca).  Porque viajar tanto para contarnos eso no era ni mucho menos necesario.</p>
+
+<p>Una frase:  *Flash va camino de ser accesible (not now)**</p>
+
+<p><img src="http://www.riojasoft.com/files/ben.jpg" alt="" /></p>
+
+<p>La charla de <a href="http://www.fundamentosweb.org/2006/Ponentes/#ben">Ben Hammersley</a> ha sido entretenida.  Ha hablado de la belleza en el código.</p>
+
+<p>El tema le ha dado para mostrarnos fotos de Penélope Cruz, de La venus de Velazquez, de los frescos de Miguel Angel en la Capilla Sixtina y de las coliflores ala Fibonacci.</p>
+
+<p>Menos mal que Ben es un buen orador y ha conseguido hacer entretenida la charla.</p>
+
+<p>Una frase:  <strong>Internet 2.0 es cuando sabemos lo que estamos haciendo</strong></p>
+
+<p><img src="http://www.riojasoft.com/files/david.jpg" alt="" /></p>
+
+<p>La conferencia de <a href="http://www.fundamentosweb.org/2006/Ponentes/#dave">David Shea</a> me ha defraudado bastante.  Tenia muchas esperanzas de oir algo interesante y la verdad es que me ha parecido muy sencilla y básica.</p>
+
+<p>Ha hablado sobre la gestión de proyectos en CSS y ha dado una serie de consejos sobre la mejor forma de hacerlo:  Guarda todo el css en ficheros separados del html, divide en función de las secciones, empieza por aplicar estilos a selectores generales y acaba por los más concretos…  todo muy &#8220;sencillo&#8221;.</p>
+
+<p>Una frase: <strong>Hello</strong></p>
+
+<p><img src="http://www.riojasoft.com/files/daniel.jpg" alt="" /></p>
+
+<p>Tras una fantástica comida, por supuesto con fabes y sidra (estupenda comida y estupendo trato de los camareros, escanciando la sidra todo el rato) le ha tocado el turno de hablar a <a href="http://www.fundamentosweb.org/2006/Ponentes/#dan">Daniel Appelquist</a></p>
+
+<p>Ha hablado sobre la internet móvil (trabaja en Vodafone) y sus posibilidades de presente a corto plazo.  Nos ha mostrado muchas estadísticas con número de móviles 3G, previsiones de venta, de uso de terminales para navegar, etc….</p>
+
+<p>Una frase: <em>*Tratad a los usuarios de dispositivos móviles como internautas de primera categoría</em></p>
+
+<p><img src="http://www.riojasoft.com/files/conferencia1.jpg" alt="" /></p>
+
+<p>La conferencia que cerraba este primer día ha tenido dos partes:</p>
+
+<p>Parte I:  <a href="http://www.fundamentosweb.org/2006/Ponentes/#vint">Vinton Cerf</a> ha respondido, a través de videoconferencia ya que él estaba en el cuartel general de Google, a las preguntas que se le han formulado sobre el pasado, presente y futuro de internet.  Ha dado respuestas muy interesantes sobre temas como lo que él cambiaría de la web, el control de los gobiernos sobre Internet, el futuro de la web.</p>
+
+<p>Me quedo con dos ideas suyas:  Los buscadores deben entendernos mejor y ha puesto un ejemplo muy claro: si yo busco la palabra jaguar, el buscador debe saber si me estoy refiriendo al animal o a la marca de automóviles.</p>
+
+<p>Otra idea: Cada vez más vamos a pasar de consumir cosas en tiempo real (televisión, radio…) a consumir descargas.   Nos bajaremos los programas de tv, radio, etc…a nuestro pc y los veremos cuando nosotros queramos.</p>
+
+<p>Vinton se ha despedido de nosotros anunciando que está trabajando en el desarrollo de la *Internet interplanetaria**.</p>
+
+<p>Después de la despedida de Vinto y debido a que entre los participantes había mucho periodista (Gumersindo, Juan y Ben) la charla ha girado hacia el futuro de la prensa y como debe transformarse para aprovechar Internet en lugar de combatirla.</p>
+
+<p>Y con todo esto se ha terminado el primer día, al menos en lo que a conferenciase se refiere ya que a las 21:00 los autobuses de la organización (he dicho ya que muy bien por los organizadores?) han venido a recogernos para llevarnos a disfrutar de una cena tradicional Asturiana.</p>
+
+<p>Hemos bebido mucha sidra y hemos comido de todo lo que nos iban sacando, que no ha sido poco.  Y como somos buenos nos hemos acostado pronto.</p>
+
+<p><img src="http://www.riojasoft.com/files/nosotros.jpg" alt="" /></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/10/02/nos-vemos-en-fundamentos-web/">Nos Vemos en Fundamentos Web</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-10-02T21:47:00+02:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Me voy a Fundamentos Web a Oviedo.</p>
+
+<p>Promenten ser dos días interesantes.  A priori el nivel de los ponentes hace presagiar buenas conferencias.</p>
+
+<p>Veremos a ver que sale.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/07/13/linux-se-acerca-a-los-usuarios-finales/">Linux Se Acerca a Los Usuarios Finales</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-07-13T14:06:00+02:00" pubdate data-updated="true">Jul 13<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Desde que he probado <a href="http://www.ubuntu.com/">Ubuntu</a> estoy convencido de que esta es la línea a seguir para la implantación del software libre en los escritorios de los usuarios finales.  Creo que Ubuntu está lista al 100% para su uso por usuarios finales empresariales (tienen absolutamente todo lo que necesitan) y un poco menos para los usuarios domésticos (dependiendo de lo aficionados a los juegos que sean).</p>
+
+<p>Gracias a esta distribución se deja claro que una de las mayores limitaciones de Linux la ponen los fabricantes al no facilitar drivers para linux con la misma rapidez que para el <a href="http://www.microsoft.com">sistema operativo multado con 280 millones de euros</a> aunque gracias a la enorme comunidad de desarrolladores existente enseguida podemos conseguir que todos nuestros periféricos funcionen correctamente.</p>
+
+<p>Ahora solo falta que empresas importantes y verdaderamente relevantes (Google, Yahoo, etc…) apuesten decididamente por él y lleven a cabo una labor &#8220;evangelizadora&#8221;.</p>
+
+<p>Si Google no quiere perder su parte del pastel cuando aparezca <a href="http://www.microsoft.com/latam/windowsvista/">el sistema operativo que permite cambiar de ventanas <strong>empleando el teclado</strong></a>
+y que integra la búsqueda a través de msn, debería hacer un esfuerzo mayor por potenciar el uso de sistemas operativos estándares y que permiten elegir al usuario.</p>
+
+<p>Por cierto os recomiendo ver <a href="http://www.hispasec.com/directorio/laboratorio/phishing/demo3/troyano_banesto.htm">este video</a> donde se demuestra la poca seguridad que ofrece emplear el <a href="http://www.microsoft.com">sistema operativo que tarda cuatro años en sacar una versión de su navegador</a></p>
+
+<p>Si estais interesados podeis solicitar que os <a href="https://shipit.ubuntu.com/">envíen a casa</a> , completamnete gratis, los cd&#8217;s de instalación de Ubuntu.  Hay versiónes para pc de 32 y 64 bits y para Mac.</p>
+
+<p>A mi me tardaron menos de 10 días en llegar por correo.  Eficacia total.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/06/14/mejoras-en-el-buscador-inmobiliario/">Mejoras en El Buscador Inmobiliario</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-14T21:27:00+02:00" pubdate data-updated="true">Jun 14<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>He publicado una nueva versión del <a href="http://www.buscadorinmobiliario.es">buscador inmobiliario</a> que contiene algunas mejoras de rendimiento (ahora las búsqueda son más rápidas) e indicaciones más claras para una mejor facilidad de uso.</p>
+
+<p>¿Que no sabes que es el buscador inmobiliario?</p>
+
+<p>Pues su nombre es autoexplicativo aunque tiene algunas características interesantes:</p>
+
+<ul>
+<li><p>Sin publicidad ni enlaces patrocinados.
+Devuelve siempre los resultados más relevantes, no los que más pagan.</p></li>
+<li><p>Solo contiene ofertas de agencias inmobiliarias.</p></li>
+<li><p>Sin complicados formularios que rellenar.</p></li>
+</ul>
+
+
+<p>El buscador está desarrollado empleando <a href="http://www.rubyonrails.org">rubyonrails</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/06/14/los-peores-10-errores-en-adwords/">Los Peores 10 Errores en AdWords</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-14T21:17:00+02:00" pubdate data-updated="true">Jun 14<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Esta es una lista de los 10 errores que más se comenten al contratar campañas de AdWords.</p>
+
+<p>No deben elegirse los términos a la ligera sin antes haber estudiado muy bien lo que se quiere conseguir. De otra forma solo lograremos tener que pagar mucho dinero y atraer a visitas de poca calidad.</p>
+
+<pre><code>&lt;code&gt;1. creating a long list of less than targeted keywords&lt;/code&gt;
+
+
+
+
+&lt;code&gt;2. failing to identify unique aspects of your product or service&lt;/code&gt;
+
+
+
+
+&lt;code&gt;3. a lack of keywords in your ad text&lt;/code&gt;
+
+
+
+
+&lt;code&gt;4. directing users solely to your home page&lt;/code&gt;
+
+
+
+
+&lt;code&gt;5. creating single ad groups&lt;/code&gt;
+
+
+
+
+&lt;code&gt;6. utilizing single campaigns&lt;/code&gt;
+
+
+
+
+&lt;code&gt;7. using broad match only&lt;/code&gt;
+
+
+
+
+&lt;code&gt;8. failing to optimize ad serving for your ads&lt;/code&gt;
+
+
+
+
+&lt;code&gt;9. failing to track results&lt;/code&gt;
+
+
+
+
+&lt;code&gt;10. entering the content network without modifying bids&lt;/code&gt;
+</code></pre>
+
+<p>En la web de <a href="http://www.sitepoint.com/article/worst-adwords-campaign-mistakes">Sitepoint</a> proporcionan más información sobre cada uno de ellos (en inglés).</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/18/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/16/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/23/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/17/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/02/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/28/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

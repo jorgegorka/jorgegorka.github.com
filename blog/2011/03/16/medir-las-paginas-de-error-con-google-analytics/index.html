@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Medir las páginas de error con Google Analytics - Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="Me he inscrito al [Master de Analítica Web](http://www.secuoyasacademy.com/master-analitica-web.html) que imparte [Secuoyas](http://www. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.alvareznavarro.es/blog/2011/03/16/medir-las-paginas-de-error-con-google-analytics/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.alvareznavarro.es" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Medir Las Páginas De Error Con Google Analytics</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-16T10:27:13+01:00" pubdate data-updated="true">Mar 16<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><pre><code>Me he inscrito al [Master de Analítica Web](http://www.secuoyasacademy.com/master-analitica-web.html) que imparte [Secuoyas](http://www.secuoyasacademy.com/).  Creo que tiene unos contenidos muy interesantes y unos profesores de primer nivel así que doy por seguro que será un tiempo muy bien aprovechado.
+</code></pre>
+
+<p>Como preparación para el master me estoy estudiando en profundidad el funcionamiento de Google Analytics, AdWords y Website Optimizer.  Creo que si conozco las herramientas será mucho más fácil aplicar y sacar partido a los conocimientos que recibiré.</p>
+
+<p>Leyendo &#8221;<a href="http://advanced-web-metrics.com/">Advanced Web Metrics with Google Analytics</a>&#8220; he encontrado una forma de medir tanto las páginas que están dando error en nuestra web como las páginas o enlaces que están conduciendo a los usuarios a dichos errores. </p>
+
+<p><strong>Controlar páginas de error y enlaces rotos Google Analytics</strong></p>
+
+<p>Cuando ocurre un error en nuestra web normalmente servimos una página genérica indicando el error al usuario y que alternativas u opciones tiene y ayudándole para que pueda llegar a la página que busca.</p>
+
+<p>En estas páginas (las dos más comunes son la 404 y la 500) añadiremos un pequeño cambio en el código de seguimiento de Google para poder saber más de dicho error.</p>
+
+<p>Buscaremos en el código de seguimiento de Google que hemos añadido a nuestra página (normalmente justo antes de la etiqueta </body>)  el método <em>trackPageview y le añadiremos los siguientes parámetros </em>trackPageview(&#8220;error &#8221; + document.location.pathname);</p>
+
+<p>Si queremos controlar el tipo de error ocurrido podemos ser más específicos y por ejemplo en la página de error 404 (la que ocurre cuando una página no se encuentra) pondremos esto: _trackPageview(&#8220;error 404&#8221; + document.location.pathname);</p>
+
+<p>El código d_ocument.location.pathname_ guarda la dirección de la página que ha provocado el error. </p>
+
+<p>De esta forma el error quedará registrado y será muy sencillo aplicar filtros en Analytics para ver únicamente las páginas con error.</p>
+
+<p>Además de eso si para cada página de error seleccionamos el resumen de navegación podremos ver en que página se encontraba el usuario antes de producirse el error lo que nos será de gran utilidad para detectar enlaces rotos o posibles problemas.</p>
+
+<p>Un truco sencillo de implementar y de gran utilidad para conocer y detectar posibles problemas en nuestro sitio web.</p>
+
+<p>La información de este truco está sacada del libro &#8221;<a href="http://advanced-web-metrics.com/">Advanced Web Metrics with Google Analytics</a>&#8221; escrito por <a href="http://www.advanced-web-metrics.com/blog/about-brian-clifton/">Brian Clifton</a>.  Un libro excelente, muy bien escrito y de recomendada lectura para todo aquel que quiera conocer en profundidad el funcionamiento de Google Analytics.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jorge</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-16T10:27:13+01:00" pubdate data-updated="true">Mar 16<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.alvareznavarro.es/blog/2011/03/16/medir-las-paginas-de-error-con-google-analytics/" data-via="" data-counturl="http://www.alvareznavarro.es/blog/2011/03/16/medir-las-paginas-de-error-con-google-analytics/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/02/28/el-seo-es-para-los-mediocres/" title="Previous Post: El SEO es para los mediocres">&laquo; El SEO es para los mediocres</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/03/26/master-de-analitica-web-secuoyas-dia-1/" title="Next Post: Master de Analítica Web Secuoyas - Día 1">Master de Analítica Web Secuoyas - Día 1 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/23/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/17/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/02/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/28/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

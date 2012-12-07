@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Ruby on Rails - Bases de datos - Parte II - Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="En este segundo artículo sobre las bases sobre las que se
+asienta Rails voy a hablar de las bases de datos y el papel que
+juegan en el desarrollo de &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.alvareznavarro.es/blog/2006/01/04/ruby-on-rails-bases-de-datos-parte-ii/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.alvareznavarro.es" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Ruby on Rails - Bases De Datos - Parte II</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-01-04T11:29:00+01:00" pubdate data-updated="true">Jan 4<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>En este segundo artículo sobre las bases sobre las que se
+asienta Rails voy a hablar de las bases de datos y el papel que
+juegan en el desarrollo de una aplicación con Rails.</p>
+
+<p>Si no has leído los artículos anteriores puedes <a href="http://www.riojasoft.com/articles/2005/12/02/ruby-on-rails-solamente-un-framework-para-desarrollo-web-introducci%F3n">
+ir a la Introducción</a></p>
+
+<p>El principal creador de Rails (David Heinemeier) <a href="http://www.loudthinking.com/arc/000516.html">considera que toda la
+lógica</a> debe estar centralizada en la aplicación y no repartida
+en la base de datos:</p>
+
+<blockquote><p>No, Mr. Database, you can not have my business logic.
+Your procedural ambitions will bear no fruit and you&#8217;ll have to pry
+that logic from my dead, cold object-oriented hands.</p></blockquote>
+
+<p>Seguramente más de un administrador de bases de datos estará
+ahora mismo rechinando sus dientes y gritando: ¡herejía! ¡ Este
+tipo está loco y no sabe de lo que habla! -volvamos a citar a
+David:</p>
+
+<blockquote><p>As long as you&#8217;re not banking your savings on a hope
+we&#8217;ll change our ways once MySQL &#8220;grows up&#8221; and adds all these
+Enterprise Features to become something bigger and better than a
+&#8220;toy project&#8221;. You&#8217;ll die poor, then, I tell you.</p></blockquote>
+
+<p>Pero bueno, dejemonos de sensacionalismos y vayamos al grano, a
+explicar como esta filosofía ha condicionado el desarrollo de
+Rails, y más concretamente de ActiveRecord.</p>
+
+<h3>ActiveRecord</h3>
+
+<h4>Convención frente a configuración</h4>
+
+<p>ActiveRecord, al igual que el resto de Rails, favorece la
+convención frente a la configuración, es decir, seguir unas normas
+(convenciones) ya establecidas a la hora de, por ejemplo, llamar a
+las tablas, campos, ficheros, etc&#8230;. Esto nos evita (o minimiza)
+el tener que crear y mantener ficheros de configuración y
+parametrización.</p>
+
+<p>Los nombres de las tablas deben ser todos en plural: Coches,
+Productos, Personas, mientas que los Objetos que las referencian
+iran en singular Coche, Producto, Persona (Rails es lo
+suficientemente inteligente como para si creamos un objeto de tipo
+Coche automáticamente saber que su tabla asociada es Coches, si
+trabajamos con los nombres de las tablas en inglés, muy
+recomendable, sera capaz de asociar Person con people, así como
+muchas otras formas de plural irregulares).</p>
+
+<p>En cuanto al nombre de los campos, rails nos permite total
+libertad. Por supuesto existen una serie de <em>convenciones</em>
+que nos facilitarán y simplificarán la tarea de crear los campos de
+las tablas: si un campo acaba en <em>at (vendido_at) rails espera (y
+lo tratará), un campo de fecha-hora mientras que si acaba en </em>on
+(visitado_on) espera un campo de fecha.</p>
+
+<p>Si nuestra tabla incluye un campo llamado lock_version rails
+implementará de manera automática bloqueos optimistas a la hora de
+gestionar la concurrencia (2 ó más usuarios accediendo al mismo
+registro).</p>
+
+<p>Si añadimos un campo llamado created_at ó created_on rails se
+encargará de insertar la fecha/hora de creación cuando demos de
+alta un nuevo registro. Para control de modificaciones podemos
+crear un campo llamado updated_at updated_on.</p>
+
+<h4>Relaciones entre tablas</h4>
+
+<p>Rails implementa las relaciones entre tablas mediante etiquetas
+:has_one, :has_many, :belongs_to y :has_and_belongs_to_many Este
+último para relaciones muchos-a-muchos.</p>
+
+<p>Al definir las relaciones entre tablas se crean una serie de
+metodos de instancia muy útiles en su posterior manejo.</p>
+
+<p>Una ayuda muy útil es la que nos proporciona para mantener un
+contador automático y evitarnos constantes consultas del tipo
+&#8220;select count(*)&#8221; mediante el uso de un campo _count.</p>
+
+<p>Otra de las ventajas de Rails es la herencia. Al trabajar con
+objetos podemos aprovechar la herencia para crear modelos de datos
+que comparten una única tabla de la base de datos. Por ejemplo:
+podemos tener una tabla llamada vehículos y crear nuestros modelos
+de datos de la siguiente forma:</p>
+
+<p>class vehiculo &lt; ActiveRecord::Base Esto generaría el modelo
+de datos maestro. Gracias a la herencia ahora podemos hacer:</p>
+
+<p>Turismo &lt; Vehiculo</p>
+
+<p>Furgoneta &lt; Vehiculo</p>
+
+<p>Rails se encarga de diferenciar automáticamente los diferentes
+tipos de registros (Turismos, Furgonetas) gracias al empleo de un
+campo type (que habremos de definir en la tabla maestra).</p>
+
+<h4>Validación</h4>
+
+<p>Una de las opciones más útiles y potentes son los validadores.
+Mediante esta opción podremos verificar la coherencia e integridad
+de los datos.</p>
+
+<p>Rails nos proporciona 3 eventos de validación: Validate,
+Validate_on_create y Validate_on_update donde podremos situar todo
+el código que deseemos para asegurarnos de la coherencia de los
+datos recibidos con los esperados (números, fechas, nombres,
+etc&#8230;.). Además nos proporciona unos cuantos validadores
+predefinidos (helpers) que simplificaran las tareas de validación
+como ejemplo ( validates_length_of ó validates_numericality_of.</p>
+
+<h4>Callbacks</h4>
+
+<p>Los callbacks son a Rails como los Trigges a las base de datos.
+Existen una serie de métodos del tipo:</p>
+
+<p>-before_validation</p>
+
+<p>-after_validaton</p>
+
+<p>-before_save</p>
+
+<p>-after_update</p>
+
+<p>-before_create</p>
+
+<p>-after_save</p>
+
+<p>-etc&#8230;..</p>
+
+<p>en los que podremos insertar nuestro código. Rails nos permite
+crear callbacks comunes a varios modelos de datos. Recordemos que
+Rails es un framework DRY.</p>
+
+<h4>Observers</h4>
+
+<p>Los observers están pensados para añadir funcionalidad a los
+modelos de datos sin tener que modificar su código. Los métodos
+creados como observers se añaden al modelo de datos aunque sin
+llegar a pertenecer al mismo de manera que el modelo de datos no se
+ve afectado. También es posible crear observers comunes a varios
+modelos de datos.</p>
+
+<h4>Resumen</h4>
+
+<p>Rails nos proporciona toda una serie de herramientas para evitar
+trasladar código (lógica de negocio que dirian los analistas) a la
+base de datos mediante el uso de la clase Active Record.</p>
+
+<p>El conocimiento de esta clase y sus capacidades son decisivos
+para aprovechar las ventajas de Rails y su filosofía de creación de
+aplicaciones web de forma rápida y efectiva.</p>
+
+<p>Mi experiencia personal me demuestra que el uso de Active Record
+de forma eficiente simplifica y agiliza el desarrollo de forma
+notable. Al minimizar el trabajo con la base de datos (escribiendo
+triggers y procedimientos almacenados) y emplear un único lenguaje
+para todo el desarrollo, se consigue acortar los tiempos de
+desarrollo (time2market).</p>
+
+<p>Sin embargo una vez que nuestra aplicación está funcionando
+conviene analizarla y detectar posibles cuellos de botella y
+procesos que serían mucho más eficientes ejecutados en forma de
+trigger o procedimiento almacenado.</p>
+
+<p>He trabajado en bastantes proyectos que gastaban más tiempo en
+optimizar una aplicación para que soporte 1.000 usuarios
+concurrentes que en conseguir, antes de nada, esos 1.000 usuarios
+concurrentes.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jorge</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-01-04T11:29:00+01:00" pubdate data-updated="true">Jan 4<span>th</span>, 2006</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/desarrollo/'>Desarrollo</a>, <a class='category' href='/blog/categories/empresa/'>Empresa</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.alvareznavarro.es/blog/2006/01/04/ruby-on-rails-bases-de-datos-parte-ii/" data-via="" data-counturl="http://www.alvareznavarro.es/blog/2006/01/04/ruby-on-rails-bases-de-datos-parte-ii/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2005/12/15/ruby-on-rails-menos-es-ms-parte-i/" title="Previous Post: Ruby on Rails  - Menos es más - Parte I">&laquo; Ruby on Rails  - Menos es más - Parte I</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2006/01/10/historia-de-una-web-con-final-triste/" title="Next Post: Historia de una web (con final triste)">Historia de una web (con final triste) &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/23/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/17/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/02/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/28/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

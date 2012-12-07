@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS y el futuro del desarrollo web - Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.alvareznavarro.es/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.alvareznavarro.es" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">AngularJS Y El Futuro Del Desarrollo Web</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-17T22:24:12+02:00" pubdate data-updated="true">Oct 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/10/AngularJS-300x84.png" alt="javascript framework" />Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de pantallas, formas de uso (táctil, no táctil, offline, online&#8230;) quizás no sea la forma más adecuada.</p>
+
+<p><strong>El problema</strong></p>
+
+<p>Hace 2 años publiqué un post en el que hablaba sobre la necesidad de <a href="http://www.alvareznavarro.es/5832/acabaremos-todos-programando-en-javascript/">cambiar el modelo cliente/servidor en el desarrollo web</a>, donde toda la lógica de la aplicación reside en el servidor, para tender hacia un modelo donde la lógica reside en el cliente y permite el uso de aplicaciones web incluso cuando no hay conexión a Internet.</p>
+
+<p>Con el auge de los dispositivos móviles el uso de aplicaciones web cuando no hay conexión se convierte en algo necesario.</p>
+
+<p>Comentaba en dicho post que hoy por hoy en los navegadores web solo se puede programar en Javascript y por lo tanto si vamos a desarrollar nuestra aplicación en Javascript para que esté disponible en el lado del cliente, también parece lógico desarrollar en dicho lenguaje en el lado del servidor para estandarizar y aprovechar al máximo nuestro conocimiento del lenguaje.</p>
+
+<p><strong>La solución</strong></p>
+
+<p>Hasta ahora no había visto ninguna tecnología que permitiese realizar este tipo de desarrollo de forma eficiente y aunque existen muchos frameworks de desarrollo web en Javascript casi todos se basan en el modelo actual cliente/servidor.</p>
+
+<p><a href="http://angularjs.org/">AngularJS</a> cambia este <a href="http://docs.angularjs.org/guide/concepts">tipo de concepto</a> y es un framework que permite dotar de un mayor peso al cliente web y además lo hace de una forma eficiente y sencilla.</p>
+
+<p>Como principal novedad aporta una extensión del leguaje HTML que le permite manipular datos.</p>
+
+<p>Hasta ahora HTML permitia un marcado del tipo de datos a representar, su contenido y el aspecto.  AngularJS añade el <a href="http://docs.angularjs.org/guide/compiler">tratamiento de datos</a> a esta ecuación y el navegador ya dispone de información suficiente como para saber como mostrar todos los registros de un array o filtrar los registros para mostrar un subconjunto de ellos, por poner 2 ejemplos.</p>
+
+<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/10/view_component-300x209.png" alt="" /></p>
+
+<p>Otra característica relevante es que la conexión entre los datos en el navegador y nuestro modelo <a href="http://docs.angularjs.org/guide/dev_guide.mvc.understanding_view">se realiza de forma automática y bidireccional</a>, no tenemos que actualizar de forma manual nada, angularjs actualizará automáticamente nuestra vista cuando se produzcan cambios en el modelo y viceversa.  En el modelo actual de desarrollo cualquier cambio en el navegador del cliente implica enviar esos datos al modelo y repintar de nuevo la parte actualizada para reflejar esos cambios.  Todo ese trabajo se realiza automáticamente en AngularJS sin necesidad de repintar ni actualizar manualmente.</p>
+
+<p>AngularJS está desarrollado por Google lo que si bien no le garantiza el éxito si que garantiza un producto de calidad, con recursos y soporte.  Además quien impide a Google incluir en su navegador Chrome todas estas funcionalidades de forma nativa.</p>
+
+<p><strong>Resumen</strong></p>
+
+<p>Los grandes avances en el desarrollo de aplicaciones web dan más y más peso a Javascript como lenguaje de desarrollo.  No voy a entrar en el debate, estéril por otra parte, de si Javascript es un lenguaje adecuado y bien construido.  Es el lenguaje que entienden todos los navegadores y por lo tanto la única alternativa para desarrollar en el lado del cliente.</p>
+
+<p>AngularJS pone a nuestro alcance la posibilidad de desarrollar aplicaciones web que proporcionan una mejor experiencia a quienes la usan, que debe ser la finalidad de todo desarrollador web.  En mi opinión es hacía este tipo de desarrollos hacía donde avanzaremos en un futuro cercano.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jorge</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-17T22:24:12+02:00" pubdate data-updated="true">Oct 17<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/desarrollo/'>Desarrollo</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.alvareznavarro.es/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/" data-via="" data-counturl="http://www.alvareznavarro.es/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/07/23/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/" title="Previous Post: Eres tan bueno como tus usuarios dicen que eres">&laquo; Eres tan bueno como tus usuarios dicen que eres</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/17/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/23/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/17/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/02/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/28/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
