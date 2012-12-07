@@ -4,6 +4,8 @@ date: 2008-01-26 22:29:00
 layout: post
 slug: ruby-on-rails-firebird-y-problemas-con-insert
 title: ruby on rails firebird y problemas con insert
+alias: [5506/ruby-on-rails-firebird-y-problemas-con-insert/, 5506/ruby-on-rails-firebird-y-problemas-con-insert]
+alias: [5506/ruby-on-rails-firebird-y-problemas-con-insert/, 5506/ruby-on-rails-firebird-y-problemas-con-insert]
 wordpress_id: 5506
 categories:
 - Desarrollo

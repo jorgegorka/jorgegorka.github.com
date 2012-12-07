@@ -4,6 +4,8 @@ date: 2009-05-13 16:59:00
 layout: post
 slug: la-idea-de-los-portatiles-de-zapatero
 title: La idea de los portátiles de Zapatero
+alias: [5948/la-idea-de-los-portatiles-de-zapatero/, 5948/la-idea-de-los-portatiles-de-zapatero]
+alias: [5948/la-idea-de-los-portatiles-de-zapatero/, 5948/la-idea-de-los-portatiles-de-zapatero]
 wordpress_id: 5948
 categories:
 - Personal

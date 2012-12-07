@@ -4,12 +4,14 @@ date: 2009-07-05 23:30:17
 layout: post
 slug: test-de-usabilidad-en-5-segundos
 title: Test de usabilidad en 5 segundos
+alias: [5626/test-de-usabilidad-en-5-segundos/, 5626/test-de-usabilidad-en-5-segundos]
+alias: [5626/test-de-usabilidad-en-5-segundos/, 5626/test-de-usabilidad-en-5-segundos]
 wordpress_id: 5626
 tags:
 - Uncategorized
 ---
 
-[![5secondtest](http://blog.alvareznavarro.es/wp-content/uploads/2009/09/5secondtest.jpg)](http://fivesecondtest.com/)Como todas las ideas buenas parte de un planteamiento muy sencillo:  Poder probar lo bien que se comporta tu web en sólo 5 segundos.
+[![5secondtest](http://blog.alvareznavarro.es/images/2009/09/5secondtest.jpg)](http://fivesecondtest.com/)Como todas las ideas buenas parte de un planteamiento muy sencillo:  Poder probar lo bien que se comporta tu web en sólo 5 segundos.
 
 Para ello han creado [fivesecondtest](http://fivesecondtest.com/) una web donde, de forma gratuita puedes probar lo bien que tu web transmite su mensaje.
 

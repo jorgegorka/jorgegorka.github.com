@@ -4,9 +4,11 @@ date: 2011-09-07 09:03:58
 layout: post
 slug: panel-de-control-seo-con-google-analytics
 title: Panel de control SEO con Google Analytics
+alias: [6084/panel-de-control-seo-con-google-analytics/, 6084/panel-de-control-seo-con-google-analytics]
+alias: [6084/panel-de-control-seo-con-google-analytics/, 6084/panel-de-control-seo-con-google-analytics]
 wordpress_id: 6084
 categories:
-- Analítica
+- Analitica
 - SEO
 tags:
 - dashboards
@@ -27,7 +29,7 @@ También tenemos que tener clara la diferencia entre [tráfico SEO y tráfico de
 
 Nuestro panel estará dividido en tres columnas.   En la primera de ellas mostraremos métricas e indicadores generales, en la segunda información sobre visitas y en la tercera información sobre conversiones.
 
-[![panel de control seo google analytics](http://www.alvareznavarro.es/wp-content/uploads/2011/08/seo_dashboard.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/08/seo_dashboard.jpg)
+[![panel de control seo google analytics](http://www.alvareznavarro.es/images/2011/08/seo_dashboard.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/08/seo_dashboard.jpg)
 
 Comencemos creando el panel.
 

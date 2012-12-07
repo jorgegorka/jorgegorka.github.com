@@ -4,6 +4,8 @@ date: 2006-01-24 20:20:00
 layout: post
 slug: el-arte-de-la-desmotivacin
 title: El arte de la Desmotivación
+alias: [5685/el-arte-de-la-desmotivacin/, 5685/el-arte-de-la-desmotivacin]
+alias: [5685/el-arte-de-la-desmotivacin/, 5685/el-arte-de-la-desmotivacin]
 wordpress_id: 5685
 tags:
 - Uncategorized

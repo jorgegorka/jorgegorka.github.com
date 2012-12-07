@@ -4,9 +4,11 @@ date: 2011-09-13 09:07:12
 layout: post
 slug: como-mejorar-el-nivel-de-calidad-en-tus-campanas-de-google-adwords
 title: Como mejorar el Nivel de calidad en tus campañas de Google AdWords
+alias: [6131/como-mejorar-el-nivel-de-calidad-en-tus-campanas-de-google-adwords/, 6131/como-mejorar-el-nivel-de-calidad-en-tus-campanas-de-google-adwords]
+alias: [6131/como-mejorar-el-nivel-de-calidad-en-tus-campanas-de-google-adwords/, 6131/como-mejorar-el-nivel-de-calidad-en-tus-campanas-de-google-adwords]
 wordpress_id: 6131
 categories:
-- Analítica
+- Analitica
 - SEM
 tags:
 - adwords
@@ -15,7 +17,7 @@ tags:
 - paginas aterrizaje
 ---
 
-[![Optimizar campañas de Google AdWords](http://www.alvareznavarro.es/wp-content/uploads/2011/09/google-adwords.gif)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/google-adwords.gif)Crear una campaña de publicidad en Google AdWords es una forma económica, fiable y rápida de atraer tráfico de calidad hacia nuestra web.  Uno de los grandes factores del éxito de AdWords es que muestra publicidad que es relevante e interesa al visitante.
+[![Optimizar campañas de Google AdWords](http://www.alvareznavarro.es/images/2011/09/google-adwords.gif)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/google-adwords.gif)Crear una campaña de publicidad en Google AdWords es una forma económica, fiable y rápida de atraer tráfico de calidad hacia nuestra web.  Uno de los grandes factores del éxito de AdWords es que muestra publicidad que es relevante e interesa al visitante.
 
 Para mantener ese nivel de calidad de la publicidad AdWords no solo muestra los anuncios en base al precio de subasta de las palabras clave sino que tiene en cuenta otros aspectos que AdWords denomina **Nivel de Calidad**.
 

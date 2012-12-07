@@ -4,6 +4,8 @@ date: 2008-10-23 19:41:00
 layout: post
 slug: el-uso-correcto-de-flash-2
 title: El uso correcto de Flash
+alias: [5967/el-uso-correcto-de-flash-2/, 5967/el-uso-correcto-de-flash-2]
+alias: [5967/el-uso-correcto-de-flash-2/, 5967/el-uso-correcto-de-flash-2]
 wordpress_id: 5967
 tags:
 - flash

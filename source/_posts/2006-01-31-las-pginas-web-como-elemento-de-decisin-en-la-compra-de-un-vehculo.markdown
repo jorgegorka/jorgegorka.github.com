@@ -4,6 +4,8 @@ date: 2006-01-31 20:00:00
 layout: post
 slug: las-pginas-web-como-elemento-de-decisin-en-la-compra-de-un-vehculo
 title: Las páginas web como elemento de decisión en la compra de un vehículo
+alias: [34/las-pginas-web-como-elemento-de-decisin-en-la-compra-de-un-vehculo/, 34/las-pginas-web-como-elemento-de-decisin-en-la-compra-de-un-vehculo]
+alias: [34/las-pginas-web-como-elemento-de-decisin-en-la-compra-de-un-vehculo/, 34/las-pginas-web-como-elemento-de-decisin-en-la-compra-de-un-vehculo]
 wordpress_id: 34
 categories:
 - Empresa

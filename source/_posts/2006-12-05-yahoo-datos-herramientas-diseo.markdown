@@ -4,6 +4,8 @@ date: 2006-12-05 11:20:00
 layout: post
 slug: yahoo-datos-herramientas-diseo
 title: Yahoo, Datos, herramientas, diseño...
+alias: [1067/yahoo-datos-herramientas-diseo/, 1067/yahoo-datos-herramientas-diseo]
+alias: [1067/yahoo-datos-herramientas-diseo/, 1067/yahoo-datos-herramientas-diseo]
 wordpress_id: 1067
 categories:
 - Marketing

@@ -4,6 +4,8 @@ date: 2006-03-08 10:09:00
 layout: post
 slug: microsoft-anuncia-un-nuevo-buscador-mejor-que-google
 title: Microsoft anuncia un nuevo buscador mejor que Google
+alias: [51/microsoft-anuncia-un-nuevo-buscador-mejor-que-google/, 51/microsoft-anuncia-un-nuevo-buscador-mejor-que-google]
+alias: [51/microsoft-anuncia-un-nuevo-buscador-mejor-que-google/, 51/microsoft-anuncia-un-nuevo-buscador-mejor-que-google]
 wordpress_id: 51
 categories:
 - Empresa

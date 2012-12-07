@@ -4,6 +4,8 @@ date: 2008-12-10 00:37:00
 layout: post
 slug: keteke-siempre-la-lian-los-mismos
 title: 'keteke: Siempre la lían los mismos'
+alias: [5612/keteke-siempre-la-lian-los-mismos/, 5612/keteke-siempre-la-lian-los-mismos]
+alias: [5612/keteke-siempre-la-lian-los-mismos/, 5612/keteke-siempre-la-lian-los-mismos]
 wordpress_id: 5612
 tags:
 - Internet

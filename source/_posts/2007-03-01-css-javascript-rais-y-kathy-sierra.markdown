@@ -4,6 +4,8 @@ date: 2007-03-01 10:22:00
 layout: post
 slug: css-javascript-rais-y-kathy-sierra
 title: Css, javascript, rails y Kathy Sierra
+alias: [5242/css-javascript-rais-y-kathy-sierra/, 5242/css-javascript-rais-y-kathy-sierra]
+alias: [5242/css-javascript-rais-y-kathy-sierra/, 5242/css-javascript-rais-y-kathy-sierra]
 wordpress_id: 5242
 categories:
 - Empresa

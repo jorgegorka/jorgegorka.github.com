@@ -4,6 +4,8 @@ date: 2010-05-31 16:15:00
 layout: post
 slug: necesita-mi-empresa-tener-presencia-en-las-redes-sociales
 title: Necesita mi empresa tener presencia en las redes sociales?
+alias: [5859/necesita-mi-empresa-tener-presencia-en-las-redes-sociales/, 5859/necesita-mi-empresa-tener-presencia-en-las-redes-sociales]
+alias: [5859/necesita-mi-empresa-tener-presencia-en-las-redes-sociales/, 5859/necesita-mi-empresa-tener-presencia-en-las-redes-sociales]
 wordpress_id: 5859
 tags:
 - Uncategorized

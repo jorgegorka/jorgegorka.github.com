@@ -2,11 +2,12 @@
 comments: true
 date: 2011-09-20 13:14:53
 layout: post
-slug: master-de-analitica-web-entrega-de-diplomas
+slug: master-de-- Analitica-web-entrega-de-diplomas
 title: Master de analítica web - Entrega de diplomas
+alias: [6158/master-de-analitica-web-entrega-de-diplomas/, 6158/master-de-analitica-web-entrega-de-diplomas]
 wordpress_id: 6158
 categories:
-- Analítica
+- Analitica
 tags:
 - master analítica web
 ---
@@ -16,7 +17,7 @@ El pasado viernes tuvo lugar la entrega de diplomas de la primera promoción del
 Fue un momento de encuentro después del verano, de recordar el curso y de hablar de los planes de futuro.  También acudieron personas interesadas en realizar la segunda edición del Master y que aprovecharon para preguntar sus dudas y conocer a sus futuros profesores.
 
 
-[![analista web en Logroño - La Rioja](http://www.alvareznavarro.es/wp-content/uploads/2011/09/diploma_master_analitica.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/diploma_master_analitica.jpg)
+[![analista web en Logroño - La Rioja](http://www.alvareznavarro.es/images/2011/09/diploma_master_analitica.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/diploma_master_analitica.jpg)
 
 
 Muchas gracias a todos los que habéis hecho posible este Master: profesores, alumnos y a toda la gente de Kschool.  Quiero dar las gracias de forma especial a Gemma Muñoz por su ayuda y por transmitirnos su pasión por la analítica web.

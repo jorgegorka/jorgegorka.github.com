@@ -4,6 +4,8 @@ date: 2006-04-26 15:59:00
 layout: post
 slug: el-peligro-de-que-copien-tu-idea
 title: El peligro de que copien tu idea
+alias: [87/el-peligro-de-que-copien-tu-idea/, 87/el-peligro-de-que-copien-tu-idea]
+alias: [87/el-peligro-de-que-copien-tu-idea/, 87/el-peligro-de-que-copien-tu-idea]
 wordpress_id: 87
 categories:
 - Empresa

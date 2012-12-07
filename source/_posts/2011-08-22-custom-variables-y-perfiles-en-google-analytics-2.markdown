@@ -4,9 +4,11 @@ date: 2011-08-22 09:01:00
 layout: post
 slug: custom-variables-y-perfiles-en-google-analytics-2
 title: Custom Variables y perfiles en Google Analytics
+alias: [6043/custom-variables-y-perfiles-en-google-analytics-2/, 6043/custom-variables-y-perfiles-en-google-analytics-2]
+alias: [6043/custom-variables-y-perfiles-en-google-analytics-2/, 6043/custom-variables-y-perfiles-en-google-analytics-2]
 wordpress_id: 6043
 categories:
-- Analítica
+- Analitica
 tags:
 - custom variables
 - google analytics

@@ -4,6 +4,8 @@ date: 2010-04-22 08:36:37
 layout: post
 slug: tu-empresa-no-necesita-un-community-manager
 title: Tu empresa no necesita un community manager
+alias: [5867/tu-empresa-no-necesita-un-community-manager/, 5867/tu-empresa-no-necesita-un-community-manager]
+alias: [5867/tu-empresa-no-necesita-un-community-manager/, 5867/tu-empresa-no-necesita-un-community-manager]
 wordpress_id: 5867
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-![Network_people](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/network_people-scaled600.jpg?w=300)
+![Network_people](http://blog.alvareznavarro.es/images/2011/06/network_people-scaled600.jpg?w=300)
 
 
 

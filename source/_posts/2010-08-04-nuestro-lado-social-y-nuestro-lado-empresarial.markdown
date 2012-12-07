@@ -4,6 +4,8 @@ date: 2010-08-04 10:23:54
 layout: post
 slug: nuestro-lado-social-y-nuestro-lado-empresarial
 title: Nuestro lado social y nuestro lado empresarial
+alias: [5837/nuestro-lado-social-y-nuestro-lado-empresarial/, 5837/nuestro-lado-social-y-nuestro-lado-empresarial]
+alias: [5837/nuestro-lado-social-y-nuestro-lado-empresarial/, 5837/nuestro-lado-social-y-nuestro-lado-empresarial]
 wordpress_id: 5837
 tags:
 - Uncategorized

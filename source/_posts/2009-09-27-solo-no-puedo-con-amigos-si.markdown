@@ -4,6 +4,8 @@ date: 2009-09-27 23:52:18
 layout: post
 slug: solo-no-puedo-con-amigos-si
 title: Solo no puedo, con amigos sí
+alias: [5615/solo-no-puedo-con-amigos-si/, 5615/solo-no-puedo-con-amigos-si]
+alias: [5615/solo-no-puedo-con-amigos-si/, 5615/solo-no-puedo-con-amigos-si]
 wordpress_id: 5615
 tags:
 - Uncategorized

@@ -4,12 +4,13 @@ date: 2012-07-02 07:25:22
 layout: post
 slug: el-analisis-web-no-es-solo-marketing
 title: El análisis web no es (solo) marketing
+alias: [6737/el-analisis-web-no-es-solo-marketing/, 6737/el-analisis-web-no-es-solo-marketing]
 wordpress_id: 6737
 categories:
-- Analítica
+- Analitica
 ---
 
-![El analista web no pertenece a marketing](http://www.alvareznavarro.es/wp-content/uploads/2012/07/web_analytics_2_0_demystified-300x227.png)La mayoría de empresas que conozco tienen integrado el análisis web en el departamento de marketing.  Si bien hemos de reconocer que los primeros que supieron ver la utilidad de la analítica web fueron "los de marketing" ni mucho menos es el único departamento que puede beneficiarse de la labor de un analista cuya utilidad es mucho más transversal.
+![El analista web no pertenece a marketing](http://www.alvareznavarro.es/images/2012/07/web_analytics_2_0_demystified-300x227.png)La mayoría de empresas que conozco tienen integrado el análisis web en el departamento de marketing.  Si bien hemos de reconocer que los primeros que supieron ver la utilidad de la analítica web fueron "los de marketing" ni mucho menos es el único departamento que puede beneficiarse de la labor de un analista cuya utilidad es mucho más transversal.
 
 
 

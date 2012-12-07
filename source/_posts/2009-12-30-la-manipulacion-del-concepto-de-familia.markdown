@@ -4,12 +4,14 @@ date: 2009-12-30 22:11:20
 layout: post
 slug: la-manipulacion-del-concepto-de-familia
 title: La manipulación del concepto de familia
+alias: [5689/la-manipulacion-del-concepto-de-familia/, 5689/la-manipulacion-del-concepto-de-familia]
+alias: [5689/la-manipulacion-del-concepto-de-familia/, 5689/la-manipulacion-del-concepto-de-familia]
 wordpress_id: 5689
 tags:
 - Uncategorized
 ---
 
-[caption id="attachment_5692" align="alignleft" width="300" caption="http://www.flickr.com/photos/digitalcraftsman/141759034/"][![](http://blog.alvareznavarro.es/wp-content/uploads/2009/12/family1.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2009/12/family1.jpg)[/caption]
+[caption id="attachment_5692" align="alignleft" width="300" caption="http://www.flickr.com/photos/digitalcraftsman/141759034/"][![](http://blog.alvareznavarro.es/images/2009/12/family1.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2009/12/family1.jpg)[/caption]
 
 Asisto atónito a la intentona de Rouco Varela y sus acólitos de apropiarse del concepto de familia.
 

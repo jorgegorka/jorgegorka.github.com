@@ -4,6 +4,8 @@ date: 2011-01-24 09:17:58
 layout: post
 slug: html-5-marcado-semantico
 title: HTML 5 - Marcado semántico
+alias: [5826/html-5-marcado-semantico/, 5826/html-5-marcado-semantico]
+alias: [5826/html-5-marcado-semantico/, 5826/html-5-marcado-semantico]
 wordpress_id: 5826
 tags:
 - Uncategorized

@@ -4,6 +4,8 @@ date: 2006-12-15 10:47:00
 layout: post
 slug: microformatos-empleo-portales-inmobiliarios-y-bill-gates
 title: Microformatos, empleo, portales inmobiliarios y Bill Gates
+alias: [5134/microformatos-empleo-portales-inmobiliarios-y-bill-gates/, 5134/microformatos-empleo-portales-inmobiliarios-y-bill-gates]
+alias: [5134/microformatos-empleo-portales-inmobiliarios-y-bill-gates/, 5134/microformatos-empleo-portales-inmobiliarios-y-bill-gates]
 wordpress_id: 5134
 categories:
 - Desarrollo

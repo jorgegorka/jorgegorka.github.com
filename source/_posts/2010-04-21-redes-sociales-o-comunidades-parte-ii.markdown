@@ -4,6 +4,8 @@ date: 2010-04-21 10:59:45
 layout: post
 slug: redes-sociales-o-comunidades-parte-ii
 title: Redes Sociales ó Comunidades Parte II
+alias: [5872/redes-sociales-o-comunidades-parte-ii/, 5872/redes-sociales-o-comunidades-parte-ii]
+alias: [5872/redes-sociales-o-comunidades-parte-ii/, 5872/redes-sociales-o-comunidades-parte-ii]
 wordpress_id: 5872
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-![Merry_go_round](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/merry_go_round-scaled600.jpg?w=300)
+![Merry_go_round](http://blog.alvareznavarro.es/images/2011/06/merry_go_round-scaled600.jpg?w=300)
 
 
 

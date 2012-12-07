@@ -4,9 +4,11 @@ date: 2011-06-20 10:21:51
 layout: post
 slug: reescribe-tus-urls-en-google-analytics-con-_trackpageview
 title: Reescribe tus urls en Google Analytics con _trackPageView
+alias: [6050/reescribe-tus-urls-en-google-analytics-con-_trackpageview/, 6050/reescribe-tus-urls-en-google-analytics-con-_trackpageview]
+alias: [6050/reescribe-tus-urls-en-google-analytics-con-_trackpageview/, 6050/reescribe-tus-urls-en-google-analytics-con-_trackpageview]
 wordpress_id: 6050
 categories:
-- Analítica
+- Analitica
 tags:
 - google analytics
 ---

@@ -4,6 +4,8 @@ date: 2008-11-18 11:40:00
 layout: post
 slug: foro-sobre-arte
 title: Foro sobre arte
+alias: [5609/foro-sobre-arte/, 5609/foro-sobre-arte]
+alias: [5609/foro-sobre-arte/, 5609/foro-sobre-arte]
 wordpress_id: 5609
 tags:
 - foros

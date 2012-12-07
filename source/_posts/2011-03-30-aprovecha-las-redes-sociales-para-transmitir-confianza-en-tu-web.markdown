@@ -4,6 +4,8 @@ date: 2011-03-30 08:04:00
 layout: post
 slug: aprovecha-las-redes-sociales-para-transmitir-confianza-en-tu-web
 title: Aprovecha las redes sociales para transmitir confianza en tu web
+alias: [5818/aprovecha-las-redes-sociales-para-transmitir-confianza-en-tu-web/, 5818/aprovecha-las-redes-sociales-para-transmitir-confianza-en-tu-web]
+alias: [5818/aprovecha-las-redes-sociales-para-transmitir-confianza-en-tu-web/, 5818/aprovecha-las-redes-sociales-para-transmitir-confianza-en-tu-web]
 wordpress_id: 5818
 tags:
 - Uncategorized
@@ -129,7 +131,7 @@ Las redes sociales nos proporcionan una forma excelente de transmitir confianza 
 
 
 
-![Balsamiq](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/balsamiq-scaled600.png?w=300)
+![Balsamiq](http://blog.alvareznavarro.es/images/2011/06/balsamiq-scaled600.png?w=300)
 
 
 

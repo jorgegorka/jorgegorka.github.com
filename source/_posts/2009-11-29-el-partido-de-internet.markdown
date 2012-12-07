@@ -4,12 +4,14 @@ date: 2009-11-29 21:48:49
 layout: post
 slug: el-partido-de-internet
 title: El Partido de Internet
+alias: [5675/el-partido-de-internet/, 5675/el-partido-de-internet]
+alias: [5675/el-partido-de-internet/, 5675/el-partido-de-internet]
 wordpress_id: 5675
 tags:
 - Política
 ---
 
-[caption id="attachment_5678" align="alignleft" width="300" caption="Image by http://www.flickr.com/photos/curiouslee/"]![http://www.flickr.com/photos/curiouslee/](http://blog.alvareznavarro.es/wp-content/uploads/2009/11/internet.jpg?w=300)[/caption]
+[caption id="attachment_5678" align="alignleft" width="300" caption="Image by http://www.flickr.com/photos/curiouslee/"]![http://www.flickr.com/photos/curiouslee/](http://blog.alvareznavarro.es/images/2009/11/internet.jpg?w=300)[/caption]
 
 Seguro que cualquier persona que lea este Post y no sea un político cuando le preguntan que opina de la política solo dirá cosas negativas.  **Corrupción, mentiras, desencanto, intereses, falta de transparencia.... son términos que hoy día están indisociablemente unidos a la política en España.** Mi situación personal es de absoluto desprecio hacía todo lo que tiene que ver con la política actual.  No voto porque **no quiero elegir a quien me va a robar** y a engañar.
 

@@ -4,6 +4,8 @@ date: 2006-05-24 15:12:00
 layout: post
 slug: enlaces-de-inters
 title: Enlaces de interés
+alias: [99/enlaces-de-inters/, 99/enlaces-de-inters]
+alias: [99/enlaces-de-inters/, 99/enlaces-de-inters]
 wordpress_id: 99
 categories:
 - Personal

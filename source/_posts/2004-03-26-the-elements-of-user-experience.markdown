@@ -4,6 +4,8 @@ date: 2004-03-26 16:26:00
 layout: post
 slug: the-elements-of-user-experience
 title: The elements of user experience
+alias: [126/the-elements-of-user-experience/, 126/the-elements-of-user-experience]
+alias: [126/the-elements-of-user-experience/, 126/the-elements-of-user-experience]
 wordpress_id: 126
 categories:
 - Libros

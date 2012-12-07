@@ -4,6 +4,8 @@ date: 2006-12-06 12:03:00
 layout: post
 slug: publicidad-en-aplicaciones-web
 title: Publicidad en aplicaciones web
+alias: [1257/publicidad-en-aplicaciones-web/, 1257/publicidad-en-aplicaciones-web]
+alias: [1257/publicidad-en-aplicaciones-web/, 1257/publicidad-en-aplicaciones-web]
 wordpress_id: 1257
 categories:
 - Empresa

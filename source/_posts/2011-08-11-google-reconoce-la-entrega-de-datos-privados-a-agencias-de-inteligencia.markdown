@@ -4,6 +4,8 @@ date: 2011-08-11 19:42:38
 layout: post
 slug: google-reconoce-la-entrega-de-datos-privados-a-agencias-de-inteligencia
 title: Google reconoce la entrega de datos privados a agencias de inteligencia
+alias: [6065/google-reconoce-la-entrega-de-datos-privados-a-agencias-de-inteligencia/, 6065/google-reconoce-la-entrega-de-datos-privados-a-agencias-de-inteligencia]
+alias: [6065/google-reconoce-la-entrega-de-datos-privados-a-agencias-de-inteligencia/, 6065/google-reconoce-la-entrega-de-datos-privados-a-agencias-de-inteligencia]
 wordpress_id: 6065
 tags:
 - Opinión

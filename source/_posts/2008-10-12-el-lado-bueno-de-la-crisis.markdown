@@ -4,6 +4,8 @@ date: 2008-10-12 09:46:00
 layout: post
 slug: el-lado-bueno-de-la-crisis
 title: El lado bueno de la crisis
+alias: [5601/el-lado-bueno-de-la-crisis/, 5601/el-lado-bueno-de-la-crisis]
+alias: [5601/el-lado-bueno-de-la-crisis/, 5601/el-lado-bueno-de-la-crisis]
 wordpress_id: 5601
 categories:
 - Empresa

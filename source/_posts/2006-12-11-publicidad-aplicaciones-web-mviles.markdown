@@ -4,6 +4,8 @@ date: 2006-12-11 10:55:00
 layout: post
 slug: publicidad-aplicaciones-web-mviles
 title: Publicidad, aplicaciones web, móviles...
+alias: [3802/publicidad-aplicaciones-web-mviles/, 3802/publicidad-aplicaciones-web-mviles]
+alias: [3802/publicidad-aplicaciones-web-mviles/, 3802/publicidad-aplicaciones-web-mviles]
 wordpress_id: 3802
 categories:
 - Empresa

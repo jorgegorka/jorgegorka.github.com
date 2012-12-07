@@ -4,6 +4,8 @@ date: 2008-01-25 12:12:00
 layout: post
 slug: la-usuabilidad-no-solo-est-en-la-web
 title: La usabilidad no solo está en la web
+alias: [5505/la-usuabilidad-no-solo-est-en-la-web/, 5505/la-usuabilidad-no-solo-est-en-la-web]
+alias: [5505/la-usuabilidad-no-solo-est-en-la-web/, 5505/la-usuabilidad-no-solo-est-en-la-web]
 wordpress_id: 5505
 categories:
 - Personal

@@ -4,6 +4,8 @@ date: 2006-12-04 20:58:00
 layout: post
 slug: previsiones-para-2007
 title: Previsiones para 2007
+alias: [939/previsiones-para-2007/, 939/previsiones-para-2007]
+alias: [939/previsiones-para-2007/, 939/previsiones-para-2007]
 wordpress_id: 939
 categories:
 - Marketing

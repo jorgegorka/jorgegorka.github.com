@@ -4,6 +4,8 @@ date: 2005-12-02 07:35:00
 layout: post
 slug: ruby-on-rails-solamente-un-framework-para-desarrollo-web-introduccin
 title: Ruby on Rails  ¿Solamente un framework para desarrollo web? - Introducción
+alias: [15/ruby-on-rails-solamente-un-framework-para-desarrollo-web-introduccin/, 15/ruby-on-rails-solamente-un-framework-para-desarrollo-web-introduccin]
+alias: [15/ruby-on-rails-solamente-un-framework-para-desarrollo-web-introduccin/, 15/ruby-on-rails-solamente-un-framework-para-desarrollo-web-introduccin]
 wordpress_id: 15
 categories:
 - Desarrollo

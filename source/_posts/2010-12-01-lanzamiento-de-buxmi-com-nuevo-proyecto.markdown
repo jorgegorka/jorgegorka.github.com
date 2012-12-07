@@ -4,6 +4,8 @@ date: 2010-12-01 14:03:00
 layout: post
 slug: lanzamiento-de-buxmi-com-nuevo-proyecto
 title: Lanzamiento de Buxmi.com - Nuevo proyecto
+alias: [5833/lanzamiento-de-buxmi-com-nuevo-proyecto/, 5833/lanzamiento-de-buxmi-com-nuevo-proyecto]
+alias: [5833/lanzamiento-de-buxmi-com-nuevo-proyecto/, 5833/lanzamiento-de-buxmi-com-nuevo-proyecto]
 wordpress_id: 5833
 tags:
 - Uncategorized
@@ -45,7 +47,7 @@ Es un proyecto que tenia en mente hace tiempo pero que como he desarrollado en m
 Espero que te guste Buxmi.com y si no te supone mucha molestia, me ayudes a difundirlo.
 
 
-[![Buxmi_com](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/buxmi_com-scaled1000.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/buxmi_com-scaled1000.jpg)
+[![Buxmi_com](http://blog.alvareznavarro.es/images/2011/06/buxmi_com-scaled1000.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/buxmi_com-scaled1000.jpg)
 
 
 

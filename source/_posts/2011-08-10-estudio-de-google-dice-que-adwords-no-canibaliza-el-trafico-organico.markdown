@@ -4,6 +4,8 @@ date: 2011-08-10 19:41:05
 layout: post
 slug: estudio-de-google-dice-que-adwords-no-canibaliza-el-trafico-organico
 title: Estudio de Google dice que AdWords no canibaliza el tráfico orgánico
+alias: [6063/estudio-de-google-dice-que-adwords-no-canibaliza-el-trafico-organico/, 6063/estudio-de-google-dice-que-adwords-no-canibaliza-el-trafico-organico]
+alias: [6063/estudio-de-google-dice-que-adwords-no-canibaliza-el-trafico-organico/, 6063/estudio-de-google-dice-que-adwords-no-canibaliza-el-trafico-organico]
 wordpress_id: 6063
 categories:
 - SEM

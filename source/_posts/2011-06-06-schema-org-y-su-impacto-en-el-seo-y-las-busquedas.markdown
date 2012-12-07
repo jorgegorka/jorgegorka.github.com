@@ -4,6 +4,8 @@ date: 2011-06-06 08:15:00
 layout: post
 slug: schema-org-y-su-impacto-en-el-seo-y-las-busquedas
 title: Schema.org y su impacto en el SEO y las búsquedas
+alias: [5803/schema-org-y-su-impacto-en-el-seo-y-las-busquedas/, 5803/schema-org-y-su-impacto-en-el-seo-y-las-busquedas]
+alias: [5803/schema-org-y-su-impacto-en-el-seo-y-las-busquedas/, 5803/schema-org-y-su-impacto-en-el-seo-y-las-busquedas]
 wordpress_id: 5803
 categories:
 - SEO

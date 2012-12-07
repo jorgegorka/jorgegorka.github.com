@@ -4,6 +4,8 @@ date: 2009-12-02 12:00:21
 layout: post
 slug: manifiesto-en-defensa-de-los-derechos-fundamentales-en-internet
 title: Manifiesto En defensa de los derechos fundamentales en Internet
+alias: [5680/manifiesto-en-defensa-de-los-derechos-fundamentales-en-internet/, 5680/manifiesto-en-defensa-de-los-derechos-fundamentales-en-internet]
+alias: [5680/manifiesto-en-defensa-de-los-derechos-fundamentales-en-internet/, 5680/manifiesto-en-defensa-de-los-derechos-fundamentales-en-internet]
 wordpress_id: 5680
 tags:
 - Uncategorized

@@ -2,8 +2,10 @@
 comments: true
 date: 2011-05-03 09:15:36
 layout: post
-slug: master-de-analitica-web-semana-5
+slug: master-de-- Analitica-web-semana-5
 title: Master de Analítica Web - Semana 5
+alias: [5809/master-de-analitica-web-semana-5/, 5809/master-de-analitica-web-semana-5]
+alias: [5809/master-de-analitica-web-semana-5/, 5809/master-de-analitica-web-semana-5]
 wordpress_id: 5809
 tags:
 - Uncategorized

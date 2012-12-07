@@ -4,6 +4,8 @@ date: 2010-04-26 09:42:00
 layout: post
 slug: un-blog-muy-recomendable
 title: Un blog muy recomendable
+alias: [5862/un-blog-muy-recomendable/, 5862/un-blog-muy-recomendable]
+alias: [5862/un-blog-muy-recomendable/, 5862/un-blog-muy-recomendable]
 wordpress_id: 5862
 tags:
 - Uncategorized

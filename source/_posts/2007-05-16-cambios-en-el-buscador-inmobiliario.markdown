@@ -4,6 +4,8 @@ date: 2007-05-16 19:05:00
 layout: post
 slug: cambios-en-el-buscador-inmobiliario
 title: Cambios en el Buscador Inmobiliario
+alias: [5289/cambios-en-el-buscador-inmobiliario/, 5289/cambios-en-el-buscador-inmobiliario]
+alias: [5289/cambios-en-el-buscador-inmobiliario/, 5289/cambios-en-el-buscador-inmobiliario]
 wordpress_id: 5289
 categories:
 - Empresa

@@ -4,12 +4,14 @@ date: 2010-02-24 09:12:57
 layout: post
 slug: los-usuarios-para-el-que-se-los-trabaja-quid-pro-cuo-clarice
 title: Los usuarios para el que se los trabaja - Quid pro cuo, Clarice
+alias: [5746/los-usuarios-para-el-que-se-los-trabaja-quid-pro-cuo-clarice/, 5746/los-usuarios-para-el-que-se-los-trabaja-quid-pro-cuo-clarice]
+alias: [5746/los-usuarios-para-el-que-se-los-trabaja-quid-pro-cuo-clarice/, 5746/los-usuarios-para-el-que-se-los-trabaja-quid-pro-cuo-clarice]
 wordpress_id: 5746
 tags:
 - Uncategorized
 ---
 
-[caption id="attachment_5749" align="alignleft" width="245" caption="Los usuarios se ganan"][![](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/usuaria.jpg)](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/usuaria.jpg)[/caption]
+[caption id="attachment_5749" align="alignleft" width="245" caption="Los usuarios se ganan"][![](http://blog.alvareznavarro.es/images/2010/02/usuaria.jpg)](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/usuaria.jpg)[/caption]
 
 El crash de las puntocom de principios del 2000 nos dejó una cosa clara.  Tener muchos usuarios registrados no sirve para nada.
 

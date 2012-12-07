@@ -4,12 +4,14 @@ date: 2009-10-05 09:04:14
 layout: post
 slug: lg-arena-y-la-publicidad-en-internet
 title: LG Arena y la publicidad en Internet
+alias: [5653/lg-arena-y-la-publicidad-en-internet/, 5653/lg-arena-y-la-publicidad-en-internet]
+alias: [5653/lg-arena-y-la-publicidad-en-internet/, 5653/lg-arena-y-la-publicidad-en-internet]
 wordpress_id: 5653
 tags:
 - Uncategorized
 ---
 
-[caption id="attachment_5654" align="alignright" width="225" caption="(c) Infomofo"][![(c) Infomofo](http://blog.alvareznavarro.es/wp-content/uploads/2009/10/intrusive_ads.jpg?w=225)](http://www.flickr.com/photos/infomofo/)[/caption]
+[caption id="attachment_5654" align="alignright" width="225" caption="(c) Infomofo"][![(c) Infomofo](http://blog.alvareznavarro.es/images/2009/10/intrusive_ads.jpg?w=225)](http://www.flickr.com/photos/infomofo/)[/caption]
 
 Cuando crees que ciertas prácticas ya están desterradas y olvidadas siempre hay alguien que te sorprende.
 

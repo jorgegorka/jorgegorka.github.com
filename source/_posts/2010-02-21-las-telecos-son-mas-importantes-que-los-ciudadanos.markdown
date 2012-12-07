@@ -4,6 +4,8 @@ date: 2010-02-21 09:59:20
 layout: post
 slug: las-telecos-son-mas-importantes-que-los-ciudadanos
 title: Las telecos son más importantes que los ciudadanos
+alias: [5733/las-telecos-son-mas-importantes-que-los-ciudadanos/, 5733/las-telecos-son-mas-importantes-que-los-ciudadanos]
+alias: [5733/las-telecos-son-mas-importantes-que-los-ciudadanos/, 5733/las-telecos-son-mas-importantes-que-los-ciudadanos]
 wordpress_id: 5733
 tags:
 - telecos
@@ -11,7 +13,7 @@ tags:
 - usuarios
 ---
 
-[caption id="attachment_5735" align="alignleft" width="300" caption="El WiFi es barato y a las telecos no les gusta"][![](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/antenas.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/antenas.jpg)[/caption]
+[caption id="attachment_5735" align="alignleft" width="300" caption="El WiFi es barato y a las telecos no les gusta"][![](http://blog.alvareznavarro.es/images/2010/02/antenas.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/antenas.jpg)[/caption]
 
 Tras leer con asombro e indignación que [Málaga ha sido multada por ofrecer WiFi gratuita a sus ciudadanos](http://www.publico.es/ciencias/296366/multa/historica/malaga/wifi/publica) me doy cuenta de que realmente en este país el interés de las grandes corporaciones prevalece por encima del de los ciudadanos.
 

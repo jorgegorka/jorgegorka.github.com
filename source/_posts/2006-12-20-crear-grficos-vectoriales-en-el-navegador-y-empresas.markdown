@@ -4,6 +4,8 @@ date: 2006-12-20 10:36:00
 layout: post
 slug: crear-grficos-vectoriales-en-el-navegador-y-empresas
 title: crear gráficos vectoriales en el navegador y empresas
+alias: [5139/crear-grficos-vectoriales-en-el-navegador-y-empresas/, 5139/crear-grficos-vectoriales-en-el-navegador-y-empresas]
+alias: [5139/crear-grficos-vectoriales-en-el-navegador-y-empresas/, 5139/crear-grficos-vectoriales-en-el-navegador-y-empresas]
 wordpress_id: 5139
 categories:
 - Empresa

@@ -4,6 +4,8 @@ date: 2007-02-06 15:19:00
 layout: post
 slug: el-estado-de-internet-en-espaa
 title: El estado de Internet en España
+alias: [5228/el-estado-de-internet-en-espaa/, 5228/el-estado-de-internet-en-espaa]
+alias: [5228/el-estado-de-internet-en-espaa/, 5228/el-estado-de-internet-en-espaa]
 wordpress_id: 5228
 categories:
 - Empresa

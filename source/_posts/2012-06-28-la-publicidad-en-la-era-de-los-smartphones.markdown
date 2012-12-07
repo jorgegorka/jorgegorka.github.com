@@ -4,13 +4,15 @@ date: 2012-06-28 15:22:47
 layout: post
 slug: la-publicidad-en-la-era-de-los-smartphones
 title: La publicidad en la era de los smartphones
+alias: [6727/la-publicidad-en-la-era-de-los-smartphones/, 6727/la-publicidad-en-la-era-de-los-smartphones]
+alias: [6727/la-publicidad-en-la-era-de-los-smartphones/, 6727/la-publicidad-en-la-era-de-los-smartphones]
 wordpress_id: 6727
 categories:
 - Marketing
 - Personal
 ---
 
-![publicidad en la era de los smartphones](http://www.alvareznavarro.es/wp-content/uploads/2012/06/publicidad-300x258.jpeg)Cuando estoy viendo una serie o una película por televisión y empiezan los anuncios lo primero que hago es coger mi iPad y si no lo tengo a mano me levanto y lo busco.  Esto es así.  Incluso a veces me "disgusta" que las pausas sean tan cortas que no puedo terminar de leer alguna noticia o terminar de responder un email.
+![publicidad en la era de los smartphones](http://www.alvareznavarro.es/images/2012/06/publicidad-300x258.jpeg)Cuando estoy viendo una serie o una película por televisión y empiezan los anuncios lo primero que hago es coger mi iPad y si no lo tengo a mano me levanto y lo busco.  Esto es así.  Incluso a veces me "disgusta" que las pausas sean tan cortas que no puedo terminar de leer alguna noticia o terminar de responder un email.
 
 
 

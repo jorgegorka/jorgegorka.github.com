@@ -4,6 +4,8 @@ date: 2006-07-13 12:06:00
 layout: post
 slug: linux-se-acerca-a-los-usuarios-finales
 title: Linux se acerca a los usuarios finales
+alias: [103/linux-se-acerca-a-los-usuarios-finales/, 103/linux-se-acerca-a-los-usuarios-finales]
+alias: [103/linux-se-acerca-a-los-usuarios-finales/, 103/linux-se-acerca-a-los-usuarios-finales]
 wordpress_id: 103
 categories:
 - Empresa

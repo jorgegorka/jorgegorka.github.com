@@ -2,8 +2,10 @@
 comments: true
 date: 2011-05-26 09:07:03
 layout: post
-slug: master-analitica-web-semana-8-seo
+slug: master-- Analitica-web-semana-8-seo
 title: Master Analítica Web - Semana 8 - SEO
+alias: [5804/master-analitica-web-semana-8-seo/, 5804/master-analitica-web-semana-8-seo]
+alias: [5804/master-analitica-web-semana-8-seo/, 5804/master-analitica-web-semana-8-seo]
 wordpress_id: 5804
 categories:
 - SEO

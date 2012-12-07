@@ -4,6 +4,8 @@ date: 2006-02-04 14:11:00
 layout: post
 slug: ya-lleg-el-mac-mini
 title: Ya llegó el Mac Mini
+alias: [36/ya-lleg-el-mac-mini/, 36/ya-lleg-el-mac-mini]
+alias: [36/ya-lleg-el-mac-mini/, 36/ya-lleg-el-mac-mini]
 wordpress_id: 36
 categories:
 - Personal

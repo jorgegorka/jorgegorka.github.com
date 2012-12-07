@@ -4,6 +4,8 @@ date: 2006-04-22 12:38:00
 layout: post
 slug: otra-web-interesante-o-no
 title: Otra web interesante (o no)
+alias: [86/otra-web-interesante-o-no/, 86/otra-web-interesante-o-no]
+alias: [86/otra-web-interesante-o-no/, 86/otra-web-interesante-o-no]
 wordpress_id: 86
 categories:
 - dise&#241;o

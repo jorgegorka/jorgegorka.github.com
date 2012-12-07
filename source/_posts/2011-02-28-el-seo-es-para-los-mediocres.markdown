@@ -4,6 +4,8 @@ date: 2011-02-28 09:57:54
 layout: post
 slug: el-seo-es-para-los-mediocres
 title: El SEO es para los mediocres
+alias: [5821/el-seo-es-para-los-mediocres/, 5821/el-seo-es-para-los-mediocres]
+alias: [5821/el-seo-es-para-los-mediocres/, 5821/el-seo-es-para-los-mediocres]
 wordpress_id: 5821
 tags:
 - Uncategorized

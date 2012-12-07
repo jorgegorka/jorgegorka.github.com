@@ -4,9 +4,11 @@ date: 2011-09-15 08:46:14
 layout: post
 slug: cuanto-tiempo-permanecen-los-visitantes-en-mi-web
 title: Cuanto tiempo permanecen los visitantes en mi web?
+alias: [6139/cuanto-tiempo-permanecen-los-visitantes-en-mi-web/, 6139/cuanto-tiempo-permanecen-los-visitantes-en-mi-web]
+alias: [6139/cuanto-tiempo-permanecen-los-visitantes-en-mi-web/, 6139/cuanto-tiempo-permanecen-los-visitantes-en-mi-web]
 wordpress_id: 6139
 categories:
-- Analítica
+- Analitica
 - Optimización
 - usabilidad
 tags:
@@ -17,7 +19,7 @@ tags:
 - usabilidad
 ---
 
-[![Cuanto tiempo estan los visitantes en mi website](http://www.alvareznavarro.es/wp-content/uploads/2011/09/time_flies2.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/time_flies2.jpg)Hace unos días [Jacob Nielsen](http://www.useit.com/alertbox/page-abandonment-time.html) se ha hecho eco de un [estudio realizado por Chao Liu](http://dx.doi.org/10.1145/1835449.1835513) de Microsoft Research donde analizan con detalle el comportamiento de los usuarios a la hora de abandonar una página web.
+[![Cuanto tiempo estan los visitantes en mi website](http://www.alvareznavarro.es/images/2011/09/time_flies2.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/time_flies2.jpg)Hace unos días [Jacob Nielsen](http://www.useit.com/alertbox/page-abandonment-time.html) se ha hecho eco de un [estudio realizado por Chao Liu](http://dx.doi.org/10.1145/1835449.1835513) de Microsoft Research donde analizan con detalle el comportamiento de los usuarios a la hora de abandonar una página web.
 
 Las conclusiones de este estudio vienen a reforzar lo que ya se sabía. ** Tenemos poca paciencia** cuando navegamos y dedicamos muy poco tiempo a comprobar si la página a la que acabamos de llegar tiene lo que buscamos.
 

@@ -4,6 +4,8 @@ date: 2006-11-22 10:09:00
 layout: post
 slug: hablemos-de-base-de-datos-y-de-ndices
 title: Hablemos de base de datos y de índices
+alias: [131/hablemos-de-base-de-datos-y-de-ndices/, 131/hablemos-de-base-de-datos-y-de-ndices]
+alias: [131/hablemos-de-base-de-datos-y-de-ndices/, 131/hablemos-de-base-de-datos-y-de-ndices]
 wordpress_id: 131
 categories:
 - Desarrollo

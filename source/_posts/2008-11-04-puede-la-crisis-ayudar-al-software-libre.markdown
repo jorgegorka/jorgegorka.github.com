@@ -4,6 +4,8 @@ date: 2008-11-04 10:23:00
 layout: post
 slug: puede-la-crisis-ayudar-al-software-libre
 title: ¿Puede la crisis ayudar al software libre?
+alias: [5605/puede-la-crisis-ayudar-al-software-libre/, 5605/puede-la-crisis-ayudar-al-software-libre]
+alias: [5605/puede-la-crisis-ayudar-al-software-libre/, 5605/puede-la-crisis-ayudar-al-software-libre]
 wordpress_id: 5605
 categories:
 - Empresa

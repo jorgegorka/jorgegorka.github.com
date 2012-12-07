@@ -2,11 +2,13 @@
 comments: true
 date: 2011-06-27 09:32:48
 layout: post
-slug: master-analitica-web-semana-11-ab-testing
+slug: master-- Analitica-web-semana-11-ab-testing
 title: Master Analítica web Semana 11 - A/B Testing
+alias: [6052/master-analitica-web-semana-11-ab-testing/, 6052/master-analitica-web-semana-11-ab-testing]
+alias: [6052/master-analitica-web-semana-11-ab-testing/, 6052/master-analitica-web-semana-11-ab-testing]
 wordpress_id: 6052
 categories:
-- Analítica
+- Analitica
 tags:
 - master analítica web
 ---

@@ -4,6 +4,8 @@ date: 2011-11-16 14:35:47
 layout: post
 slug: entrevista-con-alejandro-doncell
 title: Entrevista con Alejandro Doncel
+alias: [6649/entrevista-con-alejandro-doncell/, 6649/entrevista-con-alejandro-doncell]
+alias: [6649/entrevista-con-alejandro-doncell/, 6649/entrevista-con-alejandro-doncell]
 wordpress_id: 6649
 categories:
 - Marketing
@@ -12,7 +14,7 @@ tags:
 - marketing online
 ---
 
-[caption id="attachment_6650" align="alignleft" width="171" caption="Alejandro Doncel"][![Alejandro Doncel director de Kschool](http://www.alvareznavarro.es/wp-content/uploads/2011/11/alejandrodoncel.png)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/alejandrodoncel.png)[/caption]
+[caption id="attachment_6650" align="alignleft" width="171" caption="Alejandro Doncel"][![Alejandro Doncel director de Kschool](http://www.alvareznavarro.es/images/2011/11/alejandrodoncel.png)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/alejandrodoncel.png)[/caption]
 
 **Inicio hoy una serie en la que iré entrevistando a personalidades relevantes del marketing online.  No busco entrevistar a gurús mediáticos sino a gente que está en el día a día del marketing online, que experimenta, que se equivoca, que aprende... gente que nos pueda aportar su visión y su perspectiva sobre esta disciplina que cambia día a día.  Inauguramos la sección con todo un referente del marketing online en España:  Alejandro Doncel.**
 
@@ -68,7 +70,7 @@ Muchas gracias Alejandro tu tiempo y por tu interés en contestar a mis pregunta
 
 Estos son algunos de los cursos que ofrece Kschool:
 
-[Master de Analítica Web](http://kschool.com/analitica-web/cursos/master-analitica-web/)
+[Master de Analítica Web](http://kschool.com/- Analitica-web/cursos/master-analitica-web/)
 
 [Master de Técnicas de Marketing Online](http://kschool.com/marketing-online/cursos/master-de-tecnicas-de-marketing-online/)
 

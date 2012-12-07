@@ -4,6 +4,8 @@ date: 2006-02-23 13:31:00
 layout: post
 slug: google-nuevos-servicios
 title: 'Google: nuevos servicios'
+alias: [45/google-nuevos-servicios/, 45/google-nuevos-servicios]
+alias: [45/google-nuevos-servicios/, 45/google-nuevos-servicios]
 wordpress_id: 45
 categories:
 - Empresa

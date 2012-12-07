@@ -4,6 +4,8 @@ date: 2011-11-19 07:07:51
 layout: post
 slug: datos-de-uso-de-internet-comscore-septiembre-de-2011
 title: Datos de uso de Internet - comScore Septiembre de 2011
+alias: [6660/datos-de-uso-de-internet-comscore-septiembre-de-2011/, 6660/datos-de-uso-de-internet-comscore-septiembre-de-2011]
+alias: [6660/datos-de-uso-de-internet-comscore-septiembre-de-2011/, 6660/datos-de-uso-de-internet-comscore-septiembre-de-2011]
 wordpress_id: 6660
 categories:
 - Empresa
@@ -12,7 +14,7 @@ tags:
 - estudio
 ---
 
-[![internet usage september 2011](http://www.alvareznavarro.es/wp-content/uploads/2011/11/internet-usage.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/internet-usage.jpg)**comScore ha presentado un [resumen del uso de Internet en Europa](http://www.comscore.com/Press_Events/Press_Releases/2011/11/comScore_Releases_Overview_of_European_Internet_Usage_in_September_2011) durante el mes de septiembre de 2011.  El informe ha sido realizado teniendo en cuenta 49 paises y proporcionando información detallada de 18 de ellos.  Sobre una población de 373,4 millones de visitantes únicos que  pasan en Internet 26,4 horas de media.**
+[![internet usage september 2011](http://www.alvareznavarro.es/images/2011/11/internet-usage.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/internet-usage.jpg)**comScore ha presentado un [resumen del uso de Internet en Europa](http://www.comscore.com/Press_Events/Press_Releases/2011/11/comScore_Releases_Overview_of_European_Internet_Usage_in_September_2011) durante el mes de septiembre de 2011.  El informe ha sido realizado teniendo en cuenta 49 paises y proporcionando información detallada de 18 de ellos.  Sobre una población de 373,4 millones de visitantes únicos que  pasan en Internet 26,4 horas de media.**
 
 
 ## Empleo y Formación areas emergentes

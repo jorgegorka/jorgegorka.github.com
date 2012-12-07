@@ -4,6 +4,8 @@ date: 2006-01-28 11:14:00
 layout: post
 slug: lo-que-no-se-puede-medir-no-se-puede-gestionar
 title: Lo que no se puede medir no se puede gestionar
+alias: [19/lo-que-no-se-puede-medir-no-se-puede-gestionar/, 19/lo-que-no-se-puede-medir-no-se-puede-gestionar]
+alias: [19/lo-que-no-se-puede-medir-no-se-puede-gestionar/, 19/lo-que-no-se-puede-medir-no-se-puede-gestionar]
 wordpress_id: 19
 categories:
 - Desarrollo

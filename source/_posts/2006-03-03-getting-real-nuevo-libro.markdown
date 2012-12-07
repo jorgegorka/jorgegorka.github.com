@@ -4,6 +4,8 @@ date: 2006-03-03 16:52:00
 layout: post
 slug: getting-real-nuevo-libro
 title: Getting Real
+alias: [47/getting-real-nuevo-libro/, 47/getting-real-nuevo-libro]
+alias: [47/getting-real-nuevo-libro/, 47/getting-real-nuevo-libro]
 wordpress_id: 47
 categories:
 - Empresa

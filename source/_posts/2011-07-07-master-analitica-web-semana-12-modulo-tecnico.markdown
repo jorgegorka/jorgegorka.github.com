@@ -2,11 +2,12 @@
 comments: true
 date: 2011-07-07 12:35:47
 layout: post
-slug: master-analitica-web-semana-12-modulo-tecnico
+slug: master-- Analitica-web-semana-12-modulo-tecnico
 title: Master Analítica Web semana 12 - Módulo Técnico
+alias: [6057/master-analitica-web-semana-12-modulo-tecnico/, 6057/master-analitica-web-semana-12-modulo-tecnico]
 wordpress_id: 6057
 categories:
-- Analítica
+- Analitica
 tags:
 - garb
 - master analítica web

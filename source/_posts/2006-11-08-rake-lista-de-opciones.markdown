@@ -4,6 +4,8 @@ date: 2006-11-08 13:45:00
 layout: post
 slug: rake-lista-de-opciones
 title: Rake  Lista de opciones
+alias: [122/rake-lista-de-opciones/, 122/rake-lista-de-opciones]
+alias: [122/rake-lista-de-opciones/, 122/rake-lista-de-opciones]
 wordpress_id: 122
 categories:
 - Desarrollo

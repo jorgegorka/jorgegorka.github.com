@@ -4,6 +4,8 @@ date: 2010-03-09 08:19:16
 layout: post
 slug: enlaces-interesantes-8-14-marzo-2010
 title: Enlaces interesantes 8-14 Marzo 2010
+alias: [5788/enlaces-interesantes-8-14-marzo-2010/, 5788/enlaces-interesantes-8-14-marzo-2010]
+alias: [5788/enlaces-interesantes-8-14-marzo-2010/, 5788/enlaces-interesantes-8-14-marzo-2010]
 wordpress_id: 5788
 tags:
 - enlaces

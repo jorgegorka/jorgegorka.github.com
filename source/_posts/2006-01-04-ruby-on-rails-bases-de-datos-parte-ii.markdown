@@ -4,6 +4,8 @@ date: 2006-01-04 10:29:00
 layout: post
 slug: ruby-on-rails-bases-de-datos-parte-ii
 title: Ruby on Rails - Bases de datos - Parte II
+alias: [13/ruby-on-rails-bases-de-datos-parte-ii/, 13/ruby-on-rails-bases-de-datos-parte-ii]
+alias: [13/ruby-on-rails-bases-de-datos-parte-ii/, 13/ruby-on-rails-bases-de-datos-parte-ii]
 wordpress_id: 13
 categories:
 - Desarrollo

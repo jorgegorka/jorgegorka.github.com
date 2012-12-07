@@ -4,6 +4,8 @@ date: 2009-11-12 10:50:03
 layout: post
 slug: conferencia-rails-09
 title: Conferencia Rails 09
+alias: [5671/conferencia-rails-09/, 5671/conferencia-rails-09]
+alias: [5671/conferencia-rails-09/, 5671/conferencia-rails-09]
 wordpress_id: 5671
 tags:
 - Uncategorized

@@ -2,8 +2,10 @@
 comments: true
 date: 2011-04-12 08:57:00
 layout: post
-slug: master-analitica-web-semana-3
+slug: master-- Analitica-web-semana-3
 title: Master Analítica web Semana 3
+alias: [5811/master-analitica-web-semana-3/, 5811/master-analitica-web-semana-3]
+alias: [5811/master-analitica-web-semana-3/, 5811/master-analitica-web-semana-3]
 wordpress_id: 5811
 tags:
 - Uncategorized

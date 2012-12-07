@@ -4,6 +4,8 @@ date: 2010-02-22 08:18:58
 layout: post
 slug: el-ocaso-de-la-prensa-tradicional-online
 title: 'La prensa tradicional online: De culo y contra el viento'
+alias: [5723/el-ocaso-de-la-prensa-tradicional-online/, 5723/el-ocaso-de-la-prensa-tradicional-online]
+alias: [5723/el-ocaso-de-la-prensa-tradicional-online/, 5723/el-ocaso-de-la-prensa-tradicional-online]
 wordpress_id: 5723
 categories:
 - Marketing

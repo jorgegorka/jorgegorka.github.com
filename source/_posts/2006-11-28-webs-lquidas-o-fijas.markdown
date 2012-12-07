@@ -4,6 +4,8 @@ date: 2006-11-28 09:59:00
 layout: post
 slug: webs-lquidas-o-fijas
 title: Webs ¿Líquidas o fijas?
+alias: [198/webs-lquidas-o-fijas/, 198/webs-lquidas-o-fijas]
+alias: [198/webs-lquidas-o-fijas/, 198/webs-lquidas-o-fijas]
 wordpress_id: 198
 categories:
 - Empresa

@@ -4,6 +4,8 @@ date: 2007-01-17 10:46:00
 layout: post
 slug: accesibilidad-tractis-y-rails
 title: Accesibilidad, Tractis y rails
+alias: [5202/accesibilidad-tractis-y-rails/, 5202/accesibilidad-tractis-y-rails]
+alias: [5202/accesibilidad-tractis-y-rails/, 5202/accesibilidad-tractis-y-rails]
 wordpress_id: 5202
 tags:
 - accesibilidad

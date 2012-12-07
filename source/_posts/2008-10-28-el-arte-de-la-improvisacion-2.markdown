@@ -4,6 +4,8 @@ date: 2008-10-28 09:59:00
 layout: post
 slug: el-arte-de-la-improvisacion-2
 title: El arte de la improvisación
+alias: [5966/el-arte-de-la-improvisacion-2/, 5966/el-arte-de-la-improvisacion-2]
+alias: [5966/el-arte-de-la-improvisacion-2/, 5966/el-arte-de-la-improvisacion-2]
 wordpress_id: 5966
 categories:
 - Empresa

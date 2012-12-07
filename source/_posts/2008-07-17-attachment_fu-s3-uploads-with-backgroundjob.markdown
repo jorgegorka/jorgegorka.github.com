@@ -4,6 +4,8 @@ date: 2008-07-17 02:22:00
 layout: post
 slug: attachment_fu-s3-uploads-with-backgroundjob
 title: attachment_fu s3 uploads with backgroundjob
+alias: [5580/attachment_fu-s3-uploads-with-backgroundjob/, 5580/attachment_fu-s3-uploads-with-backgroundjob]
+alias: [5580/attachment_fu-s3-uploads-with-backgroundjob/, 5580/attachment_fu-s3-uploads-with-backgroundjob]
 wordpress_id: 5580
 categories:
 - Desarrollo

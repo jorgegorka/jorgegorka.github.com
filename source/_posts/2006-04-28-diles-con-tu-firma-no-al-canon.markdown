@@ -4,6 +4,8 @@ date: 2006-04-28 10:27:00
 layout: post
 slug: diles-con-tu-firma-no-al-canon
 title: Diles con tu firma NO AL CANON
+alias: [96/diles-con-tu-firma-no-al-canon/, 96/diles-con-tu-firma-no-al-canon]
+alias: [96/diles-con-tu-firma-no-al-canon/, 96/diles-con-tu-firma-no-al-canon]
 wordpress_id: 96
 categories:
 - Desarrollo

@@ -4,9 +4,11 @@ date: 2011-05-20 11:16:00
 layout: post
 slug: certificacion-en-google-analytics-aprobada
 title: Certificación en Google Analytics aprobada
+alias: [5805/certificacion-en-google-analytics-aprobada/, 5805/certificacion-en-google-analytics-aprobada]
+alias: [5805/certificacion-en-google-analytics-aprobada/, 5805/certificacion-en-google-analytics-aprobada]
 wordpress_id: 5805
 tags:
-- analitica web
+- - Analitica web
 - Uncategorized
 ---
 
@@ -14,7 +16,7 @@ tags:
     
 
 
-![Google-analytics-qualified-individual-logo](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/google-analytics-qualified-individual-logo-scaled600.jpg?w=165)
+![Google-analytics-qualified-individual-logo](http://blog.alvareznavarro.es/images/2011/06/google-analytics-qualified-individual-logo-scaled600.jpg?w=165)
 
 
 

@@ -4,6 +4,8 @@ date: 2005-08-17 19:04:00
 layout: post
 slug: los-500-mejores-blogs-de-eeuu
 title: Los 500 mejores blogs (de EEUU)
+alias: [25/los-500-mejores-blogs-de-eeuu/, 25/los-500-mejores-blogs-de-eeuu]
+alias: [25/los-500-mejores-blogs-de-eeuu/, 25/los-500-mejores-blogs-de-eeuu]
 wordpress_id: 25
 categories:
 - Marketing

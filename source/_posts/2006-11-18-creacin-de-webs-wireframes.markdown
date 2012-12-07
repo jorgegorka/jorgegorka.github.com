@@ -4,6 +4,8 @@ date: 2006-11-18 16:07:00
 layout: post
 slug: creacin-de-webs-wireframes
 title: Creación de webs - Wireframes
+alias: [130/creacin-de-webs-wireframes/, 130/creacin-de-webs-wireframes]
+alias: [130/creacin-de-webs-wireframes/, 130/creacin-de-webs-wireframes]
 wordpress_id: 130
 categories:
 - Empresa

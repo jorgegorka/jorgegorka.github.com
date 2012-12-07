@@ -4,6 +4,8 @@ date: 2009-10-02 00:59:15
 layout: post
 slug: el-video-de-los-viernes
 title: El vídeo de los viernes
+alias: [5633/el-video-de-los-viernes/, 5633/el-video-de-los-viernes]
+alias: [5633/el-video-de-los-viernes/, 5633/el-video-de-los-viernes]
 wordpress_id: 5633
 tags:
 - Uncategorized

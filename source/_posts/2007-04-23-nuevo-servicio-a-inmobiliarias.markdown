@@ -4,6 +4,8 @@ date: 2007-04-23 12:37:00
 layout: post
 slug: nuevo-servicio-a-inmobiliarias
 title: Nuevo servicio a inmobiliarias
+alias: [5272/nuevo-servicio-a-inmobiliarias/, 5272/nuevo-servicio-a-inmobiliarias]
+alias: [5272/nuevo-servicio-a-inmobiliarias/, 5272/nuevo-servicio-a-inmobiliarias]
 wordpress_id: 5272
 categories:
 - Desarrollo

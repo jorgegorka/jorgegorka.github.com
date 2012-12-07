@@ -4,6 +4,8 @@ date: 2010-07-14 16:57:00
 layout: post
 slug: las-criticas-a-las-empresas-en-un-mundo-2-0-gestion-de-la-reputacion
 title: Las críticas a las empresas en un mundo 2.0 (gestión de la reputación)
+alias: [5839/las-criticas-a-las-empresas-en-un-mundo-2-0-gestion-de-la-reputacion/, 5839/las-criticas-a-las-empresas-en-un-mundo-2-0-gestion-de-la-reputacion]
+alias: [5839/las-criticas-a-las-empresas-en-un-mundo-2-0-gestion-de-la-reputacion/, 5839/las-criticas-a-las-empresas-en-un-mundo-2-0-gestion-de-la-reputacion]
 wordpress_id: 5839
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-![Criticas](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/criticas-scaled600.jpg?w=300)
+![Criticas](http://blog.alvareznavarro.es/images/2011/06/criticas-scaled600.jpg?w=300)
 
 
 

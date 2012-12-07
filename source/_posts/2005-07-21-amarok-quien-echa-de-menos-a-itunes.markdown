@@ -4,6 +4,8 @@ date: 2005-07-21 19:15:00
 layout: post
 slug: amarok-quien-echa-de-menos-a-itunes
 title: Amarok ¿Quien echa de menos a iTunes?
+alias: [29/amarok-quien-echa-de-menos-a-itunes/, 29/amarok-quien-echa-de-menos-a-itunes]
+alias: [29/amarok-quien-echa-de-menos-a-itunes/, 29/amarok-quien-echa-de-menos-a-itunes]
 wordpress_id: 29
 categories:
 - Personal

@@ -2,8 +2,10 @@
 comments: true
 date: 2011-04-04 14:39:20
 layout: post
-slug: master-de-analitica-web-secuoyas-dia-2
+slug: master-de-- Analitica-web-secuoyas-dia-2
 title: Master de Analítica Web Secuoyas - Día 2
+alias: [5812/master-de-analitica-web-secuoyas-dia-2/, 5812/master-de-analitica-web-secuoyas-dia-2]
+alias: [5812/master-de-analitica-web-secuoyas-dia-2/, 5812/master-de-analitica-web-secuoyas-dia-2]
 wordpress_id: 5812
 tags:
 - Uncategorized
@@ -24,7 +26,7 @@ Las herramientas de analítica te proporcionan métricas web:  **Data**
 
 Las personas utilizando herramientas te proporcionan análisis web: **Business Intelligence**
 
-Sobre las metodologías, se ha centrado especialmente en la creada por Nokia: N[okia's way](http://webanalyse-news.de/wp-content/uploads/2007/04/implementing_wa_nokia.pdf) y la metodología REAN: Reach Engage Activate Nurture
+Sobre las metodologías, se ha centrado especialmente en la creada por Nokia: N[okia's way](http://webanalyse-news.de/images/2007/04/implementing_wa_nokia.pdf) y la metodología REAN: Reach Engage Activate Nurture
 
 En la parte final de la charla hemos tocado la monetización cuyo principal valor radica en que nos permite enfocar nuestros esfuerzos en areas clave en lugar de en todo el sitio.
 

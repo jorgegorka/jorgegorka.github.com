@@ -4,6 +4,8 @@ date: 2010-07-05 10:17:00
 layout: post
 slug: la-correcta-presencia-de-las-empresas-en-las-redes-sociales
 title: La correcta presencia de las empresas en las redes sociales
+alias: [5857/la-correcta-presencia-de-las-empresas-en-las-redes-sociales/, 5857/la-correcta-presencia-de-las-empresas-en-las-redes-sociales]
+alias: [5857/la-correcta-presencia-de-las-empresas-en-las-redes-sociales/, 5857/la-correcta-presencia-de-las-empresas-en-las-redes-sociales]
 wordpress_id: 5857
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-![Flower](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/flower-scaled600.jpg?w=300)
+![Flower](http://blog.alvareznavarro.es/images/2011/06/flower-scaled600.jpg?w=300)
 
 
 

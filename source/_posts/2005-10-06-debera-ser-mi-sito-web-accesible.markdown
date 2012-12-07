@@ -4,6 +4,8 @@ date: 2005-10-06 18:46:00
 layout: post
 slug: debera-ser-mi-sito-web-accesible
 title: ¿Debería ser mi sito web accesible?
+alias: [21/debera-ser-mi-sito-web-accesible/, 21/debera-ser-mi-sito-web-accesible]
+alias: [21/debera-ser-mi-sito-web-accesible/, 21/debera-ser-mi-sito-web-accesible]
 wordpress_id: 21
 categories:
 - Desarrollo

@@ -4,6 +4,8 @@ date: 2007-01-10 12:16:00
 layout: post
 slug: queremos-ser-tu-banco-de-8-a-10-30
 title: Queremos ser tu banco... de 8 a 10:30
+alias: [5199/queremos-ser-tu-banco-de-8-a-10-30/, 5199/queremos-ser-tu-banco-de-8-a-10-30]
+alias: [5199/queremos-ser-tu-banco-de-8-a-10-30/, 5199/queremos-ser-tu-banco-de-8-a-10-30]
 wordpress_id: 5199
 categories:
 - Personal

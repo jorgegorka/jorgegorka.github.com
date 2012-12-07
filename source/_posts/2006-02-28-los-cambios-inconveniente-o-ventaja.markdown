@@ -4,6 +4,8 @@ date: 2006-02-28 15:29:00
 layout: post
 slug: los-cambios-inconveniente-o-ventaja
 title: 'Los cambios: Inconveniente o ventaja'
+alias: [46/los-cambios-inconveniente-o-ventaja/, 46/los-cambios-inconveniente-o-ventaja]
+alias: [46/los-cambios-inconveniente-o-ventaja/, 46/los-cambios-inconveniente-o-ventaja]
 wordpress_id: 46
 categories:
 - Desarrollo

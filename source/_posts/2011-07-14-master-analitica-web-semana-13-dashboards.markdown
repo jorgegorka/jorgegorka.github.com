@@ -2,11 +2,12 @@
 comments: true
 date: 2011-07-14 12:28:44
 layout: post
-slug: master-analitica-web-semana-13-dashboards
+slug: master-- Analitica-web-semana-13-dashboards
 title: Master Analítica Web semana 13 - Dashboards
+alias: [6059/master-analitica-web-semana-13-dashboards/, 6059/master-analitica-web-semana-13-dashboards]
 wordpress_id: 6059
 categories:
-- Analítica
+- Analitica
 tags:
 - dashboards
 - master analítica web

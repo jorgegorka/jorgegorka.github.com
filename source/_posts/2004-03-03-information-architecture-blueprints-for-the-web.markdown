@@ -4,6 +4,7 @@ date: 2004-03-03 16:03:00
 layout: post
 slug: information-architecture-blueprints-for-the-web
 title: 'Information Architecture : Blueprints for the web'
+alias: [125/information-architecture-blueprints-for-the-web/, 125/information-architecture-blueprints-for-the-web]
 wordpress_id: 125
 categories:
 - Libros

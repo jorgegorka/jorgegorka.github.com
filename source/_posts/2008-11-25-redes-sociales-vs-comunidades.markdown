@@ -4,6 +4,8 @@ date: 2008-11-25 16:29:00
 layout: post
 slug: redes-sociales-vs-comunidades
 title: Redes sociales vs. Comunidades
+alias: [5610/redes-sociales-vs-comunidades/, 5610/redes-sociales-vs-comunidades]
+alias: [5610/redes-sociales-vs-comunidades/, 5610/redes-sociales-vs-comunidades]
 wordpress_id: 5610
 categories:
 - Empresa

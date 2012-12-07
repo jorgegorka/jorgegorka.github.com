@@ -4,6 +4,7 @@ date: 2011-10-30 11:30:16
 layout: post
 slug: el-sector-de-la-moda-online-en-espana
 title: El sector de la moda online en España
+alias: [6619/el-sector-de-la-moda-online-en-espana/, 6619/el-sector-de-la-moda-online-en-espana]
 wordpress_id: 6619
 categories:
 - Marketing
@@ -13,7 +14,7 @@ tags:
 - google
 ---
 
-**[![tienda de moda online](http://www.alvareznavarro.es/wp-content/uploads/2011/10/las_celebrities_se_visten_de_venca.es_receta_main_landscape1.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/10/las_celebrities_se_visten_de_venca.es_receta_main_landscape1.jpg)El volumen de negocio generado en España por el comercio electrónico B2C superará en 2011 los 11 millones de euros, lo que significa un incremento del 24% respecto a 2010.  La pujanza del comercio electrónico se está manteniendo pese a la crisis y, además, el número de usuarios de Internet que compran online sigue creciendo; en 2011 alcanzará los 14,8 millones, lo que supuso un aumento del 16,5% respecto a los 12,7 millones registrados en 2008.**
+**[![tienda de moda online](http://www.alvareznavarro.es/images/2011/10/las_celebrities_se_visten_de_venca.es_receta_main_landscape1.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/10/las_celebrities_se_visten_de_venca.es_receta_main_landscape1.jpg)El volumen de negocio generado en España por el comercio electrónico B2C superará en 2011 los 11 millones de euros, lo que significa un incremento del 24% respecto a 2010.  La pujanza del comercio electrónico se está manteniendo pese a la crisis y, además, el número de usuarios de Internet que compran online sigue creciendo; en 2011 alcanzará los 14,8 millones, lo que supuso un aumento del 16,5% respecto a los 12,7 millones registrados en 2008.**
 
 Google ha realizado un [estudio analizando el sector de la moda online](http://googleespana.blogspot.com/2011/10/asi-compran-moda-los-espanoles-en.html) en España y las tendencias y comportamiento de los consumidores.  El estudio ha sido llevado a cabo por dos prestigiosas empresas: [The Cocktail Analysis](http://www.tcanalysis.com/) y  [Nielsen](http://es.nielsen.com/site/index.shtml).
 

@@ -4,6 +4,8 @@ date: 2006-04-11 20:36:00
 layout: post
 slug: habitos-de-bsqueda
 title: Habitos de búsqueda
+alias: [81/habitos-de-bsqueda/, 81/habitos-de-bsqueda]
+alias: [81/habitos-de-bsqueda/, 81/habitos-de-bsqueda]
 wordpress_id: 81
 categories:
 - Empresa

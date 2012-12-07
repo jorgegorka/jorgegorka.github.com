@@ -4,12 +4,14 @@ date: 2009-10-04 08:42:05
 layout: post
 slug: spotify-moviendose-en-la-direccion-correcta
 title: 'Spotify : Moviendose en la dirección correcta'
+alias: [5641/spotify-moviendose-en-la-direccion-correcta/, 5641/spotify-moviendose-en-la-direccion-correcta]
+alias: [5641/spotify-moviendose-en-la-direccion-correcta/, 5641/spotify-moviendose-en-la-direccion-correcta]
 wordpress_id: 5641
 tags:
 - Uncategorized
 ---
 
-[caption id="attachment_5643" align="alignleft" width="350" caption="Spotify: No es perfecto pero se acerca"][![Spotify: No es perfecto pero se acerca](http://blog.alvareznavarro.es/wp-content/uploads/2009/10/spotify.jpg)](http://www.spotify.com)[/caption]
+[caption id="attachment_5643" align="alignleft" width="350" caption="Spotify: No es perfecto pero se acerca"][![Spotify: No es perfecto pero se acerca](http://blog.alvareznavarro.es/images/2009/10/spotify.jpg)](http://www.spotify.com)[/caption]
 
 [Spotify](http://www.spotify.com) anuncia la posibilidad de descargar canciones a tu ordenador para escucharlas offline al igual que es posible hacerlo con su aplicación para iPod/iPhone y Android.  Este servicio está disponible para usuarios Premium, es decir los que pagan 10 euros al mes.
 

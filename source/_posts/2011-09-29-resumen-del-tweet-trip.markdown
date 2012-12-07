@@ -4,16 +4,18 @@ date: 2011-09-29 08:59:43
 layout: post
 slug: resumen-del-tweet-trip
 title: Resumen del Tweet Trip
+alias: [6185/resumen-del-tweet-trip/, 6185/resumen-del-tweet-trip]
+alias: [6185/resumen-del-tweet-trip/, 6185/resumen-del-tweet-trip]
 wordpress_id: 6185
 categories:
-- Analítica
+- Analitica
 tags:
 - redes sociales
 - turismo
 - twitter
 ---
 
-[![la tierra con nombre de vino](http://www.alvareznavarro.es/wp-content/uploads/2011/09/tweet_trip_logo.png)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/tweet_trip_logo.png)El pasado martes 27 se celebró en Logroño el primer [Tweet Trip](http://tweettrip.wordpress.com/) organizado por La Rioja Turismo.
+[![la tierra con nombre de vino](http://www.alvareznavarro.es/images/2011/09/tweet_trip_logo.png)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/tweet_trip_logo.png)El pasado martes 27 se celebró en Logroño el primer [Tweet Trip](http://tweettrip.wordpress.com/) organizado por La Rioja Turismo.
 
 El evento se compuso de tres mesas redondas donde se trataron diversos temas relacionados con el turismo y Twitter principalmente aunque sin olvidar otras redes sociales.
 

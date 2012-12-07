@@ -4,6 +4,8 @@ date: 2005-07-19 19:20:00
 layout: post
 slug: google-xml-maps-indexa-mejor-tu-web
 title: Google xml maps - Indexa mejor tu web
+alias: [30/google-xml-maps-indexa-mejor-tu-web/, 30/google-xml-maps-indexa-mejor-tu-web]
+alias: [30/google-xml-maps-indexa-mejor-tu-web/, 30/google-xml-maps-indexa-mejor-tu-web]
 wordpress_id: 30
 categories:
 - Marketing

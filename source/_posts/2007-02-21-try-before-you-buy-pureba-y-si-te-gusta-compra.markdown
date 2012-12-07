@@ -4,6 +4,8 @@ date: 2007-02-21 16:22:00
 layout: post
 slug: try-before-you-buy-pureba-y-si-te-gusta-compra
 title: Nueva aplicación y nuevo modelo de negocio
+alias: [5238/try-before-you-buy-pureba-y-si-te-gusta-compra/, 5238/try-before-you-buy-pureba-y-si-te-gusta-compra]
+alias: [5238/try-before-you-buy-pureba-y-si-te-gusta-compra/, 5238/try-before-you-buy-pureba-y-si-te-gusta-compra]
 wordpress_id: 5238
 categories:
 - Empresa

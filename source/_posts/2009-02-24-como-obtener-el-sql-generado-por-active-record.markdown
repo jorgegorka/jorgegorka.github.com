@@ -4,6 +4,8 @@ date: 2009-02-24 18:59:00
 layout: post
 slug: como-obtener-el-sql-generado-por-active-record
 title: Como obtener el sql generado por Active Record
+alias: [5613/como-obtener-el-sql-generado-por-active-record/, 5613/como-obtener-el-sql-generado-por-active-record]
+alias: [5613/como-obtener-el-sql-generado-por-active-record/, 5613/como-obtener-el-sql-generado-por-active-record]
 wordpress_id: 5613
 tags:
 - active_record

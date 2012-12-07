@@ -4,6 +4,8 @@ date: 2010-04-09 11:03:15
 layout: post
 slug: website-briefing
 title: Website briefing
+alias: [5874/website-briefing/, 5874/website-briefing]
+alias: [5874/website-briefing/, 5874/website-briefing]
 wordpress_id: 5874
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-[![](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/pdf.png?w=48)](http://www.alvareznavarro.es/website-briefing)
+[![](http://blog.alvareznavarro.es/images/2011/06/pdf.png?w=48)](http://www.alvareznavarro.es/website-briefing)
 
 
 

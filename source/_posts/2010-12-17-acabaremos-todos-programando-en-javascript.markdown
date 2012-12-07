@@ -4,6 +4,8 @@ date: 2010-12-17 11:58:00
 layout: post
 slug: acabaremos-todos-programando-en-javascript
 title: Acabaremos todos programando en Javascript?
+alias: [5832/acabaremos-todos-programando-en-javascript/, 5832/acabaremos-todos-programando-en-javascript]
+alias: [5832/acabaremos-todos-programando-en-javascript/, 5832/acabaremos-todos-programando-en-javascript]
 wordpress_id: 5832
 categories:
 - Desarrollo
@@ -16,7 +18,7 @@ tags:
 
 
 
-![Javascript](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/javascript-scaled600.jpg?w=300)
+![Javascript](http://blog.alvareznavarro.es/images/2011/06/javascript-scaled600.jpg?w=300)
 
 
 

@@ -4,6 +4,8 @@ date: 2006-11-29 18:20:00
 layout: post
 slug: instalar-mongrel-en-ubunto-6-06
 title: Instalar Mongrel en Ubuntu 6.06
+alias: [200/instalar-mongrel-en-ubunto-6-06/, 200/instalar-mongrel-en-ubunto-6-06]
+alias: [200/instalar-mongrel-en-ubunto-6-06/, 200/instalar-mongrel-en-ubunto-6-06]
 wordpress_id: 200
 categories:
 - Desarrollo

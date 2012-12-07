@@ -4,12 +4,14 @@ date: 2012-07-17 13:04:17
 layout: post
 slug: el-aviso-de-confidencialidad-la-excusa-de-los-torpes
 title: El aviso de confidencialidad - La excusa de los torpes
+alias: [6746/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/, 6746/el-aviso-de-confidencialidad-la-excusa-de-los-torpes]
+alias: [6746/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/, 6746/el-aviso-de-confidencialidad-la-excusa-de-los-torpes]
 wordpress_id: 6746
 categories:
 - Personal
 ---
 
-![el aviso de confidencialidad la excusa de los torpes](http://www.alvareznavarro.es/wp-content/uploads/2012/07/aviso_confidencialidad-300x200.jpeg)
+![el aviso de confidencialidad la excusa de los torpes](http://www.alvareznavarro.es/images/2012/07/aviso_confidencialidad-300x200.jpeg)
 
 Estoy viendo en los emails que los avisos de confidencialidad cada vez ocupan más tamaño y con una tipografía cada vez mayor.  Los avisos de confidencialidad, además de ser inútiles dejan en muy mal lugar a quien los crea.
 

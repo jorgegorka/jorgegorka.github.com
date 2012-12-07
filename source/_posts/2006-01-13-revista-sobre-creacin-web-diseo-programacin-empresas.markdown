@@ -4,6 +4,8 @@ date: 2006-01-13 20:52:00
 layout: post
 slug: revista-sobre-creacin-web-diseo-programacin-empresas
 title: Revista sobre creación web (diseño, programación, empresas)
+alias: [9/revista-sobre-creacin-web-diseo-programacin-empresas/, 9/revista-sobre-creacin-web-diseo-programacin-empresas]
+alias: [9/revista-sobre-creacin-web-diseo-programacin-empresas/, 9/revista-sobre-creacin-web-diseo-programacin-empresas]
 wordpress_id: 9
 categories:
 - Desarrollo

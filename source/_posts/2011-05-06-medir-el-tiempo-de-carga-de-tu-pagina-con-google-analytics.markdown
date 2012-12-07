@@ -4,14 +4,16 @@ date: 2011-05-06 08:52:00
 layout: post
 slug: medir-el-tiempo-de-carga-de-tu-pagina-con-google-analytics
 title: Medir el tiempo de carga de tu página con Google Analytics
+alias: [5808/medir-el-tiempo-de-carga-de-tu-pagina-con-google-analytics/, 5808/medir-el-tiempo-de-carga-de-tu-pagina-con-google-analytics]
+alias: [5808/medir-el-tiempo-de-carga-de-tu-pagina-con-google-analytics/, 5808/medir-el-tiempo-de-carga-de-tu-pagina-con-google-analytics]
 wordpress_id: 5808
 categories:
-- Analítica
+- Analitica
 tags:
 - Uncategorized
 ---
 
-[![medir tiempo de carga de página web](http://www.alvareznavarro.es/wp-content/uploads/2011/05/Test-Page-Load-Time.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/05/Test-Page-Load-Time.jpg)
+[![medir tiempo de carga de página web](http://www.alvareznavarro.es/images/2011/05/Test-Page-Load-Time.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/05/Test-Page-Load-Time.jpg)
 
 La nueva versión de [Google Analytics](http://www.google.com/intl/es/analytics/) implementa una novedosa métrica: **[El tiempo de carga de la página](http://analytics.blogspot.com/2011/05/measure-page-load-time-with-site-speed.html)**.
 

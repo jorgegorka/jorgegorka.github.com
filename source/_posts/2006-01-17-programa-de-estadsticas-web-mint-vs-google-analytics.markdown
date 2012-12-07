@@ -4,6 +4,8 @@ date: 2006-01-17 20:44:00
 layout: post
 slug: programa-de-estadsticas-web-mint-vs-google-analytics
 title: Programa de estadísticas web Mint vs. Google Analytics
+alias: [7/programa-de-estadsticas-web-mint-vs-google-analytics/, 7/programa-de-estadsticas-web-mint-vs-google-analytics]
+alias: [7/programa-de-estadsticas-web-mint-vs-google-analytics/, 7/programa-de-estadsticas-web-mint-vs-google-analytics]
 wordpress_id: 7
 categories:
 - Empresa

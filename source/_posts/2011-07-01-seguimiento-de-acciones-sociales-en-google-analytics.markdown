@@ -4,9 +4,11 @@ date: 2011-07-01 09:30:55
 layout: post
 slug: seguimiento-de-acciones-sociales-en-google-analytics
 title: Seguimiento de acciones sociales en Google Analytics
+alias: [6054/seguimiento-de-acciones-sociales-en-google-analytics/, 6054/seguimiento-de-acciones-sociales-en-google-analytics]
+alias: [6054/seguimiento-de-acciones-sociales-en-google-analytics/, 6054/seguimiento-de-acciones-sociales-en-google-analytics]
 wordpress_id: 6054
 categories:
-- Analítica
+- Analitica
 tags:
 - google analytics
 - social media

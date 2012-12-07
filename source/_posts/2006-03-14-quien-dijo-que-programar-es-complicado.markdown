@@ -4,6 +4,8 @@ date: 2006-03-14 13:36:00
 layout: post
 slug: quien-dijo-que-programar-es-complicado
 title: ¿Quien dijo que programar es complicado?
+alias: [73/quien-dijo-que-programar-es-complicado/, 73/quien-dijo-que-programar-es-complicado]
+alias: [73/quien-dijo-que-programar-es-complicado/, 73/quien-dijo-que-programar-es-complicado]
 wordpress_id: 73
 categories:
 - Desarrollo

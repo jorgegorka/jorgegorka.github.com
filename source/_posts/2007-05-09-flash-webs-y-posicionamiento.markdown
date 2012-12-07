@@ -4,6 +4,8 @@ date: 2007-05-09 19:12:00
 layout: post
 slug: flash-webs-y-posicionamiento
 title: Flash, webs y posicionamiento
+alias: [5283/flash-webs-y-posicionamiento/, 5283/flash-webs-y-posicionamiento]
+alias: [5283/flash-webs-y-posicionamiento/, 5283/flash-webs-y-posicionamiento]
 wordpress_id: 5283
 tags:
 - google

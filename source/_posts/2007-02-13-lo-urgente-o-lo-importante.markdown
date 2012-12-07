@@ -4,6 +4,8 @@ date: 2007-02-13 10:52:00
 layout: post
 slug: lo-urgente-o-lo-importante
 title: Lo urgente o lo importante
+alias: [5233/lo-urgente-o-lo-importante/, 5233/lo-urgente-o-lo-importante]
+alias: [5233/lo-urgente-o-lo-importante/, 5233/lo-urgente-o-lo-importante]
 wordpress_id: 5233
 categories:
 - Empresa

@@ -4,6 +4,8 @@ date: 2006-06-14 19:27:00
 layout: post
 slug: mejoras-en-el-buscador-inmobiliario
 title: Mejoras en el buscador inmobiliario
+alias: [101/mejoras-en-el-buscador-inmobiliario/, 101/mejoras-en-el-buscador-inmobiliario]
+alias: [101/mejoras-en-el-buscador-inmobiliario/, 101/mejoras-en-el-buscador-inmobiliario]
 wordpress_id: 101
 categories:
 - Desarrollo

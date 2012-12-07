@@ -4,6 +4,8 @@ date: 2007-05-30 14:31:00
 layout: post
 slug: mentalidad-google-o-mentalidad-microsoft
 title: Mentalidad Google o mentalidad Microsoft
+alias: [5309/mentalidad-google-o-mentalidad-microsoft/, 5309/mentalidad-google-o-mentalidad-microsoft]
+alias: [5309/mentalidad-google-o-mentalidad-microsoft/, 5309/mentalidad-google-o-mentalidad-microsoft]
 wordpress_id: 5309
 categories:
 - Empresa

@@ -4,12 +4,14 @@ date: 2009-09-28 23:29:50
 layout: post
 slug: porque-no-debes-hacer-seo
 title: Porqué no debes hacer SEO
+alias: [5623/porque-no-debes-hacer-seo/, 5623/porque-no-debes-hacer-seo]
+alias: [5623/porque-no-debes-hacer-seo/, 5623/porque-no-debes-hacer-seo]
 wordpress_id: 5623
 tags:
 - Uncategorized
 ---
 
-[caption id="attachment_5630" align="alignleft" width="350" caption="Razones por las que no debes hacer seo"]![Razones por las que no debes hacer seo](http://blog.alvareznavarro.es/wp-content/uploads/2009/09/no_hagas_seo.jpg)[/caption]
+[caption id="attachment_5630" align="alignleft" width="350" caption="Razones por las que no debes hacer seo"]![Razones por las que no debes hacer seo](http://blog.alvareznavarro.es/images/2009/09/no_hagas_seo.jpg)[/caption]
 
 Muchos proyectos web se realizan desde sus comienzos bajo la perspectiva del SEO lo cual es un error grave que se paga caro en el largo plazo.  Veamos porqué:
 

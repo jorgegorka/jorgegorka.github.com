@@ -4,6 +4,8 @@ date: 2006-03-03 17:53:00
 layout: post
 slug: el-tamao-importa-y-mucho
 title: El tamaño importa y mucho
+alias: [48/el-tamao-importa-y-mucho/, 48/el-tamao-importa-y-mucho]
+alias: [48/el-tamao-importa-y-mucho/, 48/el-tamao-importa-y-mucho]
 wordpress_id: 48
 categories:
 - Empresa

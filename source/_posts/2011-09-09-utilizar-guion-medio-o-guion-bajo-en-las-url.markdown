@@ -4,6 +4,8 @@ date: 2011-09-09 09:04:38
 layout: post
 slug: utilizar-guion-medio-o-guion-bajo-en-las-url
 title: Utilizar guión medio o guión bajo en las url
+alias: [6111/utilizar-guion-medio-o-guion-bajo-en-las-url/, 6111/utilizar-guion-medio-o-guion-bajo-en-las-url]
+alias: [6111/utilizar-guion-medio-o-guion-bajo-en-las-url/, 6111/utilizar-guion-medio-o-guion-bajo-en-las-url]
 wordpress_id: 6111
 categories:
 - SEO

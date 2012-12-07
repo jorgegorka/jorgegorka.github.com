@@ -4,6 +4,8 @@ date: 2007-05-15 12:23:00
 layout: post
 slug: patentes-y-derechos-de-autor
 title: Patentes y derechos de Autor
+alias: [5286/patentes-y-derechos-de-autor/, 5286/patentes-y-derechos-de-autor]
+alias: [5286/patentes-y-derechos-de-autor/, 5286/patentes-y-derechos-de-autor]
 wordpress_id: 5286
 categories:
 - Personal

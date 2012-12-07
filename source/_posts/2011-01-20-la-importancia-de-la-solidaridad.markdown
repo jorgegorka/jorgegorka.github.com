@@ -4,6 +4,8 @@ date: 2011-01-20 09:25:53
 layout: post
 slug: la-importancia-de-la-solidaridad
 title: La importancia de la solidaridad
+alias: [5828/la-importancia-de-la-solidaridad/, 5828/la-importancia-de-la-solidaridad]
+alias: [5828/la-importancia-de-la-solidaridad/, 5828/la-importancia-de-la-solidaridad]
 wordpress_id: 5828
 tags:
 - Uncategorized

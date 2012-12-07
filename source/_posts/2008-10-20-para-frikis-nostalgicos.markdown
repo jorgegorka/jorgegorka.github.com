@@ -4,6 +4,8 @@ date: 2008-10-20 14:20:00
 layout: post
 slug: para-frikis-nostalgicos
 title: Para frikis nostálgicos
+alias: [5602/para-frikis-nostalgicos/, 5602/para-frikis-nostalgicos]
+alias: [5602/para-frikis-nostalgicos/, 5602/para-frikis-nostalgicos]
 wordpress_id: 5602
 categories:
 - Personal

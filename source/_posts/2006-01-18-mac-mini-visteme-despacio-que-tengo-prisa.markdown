@@ -4,6 +4,8 @@ date: 2006-01-18 20:35:00
 layout: post
 slug: mac-mini-visteme-despacio-que-tengo-prisa
 title: 'Mac Mini : Visteme despacio que tengo prisa'
+alias: [6/mac-mini-visteme-despacio-que-tengo-prisa/, 6/mac-mini-visteme-despacio-que-tengo-prisa]
+alias: [6/mac-mini-visteme-despacio-que-tengo-prisa/, 6/mac-mini-visteme-despacio-que-tengo-prisa]
 wordpress_id: 6
 categories:
 - Personal

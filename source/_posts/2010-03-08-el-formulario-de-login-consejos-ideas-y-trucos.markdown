@@ -4,6 +4,8 @@ date: 2010-03-08 09:07:21
 layout: post
 slug: el-formulario-de-login-consejos-ideas-y-trucos
 title: El formulario de login.   Consejos, ideas y trucos.
+alias: [5760/el-formulario-de-login-consejos-ideas-y-trucos/, 5760/el-formulario-de-login-consejos-ideas-y-trucos]
+alias: [5760/el-formulario-de-login-consejos-ideas-y-trucos/, 5760/el-formulario-de-login-consejos-ideas-y-trucos]
 wordpress_id: 5760
 categories:
 - usabilidad
@@ -16,7 +18,7 @@ Si hemos sido buenos chicos y hemos hecho bien nuestro trabajo, los visitantes d
 
 En la primera parte de esta serie de artículos ya hablamos de [la importancia de los usuarios](http://jorgegorka.wordpress.com/2010/02/24/los-usuarios-para-el-que-se-los-trabaja-quid-pro-cuo-clarice/).  Hoy vamos a ver como crear un formulario de login adecuado para que nuestros usuarios puedan acceder a nuestra web de la forma más rápida y sencilla posible.
 
-[caption id="attachment_5777" align="aligncenter" width="450" caption="Un formulario correcto pero muy mejorable"][![](http://blog.alvareznavarro.es/wp-content/uploads/2010/03/facturagem.png)](http://blog.alvareznavarro.es/wp-content/uploads/2010/03/facturagem.png)[/caption]
+[caption id="attachment_5777" align="aligncenter" width="450" caption="Un formulario correcto pero muy mejorable"][![](http://blog.alvareznavarro.es/images/2010/03/facturagem.png)](http://blog.alvareznavarro.es/wp-content/uploads/2010/03/facturagem.png)[/caption]
 
 
 ### Objetivos

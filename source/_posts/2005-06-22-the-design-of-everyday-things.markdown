@@ -4,6 +4,8 @@ date: 2005-06-22 19:26:00
 layout: post
 slug: the-design-of-everyday-things
 title: The Design Of Everyday Things
+alias: [32/the-design-of-everyday-things/, 32/the-design-of-everyday-things]
+alias: [32/the-design-of-everyday-things/, 32/the-design-of-everyday-things]
 wordpress_id: 32
 categories:
 - Libros

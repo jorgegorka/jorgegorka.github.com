@@ -4,6 +4,8 @@ date: 2010-04-26 23:09:23
 layout: post
 slug: internet-y-la-politica
 title: Internet y la política
+alias: [5860/internet-y-la-politica/, 5860/internet-y-la-politica]
+alias: [5860/internet-y-la-politica/, 5860/internet-y-la-politica]
 wordpress_id: 5860
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-![Grande](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/grande-scaled600.jpg?w=300)
+![Grande](http://blog.alvareznavarro.es/images/2011/06/grande-scaled600.jpg?w=300)
 
 
 

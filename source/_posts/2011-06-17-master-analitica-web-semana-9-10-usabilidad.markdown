@@ -2,11 +2,12 @@
 comments: true
 date: 2011-06-17 10:06:19
 layout: post
-slug: master-analitica-web-semana-9-10-usabilidad
+slug: master-- Analitica-web-semana-9-10-usabilidad
 title: Master Analítica web Semana 9-10 - Usabilidad
+alias: [6048/master-analitica-web-semana-9-10-usabilidad/, 6048/master-analitica-web-semana-9-10-usabilidad]
 wordpress_id: 6048
 categories:
-- Analítica
+- Analitica
 tags:
 - master analítica web
 - usabilidad

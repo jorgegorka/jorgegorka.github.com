@@ -4,6 +4,8 @@ date: 2010-09-28 07:49:22
 layout: post
 slug: congreso-internacional-de-accesibilidad-web-sidar-2010
 title: Congreso Internacional de Accesibilidad Web SIDAR 2010
+alias: [5835/congreso-internacional-de-accesibilidad-web-sidar-2010/, 5835/congreso-internacional-de-accesibilidad-web-sidar-2010]
+alias: [5835/congreso-internacional-de-accesibilidad-web-sidar-2010/, 5835/congreso-internacional-de-accesibilidad-web-sidar-2010]
 wordpress_id: 5835
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-![Ponentes](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/ponentes-scaled600.jpg?w=227)
+![Ponentes](http://blog.alvareznavarro.es/images/2011/06/ponentes-scaled600.jpg?w=227)
 
 
 

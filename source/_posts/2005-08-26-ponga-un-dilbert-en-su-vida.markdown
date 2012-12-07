@@ -4,6 +4,8 @@ date: 2005-08-26 18:58:00
 layout: post
 slug: ponga-un-dilbert-en-su-vida
 title: Ponga un Dilbert en su vida
+alias: [23/ponga-un-dilbert-en-su-vida/, 23/ponga-un-dilbert-en-su-vida]
+alias: [23/ponga-un-dilbert-en-su-vida/, 23/ponga-un-dilbert-en-su-vida]
 wordpress_id: 23
 categories:
 - Personal

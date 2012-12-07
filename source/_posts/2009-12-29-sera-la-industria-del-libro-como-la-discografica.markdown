@@ -4,6 +4,8 @@ date: 2009-12-29 15:51:31
 layout: post
 slug: sera-la-industria-del-libro-como-la-discografica
 title: Será la industria del libro como la discográfica?
+alias: [5969/sera-la-industria-del-libro-como-la-discografica/, 5969/sera-la-industria-del-libro-como-la-discografica]
+alias: [5969/sera-la-industria-del-libro-como-la-discografica/, 5969/sera-la-industria-del-libro-como-la-discografica]
 wordpress_id: 5969
 tags:
 - Uncategorized
@@ -11,7 +13,7 @@ tags:
 
 [](http://pulse2.com/2009/12/29/amazon-com-announces-that-e-book-sales-passes-paper-books-on-christmas-day/)
 
-[caption id="attachment_5686" align="alignleft" width="300" caption="http://www.flickr.com/photos/irtroit/"]![](http://blog.alvareznavarro.es/wp-content/uploads/2009/12/books.jpg?w=300)[/caption]
+[caption id="attachment_5686" align="alignleft" width="300" caption="http://www.flickr.com/photos/irtroit/"]![](http://blog.alvareznavarro.es/images/2009/12/books.jpg?w=300)[/caption]
 
 Leo en la prensa (extranjera, pues la prensa nacional no puede leerse invadida por banners intrusivos y molestos de los que hablaré en otro post) que Amazon ha vendido, en navidad, más libros electrónicos que de papel.
 

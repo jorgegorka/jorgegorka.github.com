@@ -4,6 +4,8 @@ date: 2006-01-27 14:33:00
 layout: post
 slug: existe-la-web-2-0
 title: ¿Existe la web 2.0?
+alias: [18/existe-la-web-2-0/, 18/existe-la-web-2-0]
+alias: [18/existe-la-web-2-0/, 18/existe-la-web-2-0]
 wordpress_id: 18
 categories:
 - Personal

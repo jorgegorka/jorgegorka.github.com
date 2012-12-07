@@ -4,6 +4,8 @@ date: 2006-02-20 20:27:00
 layout: post
 slug: accesibilidad-de-la-banca-espaola
 title: Accesibilidad de la banca española
+alias: [43/accesibilidad-de-la-banca-espaola/, 43/accesibilidad-de-la-banca-espaola]
+alias: [43/accesibilidad-de-la-banca-espaola/, 43/accesibilidad-de-la-banca-espaola]
 wordpress_id: 43
 categories:
 - Personal

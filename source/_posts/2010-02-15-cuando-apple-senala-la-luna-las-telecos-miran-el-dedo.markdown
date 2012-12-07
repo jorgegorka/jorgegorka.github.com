@@ -4,12 +4,14 @@ date: 2010-02-15 11:32:56
 layout: post
 slug: cuando-apple-senala-la-luna-las-telecos-miran-el-dedo
 title: Cuando Apple señala la luna las telecos miran el dedo
+alias: [5710/cuando-apple-senala-la-luna-las-telecos-miran-el-dedo/, 5710/cuando-apple-senala-la-luna-las-telecos-miran-el-dedo]
+alias: [5710/cuando-apple-senala-la-luna-las-telecos-miran-el-dedo/, 5710/cuando-apple-senala-la-luna-las-telecos-miran-el-dedo]
 wordpress_id: 5710
 tags:
 - Uncategorized
 ---
 
-[caption id="attachment_5712" align="alignleft" width="300" caption="Ideas de bombero"][![](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/moon_eye.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/moon_eye.jpg)[/caption]
+[caption id="attachment_5712" align="alignleft" width="300" caption="Ideas de bombero"][![](http://blog.alvareznavarro.es/images/2010/02/moon_eye.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/moon_eye.jpg)[/caption]
 
 Leo que [20 telecos se han asociado para crear una tienda de aplicaciones](http://www.elpais.com/articulo/tecnologia/operadoras/alian/abrir/plataforma/aplicaciones/moviles/elpeputec/20100215elpeputec_1/Tes) para móviles abierta, para competir con la tienda de Apple.
 

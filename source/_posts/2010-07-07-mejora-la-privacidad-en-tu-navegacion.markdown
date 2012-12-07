@@ -4,6 +4,8 @@ date: 2010-07-07 01:37:00
 layout: post
 slug: mejora-la-privacidad-en-tu-navegacion
 title: Mejora la privacidad en tu navegación
+alias: [5856/mejora-la-privacidad-en-tu-navegacion/, 5856/mejora-la-privacidad-en-tu-navegacion]
+alias: [5856/mejora-la-privacidad-en-tu-navegacion/, 5856/mejora-la-privacidad-en-tu-navegacion]
 wordpress_id: 5856
 categories:
 - Optimización
@@ -66,7 +68,7 @@ Ten en cuenta que Flash también permite el uso de cookies, pero estas se almace
 
 
 
-[![Chrome_coockies](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/chrome_coockies.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/chrome_coockies.jpg)
+[![Chrome_coockies](http://blog.alvareznavarro.es/images/2011/06/chrome_coockies.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/chrome_coockies.jpg)
 [![Cookies_firefox](http://jorgegorka.files.wordpress.com/2010/07/cookies_firefox.jpg?w=300)](http://jorgegorka.files.wordpress.com/2010/07/cookies_firefox.jpg)
 [![Security](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/security.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/security.jpg)
 

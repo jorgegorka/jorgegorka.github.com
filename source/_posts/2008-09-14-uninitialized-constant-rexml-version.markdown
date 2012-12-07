@@ -4,6 +4,8 @@ date: 2008-09-14 19:07:00
 layout: post
 slug: uninitialized-constant-rexml-version
 title: uninitialized constant REXML::VERSION
+alias: [5593/uninitialized-constant-rexml-version/, 5593/uninitialized-constant-rexml-version]
+alias: [5593/uninitialized-constant-rexml-version/, 5593/uninitialized-constant-rexml-version]
 wordpress_id: 5593
 categories:
 - Desarrollo

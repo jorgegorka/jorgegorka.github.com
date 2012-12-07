@@ -4,12 +4,14 @@ date: 2011-11-24 12:20:52
 layout: post
 slug: comercio-electronico-no-todo-vale
 title: Comercio electrónico - No todo vale
+alias: [6673/comercio-electronico-no-todo-vale/, 6673/comercio-electronico-no-todo-vale]
+alias: [6673/comercio-electronico-no-todo-vale/, 6673/comercio-electronico-no-todo-vale]
 wordpress_id: 6673
 categories:
 - Comercio electrónico
 ---
 
-[![capsulas nespresso](http://www.alvareznavarro.es/wp-content/uploads/2011/11/capsulas_nespresso.jpeg)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/capsulas_nespresso.jpeg)
+[![capsulas nespresso](http://www.alvareznavarro.es/images/2011/11/capsulas_nespresso.jpeg)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/capsulas_nespresso.jpeg)
 
 **LLevo bastante tiempo comprando en Internet.  Mi primer pedido online, que fueron unos libros a Amazon, es del año 2002.  Desde entonces he comprado una gran variedad tanto de artículos como de servicios.  Estoy acostumbrado a utilizar tiendas online y por mi trabajo a analizarlas y optimizarlas.**
 

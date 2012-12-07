@@ -4,9 +4,11 @@ date: 2011-08-31 11:17:25
 layout: post
 slug: posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca
 title: Posicionamiento en buscadores tráfico SEO y tráfico de marca
+alias: [6087/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca/, 6087/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca]
+alias: [6087/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca/, 6087/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca]
 wordpress_id: 6087
 categories:
-- Analítica
+- Analitica
 - SEO
 tags:
 - google analytics
@@ -39,7 +41,7 @@ Vamos a realizar un filtro para conocer los distintos tipos de tráfico.
 
 Accedemos a nuestra cuenta de Google Analytics:
 
-[![conocer tráfico orgánico](http://www.alvareznavarro.es/wp-content/uploads/2011/08/trafico_organico.png)](http://www.alvareznavarro.es/wp-content/uploads/2011/08/trafico_organico.png)
+[![conocer tráfico orgánico](http://www.alvareznavarro.es/images/2011/08/trafico_organico.png)](http://www.alvareznavarro.es/wp-content/uploads/2011/08/trafico_organico.png)
 
 
 

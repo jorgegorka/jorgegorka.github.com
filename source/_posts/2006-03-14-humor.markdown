@@ -4,6 +4,8 @@ date: 2006-03-14 13:40:00
 layout: post
 slug: humor
 title: Humor
+alias: [74/humor/, 74/humor]
+alias: [74/humor/, 74/humor]
 wordpress_id: 74
 categories:
 - Personal

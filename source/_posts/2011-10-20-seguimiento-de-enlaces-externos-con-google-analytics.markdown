@@ -4,15 +4,16 @@ date: 2011-10-20 08:05:00
 layout: post
 slug: seguimiento-de-enlaces-externos-con-google-analytics
 title: Seguimiento de enlaces externos con Google Analytics
+alias: [6579/seguimiento-de-enlaces-externos-con-google-analytics/, 6579/seguimiento-de-enlaces-externos-con-google-analytics]
 wordpress_id: 6579
 categories:
-- Analítica
+- Analitica
 tags:
 - google analytics
 - javascript
 ---
 
-[![enlaces salientes con google analytics](http://www.alvareznavarro.es/wp-content/uploads/2011/10/enlaces-salientes.png)](http://www.alvareznavarro.es/6579/seguimiento-de-enlaces-externos-con-google-analytics/enlaces-salientes/)**Enlazar a nuestras fuentes de datos, contenido adicional, sitios relacionados, etc.. aporta valor a quienes visitan nuestro sitio web.  Aquí tienes un fichero javascript que te permitirá contabilizar automáticamente en Google Analytics cuando alguien pulse un enlace de tu web que lleva a otras webs.**
+[![enlaces salientes con google analytics](http://www.alvareznavarro.es/images/2011/10/enlaces-salientes.png)](http://www.alvareznavarro.es/6579/seguimiento-de-enlaces-externos-con-google-analytics/enlaces-salientes/)**Enlazar a nuestras fuentes de datos, contenido adicional, sitios relacionados, etc.. aporta valor a quienes visitan nuestro sitio web.  Aquí tienes un fichero javascript que te permitirá contabilizar automáticamente en Google Analytics cuando alguien pulse un enlace de tu web que lleva a otras webs.**
 
 
 

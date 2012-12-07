@@ -4,6 +4,8 @@ date: 2006-11-16 11:13:00
 layout: post
 slug: nuevo-pedido-a-amazon
 title: Nuevo pedido a Amazon
+alias: [391/nuevo-pedido-a-amazon/, 391/nuevo-pedido-a-amazon]
+alias: [391/nuevo-pedido-a-amazon/, 391/nuevo-pedido-a-amazon]
 wordpress_id: 391
 categories:
 - dise&#241;o

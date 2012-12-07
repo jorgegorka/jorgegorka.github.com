@@ -4,6 +4,8 @@ date: 2006-01-12 10:24:00
 layout: post
 slug: si-tienes-un-blog-y-algo-de-ego-sigue-leyendo
 title: Si tienes un blog y algo de ego... sigue leyendo
+alias: [11/si-tienes-un-blog-y-algo-de-ego-sigue-leyendo/, 11/si-tienes-un-blog-y-algo-de-ego-sigue-leyendo]
+alias: [11/si-tienes-un-blog-y-algo-de-ego-sigue-leyendo/, 11/si-tienes-un-blog-y-algo-de-ego-sigue-leyendo]
 wordpress_id: 11
 categories:
 - Marketing

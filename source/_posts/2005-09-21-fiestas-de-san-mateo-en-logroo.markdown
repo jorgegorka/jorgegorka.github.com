@@ -4,6 +4,8 @@ date: 2005-09-21 18:54:00
 layout: post
 slug: fiestas-de-san-mateo-en-logroo
 title: Fiestas de San Mateo en Logroño
+alias: [22/fiestas-de-san-mateo-en-logroo/, 22/fiestas-de-san-mateo-en-logroo]
+alias: [22/fiestas-de-san-mateo-en-logroo/, 22/fiestas-de-san-mateo-en-logroo]
 wordpress_id: 22
 categories:
 - Personal

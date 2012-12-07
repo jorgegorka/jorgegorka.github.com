@@ -4,6 +4,8 @@ date: 2006-02-02 19:24:00
 layout: post
 slug: nuevo-rediseo-de-arsys
 title: Nuevo rediseño de Arsys
+alias: [35/nuevo-rediseo-de-arsys/, 35/nuevo-rediseo-de-arsys]
+alias: [35/nuevo-rediseo-de-arsys/, 35/nuevo-rediseo-de-arsys]
 wordpress_id: 35
 categories:
 - Empresa

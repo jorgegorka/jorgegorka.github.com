@@ -4,6 +4,8 @@ date: 2011-02-07 11:25:52
 layout: post
 slug: html-5-nuevos-elementos-header-y-footer
 title: 'HTML 5 - Nuevos elementos: Header y Footer'
+alias: [5825/html-5-nuevos-elementos-header-y-footer/, 5825/html-5-nuevos-elementos-header-y-footer]
+alias: [5825/html-5-nuevos-elementos-header-y-footer/, 5825/html-5-nuevos-elementos-header-y-footer]
 wordpress_id: 5825
 tags:
 - Uncategorized

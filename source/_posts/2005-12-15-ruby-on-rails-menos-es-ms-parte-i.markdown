@@ -4,6 +4,8 @@ date: 2005-12-15 10:33:00
 layout: post
 slug: ruby-on-rails-menos-es-ms-parte-i
 title: Ruby on Rails  - Menos es más - Parte I
+alias: [14/ruby-on-rails-menos-es-ms-parte-i/, 14/ruby-on-rails-menos-es-ms-parte-i]
+alias: [14/ruby-on-rails-menos-es-ms-parte-i/, 14/ruby-on-rails-menos-es-ms-parte-i]
 wordpress_id: 14
 categories:
 - Desarrollo

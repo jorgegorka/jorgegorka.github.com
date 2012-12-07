@@ -4,9 +4,11 @@ date: 2006-12-01 10:35:00
 layout: post
 slug: hoy-hablamos-de-spam-google-answers
 title: Hoy hablamos de spam, google answers
+alias: [390/hoy-hablamos-de-spam-google-answers/, 390/hoy-hablamos-de-spam-google-answers]
+alias: [390/hoy-hablamos-de-spam-google-answers/, 390/hoy-hablamos-de-spam-google-answers]
 wordpress_id: 390
 categories:
-- Analítica
+- Analitica
 tags:
 - google
 - historias

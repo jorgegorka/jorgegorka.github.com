@@ -4,6 +4,8 @@ date: 2006-11-29 10:54:00
 layout: post
 slug: entrevista-con-paco-underhill
 title: Entrevista con Paco Underhill
+alias: [199/entrevista-con-paco-underhill/, 199/entrevista-con-paco-underhill]
+alias: [199/entrevista-con-paco-underhill/, 199/entrevista-con-paco-underhill]
 wordpress_id: 199
 categories:
 - Empresa

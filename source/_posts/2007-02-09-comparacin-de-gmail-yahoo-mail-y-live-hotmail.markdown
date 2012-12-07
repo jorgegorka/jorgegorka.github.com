@@ -4,6 +4,8 @@ date: 2007-02-09 10:38:00
 layout: post
 slug: comparacin-de-gmail-yahoo-mail-y-live-hotmail
 title: Comparación de Gmail, Yahoo Mail y Live Hotmail
+alias: [5229/comparacin-de-gmail-yahoo-mail-y-live-hotmail/, 5229/comparacin-de-gmail-yahoo-mail-y-live-hotmail]
+alias: [5229/comparacin-de-gmail-yahoo-mail-y-live-hotmail/, 5229/comparacin-de-gmail-yahoo-mail-y-live-hotmail]
 wordpress_id: 5229
 tags:
 - google

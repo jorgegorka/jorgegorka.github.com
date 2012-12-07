@@ -4,6 +4,8 @@ date: 2010-08-02 16:09:00
 layout: post
 slug: la-inteligencia-colectiva
 title: La inteligencia colectiva
+alias: [5838/la-inteligencia-colectiva/, 5838/la-inteligencia-colectiva]
+alias: [5838/la-inteligencia-colectiva/, 5838/la-inteligencia-colectiva]
 wordpress_id: 5838
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-![Crowd](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/crowd-scaled600.jpg?w=300)
+![Crowd](http://blog.alvareznavarro.es/images/2011/06/crowd-scaled600.jpg?w=300)
 
 
 

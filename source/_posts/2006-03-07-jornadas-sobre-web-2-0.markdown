@@ -4,6 +4,8 @@ date: 2006-03-07 15:31:00
 layout: post
 slug: jornadas-sobre-web-2-0
 title: Jornadas sobre web 2.0
+alias: [50/jornadas-sobre-web-2-0/, 50/jornadas-sobre-web-2-0]
+alias: [50/jornadas-sobre-web-2-0/, 50/jornadas-sobre-web-2-0]
 wordpress_id: 50
 categories:
 - Desarrollo

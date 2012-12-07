@@ -4,12 +4,14 @@ date: 2009-10-03 01:46:05
 layout: post
 slug: 10-razones-para-usar-blogs-y-twitter-en-la-empresa
 title: 10 razones para usar blogs y twitter en la empresa
+alias: [5637/10-razones-para-usar-blogs-y-twitter-en-la-empresa/, 5637/10-razones-para-usar-blogs-y-twitter-en-la-empresa]
+alias: [5637/10-razones-para-usar-blogs-y-twitter-en-la-empresa/, 5637/10-razones-para-usar-blogs-y-twitter-en-la-empresa]
 wordpress_id: 5637
 tags:
 - Uncategorized
 ---
 
-![chemical_at_work](http://blog.alvareznavarro.es/wp-content/uploads/2009/10/chemical_at_work.jpg?w=150)Las 10 razones, como los mandamientos, se pueden resumir en dos:
+![chemical_at_work](http://blog.alvareznavarro.es/images/2009/10/chemical_at_work.jpg?w=150)Las 10 razones, como los mandamientos, se pueden resumir en dos:
 
 
 

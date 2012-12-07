@@ -4,6 +4,8 @@ date: 2011-01-17 08:41:00
 layout: post
 slug: html-5-elementos-obsoletos
 title: HTML 5 - Elementos obsoletos
+alias: [5829/html-5-elementos-obsoletos/, 5829/html-5-elementos-obsoletos]
+alias: [5829/html-5-elementos-obsoletos/, 5829/html-5-elementos-obsoletos]
 wordpress_id: 5829
 tags:
 - Uncategorized

@@ -4,6 +4,8 @@ date: 2007-09-26 17:07:00
 layout: post
 slug: herramienta-de-colaboracin
 title: Herramienta de colaboración
+alias: [5340/herramienta-de-colaboracin/, 5340/herramienta-de-colaboracin]
+alias: [5340/herramienta-de-colaboracin/, 5340/herramienta-de-colaboracin]
 wordpress_id: 5340
 categories:
 - Desarrollo

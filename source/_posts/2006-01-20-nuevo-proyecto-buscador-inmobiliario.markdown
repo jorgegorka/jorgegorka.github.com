@@ -4,6 +4,8 @@ date: 2006-01-20 20:32:00
 layout: post
 slug: nuevo-proyecto-buscador-inmobiliario
 title: 'Nuevo proyecto : Buscador inmobiliario'
+alias: [5683/nuevo-proyecto-buscador-inmobiliario/, 5683/nuevo-proyecto-buscador-inmobiliario]
+alias: [5683/nuevo-proyecto-buscador-inmobiliario/, 5683/nuevo-proyecto-buscador-inmobiliario]
 wordpress_id: 5683
 categories:
 - Desarrollo

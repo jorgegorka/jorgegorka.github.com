@@ -4,6 +4,8 @@ date: 2007-01-11 11:10:00
 layout: post
 slug: recursos-de-diseo-web-usabilidad-y-javascript
 title: Recursos de diseño web, usabilidad y javascript
+alias: [5200/recursos-de-diseo-web-usabilidad-y-javascript/, 5200/recursos-de-diseo-web-usabilidad-y-javascript]
+alias: [5200/recursos-de-diseo-web-usabilidad-y-javascript/, 5200/recursos-de-diseo-web-usabilidad-y-javascript]
 wordpress_id: 5200
 categories:
 - Desarrollo

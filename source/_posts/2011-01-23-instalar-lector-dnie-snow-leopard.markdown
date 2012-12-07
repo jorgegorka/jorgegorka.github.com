@@ -4,6 +4,8 @@ date: 2011-01-23 22:00:57
 layout: post
 slug: instalar-lector-dnie-snow-leopard
 title: Instalar lector DNIe Snow Leopard
+alias: [5827/instalar-lector-dnie-snow-leopard/, 5827/instalar-lector-dnie-snow-leopard]
+alias: [5827/instalar-lector-dnie-snow-leopard/, 5827/instalar-lector-dnie-snow-leopard]
 wordpress_id: 5827
 tags:
 - Uncategorized

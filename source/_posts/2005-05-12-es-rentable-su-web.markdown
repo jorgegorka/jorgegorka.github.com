@@ -4,6 +4,8 @@ date: 2005-05-12 19:28:00
 layout: post
 slug: es-rentable-su-web
 title: ¿Es rentable su web?
+alias: [33/es-rentable-su-web/, 33/es-rentable-su-web]
+alias: [33/es-rentable-su-web/, 33/es-rentable-su-web]
 wordpress_id: 33
 categories:
 - Desarrollo

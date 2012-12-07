@@ -4,6 +4,8 @@ date: 2008-11-06 17:09:00
 layout: post
 slug: webs-destacadas
 title: Webs destacadas
+alias: [5606/webs-destacadas/, 5606/webs-destacadas]
+alias: [5606/webs-destacadas/, 5606/webs-destacadas]
 wordpress_id: 5606
 tags:
 - Internet

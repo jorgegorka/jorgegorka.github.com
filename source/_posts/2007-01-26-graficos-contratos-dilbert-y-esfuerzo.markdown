@@ -4,6 +4,8 @@ date: 2007-01-26 10:45:00
 layout: post
 slug: graficos-contratos-dilbert-y-esfuerzo
 title: Graficos, contratos, Dilbert y esfuerzo
+alias: [5226/graficos-contratos-dilbert-y-esfuerzo/, 5226/graficos-contratos-dilbert-y-esfuerzo]
+alias: [5226/graficos-contratos-dilbert-y-esfuerzo/, 5226/graficos-contratos-dilbert-y-esfuerzo]
 wordpress_id: 5226
 categories:
 - Desarrollo

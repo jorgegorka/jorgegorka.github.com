@@ -4,6 +4,8 @@ date: 2006-11-21 10:05:00
 layout: post
 slug: links-interesantes
 title: Links interesantes
+alias: [129/links-interesantes/, 129/links-interesantes]
+alias: [129/links-interesantes/, 129/links-interesantes]
 wordpress_id: 129
 categories:
 - Personal

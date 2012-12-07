@@ -4,6 +4,8 @@ date: 2006-05-17 20:14:00
 layout: post
 slug: herramientas-de-desarrollo
 title: Herramientas de desarrollo
+alias: [98/herramientas-de-desarrollo/, 98/herramientas-de-desarrollo]
+alias: [98/herramientas-de-desarrollo/, 98/herramientas-de-desarrollo]
 wordpress_id: 98
 categories:
 - Desarrollo

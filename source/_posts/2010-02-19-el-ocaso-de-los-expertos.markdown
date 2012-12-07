@@ -4,13 +4,15 @@ date: 2010-02-19 12:35:46
 layout: post
 slug: el-ocaso-de-los-expertos
 title: El ocaso de los expertos
+alias: [5719/el-ocaso-de-los-expertos/, 5719/el-ocaso-de-los-expertos]
+alias: [5719/el-ocaso-de-los-expertos/, 5719/el-ocaso-de-los-expertos]
 wordpress_id: 5719
 tags:
 - econom&#237;a
 - Internet
 ---
 
-[caption id="attachment_5721" align="alignleft" width="300" caption="http://www.flickr.com/photos/bijoymohan/2946293228/"][![http://www.flickr.com/photos/bijoymohan/2946293228/](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/hats.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/hats.jpg)[/caption]
+[caption id="attachment_5721" align="alignleft" width="300" caption="http://www.flickr.com/photos/bijoymohan/2946293228/"][![http://www.flickr.com/photos/bijoymohan/2946293228/](http://blog.alvareznavarro.es/images/2010/02/hats.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2010/02/hats.jpg)[/caption]
 
 En un mundo tecnológico tan cambiante como éste en el que nos movemos (y más quienes nos dedicamos profesionalmente al desarrollo web) resulta imprescindible reinventarse a uno mismo continuamente.
 

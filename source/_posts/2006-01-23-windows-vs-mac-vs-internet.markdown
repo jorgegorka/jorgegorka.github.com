@@ -4,6 +4,8 @@ date: 2006-01-23 20:24:00
 layout: post
 slug: windows-vs-mac-vs-internet
 title: Windows vs. Mac vs. Internet
+alias: [5684/windows-vs-mac-vs-internet/, 5684/windows-vs-mac-vs-internet]
+alias: [5684/windows-vs-mac-vs-internet/, 5684/windows-vs-mac-vs-internet]
 wordpress_id: 5684
 categories:
 - Personal

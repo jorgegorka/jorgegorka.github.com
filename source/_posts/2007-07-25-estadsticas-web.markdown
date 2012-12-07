@@ -4,6 +4,8 @@ date: 2007-07-25 02:21:00
 layout: post
 slug: estadsticas-web
 title: Estadísticas web
+alias: [5324/estadsticas-web/, 5324/estadsticas-web]
+alias: [5324/estadsticas-web/, 5324/estadsticas-web]
 wordpress_id: 5324
 tags:
 - estadisticas

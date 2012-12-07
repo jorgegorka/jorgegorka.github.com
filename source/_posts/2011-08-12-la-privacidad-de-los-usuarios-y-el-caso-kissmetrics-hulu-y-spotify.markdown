@@ -4,6 +4,8 @@ date: 2011-08-12 12:34:10
 layout: post
 slug: la-privacidad-de-los-usuarios-y-el-caso-kissmetrics-hulu-y-spotify
 title: La privacidad de los usuarios y el caso KissMetrics, Hulu y Spotify
+alias: [6046/la-privacidad-de-los-usuarios-y-el-caso-kissmetrics-hulu-y-spotify/, 6046/la-privacidad-de-los-usuarios-y-el-caso-kissmetrics-hulu-y-spotify]
+alias: [6046/la-privacidad-de-los-usuarios-y-el-caso-kissmetrics-hulu-y-spotify/, 6046/la-privacidad-de-los-usuarios-y-el-caso-kissmetrics-hulu-y-spotify]
 wordpress_id: 6046
 tags:
 - kissmetrics

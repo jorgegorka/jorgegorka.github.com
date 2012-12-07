@@ -4,16 +4,18 @@ date: 2011-09-22 08:59:48
 layout: post
 slug: medir-el-exito-de-una-web-inmobiliaria-indicadores-de-rendimiento
 title: Medir el éxito de una web inmobiliaria - Indicadores de rendimiento
+alias: [6157/medir-el-exito-de-una-web-inmobiliaria-indicadores-de-rendimiento/, 6157/medir-el-exito-de-una-web-inmobiliaria-indicadores-de-rendimiento]
+alias: [6157/medir-el-exito-de-una-web-inmobiliaria-indicadores-de-rendimiento/, 6157/medir-el-exito-de-una-web-inmobiliaria-indicadores-de-rendimiento]
 wordpress_id: 6157
 categories:
-- Analítica
+- Analitica
 tags:
 - inmobiliarias
 - kpi
 - metricas
 ---
 
-[![kpi webs agencias inmobiliarias](http://www.alvareznavarro.es/wp-content/uploads/2011/09/casa_venta.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/casa_venta.jpg)Las agencias inmobiliarias deben ser especialmente cuidadosas con sus páginas web. Internet es el primer lugar al que la gran mayoría de personas accede cuando está buscando un inmueble en venta o en alquiler.  Disponer de una web que muestre nuestra cartera de inmuebles de forma sencilla y cómoda será vital para generar contactos y convertir a quienes llegan a nuestra web de visitantes a clientes.
+[![kpi webs agencias inmobiliarias](http://www.alvareznavarro.es/images/2011/09/casa_venta.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/09/casa_venta.jpg)Las agencias inmobiliarias deben ser especialmente cuidadosas con sus páginas web. Internet es el primer lugar al que la gran mayoría de personas accede cuando está buscando un inmueble en venta o en alquiler.  Disponer de una web que muestre nuestra cartera de inmuebles de forma sencilla y cómoda será vital para generar contactos y convertir a quienes llegan a nuestra web de visitantes a clientes.
 
 Para poder evaluar el éxito de nuestra web inmobiliaria debemos poder medir lo que sucede en en ella.  Una vez que tengamos detectados los puntos fuertes y débiles podremos [llevar a cabo acciones que nos permitan mejorar](http://www.alvareznavarro.es/servicios/optimizacion-web/) lo que no funciona bien y potenciar aquello que si que está funcionando.
 

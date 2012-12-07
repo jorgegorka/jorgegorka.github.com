@@ -4,6 +4,8 @@ date: 2010-10-14 16:10:00
 layout: post
 slug: la-paginacion-y-el-seo
 title: La paginación y el SEO
+alias: [5834/la-paginacion-y-el-seo/, 5834/la-paginacion-y-el-seo]
+alias: [5834/la-paginacion-y-el-seo/, 5834/la-paginacion-y-el-seo]
 wordpress_id: 5834
 categories:
 - Optimización
@@ -28,7 +30,7 @@ En primer lugar y como en cualquier cosa que hagamos en nuestra web debemos pens
 
 
 
-![Amazon](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/amazon-com-scaled600.jpg?w=300)
+![Amazon](http://blog.alvareznavarro.es/images/2011/06/amazon-com-scaled600.jpg?w=300)
 
 
 

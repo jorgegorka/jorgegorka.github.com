@@ -4,6 +4,8 @@ date: 2008-11-08 18:09:00
 layout: post
 slug: web-destacada-carbonica
 title: 'Web destacada: Carbonica'
+alias: [5607/web-destacada-carbonica/, 5607/web-destacada-carbonica]
+alias: [5607/web-destacada-carbonica/, 5607/web-destacada-carbonica]
 wordpress_id: 5607
 tags:
 - Internet

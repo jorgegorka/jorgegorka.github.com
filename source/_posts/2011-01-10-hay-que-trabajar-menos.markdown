@@ -4,6 +4,8 @@ date: 2011-01-10 08:43:55
 layout: post
 slug: hay-que-trabajar-menos
 title: Hay que trabajar menos
+alias: [5831/hay-que-trabajar-menos/, 5831/hay-que-trabajar-menos]
+alias: [5831/hay-que-trabajar-menos/, 5831/hay-que-trabajar-menos]
 wordpress_id: 5831
 tags:
 - Uncategorized

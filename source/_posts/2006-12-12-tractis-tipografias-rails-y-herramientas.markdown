@@ -4,6 +4,8 @@ date: 2006-12-12 10:32:00
 layout: post
 slug: tractis-tipografias-rails-y-herramientas
 title: Tractis, tipografias, rails y herramientas
+alias: [4577/tractis-tipografias-rails-y-herramientas/, 4577/tractis-tipografias-rails-y-herramientas]
+alias: [4577/tractis-tipografias-rails-y-herramientas/, 4577/tractis-tipografias-rails-y-herramientas]
 wordpress_id: 4577
 categories:
 - Desarrollo

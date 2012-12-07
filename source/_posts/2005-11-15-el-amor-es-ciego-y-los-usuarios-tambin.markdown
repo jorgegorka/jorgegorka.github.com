@@ -4,6 +4,8 @@ date: 2005-11-15 10:37:00
 layout: post
 slug: el-amor-es-ciego-y-los-usuarios-tambin
 title: El amor es ciego... y los usuarios también
+alias: [16/el-amor-es-ciego-y-los-usuarios-tambin/, 16/el-amor-es-ciego-y-los-usuarios-tambin]
+alias: [16/el-amor-es-ciego-y-los-usuarios-tambin/, 16/el-amor-es-ciego-y-los-usuarios-tambin]
 wordpress_id: 16
 categories:
 - Desarrollo

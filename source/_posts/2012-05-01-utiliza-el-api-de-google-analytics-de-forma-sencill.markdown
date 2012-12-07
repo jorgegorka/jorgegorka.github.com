@@ -4,9 +4,11 @@ date: 2012-05-01 07:35:43
 layout: post
 slug: utiliza-el-api-de-google-analytics-de-forma-sencill
 title: Utiliza el API de Google Analytics de forma sencilla
+alias: [6720/utiliza-el-api-de-google-analytics-de-forma-sencill/, 6720/utiliza-el-api-de-google-analytics-de-forma-sencill]
+alias: [6720/utiliza-el-api-de-google-analytics-de-forma-sencill/, 6720/utiliza-el-api-de-google-analytics-de-forma-sencill]
 wordpress_id: 6720
 categories:
-- Analítica
+- Analitica
 - Desarrollo
 tags:
 - api
@@ -15,7 +17,7 @@ tags:
 - ruby
 ---
 
-![Ariadna Google Analytica API for developers](http://www.alvareznavarro.es/wp-content/uploads/2012/04/developers-300x168.jpg)El API de Google Analytics nos permite utilizar directamente toda la información que Google Analytics almacena sobre nuestra página web.  Al tener acceso de forma directa a los datos, podemos cruzarlos, agruparlos y segmentarlos de formas que la herramienta web de Google Analytics no permite.
+![Ariadna Google Analytica API for developers](http://www.alvareznavarro.es/images/2012/04/developers-300x168.jpg)El API de Google Analytics nos permite utilizar directamente toda la información que Google Analytics almacena sobre nuestra página web.  Al tener acceso de forma directa a los datos, podemos cruzarlos, agruparlos y segmentarlos de formas que la herramienta web de Google Analytics no permite.
 
 
 

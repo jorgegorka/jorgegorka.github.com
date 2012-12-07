@@ -4,6 +4,8 @@ date: 2011-01-13 15:25:27
 layout: post
 slug: introduccion-al-html-5
 title: Introducción al HTML 5
+alias: [5830/introduccion-al-html-5/, 5830/introduccion-al-html-5]
+alias: [5830/introduccion-al-html-5/, 5830/introduccion-al-html-5]
 wordpress_id: 5830
 tags:
 - Uncategorized

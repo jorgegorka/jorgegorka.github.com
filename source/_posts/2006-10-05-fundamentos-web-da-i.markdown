@@ -4,6 +4,8 @@ date: 2006-10-05 20:12:00
 layout: post
 slug: fundamentos-web-da-i
 title: Fundamentos web - Día I
+alias: [112/fundamentos-web-da-i/, 112/fundamentos-web-da-i]
+alias: [112/fundamentos-web-da-i/, 112/fundamentos-web-da-i]
 wordpress_id: 112
 categories:
 - Empresa

@@ -4,12 +4,14 @@ date: 2009-10-11 08:18:35
 layout: post
 slug: el-futuro-de-la-distribucion-musical
 title: El futuro de la distribución musical
+alias: [5646/el-futuro-de-la-distribucion-musical/, 5646/el-futuro-de-la-distribucion-musical]
+alias: [5646/el-futuro-de-la-distribucion-musical/, 5646/el-futuro-de-la-distribucion-musical]
 wordpress_id: 5646
 tags:
 - Uncategorized
 ---
 
-[caption id="attachment_5649" align="alignright" width="288" caption="(c) flattop341"][![(c) flattop341](http://blog.alvareznavarro.es/wp-content/uploads/2009/10/musica.jpg?w=288)](http://www.flickr.com/photos/flattop341/)[/caption]
+[caption id="attachment_5649" align="alignright" width="288" caption="(c) flattop341"][![(c) flattop341](http://blog.alvareznavarro.es/images/2009/10/musica.jpg?w=288)](http://www.flickr.com/photos/flattop341/)[/caption]
 
 Hace una semana hablaba de lo bien que lo está haciendo Spotify y su forma de entender por donde va el futuro de la música.
 

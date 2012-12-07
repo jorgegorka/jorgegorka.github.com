@@ -4,6 +4,8 @@ date: 2005-07-17 19:22:00
 layout: post
 slug: apple-intel-inside-windows-outside
 title: 'Apple: Intel inside ¿Windows outside?'
+alias: [31/apple-intel-inside-windows-outside/, 31/apple-intel-inside-windows-outside]
+alias: [31/apple-intel-inside-windows-outside/, 31/apple-intel-inside-windows-outside]
 wordpress_id: 31
 categories:
 - Marketing

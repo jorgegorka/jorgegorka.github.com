@@ -5,6 +5,8 @@ layout: post
 slug: a-vueltas-con-el-dichoso-flash-o-por-que-la-web-de-rammstein-es-de-lo-mejor-que-hay
 title: 'A vueltas con el dichoso flash: O por que la web de Rammstein es de lo mejor
   que hay'
+alias: [28/a-vueltas-con-el-dichoso-flash-o-por-que-la-web-de-rammstein-es-de-lo-mejor-que-hay/, 28/a-vueltas-con-el-dichoso-flash-o-por-que-la-web-de-rammstein-es-de-lo-mejor-que-hay]
+alias: [28/a-vueltas-con-el-dichoso-flash-o-por-que-la-web-de-rammstein-es-de-lo-mejor-que-hay/, 28/a-vueltas-con-el-dichoso-flash-o-por-que-la-web-de-rammstein-es-de-lo-mejor-que-hay]
 wordpress_id: 28
 categories:
 - Desarrollo

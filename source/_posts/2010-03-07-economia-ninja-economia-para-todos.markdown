@@ -4,12 +4,14 @@ date: 2010-03-07 20:40:53
 layout: post
 slug: economia-ninja-economia-para-todos
 title: Economía Ninja - Economía para todos
+alias: [5782/economia-ninja-economia-para-todos/, 5782/economia-ninja-economia-para-todos]
+alias: [5782/economia-ninja-economia-para-todos/, 5782/economia-ninja-economia-para-todos]
 wordpress_id: 5782
 tags:
 - econom&#237;a
 ---
 
-[caption id="attachment_5784" align="alignleft" width="198" caption="La hora de los sensatos - Muy recomendable"][![](http://blog.alvareznavarro.es/wp-content/uploads/2010/03/sensatos.png)](http://www.leopoldoabadia.com/viral.php)[/caption]
+[caption id="attachment_5784" align="alignleft" width="198" caption="La hora de los sensatos - Muy recomendable"][![](http://blog.alvareznavarro.es/images/2010/03/sensatos.png)](http://www.leopoldoabadia.com/viral.php)[/caption]
 
 Esta semana se han juntado dos hechos que pueden parecer a priori inconexos.
 

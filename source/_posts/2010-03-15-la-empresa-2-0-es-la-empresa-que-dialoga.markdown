@@ -4,12 +4,14 @@ date: 2010-03-15 08:33:25
 layout: post
 slug: la-empresa-2-0-es-la-empresa-que-dialoga
 title: La empresa 2.0 es la empresa que dialoga
+alias: [5793/la-empresa-2-0-es-la-empresa-que-dialoga/, 5793/la-empresa-2-0-es-la-empresa-que-dialoga]
+alias: [5793/la-empresa-2-0-es-la-empresa-que-dialoga/, 5793/la-empresa-2-0-es-la-empresa-que-dialoga]
 wordpress_id: 5793
 tags:
 - Uncategorized
 ---
 
-[caption id="attachment_5795" align="alignleft" width="300" caption="Foto: http://www.flickr.com/photos/anyalogic/2315310261/"][![](http://blog.alvareznavarro.es/wp-content/uploads/2010/03/conversation.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2010/03/conversation.jpg)[/caption]
+[caption id="attachment_5795" align="alignleft" width="300" caption="Foto: http://www.flickr.com/photos/anyalogic/2315310261/"][![](http://blog.alvareznavarro.es/images/2010/03/conversation.jpg?w=300)](http://blog.alvareznavarro.es/wp-content/uploads/2010/03/conversation.jpg)[/caption]
 
 Cuando muchas empresas preparan una estrategia de marketing, posicionamiento e imagen tienen en cuenta cosas como el diseño de la web, las secciones y contenidos, donde anunciarse, el c.p.c., el r.o.i. ... y descuidan un elemento primordial que la web aporta a todas las empresas:  **La posibilidad de dialogar con sus clientes.**
 

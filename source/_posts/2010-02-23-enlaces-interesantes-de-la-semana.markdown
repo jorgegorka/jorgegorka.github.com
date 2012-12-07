@@ -4,6 +4,8 @@ date: 2010-02-23 08:55:50
 layout: post
 slug: enlaces-interesantes-de-la-semana
 title: Enlaces interesantes de la semana
+alias: [5738/enlaces-interesantes-de-la-semana/, 5738/enlaces-interesantes-de-la-semana]
+alias: [5738/enlaces-interesantes-de-la-semana/, 5738/enlaces-interesantes-de-la-semana]
 wordpress_id: 5738
 tags:
 - enlaces

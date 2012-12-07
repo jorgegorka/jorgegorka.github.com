@@ -2,14 +2,15 @@
 comments: true
 date: 2012-04-19 12:07:24
 layout: post
-slug: 3-consejos-para-crear-un-dashboard-de-analitica
+slug: 3-consejos-para-crear-un-dashboard-de-- Analitica
 title: 3 Consejos para crear un Dashboard
+alias: [6712/3-consejos-para-crear-un-dashboard-de-analitica/, 6712/3-consejos-para-crear-un-dashboard-de-analitica]
 wordpress_id: 6712
 categories:
-- Analítica
+- Analitica
 ---
 
-![Como crear un dashboard tras un analisis web](http://www.alvareznavarro.es/wp-content/uploads/2012/04/dashboard1-300x234.png)Un dashboard condensa en un único cuadro/gráfico/página el saber hacer de un buen analista web.  Puede que suene un poco melodramático pero es la realidad.  Eres tan bueno como lo son tus dashboards.  La misión de un analista es generar buenos informes, ayudar a que la empresa que lo ha contratado mejore.
+![Como crear un dashboard tras un analisis web](http://www.alvareznavarro.es/images/2012/04/dashboard1-300x234.png)Un dashboard condensa en un único cuadro/gráfico/página el saber hacer de un buen analista web.  Puede que suene un poco melodramático pero es la realidad.  Eres tan bueno como lo son tus dashboards.  La misión de un analista es generar buenos informes, ayudar a que la empresa que lo ha contratado mejore.
 
 
 

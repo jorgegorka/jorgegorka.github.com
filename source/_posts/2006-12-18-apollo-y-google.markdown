@@ -4,6 +4,8 @@ date: 2006-12-18 11:19:00
 layout: post
 slug: apollo-y-google
 title: Apollo y Google
+alias: [5135/apollo-y-google/, 5135/apollo-y-google]
+alias: [5135/apollo-y-google/, 5135/apollo-y-google]
 wordpress_id: 5135
 categories:
 - Empresa

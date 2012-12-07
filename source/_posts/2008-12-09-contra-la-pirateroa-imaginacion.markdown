@@ -4,6 +4,8 @@ date: 2008-12-09 20:43:00
 layout: post
 slug: contra-la-pirateroa-imaginacion
 title: 'Contra la piratería: imaginación'
+alias: [5611/contra-la-pirateroa-imaginacion/, 5611/contra-la-pirateroa-imaginacion]
+alias: [5611/contra-la-pirateroa-imaginacion/, 5611/contra-la-pirateroa-imaginacion]
 wordpress_id: 5611
 categories:
 - Empresa

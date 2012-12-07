@@ -4,6 +4,8 @@ date: 2006-11-27 10:46:00
 layout: post
 slug: otra-vez-hablamos-de-google-rails-y-alguna-otra-cosa
 title: Otra vez hablamos de Google, rails y alguna otra cosa
+alias: [197/otra-vez-hablamos-de-google-rails-y-alguna-otra-cosa/, 197/otra-vez-hablamos-de-google-rails-y-alguna-otra-cosa]
+alias: [197/otra-vez-hablamos-de-google-rails-y-alguna-otra-cosa/, 197/otra-vez-hablamos-de-google-rails-y-alguna-otra-cosa]
 wordpress_id: 197
 categories:
 - Empresa

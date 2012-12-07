@@ -2,8 +2,10 @@
 comments: true
 date: 2011-03-25 23:48:50
 layout: post
-slug: master-de-analitica-web-secuoyas-dia-1
+slug: master-de-- Analitica-web-secuoyas-dia-1
 title: Master de Analítica Web Secuoyas - Día 1
+alias: [5819/master-de-analitica-web-secuoyas-dia-1/, 5819/master-de-analitica-web-secuoyas-dia-1]
+alias: [5819/master-de-analitica-web-secuoyas-dia-1/, 5819/master-de-analitica-web-secuoyas-dia-1]
 wordpress_id: 5819
 tags:
 - Uncategorized

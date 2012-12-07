@@ -4,6 +4,8 @@ date: 2011-10-04 13:02:00
 layout: post
 slug: deja-que-tus-visitantes-organicen-tu-web
 title: Deja que tus visitantes organicen tu web
+alias: [6481/deja-que-tus-visitantes-organicen-tu-web/, 6481/deja-que-tus-visitantes-organicen-tu-web]
+alias: [6481/deja-que-tus-visitantes-organicen-tu-web/, 6481/deja-que-tus-visitantes-organicen-tu-web]
 wordpress_id: 6481
 categories:
 - Optimización
@@ -13,7 +15,7 @@ tags:
 - posicionamiento en buscadores
 ---
 
-[![](http://www.alvareznavarro.es/wp-content/uploads/2011/10/network_people-300x225.jpg)](http://www.alvareznavarro.es/?attachment_id=6438)Tu web no te pertenece a tí sino a tus visitantes.  Ellos son el único motivo por el que haces todo el esfuerzo de tiempo y dinero que requiere mantener una web de calidad.  Y tus visitantes esperan de tu web algo claro y concreto:  que les informes, que les vendas algo, que les des soporte, tus datos de contacto, conversar, etc.
+[![](http://www.alvareznavarro.es/images/2011/10/network_people-300x225.jpg)](http://www.alvareznavarro.es/?attachment_id=6438)Tu web no te pertenece a tí sino a tus visitantes.  Ellos son el único motivo por el que haces todo el esfuerzo de tiempo y dinero que requiere mantener una web de calidad.  Y tus visitantes esperan de tu web algo claro y concreto:  que les informes, que les vendas algo, que les des soporte, tus datos de contacto, conversar, etc.
 
 
 

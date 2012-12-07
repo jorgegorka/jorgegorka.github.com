@@ -4,6 +4,8 @@ date: 2005-07-27 19:07:00
 layout: post
 slug: si-no-sabes-programar-un-video-es-que-eres-tonto
 title: Si no sabes programar un video... es que eres tonto
+alias: [26/si-no-sabes-programar-un-video-es-que-eres-tonto/, 26/si-no-sabes-programar-un-video-es-que-eres-tonto]
+alias: [26/si-no-sabes-programar-un-video-es-que-eres-tonto/, 26/si-no-sabes-programar-un-video-es-que-eres-tonto]
 wordpress_id: 26
 categories:
 - Desarrollo

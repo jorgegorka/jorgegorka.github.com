@@ -4,13 +4,15 @@ date: 2011-03-16 09:27:13
 layout: post
 slug: medir-las-paginas-de-error-con-google-analytics
 title: Medir las páginas de error con Google Analytics
+alias: [5820/medir-las-paginas-de-error-con-google-analytics/, 5820/medir-las-paginas-de-error-con-google-analytics]
+alias: [5820/medir-las-paginas-de-error-con-google-analytics/, 5820/medir-las-paginas-de-error-con-google-analytics]
 wordpress_id: 5820
 tags:
 - Uncategorized
 ---
 
 
-    Me he inscrito al [Master de Analítica Web](http://www.secuoyasacademy.com/master-analitica-web.html) que imparte [Secuoyas](http://www.secuoyasacademy.com/).  Creo que tiene unos contenidos muy interesantes y unos profesores de primer nivel así que doy por seguro que será un tiempo muy bien aprovechado.
+    Me he inscrito al [Master de Analítica Web](http://www.secuoyasacademy.com/master-- Analitica-web.html) que imparte [Secuoyas](http://www.secuoyasacademy.com/).  Creo que tiene unos contenidos muy interesantes y unos profesores de primer nivel así que doy por seguro que será un tiempo muy bien aprovechado.
 
 Como preparación para el master me estoy estudiando en profundidad el funcionamiento de Google Analytics, AdWords y Website Optimizer.  Creo que si conozco las herramientas será mucho más fácil aplicar y sacar partido a los conocimientos que recibiré.
 

@@ -2,11 +2,13 @@
 comments: true
 date: 2011-07-19 19:39:47
 layout: post
-slug: master-analitica-web-semana-14-social-media
+slug: master-- Analitica-web-semana-14-social-media
 title: Master Analítica Web semana 14 - Social Media
+alias: [6061/master-analitica-web-semana-14-social-media/, 6061/master-analitica-web-semana-14-social-media]
+alias: [6061/master-analitica-web-semana-14-social-media/, 6061/master-analitica-web-semana-14-social-media]
 wordpress_id: 6061
 categories:
-- Analítica
+- Analitica
 tags:
 - master analítica web
 - social media

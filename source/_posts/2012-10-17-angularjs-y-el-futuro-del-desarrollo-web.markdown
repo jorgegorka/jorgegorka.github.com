@@ -4,6 +4,7 @@ date: 2012-10-17 20:24:12
 layout: post
 slug: angularjs-y-el-futuro-del-desarrollo-web
 title: AngularJS y el futuro del desarrollo web
+alias: [6758/angularjs-y-el-futuro-del-desarrollo-web/, 6758/angularjs-y-el-futuro-del-desarrollo-web]
 wordpress_id: 6758
 categories:
 - Desarrollo
@@ -12,7 +13,7 @@ tags:
 - javascript
 ---
 
-![javascript framework](http://www.alvareznavarro.es/wp-content/uploads/2012/10/AngularJS-300x84.png)Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de pantallas, formas de uso (táctil, no táctil, offline, online...) quizás no sea la forma más adecuada.
+![javascript framework](http://www.alvareznavarro.es/images/2012/10/AngularJS-300x84.png)Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de pantallas, formas de uso (táctil, no táctil, offline, online...) quizás no sea la forma más adecuada.
 
 
 

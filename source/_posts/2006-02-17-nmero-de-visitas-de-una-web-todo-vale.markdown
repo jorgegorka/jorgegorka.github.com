@@ -4,6 +4,8 @@ date: 2006-02-17 15:06:00
 layout: post
 slug: nmero-de-visitas-de-una-web-todo-vale
 title: Número de visitas de una web ¿Todo vale?
+alias: [42/nmero-de-visitas-de-una-web-todo-vale/, 42/nmero-de-visitas-de-una-web-todo-vale]
+alias: [42/nmero-de-visitas-de-una-web-todo-vale/, 42/nmero-de-visitas-de-una-web-todo-vale]
 wordpress_id: 42
 categories:
 - Empresa

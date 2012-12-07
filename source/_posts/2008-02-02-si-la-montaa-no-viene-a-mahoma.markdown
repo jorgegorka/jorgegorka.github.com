@@ -4,6 +4,8 @@ date: 2008-02-02 13:44:00
 layout: post
 slug: si-la-montaa-no-viene-a-mahoma
 title: Si la montaña no viene a Mahoma
+alias: [5509/si-la-montaa-no-viene-a-mahoma/, 5509/si-la-montaa-no-viene-a-mahoma]
+alias: [5509/si-la-montaa-no-viene-a-mahoma/, 5509/si-la-montaa-no-viene-a-mahoma]
 wordpress_id: 5509
 categories:
 - Desarrollo

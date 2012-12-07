@@ -4,6 +4,8 @@ date: 2007-01-31 12:01:00
 layout: post
 slug: en-lugar-de-avanzar-retrocedemos
 title: En lugar de avanzar, retrocedemos
+alias: [5227/en-lugar-de-avanzar-retrocedemos/, 5227/en-lugar-de-avanzar-retrocedemos]
+alias: [5227/en-lugar-de-avanzar-retrocedemos/, 5227/en-lugar-de-avanzar-retrocedemos]
 wordpress_id: 5227
 categories:
 - Personal

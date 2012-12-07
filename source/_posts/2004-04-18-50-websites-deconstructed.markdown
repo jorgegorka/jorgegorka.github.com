@@ -4,6 +4,8 @@ date: 2004-04-18 15:42:00
 layout: post
 slug: 50-websites-deconstructed
 title: 50 websites deconstructed
+alias: [124/50-websites-deconstructed/, 124/50-websites-deconstructed]
+alias: [124/50-websites-deconstructed/, 124/50-websites-deconstructed]
 wordpress_id: 124
 categories:
 - Libros

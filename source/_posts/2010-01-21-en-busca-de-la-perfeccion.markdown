@@ -4,12 +4,14 @@ date: 2010-01-21 20:00:55
 layout: post
 slug: en-busca-de-la-perfeccion
 title: En busca de la perfección
+alias: [5699/en-busca-de-la-perfeccion/, 5699/en-busca-de-la-perfeccion]
+alias: [5699/en-busca-de-la-perfeccion/, 5699/en-busca-de-la-perfeccion]
 wordpress_id: 5699
 tags:
 - Uncategorized
 ---
 
-[![Vitruvian man](http://blog.alvareznavarro.es/wp-content/uploads/2010/01/vitruvio.jpg?w=220)](http://en.wikipedia.org/wiki/Vitruvian_Man)La publicidad nos vende la perfección: el cuerpo perfecto, la casa perfecta, los hijos perfectos, el coche perfecto...
+[![Vitruvian man](http://blog.alvareznavarro.es/images/2010/01/vitruvio.jpg?w=220)](http://en.wikipedia.org/wiki/Vitruvian_Man)La publicidad nos vende la perfección: el cuerpo perfecto, la casa perfecta, los hijos perfectos, el coche perfecto...
 
 Nos incita a ser perfectos y a cambiar o eliminar de nuestra vida todo aquello que no lo sea.  Si tus tetas no son perfectas te las operas, si tu barriga no es una tableta de chocolate hazte una lipo, ten unos hijos perfectos en un colegio perfecto con un ambiente perfecto,  si tu tránsito no es perfecto come yogures....
 

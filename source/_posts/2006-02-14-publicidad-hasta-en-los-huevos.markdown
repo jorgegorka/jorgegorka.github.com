@@ -4,6 +4,8 @@ date: 2006-02-14 10:19:00
 layout: post
 slug: publicidad-hasta-en-los-huevos
 title: Publicidad hasta en los huevos
+alias: [40/publicidad-hasta-en-los-huevos/, 40/publicidad-hasta-en-los-huevos]
+alias: [40/publicidad-hasta-en-los-huevos/, 40/publicidad-hasta-en-los-huevos]
 wordpress_id: 40
 categories:
 - Marketing

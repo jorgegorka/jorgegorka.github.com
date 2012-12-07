@@ -4,16 +4,18 @@ date: 2011-10-10 09:03:28
 layout: post
 slug: como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools
 title: Como vincular tu cuenta de Google Analytics con Webmaster Tools
+alias: [6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/, 6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools]
+alias: [6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/, 6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools]
 wordpress_id: 6516
 categories:
-- Analítica
+- Analitica
 - SEO
 tags:
 - google analytics
 - webmaster tools
 ---
 
-[![Herramienta para webmasters](http://www.alvareznavarro.es/wp-content/uploads/2011/10/google-webmaster-toos.gif)](http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/google-webmaster-toos/)**Por fin Google Analytics puede vincularse con Webmaster Tools.  Al igual que es necesario vincular tu cuenta de AdWords con tu cuenta de Analytics, vincular la cuenta de Webmaster Tools nos proporcionará información que nos ayudará a detectar que optimizar de nuestra web para mejorar su posicionamiento en buscadores (SEO).**
+[![Herramienta para webmasters](http://www.alvareznavarro.es/images/2011/10/google-webmaster-toos.gif)](http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/google-webmaster-toos/)**Por fin Google Analytics puede vincularse con Webmaster Tools.  Al igual que es necesario vincular tu cuenta de AdWords con tu cuenta de Analytics, vincular la cuenta de Webmaster Tools nos proporcionará información que nos ayudará a detectar que optimizar de nuestra web para mejorar su posicionamiento en buscadores (SEO).**
 
 
 

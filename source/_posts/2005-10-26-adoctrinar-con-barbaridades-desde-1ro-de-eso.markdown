@@ -4,6 +4,8 @@ date: 2005-10-26 18:43:00
 layout: post
 slug: adoctrinar-con-barbaridades-desde-1ro-de-eso
 title: Adoctrinar con barbaridades desde 1ro. de ESO
+alias: [20/adoctrinar-con-barbaridades-desde-1ro-de-eso/, 20/adoctrinar-con-barbaridades-desde-1ro-de-eso]
+alias: [20/adoctrinar-con-barbaridades-desde-1ro-de-eso/, 20/adoctrinar-con-barbaridades-desde-1ro-de-eso]
 wordpress_id: 20
 categories:
 - Personal

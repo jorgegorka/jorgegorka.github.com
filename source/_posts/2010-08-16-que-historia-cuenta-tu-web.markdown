@@ -4,6 +4,8 @@ date: 2010-08-16 07:04:00
 layout: post
 slug: que-historia-cuenta-tu-web
 title: Que historia cuenta tu web?
+alias: [5836/que-historia-cuenta-tu-web/, 5836/que-historia-cuenta-tu-web]
+alias: [5836/que-historia-cuenta-tu-web/, 5836/que-historia-cuenta-tu-web]
 wordpress_id: 5836
 tags:
 - Uncategorized
@@ -13,7 +15,7 @@ tags:
     
 
 
-![All_equal](http://blog.alvareznavarro.es/wp-content/uploads/2011/06/all_equal-scaled600.jpg?w=300)
+![All_equal](http://blog.alvareznavarro.es/images/2011/06/all_equal-scaled600.jpg?w=300)
 
 
 

@@ -4,6 +4,8 @@ date: 2011-02-24 10:58:12
 layout: post
 slug: la-educacion-en-el-siglo-xxi-con-sistemas-del-siglo-xv
 title: La educación en el siglo XXI con sistemas del siglo XV
+alias: [5824/la-educacion-en-el-siglo-xxi-con-sistemas-del-siglo-xv/, 5824/la-educacion-en-el-siglo-xxi-con-sistemas-del-siglo-xv]
+alias: [5824/la-educacion-en-el-siglo-xxi-con-sistemas-del-siglo-xv/, 5824/la-educacion-en-el-siglo-xxi-con-sistemas-del-siglo-xv]
 wordpress_id: 5824
 tags:
 - Uncategorized

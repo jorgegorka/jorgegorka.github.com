@@ -2,8 +2,10 @@
 comments: true
 date: 2011-05-10 08:07:00
 layout: post
-slug: master-de-analitica-web-semana-6
+slug: master-de-- Analitica-web-semana-6
 title: Master de Analítica Web - Semana 6
+alias: [5807/master-de-analitica-web-semana-6/, 5807/master-de-analitica-web-semana-6]
+alias: [5807/master-de-analitica-web-semana-6/, 5807/master-de-analitica-web-semana-6]
 wordpress_id: 5807
 tags:
 - Uncategorized

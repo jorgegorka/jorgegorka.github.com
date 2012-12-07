@@ -4,6 +4,8 @@ date: 2006-02-21 16:34:00
 layout: post
 slug: la-importancia-de-la-primera-impresin
 title: La importancia de la primera impresión
+alias: [44/la-importancia-de-la-primera-impresin/, 44/la-importancia-de-la-primera-impresin]
+alias: [44/la-importancia-de-la-primera-impresin/, 44/la-importancia-de-la-primera-impresin]
 wordpress_id: 44
 categories:
 - Desarrollo

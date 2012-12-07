@@ -4,6 +4,8 @@ date: 2006-06-14 19:17:00
 layout: post
 slug: los-peores-10-errores-en-adwords
 title: Los peores 10 errores en AdWords
+alias: [100/los-peores-10-errores-en-adwords/, 100/los-peores-10-errores-en-adwords]
+alias: [100/los-peores-10-errores-en-adwords/, 100/los-peores-10-errores-en-adwords]
 wordpress_id: 100
 categories:
 - SEM

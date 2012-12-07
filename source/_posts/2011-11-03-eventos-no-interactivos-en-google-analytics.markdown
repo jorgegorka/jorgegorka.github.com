@@ -4,16 +4,18 @@ date: 2011-11-03 19:57:45
 layout: post
 slug: eventos-no-interactivos-en-google-analytics
 title: Eventos no interactivos en Google Analytics
+alias: [6633/eventos-no-interactivos-en-google-analytics/, 6633/eventos-no-interactivos-en-google-analytics]
+alias: [6633/eventos-no-interactivos-en-google-analytics/, 6633/eventos-no-interactivos-en-google-analytics]
 wordpress_id: 6633
 categories:
-- Analítica
+- Analitica
 tags:
 - eventos
 - google analytics
 - trackEvent
 ---
 
-**[![eventos no interactivos en Google Analytics](http://www.alvareznavarro.es/wp-content/uploads/2011/11/bounce-rate-300x199.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/bounce-rate.jpg)Hasta ahora cuando lanzábamos un evento en Google Analytics contaba como una interacción del usuario en nuestra web y anulaba el rebote.  Es decir aunque el usuario hubiera visto una sola página si había ocurrido algún evento, no existía rebote.  Desde hoy ya podemos decidir nosotros si queremos que un evento sea interactivo o no interactivo.**
+**[![eventos no interactivos en Google Analytics](http://www.alvareznavarro.es/images/2011/11/bounce-rate-300x199.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/bounce-rate.jpg)Hasta ahora cuando lanzábamos un evento en Google Analytics contaba como una interacción del usuario en nuestra web y anulaba el rebote.  Es decir aunque el usuario hubiera visto una sola página si había ocurrido algún evento, no existía rebote.  Desde hoy ya podemos decidir nosotros si queremos que un evento sea interactivo o no interactivo.**
 
 
 

@@ -4,6 +4,8 @@ date: 2006-11-22 17:59:00
 layout: post
 slug: uso-de-navegadores
 title: Estadísticas de uso de navegadores
+alias: [175/uso-de-navegadores/, 175/uso-de-navegadores]
+alias: [175/uso-de-navegadores/, 175/uso-de-navegadores]
 wordpress_id: 175
 categories:
 - Empresa

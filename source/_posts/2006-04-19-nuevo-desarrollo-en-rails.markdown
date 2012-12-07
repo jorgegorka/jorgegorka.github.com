@@ -4,6 +4,8 @@ date: 2006-04-19 17:33:00
 layout: post
 slug: nuevo-desarrollo-en-rails
 title: Nuevo desarrollo en Rails
+alias: [82/nuevo-desarrollo-en-rails/, 82/nuevo-desarrollo-en-rails]
+alias: [82/nuevo-desarrollo-en-rails/, 82/nuevo-desarrollo-en-rails]
 wordpress_id: 82
 categories:
 - Empresa

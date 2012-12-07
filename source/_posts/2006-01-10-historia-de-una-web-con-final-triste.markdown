@@ -4,6 +4,8 @@ date: 2006-01-10 10:27:00
 layout: post
 slug: historia-de-una-web-con-final-triste
 title: Historia de una web (con final triste)
+alias: [12/historia-de-una-web-con-final-triste/, 12/historia-de-una-web-con-final-triste]
+alias: [12/historia-de-una-web-con-final-triste/, 12/historia-de-una-web-con-final-triste]
 wordpress_id: 12
 categories:
 - Desarrollo

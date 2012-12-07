@@ -4,6 +4,8 @@ date: 2006-01-16 20:46:00
 layout: post
 slug: ampliacin-de-cuenta-en-basecamp
 title: Ampliación de cuenta en Basecamp
+alias: [8/ampliacin-de-cuenta-en-basecamp/, 8/ampliacin-de-cuenta-en-basecamp]
+alias: [8/ampliacin-de-cuenta-en-basecamp/, 8/ampliacin-de-cuenta-en-basecamp]
 wordpress_id: 8
 tags:
 - aplicaciones

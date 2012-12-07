@@ -4,6 +4,8 @@ date: 2006-12-13 11:50:00
 layout: post
 slug: forma-de-imprimir-pginas-web
 title: Forma de imprimir páginas web
+alias: [5132/forma-de-imprimir-pginas-web/, 5132/forma-de-imprimir-pginas-web]
+alias: [5132/forma-de-imprimir-pginas-web/, 5132/forma-de-imprimir-pginas-web]
 wordpress_id: 5132
 categories:
 - Empresa

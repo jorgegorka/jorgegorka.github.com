@@ -4,6 +4,8 @@ date: 2005-07-25 19:10:00
 layout: post
 slug: no-solo-de-google-vive-el-hombre
 title: No solo de Google vive el hombre
+alias: [27/no-solo-de-google-vive-el-hombre/, 27/no-solo-de-google-vive-el-hombre]
+alias: [27/no-solo-de-google-vive-el-hombre/, 27/no-solo-de-google-vive-el-hombre]
 wordpress_id: 27
 tags:
 - buscadores
