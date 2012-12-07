@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Rake  Lista de opciones - Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="rake cache:clear # Clears all cached pages
+rake db:bootstrap # Loads a schema.rb file into the database and then loads the initial database fixtures &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/rake-lista-de-opciones/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25210947-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jorgegorka.github.com/jorgegorka" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/" alt="Volver a la página de inicio">Inicio</a></li>
+  <li><a href="/jorge/" alt="Acerca de Jorge Alvarez">Sobre mí</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Rake Lista De Opciones</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-08T14:45:00+01:00" pubdate data-updated="true">08-11-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><ul>
+<li><p>rake cache:clear                      # Clears all cached pages</p></li>
+<li><p>rake db:bootstrap                     # Loads a schema.rb file into the database and then loads the initial database fixtures.</p></li>
+<li><p>rake db:bootstrap:copy_default_theme  # Copy default theme to site theme</p></li>
+<li><p>rake db:migrate                       # Migrate the database through scripts in db/migrate. Target specific version with VERSION=x</p></li>
+<li><p>rake db:schema:dump                   # Create a db/schema.rb file that can be portably used against any DB supported by AR</p></li>
+<li><p>rake db:schema:load                   # Load a schema.rb file into the database</p></li>
+<li><p>rake db:bootstrap:load                # Load initial database fixtures (in db/bootstrap/*.yml) into the current environment&#8217;s database.  Load specific fixtures using FIXTURES=x,y</p></li>
+<li><p>rake db:fixtures:load                 # Load fixtures into the current environment&#8217;s database.  Load specific fixtures using FIXTURES=x,y</p></li>
+<li><p>rake db:sessions:clear                # Clear the sessions table</p></li>
+<li><p>rake db:sessions:create               # Creates a sessions table for use with CGI::Session::ActiveRecordStore</p></li>
+<li><p>rake db:structure:dump                # Dump the database structure to a SQL file</p></li>
+<li><p>rake db:test:clone                    # Recreate the test database from the current environment&#8217;s database schema</p></li>
+<li><p>rake db:test:clone_structure          # Recreate the test databases from the development structure</p></li>
+<li><p>rake db:test:prepare                  # Prepare the test database and load the schema</p></li>
+<li><p>rake db:test:purge                    # Empty the test database</p></li>
+<li><p>rake deploy                           # Push the latest revision into production using the release manager</p></li>
+<li><p>rake diff_from_last_deploy            # Describe the differences between HEAD and the last production release</p></li>
+<li><p>rake doc:app                          # Build the app HTML Files</p></li>
+<li><p>rake doc:clobber_app                  # Remove rdoc products</p></li>
+<li><p>rake doc:clobber_plugins              # Remove plugin documentation</p></li>
+<li><p>rake doc:clobber_rails                # Remove rdoc products</p></li>
+<li><p>rake doc:plugins                      # Generate documation for all installed plugins</p></li>
+<li><p>rake doc:rails                        # Build the rails HTML Files</p></li>
+<li><p>rake doc:reapp                        # Force a rebuild of the RDOC files</p></li>
+<li><p>rake doc:rerails                      # Force a rebuild of the RDOC files</p></li>
+<li><p>rake edge                             # freeze rails edge</p></li>
+<li><p>rake log:clear                        # Truncates all *.log files in log/ to zero bytes</p></li>
+<li><p>rake rails:freeze:edge                # Lock to latest Edge Rails or a specific revision with REVISION=X (ex: REVISION=4021) or a tag with TAG=Y (ex: TAG=rel_1-1-0)</p></li>
+<li><p>rake rails:freeze:gems                # Lock this application to the current gems (by unpacking them into vendor/rails)</p></li>
+<li><p>rake rails:unfreeze                   # Unlock this application from freeze of gems or edge and return to a fluid use of system gems</p></li>
+<li><p>rake rails:update                     # Update both configs, scripts and public/javascripts from Rails</p></li>
+<li><p>rake rails:update:configs             # Update config/boot.rb from your current rails install</p></li>
+<li><p>rake rails:update:javascripts         # Update your javascripts from your current rails install</p></li>
+<li><p>rake rails:update:scripts             # Add new scripts to the application script/ directory</p></li>
+<li><p>rake remote_exec                      # Execute a specific action using the release manager</p></li>
+<li><p>rake rollback                         # Rollback to the release before the current release in production</p></li>
+<li><p>rake show_deploy_tasks                # Enumerate all available deployment tasks</p></li>
+<li><p>rake stats                            # Report code statistics (KLOCs, etc) from the application</p></li>
+<li><p>rake test                             # Test all units and functionals</p></li>
+<li><p>rake test:functionals                 # Run tests for functionalsdb:test:prepare</p></li>
+<li><p>rake test:integration                 # Run tests for integrationdb:test:prepare</p></li>
+<li><p>rake test:plugins                     # Run tests for pluginsenvironment</p></li>
+<li><p>rake test:recent                      # Run tests for recentdb:test:prepare</p></li>
+<li><p>rake test:uncommitted                 # Run tests for uncommitteddb:test:prepare</p></li>
+<li><p>rake test:units                       # Run tests for unitsdb:test:prepare</p></li>
+<li><p>rake tmp:cache:clear                  # Clears all files and directories in tmp/cache</p></li>
+<li><p>rake tmp:clear                        # Clear session, cache, and socket files from tmp/</p></li>
+<li><p>rake tmp:create                       # Creates tmp directories for sessions, cache, and sockets</p></li>
+<li><p>rake tmp:pids:clear                   # Clears all files in tmp/pids</p></li>
+<li><p>rake tmp:sessions:clear               # Clears all files in tmp/sessions</p></li>
+<li><p>rake tmp:sockets:clear                # Clears all files in tmp/sockets</p></li>
+<li><p>rake update_dialog_helper             # Copies the latest dialog.js to the application&#8217;s public directory</p></li>
+</ul>
+
+
+<p>Esta lista está copiada de <a href="http://www.rubyonrailsblog.com/articles/2006/09/14/rails-rake-tasks-reference">rubyonrailsblog</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jorge</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-08T14:45:00+01:00" pubdate data-updated="true">08-11-2006</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/desarrollo/'>Desarrollo</a>, <a class='category' href='/blog/categories/personal/'>Personal</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jorgegorka.github.com/jorgegorka/:wordpress_id/rake-lista-de-opciones/" data-via="jorgealvarez" data-counturl="http://jorgegorka.github.com/jorgegorka/:wordpress_id/rake-lista-de-opciones/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/:wordpress_id/fundamentos-web-da-i/" title="Previous Post: Fundamentos web - Día I">&laquo; Fundamentos web - Día I</a>
+      
+      
+        <a class="basic-alignment right" href="/:wordpress_id/nuevo-pedido-a-amazon/" title="Next Post: Nuevo pedido a Amazon">Nuevo pedido a Amazon &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/:wordpress_id/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill/">Utiliza el API de Google Analytics de forma sencilla</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/3-consejos-para-crear-un-dashboard-de-analitica/">3 Consejos para crear un Dashboard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/comercio-electronico-no-todo-vale/">Comercio electrónico - No todo vale</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jorgealvarez", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jorgealvarez" class="twitter-follow-button" data-show-count="false">Follow @jorgealvarez</a>
+  
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/jorgegorka?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

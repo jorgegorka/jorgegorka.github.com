@@ -1,0 +1,1307 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="Unos enlaces interesantes sobre optimización de bases de datos e índices. Un artículo de Jamis Buck sobre mejorar el rendimiento de tu base de datos &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jorgegorka.github.com/jorgegorka/page/9/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25210947-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jorgegorka.github.com/jorgegorka" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/" alt="Volver a la página de inicio">Inicio</a></li>
+  <li><a href="/jorge/" alt="Acerca de Jorge Alvarez">Sobre mí</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/hablemos-de-base-de-datos-y-de-ndices/">Hablemos De Base De Datos Y De índices</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-22T11:09:00+01:00" pubdate data-updated="true">22-11-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Unos enlaces interesantes sobre optimización de bases de datos e índices.</p>
+
+<p>Un artículo de Jamis Buck sobre <a href="http://weblog.jamisbuck.org/2006/10/23/indexing-for-db-performance">mejorar el rendimiento de tu base de datos</a>.<br/>
+Para añadir un índice a una tabla desde una migración:</p>
+
+<p><code>add_index table, [field1, field2], :name =&gt; index_name, :unique =&gt; true</code></p>
+
+<p>Otro, también de Jamis, sobre el funcionamiento de <a href="http://weblog.jamisbuck.org/2006/11/20/under-the-hood-activerecord-base-find-part-2">ActiveRecord#find</a>.</p>
+
+<p>Un plugin muy útil <a href="http://www.agilewebdevelopment.com/plugins/query_analyzer">query analyzer</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/links-interesantes/">Links Interesantes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-21T11:05:00+01:00" pubdate data-updated="true">21-11-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><p><a href="http://www.techcrunch.com/2006/11/17/pricefight-because-theres-more-to-shopping-than-low-prices/">Price Fight:</a> En esta web además de mostrarte los precios más baratos para un producto, puntuan al vendedor en base al número de compradores y la valoración de éstos.</p></li>
+<li><p><a href="http://www.digital-web.com/articles/css_styling_for_print_and_other_media/">Digital web</a> habla sobre <a href="http://www.amazon.com/exec/obidos/ASIN/159059732X/digitalwebmagazi">Pro CSS Techniques</a> y publica un capítulo de ejemplo sobre el empleo de css para diferentes tipos de formato: screen, print, projection…</p></li>
+<li><p>Una excelente noticia: <a href="http://www.techcrunch.com/2006/11/15/google-yahoo-and-microsoft-agree-to-standard-sitemaps-protocol/">Google, Yahoo y Microsoft</a> se ponen de acuerdo para emplear el mismo formato en los ficheros sitemap.</p></li>
+<li><p>Un <a href="http://www.37signals.com/svn/posts/113-how-to-make-money-on-cars-with-less">entretenido post de 37 Signals</a> y muy esclarecedor: el que mucho abarca poco aprieta.</p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/creacin-de-webs-wireframes/">Creación De Webs - Wireframes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-18T17:07:00+01:00" pubdate data-updated="true">18-11-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://www.weebly.com">Weebly es un servicio de creación de webs online</a>.<br/>
+Creas una web, vas añadiendo páginas con contenido y puedes publicar automáticamente la web o bien descargarla en pdf.  Y gratis.</p>
+
+<p><img src="http://www.riojasoft.com/files/weebly-logo.gif" alt="logo weebly" /></p>
+
+<p>Me ha sorprendido lo fácil que es de usar y lo bien que integra todas las posibilidades que el xhtml + css + ajax ofrece.  Como único pero creo que abusa de las ventanas modales</p>
+
+<p>Mediante acciones tan sencillas como arrastra y soltar puedes añadir feeds de rss a tu web o Google Maps.</p>
+
+<p>Desde luego no es la herramienta adecuada para crear webs para empresas, pero para crear wireframes y compartirlos entre varias personas o bien para crear webs personales lo veo una herramienta excelente.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/nuevo-pedido-a-amazon/">Nuevo Pedido a Amazon</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-16T12:13:00+01:00" pubdate data-updated="true">16-11-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Acabo de pedir los siguientes libros en Amazón (plazo de entrega estimado el 6 de Diciembre):</p>
+
+<ul>
+<li><p><a href="http://www.amazon.com/gp/product/0321432061/105-1039373-3403646">Designing for Interaction: Creating Smart Applications and Clever Devices</a></p></li>
+<li><p><a href="http://www.amazon.com/gp/product/020172149X/105-1039373-3403646">The Design of Sites: Patterns, Principles, and Processes for Crafting a Customer-Centered Web Experience</a></p></li>
+<li><p><a href="http://www.amazon.com/Designing-Obvious-Common-Approach-Application/dp/032145345X/sr=1-1/qid=1164968244/ref=sr_1_1/105-1039373-3403646?ie=UTF8&amp;s=books">Designing the Obvious: A Common Sense Approach to Web Application Design</a></p></li>
+</ul>
+
+
+<p>En cuanto los vaya leyendo pondré un comentario sobre ellos.<br/>
+Si has leido alguno agradezco mucho que me des tu opinión.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/rake-lista-de-opciones/">Rake Lista De Opciones</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-08T14:45:00+01:00" pubdate data-updated="true">08-11-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><p>rake cache:clear                      # Clears all cached pages</p></li>
+<li><p>rake db:bootstrap                     # Loads a schema.rb file into the database and then loads the initial database fixtures.</p></li>
+<li><p>rake db:bootstrap:copy_default_theme  # Copy default theme to site theme</p></li>
+<li><p>rake db:migrate                       # Migrate the database through scripts in db/migrate. Target specific version with VERSION=x</p></li>
+<li><p>rake db:schema:dump                   # Create a db/schema.rb file that can be portably used against any DB supported by AR</p></li>
+<li><p>rake db:schema:load                   # Load a schema.rb file into the database</p></li>
+<li><p>rake db:bootstrap:load                # Load initial database fixtures (in db/bootstrap/*.yml) into the current environment&#8217;s database.  Load specific fixtures using FIXTURES=x,y</p></li>
+<li><p>rake db:fixtures:load                 # Load fixtures into the current environment&#8217;s database.  Load specific fixtures using FIXTURES=x,y</p></li>
+<li><p>rake db:sessions:clear                # Clear the sessions table</p></li>
+<li><p>rake db:sessions:create               # Creates a sessions table for use with CGI::Session::ActiveRecordStore</p></li>
+<li><p>rake db:structure:dump                # Dump the database structure to a SQL file</p></li>
+<li><p>rake db:test:clone                    # Recreate the test database from the current environment&#8217;s database schema</p></li>
+<li><p>rake db:test:clone_structure          # Recreate the test databases from the development structure</p></li>
+<li><p>rake db:test:prepare                  # Prepare the test database and load the schema</p></li>
+<li><p>rake db:test:purge                    # Empty the test database</p></li>
+<li><p>rake deploy                           # Push the latest revision into production using the release manager</p></li>
+<li><p>rake diff_from_last_deploy            # Describe the differences between HEAD and the last production release</p></li>
+<li><p>rake doc:app                          # Build the app HTML Files</p></li>
+<li><p>rake doc:clobber_app                  # Remove rdoc products</p></li>
+<li><p>rake doc:clobber_plugins              # Remove plugin documentation</p></li>
+<li><p>rake doc:clobber_rails                # Remove rdoc products</p></li>
+<li><p>rake doc:plugins                      # Generate documation for all installed plugins</p></li>
+<li><p>rake doc:rails                        # Build the rails HTML Files</p></li>
+<li><p>rake doc:reapp                        # Force a rebuild of the RDOC files</p></li>
+<li><p>rake doc:rerails                      # Force a rebuild of the RDOC files</p></li>
+<li><p>rake edge                             # freeze rails edge</p></li>
+<li><p>rake log:clear                        # Truncates all *.log files in log/ to zero bytes</p></li>
+<li><p>rake rails:freeze:edge                # Lock to latest Edge Rails or a specific revision with REVISION=X (ex: REVISION=4021) or a tag with TAG=Y (ex: TAG=rel_1-1-0)</p></li>
+<li><p>rake rails:freeze:gems                # Lock this application to the current gems (by unpacking them into vendor/rails)</p></li>
+<li><p>rake rails:unfreeze                   # Unlock this application from freeze of gems or edge and return to a fluid use of system gems</p></li>
+<li><p>rake rails:update                     # Update both configs, scripts and public/javascripts from Rails</p></li>
+<li><p>rake rails:update:configs             # Update config/boot.rb from your current rails install</p></li>
+<li><p>rake rails:update:javascripts         # Update your javascripts from your current rails install</p></li>
+<li><p>rake rails:update:scripts             # Add new scripts to the application script/ directory</p></li>
+<li><p>rake remote_exec                      # Execute a specific action using the release manager</p></li>
+<li><p>rake rollback                         # Rollback to the release before the current release in production</p></li>
+<li><p>rake show_deploy_tasks                # Enumerate all available deployment tasks</p></li>
+<li><p>rake stats                            # Report code statistics (KLOCs, etc) from the application</p></li>
+<li><p>rake test                             # Test all units and functionals</p></li>
+<li><p>rake test:functionals                 # Run tests for functionalsdb:test:prepare</p></li>
+<li><p>rake test:integration                 # Run tests for integrationdb:test:prepare</p></li>
+<li><p>rake test:plugins                     # Run tests for pluginsenvironment</p></li>
+<li><p>rake test:recent                      # Run tests for recentdb:test:prepare</p></li>
+<li><p>rake test:uncommitted                 # Run tests for uncommitteddb:test:prepare</p></li>
+<li><p>rake test:units                       # Run tests for unitsdb:test:prepare</p></li>
+<li><p>rake tmp:cache:clear                  # Clears all files and directories in tmp/cache</p></li>
+<li><p>rake tmp:clear                        # Clear session, cache, and socket files from tmp/</p></li>
+<li><p>rake tmp:create                       # Creates tmp directories for sessions, cache, and sockets</p></li>
+<li><p>rake tmp:pids:clear                   # Clears all files in tmp/pids</p></li>
+<li><p>rake tmp:sessions:clear               # Clears all files in tmp/sessions</p></li>
+<li><p>rake tmp:sockets:clear                # Clears all files in tmp/sockets</p></li>
+<li><p>rake update_dialog_helper             # Copies the latest dialog.js to the application&#8217;s public directory</p></li>
+</ul>
+
+
+<p>Esta lista está copiada de <a href="http://www.rubyonrailsblog.com/articles/2006/09/14/rails-rake-tasks-reference">rubyonrailsblog</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/fundamentos-web-da-i/">Fundamentos Web - Día I</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-10-05T22:12:00+02:00" pubdate data-updated="true">05-10-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Este primer día de <a href="http://www.fundamentosweb.com">Fundamentos web</a> ha tenido altibajos.</p>
+
+<p><strong>Sinopsis (si vas con prisa lee esto)</strong></p>
+
+<p>Como destacado, en mi opinión, las ponencias de <a href="http://www.fundamentosweb.org/2006/Ponentes/#richard">Richard</a> y de <a href="http://www.fundamentosweb.org/2006/Ponentes/#ben">Ben</a> .  Esperaba aprender un poco más de <a href="http://www.fundamentosweb.org/2006/Ponentes/#dave">David</a> , me ha sorprendido su charla, muy poco técnica.</p>
+
+<p>Resumo el primer día en dos frases:</p>
+
+<p><a href="http://www.fundamentosweb.org/2006/Ponentes/#ben">Ben Hammersley</a> <strong>Internet 2.0 es cuando sabemos lo que estamos haciendo</strong></p>
+
+<p><a href="http://www.fundamentosweb.org/2006/Ponentes/#sindo">Gumersindo Lafuente</a>  <strong>La prensa no cuenta lo que pasa, ni lo que ellos creen que pasa, sino lo que ellos quieren que pase.</strong></p>
+
+<p>La organización perfecta.  Sin retrasos, sin aglomeraciones, el sitio quizas es mejorable (al menos las butacas) pero el resto todo muy bien.</p>
+
+<p><strong>Paso a paso (para los no estresados)</strong></p>
+
+<p><img src="http://www.riojasoft.com/files/robert.jpg" alt="" /></p>
+
+<p>Richard Ishida (es de EEUU pero se ha puesto el apellido de su mujer, japonesa) nos ha hablado de los problemas que conlleva el crear webs que deben estar disponibles en varios idiomas.</p>
+
+<p>Nos ha puesto en antecedentes de los principales problemas a los que se enfrentan estos sitios: textos, colores, gráficos, semántica.</p>
+
+<p>Una frase: <em>*Desarrollar una web en un idioma y traducirla luego, es mucho más caro y costoso (hasta el doble) que desarrollarla en varios idiomas desde su concepción</em>.</p>
+
+<p><img src="http://jorgegorka.files.wordpress.com/bob.jpg" alt="" /></p>
+
+<p>Como segundo ponenete hemos tenido a <a href="http://www.fundamentosweb.org/2006/Ponentes/#bob">Bob Regan</a> de <a href="http://www.adobe.com/">Adobe</a> .</p>
+
+<p>Su charla ha estado basada en las implicaciones de accesibilidad de las &#8220;Aplicaciones ricas&#8221;.  Pero básicamente se ha limitado a contarnos que Flash está haciendo grandes progresos en ser accesible, que cada día lo son más, que usar flash ya no es como antes y que podemos emplearlo (Flash+flesh) sin miedo.</p>
+
+<p>Personalmente creo que lo que quería es venir a España (no había estado nunca).  Porque viajar tanto para contarnos eso no era ni mucho menos necesario.</p>
+
+<p>Una frase:  *Flash va camino de ser accesible (not now)**</p>
+
+<p><img src="http://www.riojasoft.com/files/ben.jpg" alt="" /></p>
+
+<p>La charla de <a href="http://www.fundamentosweb.org/2006/Ponentes/#ben">Ben Hammersley</a> ha sido entretenida.  Ha hablado de la belleza en el código.</p>
+
+<p>El tema le ha dado para mostrarnos fotos de Penélope Cruz, de La venus de Velazquez, de los frescos de Miguel Angel en la Capilla Sixtina y de las coliflores ala Fibonacci.</p>
+
+<p>Menos mal que Ben es un buen orador y ha conseguido hacer entretenida la charla.</p>
+
+<p>Una frase:  <strong>Internet 2.0 es cuando sabemos lo que estamos haciendo</strong></p>
+
+<p><img src="http://www.riojasoft.com/files/david.jpg" alt="" /></p>
+
+<p>La conferencia de <a href="http://www.fundamentosweb.org/2006/Ponentes/#dave">David Shea</a> me ha defraudado bastante.  Tenia muchas esperanzas de oir algo interesante y la verdad es que me ha parecido muy sencilla y básica.</p>
+
+<p>Ha hablado sobre la gestión de proyectos en CSS y ha dado una serie de consejos sobre la mejor forma de hacerlo:  Guarda todo el css en ficheros separados del html, divide en función de las secciones, empieza por aplicar estilos a selectores generales y acaba por los más concretos…  todo muy &#8220;sencillo&#8221;.</p>
+
+<p>Una frase: <strong>Hello</strong></p>
+
+<p><img src="http://www.riojasoft.com/files/daniel.jpg" alt="" /></p>
+
+<p>Tras una fantástica comida, por supuesto con fabes y sidra (estupenda comida y estupendo trato de los camareros, escanciando la sidra todo el rato) le ha tocado el turno de hablar a <a href="http://www.fundamentosweb.org/2006/Ponentes/#dan">Daniel Appelquist</a></p>
+
+<p>Ha hablado sobre la internet móvil (trabaja en Vodafone) y sus posibilidades de presente a corto plazo.  Nos ha mostrado muchas estadísticas con número de móviles 3G, previsiones de venta, de uso de terminales para navegar, etc….</p>
+
+<p>Una frase: <em>*Tratad a los usuarios de dispositivos móviles como internautas de primera categoría</em></p>
+
+<p><img src="http://www.riojasoft.com/files/conferencia1.jpg" alt="" /></p>
+
+<p>La conferencia que cerraba este primer día ha tenido dos partes:</p>
+
+<p>Parte I:  <a href="http://www.fundamentosweb.org/2006/Ponentes/#vint">Vinton Cerf</a> ha respondido, a través de videoconferencia ya que él estaba en el cuartel general de Google, a las preguntas que se le han formulado sobre el pasado, presente y futuro de internet.  Ha dado respuestas muy interesantes sobre temas como lo que él cambiaría de la web, el control de los gobiernos sobre Internet, el futuro de la web.</p>
+
+<p>Me quedo con dos ideas suyas:  Los buscadores deben entendernos mejor y ha puesto un ejemplo muy claro: si yo busco la palabra jaguar, el buscador debe saber si me estoy refiriendo al animal o a la marca de automóviles.</p>
+
+<p>Otra idea: Cada vez más vamos a pasar de consumir cosas en tiempo real (televisión, radio…) a consumir descargas.   Nos bajaremos los programas de tv, radio, etc…a nuestro pc y los veremos cuando nosotros queramos.</p>
+
+<p>Vinton se ha despedido de nosotros anunciando que está trabajando en el desarrollo de la *Internet interplanetaria**.</p>
+
+<p>Después de la despedida de Vinto y debido a que entre los participantes había mucho periodista (Gumersindo, Juan y Ben) la charla ha girado hacia el futuro de la prensa y como debe transformarse para aprovechar Internet en lugar de combatirla.</p>
+
+<p>Y con todo esto se ha terminado el primer día, al menos en lo que a conferenciase se refiere ya que a las 21:00 los autobuses de la organización (he dicho ya que muy bien por los organizadores?) han venido a recogernos para llevarnos a disfrutar de una cena tradicional Asturiana.</p>
+
+<p>Hemos bebido mucha sidra y hemos comido de todo lo que nos iban sacando, que no ha sido poco.  Y como somos buenos nos hemos acostado pronto.</p>
+
+<p><img src="http://www.riojasoft.com/files/nosotros.jpg" alt="" /></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/nos-vemos-en-fundamentos-web/">Nos Vemos en Fundamentos Web</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-10-02T21:47:00+02:00" pubdate data-updated="true">02-10-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Me voy a Fundamentos Web a Oviedo.</p>
+
+<p>Promenten ser dos días interesantes.  A priori el nivel de los ponentes hace presagiar buenas conferencias.</p>
+
+<p>Veremos a ver que sale.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/linux-se-acerca-a-los-usuarios-finales/">Linux Se Acerca a Los Usuarios Finales</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-07-13T14:06:00+02:00" pubdate data-updated="true">13-07-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Desde que he probado <a href="http://www.ubuntu.com/">Ubuntu</a> estoy convencido de que esta es la línea a seguir para la implantación del software libre en los escritorios de los usuarios finales.  Creo que Ubuntu está lista al 100% para su uso por usuarios finales empresariales (tienen absolutamente todo lo que necesitan) y un poco menos para los usuarios domésticos (dependiendo de lo aficionados a los juegos que sean).</p>
+
+<p>Gracias a esta distribución se deja claro que una de las mayores limitaciones de Linux la ponen los fabricantes al no facilitar drivers para linux con la misma rapidez que para el <a href="http://www.microsoft.com">sistema operativo multado con 280 millones de euros</a> aunque gracias a la enorme comunidad de desarrolladores existente enseguida podemos conseguir que todos nuestros periféricos funcionen correctamente.</p>
+
+<p>Ahora solo falta que empresas importantes y verdaderamente relevantes (Google, Yahoo, etc…) apuesten decididamente por él y lleven a cabo una labor &#8220;evangelizadora&#8221;.</p>
+
+<p>Si Google no quiere perder su parte del pastel cuando aparezca <a href="http://www.microsoft.com/latam/windowsvista/">el sistema operativo que permite cambiar de ventanas <strong>empleando el teclado</strong></a>
+y que integra la búsqueda a través de msn, debería hacer un esfuerzo mayor por potenciar el uso de sistemas operativos estándares y que permiten elegir al usuario.</p>
+
+<p>Por cierto os recomiendo ver <a href="http://www.hispasec.com/directorio/laboratorio/phishing/demo3/troyano_banesto.htm">este video</a> donde se demuestra la poca seguridad que ofrece emplear el <a href="http://www.microsoft.com">sistema operativo que tarda cuatro años en sacar una versión de su navegador</a></p>
+
+<p>Si estais interesados podeis solicitar que os <a href="https://shipit.ubuntu.com/">envíen a casa</a> , completamnete gratis, los cd&#8217;s de instalación de Ubuntu.  Hay versiónes para pc de 32 y 64 bits y para Mac.</p>
+
+<p>A mi me tardaron menos de 10 días en llegar por correo.  Eficacia total.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/mejoras-en-el-buscador-inmobiliario/">Mejoras en El Buscador Inmobiliario</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-14T21:27:00+02:00" pubdate data-updated="true">14-06-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>He publicado una nueva versión del <a href="http://www.buscadorinmobiliario.es">buscador inmobiliario</a> que contiene algunas mejoras de rendimiento (ahora las búsqueda son más rápidas) e indicaciones más claras para una mejor facilidad de uso.</p>
+
+<p>¿Que no sabes que es el buscador inmobiliario?</p>
+
+<p>Pues su nombre es autoexplicativo aunque tiene algunas características interesantes:</p>
+
+<ul>
+<li><p>Sin publicidad ni enlaces patrocinados.
+Devuelve siempre los resultados más relevantes, no los que más pagan.</p></li>
+<li><p>Solo contiene ofertas de agencias inmobiliarias.</p></li>
+<li><p>Sin complicados formularios que rellenar.</p></li>
+</ul>
+
+
+<p>El buscador está desarrollado empleando <a href="http://www.rubyonrails.org">rubyonrails</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/los-peores-10-errores-en-adwords/">Los Peores 10 Errores en AdWords</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-06-14T21:17:00+02:00" pubdate data-updated="true">14-06-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Esta es una lista de los 10 errores que más se comenten al contratar campañas de AdWords.</p>
+
+<p>No deben elegirse los términos a la ligera sin antes haber estudiado muy bien lo que se quiere conseguir. De otra forma solo lograremos tener que pagar mucho dinero y atraer a visitas de poca calidad.</p>
+
+<pre><code>&lt;code&gt;1. creating a long list of less than targeted keywords&lt;/code&gt;
+
+
+
+
+&lt;code&gt;2. failing to identify unique aspects of your product or service&lt;/code&gt;
+
+
+
+
+&lt;code&gt;3. a lack of keywords in your ad text&lt;/code&gt;
+
+
+
+
+&lt;code&gt;4. directing users solely to your home page&lt;/code&gt;
+
+
+
+
+&lt;code&gt;5. creating single ad groups&lt;/code&gt;
+
+
+
+
+&lt;code&gt;6. utilizing single campaigns&lt;/code&gt;
+
+
+
+
+&lt;code&gt;7. using broad match only&lt;/code&gt;
+
+
+
+
+&lt;code&gt;8. failing to optimize ad serving for your ads&lt;/code&gt;
+
+
+
+
+&lt;code&gt;9. failing to track results&lt;/code&gt;
+
+
+
+
+&lt;code&gt;10. entering the content network without modifying bids&lt;/code&gt;
+</code></pre>
+
+<p>En la web de <a href="http://www.sitepoint.com/article/worst-adwords-campaign-mistakes">Sitepoint</a> proporcionan más información sobre cada uno de ellos (en inglés).</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/enlaces-de-inters/">Enlaces De Interés</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-24T17:12:00+02:00" pubdate data-updated="true">24-05-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Algunos enlacés que me han parecido interesantes en esta última semana:</p>
+
+<p>Mostrar contenido empleando ajax y mediante el uso de pestañas para categorizar la información.</p>
+
+<p><a href="http://www.dynamicdrive.com/dynamicindex17/ajaxtabscontent/">Ajax tabs content script</a></p>
+
+<p>Los 10 errores más frecuentes en sistemas de protección de datos de caracter personal.</p>
+
+<p><a href="http://www.hispasec.com/corporate/papers/diez_errores_sistemas_gestion.pdf">Hispasec</a></p>
+
+<p>Este enlace me parece particularmente interesante y muy útil.</p>
+
+<p>Como asegurar conexiones de Firefox utilizando Putty.</p>
+
+<p><a href="http://thinkhole.org/wp/2006/05/10/howto-secure-firefox-and-im-with-putty/">Secure Firefox with Putty</a></p>
+
+<p>Una distribución de Linux que ocupa 60 Mb. y que puede ser instalada en memorias flash, discos extraibles, live cd…. y lleva todas las aplicaciones necesarias para trabajar: Navegador, procesador de textos, correo, mensajeria…</p>
+
+<p><a href="http://puppylinux.com/">Puppy Linux</a></p>
+
+<p>Y por último una curiosidad:</p>
+
+<p><a href="http://wwwhatsnew.blogspot.com/2006/04/415-aplicaciones-gratuitas-web-20.html">415 aplicaciones web gratuitas web 2.0</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/herramientas-de-desarrollo/">Herramientas De Desarrollo</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-17T22:14:00+02:00" pubdate data-updated="true">17-05-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A través de <a href="http://tec.fresqui.com/">Fresqui</a>  llego a <a href="http://barrapunto.com/article.pl?sid=06/05/16/2335205">un enlace</a> donde se comenta la posibilidad de que Sun anuncie la liberación del código fuente de Java.</p>
+
+<p>Después de haber empleado herramientas (me refiero a herramientas en un sentido amplio del término: lenguajes, ide&#8217;s, componentes, etc…) propietarias y de código abierto creo que si quieres obtener la máxima productividad en tus desarrollos debes optar siempre por emplear estas últimas.</p>
+
+<p>Independientemente de la plataforma para la que desarrolles o el tipo de licencia de tus desarrollos (gpl, cc, mozilla, propietaria…) el emplear herramientas de código abierto siempre te dotará de mayores ventajas:  Mayor y mejor calidad de componentes adicionales, librerias, entornos de desarrollo, documentación, soporte….</p>
+
+<p>En el artículo se comenta que Sun teme que aparezcan distintas ramas de Java y que pueda perder el control, pero creo que eso también es positivo ya que da la posibilidad de crear diferentes ramas optimizadas para cubrir las necesidades concretas de cada empresa (multiprocesador, clustering, s.O.  ) al final más variedad y más posibilidades de que la herramienta cumpla con nuestras necesidades.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/diles-con-tu-firma-no-al-canon/">Diles Con Tu Firma NO AL CANON</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-04-28T12:27:00+02:00" pubdate data-updated="true">28-04-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Asociaciones, Empresas, Ciudadanos y, en particular, el mundo digital se han unido para defenderse del CANON ( en los CDs, DVDs, ADSL, Impresoras, Discos Duros, Reproductores MP3..) que los políticos y las Sociedades de Gestion de Derechos de Autor del canon quieren imponernos con la nueva Ley de Propiedad Intelectual que se esta tramitando actualmente en el Senado y para pedir RESPETO ante las campañas de criminalización de Internet que estamos sufriendo en los últimos tiempos.</p>
+
+<p>La plataforma <a href="http://www.todoscontraelcanon.es">TODOSCONTRAELCANON</a> ha elaborado un calendario de trabajo para decirles a los senadores que cumplan con sus compromisos y vuelvan a decir NO AL CANON, pero esta vez de verdad. Para ello necesitamos tu firma. Estas a tiempo de decirles que TU NO ERES UN PIRATA, que tu crees en la cultura, pero no en los canones indiscriminados.</p>
+
+<p><a href="http://todoscontraelcanon.es/index.php?body=suscribe_firmas">Firma aqui</a></p>
+
+<p>No te quedes parado. Distribuye este mensaje entre todos tus contactos. Entre todos tus vecinos, compañeros, amigos, enemigos, conocidos y desconocidos… en foros, listas de correo, páginas web… Qué nadie diga que no firmó contra el CANON porque nadie se lo dijo. ¡!Haz que se enteren!!.</p>
+
+<p><a href="http://www.internautas.org/html/3631.html">Enlace al articulo</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/el-peligro-de-que-copien-tu-idea/">El Peligro De Que Copien Tu Idea</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-04-26T17:59:00+02:00" pubdate data-updated="true">26-04-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Muchas empresas que comienzan (o emprendedores con ganas de montar una empresa) se plantean la duda de si otros les podrán copiar su idea.</p>
+
+<p>Me gusta el artículo de <a href="http://paulgraham.infogami.com/blog">Paul Grahan</a> (al que llego a través del enlace de <a href="http://37signals.com/svn/archives2/sunspots_kick_in_discovery_edition.php">SvN</a>)
+sobre este tema.  En nuestra empresa también hemos tenido este debate.</p>
+
+<p>La conclusión a la que hemos llegado es que no hay que preocuparse por ello.</p>
+
+<p>A continuación señalo los puntos más importantes a tener en cuenta:</p>
+
+<ul>
+<li><p>Si tienes una <strong>buena</strong> idea habrá otras <strong>15</strong> empresas funcionando que hagan eso mismo.  Si tienes una <strong>gran</strong> idea habrá <strong>50</strong>.</p></li>
+<li><p>Si haces algo tan bueno como para que te copien es que estás un paso por delante de ellos.</p></li>
+<li><p>A la competencia le llevará tiempo aceptar que tu idea es buena y más tiempo aún copiarla (además siempre se dejarán cosas).</p></li>
+<li><p>Las grandes empresas son lentas en tomar decisiones y puede que hayan invertido tantos recursos en seguir otro camino que no quieran ni plantearse seguir el tuyo.</p></li>
+<li><p>Trabajar en tus propias ideas te conducirá a nuevas ideas, con lo que siempre estarás por delante.</p></li>
+<li><p>Preocupate más de hacer algo tan bueno que merezca la pena de ser copiado antes que de evitar que te copien.</p></li>
+</ul>
+
+
+<p>Yo lo resumiría todo así:</p>
+
+<p><strong>Si te copian, es que vas por buen camino.</strong></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/otra-web-interesante-o-no/">Otra Web Interesante (O No)</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-04-22T14:38:00+02:00" pubdate data-updated="true">22-04-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Dios los cria, ellos se juntan y cuentan cosas interesantes sobre diseño, programación y negocios enfocados a la cosa esa de la web.</p>
+
+<p><a href="http://www.thinkvitamin.com/">Thinkvitamin</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/nuevo-desarrollo-en-rails/">Nuevo Desarrollo en Rails</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-04-19T19:33:00+02:00" pubdate data-updated="true">19-04-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Acabamos de lanzar al mercado nuestra nueva web, desarrollada 100% empleando <a href="http://www.rubyonrails.org">rubyonrails</a> .</p>
+
+<p>El nombre de la web es <a href="http://www.buscadorinmobiliario.es">buscador inmobiliario</a> y como se puede deducir por su nombre es una web orientada a facilitar la búsqueda de inmuebles (vivendas, locales, naves y parcelas).</p>
+
+<p>El tiempo total de codificación de la aplicación ha sido de un mes y creo que podríamos haberlo reducido ya que algunas partes del desarrollo las hemos cambiado por otras más optimas según nuestro conocimiento de rails ha ido creciendo conforme avanzaba el desarrollo.</p>
+
+<p>En general estamos bastante satisfechos con el resultado y creemos que hemos acertado con el uso de rails.  Conforme el número de visitantes crezca y se consolide veremos que tal rendimiento obtenemos.</p>
+
+<p>Ahora mismo solo hay publicados un reducido grupo de inmuebles de unas cuantas agencias  inmobiliarias.  Poco a poco iremos incorporando más ofertas.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/habitos-de-bsqueda/">Habitos De Búsqueda</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-04-11T22:36:00+02:00" pubdate data-updated="true">11-04-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://www.iprospect.com">iProspect</a> acaba de publicar un informe sobre el <a href="http://www.iprospect.com/premiumPDFs/WhitePaper_2006_SearchEngineUserBehavior.pdf">comportamiento de los usuarios al utilizar buscadores</a> (pdf).</p>
+
+<p>El estudio nos muestra los datos de este año comparados con los obtenidos en el 2004 y 2002.  De esta manera podemos ver una evolución en el comportamiento de los usuarios en el uso de los buscadores.</p>
+
+<p>Como dato más evidente, se confirma que la gran mayoría de usuarios no pasan de la primera página de resultados, un 62%.  Además comprobamos como este número va creciendo con el paso del tiempo.  En el año 2002 era un 48% y en el año 2004 un 60%.</p>
+
+<p>Otro dato muy importante se refiere al comportamiento de los usuarios cuando los resultados que obtienen no corresponde con lo que buscan (entre parentesis los datos del año 2004).</p>
+
+<p>Un 82% (68%) escribe más términos para acotar mejor la búsqueda.
+Un 13% (27%) cambia a otro buscador y escribe lo mismo.</p>
+
+<p>Estos datos indican dos cosas importantes.</p>
+
+<p>Primero: que la gente cada vez tiene mayor dominio de los buscadores y de la forma de buscar para obtener los resultados correctos.  Estamos cambiando del empleo de términos vagos como &#8220;pisos madrid&#8221; a consultas más elaboradas como &#8220;apartamento venta moncloa&#8221; que acotan mucho mejor los resultados ofreciendonos resultados de mayor calidad.</p>
+
+<p>Segundo: Somos perezosos, nos cuesta cambiar de buscador (un 13% realiza la búsqueda en otro buscador).</p>
+
+<p>Lanzo una idea de proyecto: el buscador de buscadores que realice nuestras busquedas en los buscadores más importantes y nos devuelva los resultados.  Además debería eliminar los duplicados y la importacia de los resultados sería la media de entre todos los buscadores.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/humor/">Humor</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-03-14T14:40:00+01:00" pubdate data-updated="true">14-03-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Os recomiendo visitar esta entrada de <a href="http://www.microsiervos.com/archivo/mundoreal/nombres-desafortunados-iv.html">Microsiervos</a>.</p>
+
+<p>Realmente tronchante.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/quien-dijo-que-programar-es-complicado/">¿Quien Dijo Que Programar Es Complicado?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-03-14T14:36:00+01:00" pubdate data-updated="true">14-03-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Con un poco de imaginación hasta las cosas difíciles se vuelven simples.</p>
+
+<p><a href="http://ajaxian.com/archives/asynchronous-file-upload-with-ajax-progress-bar-in-php">Asynchronous file upload with AJAX progress bar in PHP</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/microsoft-anuncia-un-nuevo-buscador-mejor-que-google/">Microsoft Anuncia Un Nuevo Buscador Mejor Que Google</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-03-08T11:09:00+01:00" pubdate data-updated="true">08-03-2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Neil Holloway, presidente de <a href="http://www.microsoft.com">Microsoft</a> para Europa, Oriente Medio y Africa anunció que <a href="http://today.reuters.com/news/newsarticle.aspx?type=technologyNews&amp;storyid=2006-03-01T211748Z_01_L01660811_RTRUKOC_0_US-SUMMIT-MICROSFT-GOOGLE.xml&amp;rpc=22">en seis meses serán más relevantes</a> en el mercado Estadounidense que <a href="http://www.google.com">Google</a>.</p>
+
+<p>Según dijo: &#8220;La calidad y la relevancia de las búsquedas desde el punto de vista de ofrecer soluciones para el consumidor serán más importantes.</p>
+
+<p>Aunque en la entrevista niega que el buscador vaya a estar integrado en la próxima versión de Windows (Vista) sí que lo incluirán en Messenger y Hotmail.</p>
+
+<p>Leyendo este tipo de noticias, es lógico pensar en Netscape y la época de la guerra de navegadores.  Integrando el Explorer en el sistema operativo Windows barrió del mercado a Netscape.</p>
+
+<p>Ahora estamos hablando del mercado de las búsquedas cuyas cifras de negocio son mareantes, y lo que es más importante:  Asegurarse continuar siendo la empresa dominante en el panorama informático.</p>
+
+<p>Es por eso que no suena nada descabellado lo que ya he comentado en anteriores posts, que Google lanzará su propio sistema operativo.</p>
+
+<p>Si alguien está en posicion de competir con Microsoft es Google.  Pero una cosa está clara: <strong>Los usuarios no se molestan en elegir</strong>.  Si tu sistema operativo trae integrado un buscador emplearás ese buscador. Si trae un navegador, no instalarás otro nuevo, emplearás ese navegador.</p>
+
+<p>Si Microsoft integra su sitema de búsqueda en sus productos los usuarios emplearán ese sistema de búsqueda sin plantearse siquiera la posibilidad de utilizar otro.</p>
+
+<p>La única manera de competir con garantías es emplear las mismas armas.  Google tiene capacidad para ello.</p>
+
+<p>Lo mejor de todo es que las herramientas principales ya están disponibles en el mercado: el sistema operativo GNU/Linux, el navegador Firefox, el correo electrónico Thunderbird, la ofimática OpenOffice, etc….</p>
+
+<p>Imaginemos todos estos elementos integrados en una distribución fácil de instalar, configurar y manejar (al estilo Apple y su OS X).  Google puede aportar al mundo del software libre la que creo que es su principal carencia: integración.   La mayoría de distribuciones actuales no son más que una recopilación de programas que la mayoría de veces trabajan aislados unos de otros.</p>
+
+<p>Creo que en los próximos meses conoceremos importantes decisiones que pueden cambiar drásticamente el panorama informático actual.</p>
+
+<p>A modo de epílogo cito textualmente a Neil Hollway:</p>
+
+<blockquote><p>Should we add a Google-like search engine but twice as good hard-core into Windows? Guess what. If we did that, I don&#8217;t think a company called Google would be very happy.</p></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/page/10/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/page/8/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/:wordpress_id/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill/">Utiliza el API de Google Analytics de forma sencilla</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/3-consejos-para-crear-un-dashboard-de-analitica/">3 Consejos para crear un Dashboard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/comercio-electronico-no-todo-vale/">Comercio electrónico - No todo vale</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jorgealvarez", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jorgealvarez" class="twitter-follow-button" data-show-count="false">Follow @jorgealvarez</a>
+  
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/jorgegorka?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'jorgegorka';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

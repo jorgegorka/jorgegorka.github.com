@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: dise&#241;o | Jorge Alvarez]]></title>
+  <link href="http://jorgegorka.github.com/jorgegorka/blog/categories/dise-241-o/atom.xml" rel="self"/>
+  <link href="http://jorgegorka.github.com/jorgegorka/"/>
+  <updated>2012-12-07T21:34:07+01:00</updated>
+  <id>http://jorgegorka.github.com/jorgegorka/</id>
+  <author>
+    <name><![CDATA[Jorge]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Recursos de diseño web, usabilidad y javascript]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/recursos-de-diseo-web-usabilidad-y-javascript/"/>
+    <updated>2007-01-11T12:10:00+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/recursos-de-diseo-web-usabilidad-y-javascript</id>
+    <content type="html"><![CDATA[<p>Un par de enlaces de recursos útiles para diseño web:</p>
+
+<p>Dar estilo a los controles de formularios y <a href="http://www.freshbooks.com/blog/2007/01/04/useful-resources-for-designers-developers/"> una colección de 5 enlaces sobre diseño</a>.</p>
+
+<p>Hasta las ventanas más obvias y que empleamos de forma habitual se pueden revisar y mejorar.  Hoy <a href="http://rhjr.net">Robert Hoekman</a> nos enseña <a href="http://rhjr.net/theblog/2007/01/05/design-stories-okcancel-buttons/">como mejorar la presentación de los botones OK/Cancel</a>.</p>
+
+<p>Cuando creamos una web podemos pensar en los usuarios o podemos pensar en nosotros mismos.  La mayoría de veces ocurre esto último y creamos páginas web buscando el máximo de diseño y el mínimo de funcionalidad lo que las convierte en <strong>inservibles para los usuarios.</strong>.  El Pioneer Theatre de Salt Lake City, piensa en sus usuarios y para facilitarles la elección de su asiento <a href="http://www.37signals.com/svn/posts/166-screens-around-town-pioneer-theatre-mailbuild-and-firefox">muestra la disposición de los mismos y además la vista que se tiene del escenario</a> desde cada uno. (via 37signals)</p>
+
+<p><a href="http://headrush.typepad.com/creating_passionate_users/2007/01/what_comes_afte.html">Que viene después de la usabilidad?</a></p>
+
+<p><a href="http://shaneosullivan.wordpress.com/2007/01/08/first-beta-release-of-dojo-build-tool/">Dojo GUI build tool</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nuevo pedido a Amazon]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/nuevo-pedido-a-amazon/"/>
+    <updated>2006-11-16T12:13:00+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/nuevo-pedido-a-amazon</id>
+    <content type="html"><![CDATA[<p>Acabo de pedir los siguientes libros en Amazón (plazo de entrega estimado el 6 de Diciembre):</p>
+
+<ul>
+<li><p><a href="http://www.amazon.com/gp/product/0321432061/105-1039373-3403646">Designing for Interaction: Creating Smart Applications and Clever Devices</a></p></li>
+<li><p><a href="http://www.amazon.com/gp/product/020172149X/105-1039373-3403646">The Design of Sites: Patterns, Principles, and Processes for Crafting a Customer-Centered Web Experience</a></p></li>
+<li><p><a href="http://www.amazon.com/Designing-Obvious-Common-Approach-Application/dp/032145345X/sr=1-1/qid=1164968244/ref=sr_1_1/105-1039373-3403646?ie=UTF8&amp;s=books">Designing the Obvious: A Common Sense Approach to Web Application Design</a></p></li>
+</ul>
+
+
+<p>En cuanto los vaya leyendo pondré un comentario sobre ellos.<br/>
+Si has leido alguno agradezco mucho que me des tu opinión.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Otra web interesante (o no)]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/otra-web-interesante-o-no/"/>
+    <updated>2006-04-22T14:38:00+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/otra-web-interesante-o-no</id>
+    <content type="html"><![CDATA[<p>Dios los cria, ellos se juntan y cuentan cosas interesantes sobre diseño, programación y negocios enfocados a la cosa esa de la web.</p>
+
+<p><a href="http://www.thinkvitamin.com/">Thinkvitamin</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Revista sobre creación web (diseño, programación, empresas)]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/revista-sobre-creacin-web-diseo-programacin-empresas/"/>
+    <updated>2006-01-13T21:52:00+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/revista-sobre-creacin-web-diseo-programacin-empresas</id>
+    <content type="html"><![CDATA[<p><img src="files/Tree_House_Logo.png" alt="" />
+Diariamente tenemos que visitar webs
+diseñadas, estructuradas y programadas de una manera pésima. Es muy
+normal, en pleno año 2006 encontrarse webs que no son más que una
+mera conversión del catálogo de productos de una compañia en
+html.</p>
+
+<p>Otras muchas, las peores, están desarrolladas integramente
+empleando Flash llenas de efectos, menús que desaparecen,
+transiciones y vacías de utilidad. Prohiben fumar en los bares y no
+prohiben hacer webs en flash que eso si que daña nuestra salud y la
+de los que nos rodean.</p>
+
+<p>Por eso encuentro <a href="http://treehousemagazine.com">TreeHouse interesante</a> por 3
+motivos:</p>
+
+<p>1.- Recopila información e ideas útiles para aquellos que se
+dedican a desarrollar webs.</p>
+
+<p>2.- Hace ver como un buen diseño no solo nó está reñido con la
+funcionalidad sino que un buen diseño de una web aporta y mejora la
+funcionalidad de la web.</p>
+
+<p>3.- Demuestra como aquellos que no hacen sus webs empleando
+tecnologías como xhtml+css y siguen empleando flash, no es más que
+por <strong>ignorancia</strong>, <strong>falta de
+formación</strong> y <strong>desconocimiento del medio en que se
+mueven</strong>: Internet.</p>
+
+<p><img src="files/6thumb.jpg" alt="" /></p>
+
+<p>Aunque la mayoría de sus contenidos los podemos encontrar
+on-line visitando otras muchas webs, aquí los tenemos todos
+<a href="http://treehousemagazine.com/catalog/treehouse-jan-2006/">a
+nuestra disposición agrupados</a>, lo que nos ahorra mucho tiempo y
+con una presentación exquisita.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Historia de una web (con final triste)]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/historia-de-una-web-con-final-triste/"/>
+    <updated>2006-01-10T11:27:00+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/historia-de-una-web-con-final-triste</id>
+    <content type="html"><![CDATA[<p>Permiteme contarte una historia sobre la web de una empresa.</p>
+
+<p>Un cierto día una empresa decide crear su propio sitio web para
+lo que se pone en contacto con un <em>profesional</em>. Tras unos
+meses esta empresa cuelga en Internet su web, que contiene una
+breve descripción de la empresa y productos, un formulario de
+contacto y una animación muy espectacular en la portada.</p>
+
+<p>Pasados unos meses, durante los cuales no recibe ninguna
+información de su web, decide pedir una nueva versión mejorada de
+su web. Lo que antes era verde ahora será amarillo, la animación
+cambia para acabar con un fundido en negro y le añaden una nueva
+sección llamada noticias donde aparece el dibujo de un obrero junto
+al texto: en construcción.</p>
+
+<p>Fin de la historia.</p>
+]]></content>
+  </entry>
+  
+</feed>

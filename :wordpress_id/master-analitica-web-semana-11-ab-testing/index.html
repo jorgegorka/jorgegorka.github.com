@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Master Analítica web Semana 11 - A/B Testing - Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="Continuamos una semana más aprendiendo sobre como obtener la máxima información de nuestra web y esta vez le toca el turno a Ricardo Tayar, todo un &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/master-analitica-web-semana-11-ab-testing/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25210947-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jorgegorka.github.com/jorgegorka" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/" alt="Volver a la página de inicio">Inicio</a></li>
+  <li><a href="/jorge/" alt="Acerca de Jorge Alvarez">Sobre mí</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Master Analítica Web Semana 11 - A/B Testing</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-27T11:32:48+02:00" pubdate data-updated="true">27-06-2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Continuamos una semana más aprendiendo sobre como obtener la máxima información de nuestra web y esta vez le toca el turno a <a href="http://www.kschool.com/profesores/ricardo-tayar/">Ricardo Tayar</a>, todo un profesional de la optimización web que lo hace tan bien en su trabajo en <a href="http://www.masterd.es/">Master D</a> que <a href="http://www.ricardotayar.com/2011/05/10/me-han-copiado-la-web/">su competencia solo puede copiarle</a>.</p>
+
+<p>Durante los dos días de su clase, Ricardo nos contó un montón de trucos y como sacar partido a muchas de las herramientas de optimización web que hay en el mercado.</p>
+
+<p>Este tipo de testing tiene, en mi opinión, una ventaja fundamental con respecto a <a href="http://www.alvareznavarro.es/master-analitica-web-semana-9-10-usabilidad">otros tipos de test</a> como los que vimos la semana anterior: Se realizan sin interferir ni condicionar a los usuarios.  Los test realizados en laboratorio, por mucho que simulemos las condiciones ideales en las que los usuarios usan Internet no evitan a los participantes una sensación de que los que están siendo analizados son ellos.</p>
+
+<p>Además realizar un test A/B es sencillo y barato y la información que obtenemos es muy valiosa.</p>
+
+<p>Los test A/B se clasifican en dos grupos:</p>
+
+<p>El test A/B propiamente dicho, donde para una página de nuestra web proponemos dos versiones distintas y mediante una herramienta de testing A/B como <a href="http://www.google.com/websiteoptimizer">Website Optimizer</a> las vamos mostrando por igual a nuestros visitantes pudiendo medir las diferencias de rendimiento y conversión de cada una de las páginas.</p>
+
+<p>El test multivariante.  En este caso para una página de nuestra web cambiamos uno o varios de sus elementos (el color de un botón, un texto, una imágen&#8230;).  La herramienta de testing mostrará a los visitantes todas las combinaciones posibles de la página (es por ello muy recomendable no cambiar muchos elementos de golpe) y una vez alcanzado un numero de visitas concluyente podremos saber cual es la mejor combinación.</p>
+
+<p>En el Business Case de esta semana nos habló <a href="http://www.kschool.com/usabilidad-ux/profesores/fernando-ortega/">Fernando Ortega</a>, encargado de la usabilidad y la experiencia de usuario del portal de Aena.es y creador de <a href="http://www.fotonatura.org/">fotonatura.org</a>.  Fernando ha sido el principal impulsor de la implantación de un sistema de medición eficiente, como es Google Analytics, ya que anteriormente solo contaban con herramientas para el análisis de logs.  Formar parte de un proyecto como Aena.es es algo complicado por su tamaño y por la cantidad de personas involucradas en el proyecto, pero a la vez es muy enriquecedor ya que trabajas en una web que usan millones de personas al mes.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jorge</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-27T11:32:48+02:00" pubdate data-updated="true">27-06-2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/analitica/'>Analitica</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jorgegorka.github.com/jorgegorka/:wordpress_id/master-analitica-web-semana-11-ab-testing/" data-via="jorgealvarez" data-counturl="http://jorgegorka.github.com/jorgegorka/:wordpress_id/master-analitica-web-semana-11-ab-testing/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/:wordpress_id/reescribe-tus-urls-en-google-analytics-con-_trackpageview/" title="Previous Post: Reescribe tus urls en Google Analytics con _trackPageView">&laquo; Reescribe tus urls en Google Analytics con _trackPageView</a>
+      
+      
+        <a class="basic-alignment right" href="/:wordpress_id/seguimiento-de-acciones-sociales-en-google-analytics/" title="Next Post: Seguimiento de acciones sociales en Google Analytics">Seguimiento de acciones sociales en Google Analytics &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/:wordpress_id/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill/">Utiliza el API de Google Analytics de forma sencilla</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/3-consejos-para-crear-un-dashboard-de-analitica/">3 Consejos para crear un Dashboard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/comercio-electronico-no-todo-vale/">Comercio electrónico - No todo vale</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jorgealvarez", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jorgealvarez" class="twitter-follow-button" data-show-count="false">Follow @jorgealvarez</a>
+  
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/jorgegorka?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'jorgegorka';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jorgegorka.github.com/jorgegorka/:wordpress_id/master-analitica-web-semana-11-ab-testing/';
+        var disqus_url = 'http://jorgegorka.github.com/jorgegorka/:wordpress_id/master-analitica-web-semana-11-ab-testing/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

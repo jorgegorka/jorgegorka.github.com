@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Analitica | Jorge Alvarez]]></title>
+  <link href="http://jorgegorka.github.com/jorgegorka/blog/categories/analitica/atom.xml" rel="self"/>
+  <link href="http://jorgegorka.github.com/jorgegorka/"/>
+  <updated>2012-12-07T21:34:07+01:00</updated>
+  <id>http://jorgegorka.github.com/jorgegorka/</id>
+  <author>
+    <name><![CDATA[Jorge]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[El análisis web no es (solo) marketing]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/el-analisis-web-no-es-solo-marketing/"/>
+    <updated>2012-07-02T09:25:22+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/el-analisis-web-no-es-solo-marketing</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/07/web_analytics_2_0_demystified-300x227.png" alt="El analista web no pertenece a marketing" />La mayoría de empresas que conozco tienen integrado el análisis web en el departamento de marketing.  Si bien hemos de reconocer que los primeros que supieron ver la utilidad de la analítica web fueron "los de marketing" ni mucho menos es el único departamento que puede beneficiarse de la labor de un analista cuya utilidad es mucho más transversal.</p>
+
+<p>Vamos a ver algunos ejemplos de departamentos que pueden verse beneficiados si tienen acceso a la información que proporciona nuestro analista web.</p>
+
+<p><strong>Marketing</strong>:  Fueron los primeros en ver la utilidad del análisis web y sin ellos muchas empresas no se plantearían tener una herramienta de análisis web ni gente especializada en dicho análisis.  Por lo tanto ellos deben ocupar un lugar especial en el corazón de todo analista web :-).</p>
+
+<p>La adquisición de tráfico, gestión de campañas, redes sociales, son sus principales puntos de atención, sin olvidar optimización de landing pages, a/b testing, contenidos más vistos.</p>
+
+<p><strong>Desarrollo</strong>:  La analítica web también sirve, y mucho, de ayuda para los desarrolladores.  Conocer la <a href="http://www.alvareznavarro.es/5808/medir-el-tiempo-de-carga-de-tu-pagina-con-google-analytics/">velocidad de carga de las páginas</a> en el cliente, secciones más visitadas y por lo tanto susceptibles de optimización y mejora de rendimiento, <a href="http://www.alvareznavarro.es/5820/medir-las-paginas-de-error-con-google-analytics/">control de errores (404, 500....)</a>.</p>
+
+<p><strong>Usabilidad y Experiencia de Usuario</strong>:  Medición del uso de formularios, rutas y patrones de navegación de los usuarios, dispositivos utilizados.</p>
+
+<p><strong>Atención al cliente y soporte a usuarios</strong>: Páginas de ayuda más visitadas, consultas más frecuentes en el buscador de la web, uso del formulario de contacto.</p>
+
+<p><strong>Dirección</strong>:  Comportamiento de las ventas online, costes de adquisición de clientes, fidelización, ROI del canal online</p>
+
+<p>Estos son solo algunos ejemplos de departamentos que se pueden beneficiar de la información que un analista web puede proporcionar a la empresa.  Es labor del propio analista evangelizar dentro de la empresa y hacer ver que su función es de gran utilidad para muchos departamentos.</p>
+
+<p>Es hora de que los analistas web salgan del departamento de marketing y ocupen una posición propia en las empresas.  La gran cantidad de herramientas que los analistas tienen a su disposición les proporcionan datos, que una vez procesados y debidamente puestos en contexto, proporcionan información muy valiosa a los diferentes departamentos.</p>
+
+<p>A pesar de que disponemos de datos y herramientas de análisis desde el mismo inicio de la web todavía la gran mayoría de empresas no les sacan todo el partido posible ni aprovechan todo su potencial y esto les supone ni más ni menos que estar perdiendo dinero.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Utiliza el API de Google Analytics de forma sencilla]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill/"/>
+    <updated>2012-05-01T09:35:43+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/04/developers-300x168.jpg" alt="Ariadna Google Analytica API for developers" />El API de Google Analytics nos permite utilizar directamente toda la información que Google Analytics almacena sobre nuestra página web.  Al tener acceso de forma directa a los datos, podemos cruzarlos, agruparlos y segmentarlos de formas que la herramienta web de Google Analytics no permite.</p>
+
+<p>Cuando tenemos que realizar informes complejos o necesitamos cruzar datos de forma no prevista por la herramienta web de Google Analytics tenemos dos opciones.  Armarnos de paciencia y realizar complejas hojas de cálculo difíciles de actualizar y de mantener libres de errores, o bien realizar un programa que recolecte y procese la información por nosotros y nos la muestre automáticamente.</p>
+
+<p>El <a href="https://developers.google.com/analytics/devguides/">API de Google Analytics</a> es una herramienta que nos permite recolectar "en bruto" los datos que Google tiene almacenados sobre nuestro sitio para posteriormente poder tratarlos a nuestro gusto.  Pero, como cualquier API, su función es intercambiar información de forma ágil entre ordenadores, no entre humanos.</p>
+
+<p>Para que podamos consumir la información que Google Analytics nos proporciona de forma sencilla y cómoda, he creado una librería que te ayudará a utilizar y sacar todo el partido de dicha API.  El nombre de la librería es <a href="https://rubygems.org/gems/ariadna">Ariadna</a>, está programada en <a href="http://www.ruby-lang.org/es/">Ruby</a> y puedes utilizarla y/o <a href="https://github.com/jorgegorka/ariadna">descargar el código fuente</a> y modificarla a tu gusto.</p>
+
+<p><a href="https://rubygems.org/gems/ariadna">Ariadna</a> extrae toda la información de Google Analytics y te la presenta en forma de objetos que puedes utilizar.</p>
+
+<p>Ariadna utiliza como <a href="https://github.com/jorgegorka/ariadna/wiki/Connexion">forma de autentificación</a> Oauth2 que es la forma recomendada por Google para acceder a su API.</p>
+
+<p>Veamos un ejemplo:</p>
+
+<pre><code>results  = profile.results.select(
+      :metrics    =&gt; [:visits, :bounces, :timeOnSite],
+      :dimensions =&gt; [:country]
+    )
+    .where(
+      :start_date =&gt; Date.today,
+      :end_date   =&gt; 2.months.ago,
+      :browser    =&gt; "==Firefox"
+    )
+    .order([:visits, :bounces])
+    .all
+</code></pre>
+
+<p>Esta consulta pide a Google todas las visitas, tasa de rebote, tiempo en el sitio y país de todas las visitas a nuestra web desde hace dos meses hasta hoy y que hayan empleado el navegador Firefox.  Además nos muestra los resultados ordenados por visitas y tasa de rebote.</p>
+
+<p>Para conocer todos los resultados solo tenemos que iterar sobre el objeto results donde toda la información enviada por Google está disponible en forma de atributos.</p>
+
+<pre><code>results.each do |result|
+  puts result.visits
+  puts result.bounces
+  puts result.timeOnSite
+  puts result.country
+end
+</code></pre>
+
+<p>Además de consultar datos, también podemos conocer toda la información de cuentas, propiedades y perfiles disponibles.</p>
+
+<pre><code>Ariadna::Analytics.new(access_token)
+
+
+
+
+accounts    = analytics.accounts.all
+
+
+
+
+properties = accounts.first.properties.all
+
+
+
+
+profiles    = properties.first.profiles.all
+</code></pre>
+
+<p>Cualquier duda o comentario sobre la gema es bienvenido y por supuesto <a href="https://github.com/jorgegorka/ariadna/wiki/Contributing">contribuciones y mejoras</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3 Consejos para crear un Dashboard]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/3-consejos-para-crear-un-dashboard-de-analitica/"/>
+    <updated>2012-04-19T14:07:24+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/3-consejos-para-crear-un-dashboard-de-analitica</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/04/dashboard1-300x234.png" alt="Como crear un dashboard tras un analisis web" />Un dashboard condensa en un único cuadro/gráfico/página el saber hacer de un buen analista web.  Puede que suene un poco melodramático pero es la realidad.  Eres tan bueno como lo son tus dashboards.  La misión de un analista es generar buenos informes, ayudar a que la empresa que lo ha contratado mejore.</p>
+
+<p>Aunque pueda parecer extraño, a las empresas <strong>no les interesa realmente lo que pasa en sus webs, les interesa como mejorar</strong>.  Cuando estás hablando para un comité de dirección o simplemente informando a tu jefe, no te centres en lo que ha pasado, centrate en ofrecer soluciones para mejorar lo que pasa.  Habla de lo que estáis haciendo bien, para seguir haciéndolo bien y de lo que estáis haciendo mal, para mejorarlo.</p>
+
+<p>No les digas cosas como "Los anuncios de AdWords no están funcionando".  Probablemente ya lo sepan, y si no lo sabían esa información tampoco les aporta ningún valor.  Diles cosas como: "Los anuncios basados en los términos A, B  y C no atraen visitantes de calidad, el 80% de ellos solamente ve una página y se van de nuestro sitio.  Sin embargo cuando usamos términos como X, Y y Z las visitas se comportan mucho mejor".  Ahora estás aportando valor.  Es ahora cuando tu jefe piensa: "Hice bien contratando a este chico".</p>
+
+<p>Olvídate también de poner muchos gráficos y datos.  Tu jefe no quiere estar 30 minutos leyendo tu informe.  <strong>Un buen dashboard debe poder leerse en su totalidad en menos de 5 minutos.</strong>  Sintetiza tus opiniones en frases de 1 línea.  Si tu jefe quiere saber más sobre un determinado gráfico o comentario ya te pedirá detalles.</p>
+
+<p>Para cada dato que quieras mostrar en tu dashboard ten siempre claras estas tres cuestiones:</p>
+
+<ol>
+<li><p><strong>Contexto</strong>.- No muestres cifras, sino tendencias.  La mejor manera de crear contexto es recurrir a periodos de tiempo (mensual, semanal, diario....).  Tu jefe no quiere que le digas cuantas visitas tiene la web de tu empresa.  Quiere saber que las visitas han crecido un 10% en lo que va de año y un 3,5% sobre el mes anterior y el crecimiento ha sido debido gracias a las mejoras en posicionamiento en buscadores.</p></li>
+<li><p><strong>Motivo</strong>.- Porqué muestras esa métrica? cual es el  valor que aporta a la empresa?  Muchas veces puedes decir lo mismo de diferentes formas.  En lugar de decir que las conversiones han crecido puedes hablar sobre los ingresos provenientes de la web .</p></li>
+<li><p><strong>Mejora</strong>.- Este es el lugar donde realmente vas a aportar valor ya que no te limitas a contar lo que pasa sino a dar soluciones para mejorar las cosas.  También es la parte más peligrosa puesto que te tienes que mojar.  No sirve con decir "el carrito de la compra no funciona".  Tienes que aportar soluciones y demostrar dichas soluciones.  Aquí no sirve saber mucho de herramientas de analítica ni dominar el excel.  Aquí es donde entra en juego lo que sabes de Internet, el medio en el que te mueves.</p></li>
+</ol>
+
+
+<p>Has invertido mucho tiempo realizando tu análisis.  No lo tires por la borda comunicando información que no aporta ningún valor.  Habla de lo que realmente les interesa a tus jefes.  <strong>Ofrece soluciones</strong>.</p>
+
+<p>Un libro que realmente me ha ayudado y al que suelo recurrir de forma frecuente es: <a href="http://www.webanalyticsdemystified.com/content/books.asp">The Big Book of KPIs</a> de Eric T. Peterson y que te recomiendo que lo tengas siempre a mano como referencia.</p>
+
+<p>Cual es tu experiencia creando dashboards e informes para tus jefes?  Hay algún otro consejo que quieras añadir?  Tus comentarios son siempre bienvenidos.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[El visitante como centro del análisis web]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/el-visitante-como-centro-del-analisis-web/"/>
+    <updated>2011-11-15T02:55:43+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/el-visitante-como-centro-del-analisis-web</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/user-centered.jpg"><img src="http://www.alvareznavarro.es/images/2011/11/user-centered-300x188.jpg" alt="el usuario como centro del análisis web" /></a><strong>Cuando nos enfrentamos al análisis de una web lo primero que debemos tener muy claro son los objetivos y los indicadores que nos servirán para cumplir dichos objetivos.  Este es el primer paso que todo buen analista web debe realizar.  De una buena definición de objetivos y de sus indicadores, dependerá que todo el esfuerzo que realicemos después tenga éxito o no.  Si nuestros indicadores están mal elegidos o no son los correctos, las conclusiones a las que nos lleven serán erroneas y no servirán para mejorar la web analizada.</strong></p>
+
+<p>Existen diversas metodologías que nos permiten afrontar la creación de objetivos e indicadores web con garantías, y es posible encontrar mucha documentación sobre este tema (adjunto unos cuantos recursos al final de este post).</p>
+
+<p>Otro punto indispensable para un buen analista web es realizar informes que puedan ser fácilmente entendibles por las personas  a las que van dirigidos y sobre todo, que les propongan soluciones a los problemas detectados o iniciativas para mejorar y crecer.</p>
+
+<h2>El visitante/usuario como centro del proceso de análisis web</h2>
+
+<p>Las webs están hechas para que las personas las usen y parece natural poner al visitante/usuario como centro de todo el proceso, si bien esto en la práctica es mucho menos frecuente de lo que debería ser.  En función del grado de vinculación que una persona tiene con nuestra web podemos hablar de:</p>
+
+<ol>
+<li><p><strong>Visitantes:</strong> quienes interactúan con la web pero cuya vinculación no es muy grande.</p></li>
+<li><p><strong>Usuarios:</strong> aquellos acostumbrados a visitarnos, que conocen nuestra web y nuestros servicios</p></li>
+<li><p><strong>Clientes:</strong> Quienes han realizado un objetivo principal de nuestra web.</p></li>
+</ol>
+
+
+<p>A su vez, podemos dividir las webs en cuatro grandes grupos según el motivo para el que fueron creadas:</p>
+
+<ol>
+<li><p><strong>Comercio:</strong> Webs creadas con la finalidad de vender un producto o servicio.  No es necesario que la transacción se lleve a cabo directamente en la web.</p></li>
+<li><p><strong>Contenido:</strong> Webs de artículos, prensa, revistas, blogs, foros.... Donde lo importante es el contenido, tanto propio, como generado por los usuarios.</p></li>
+<li><p><strong>Marketing:</strong>  Comunmente llamadas webs presenciales.  Webs donde se dan a conocer los productos o servicios de una empresa de una forma genérica.</p></li>
+<li><p><strong>Soporte:</strong> Webs destinadas a ayudar a los visitantes a resolver sus dudas tanto antes, durante como después de un proceso de compra.</p></li>
+</ol>
+
+
+<p>En función del tipo de web y del tipo de visitante deberemos segmentar los datos con los que trabajamos para obtener la información adecuada.</p>
+
+<p>En los cuatro tipos de webs que hemos visto, se dan los tres tipos de personas que hemos definido.  Es evidente que no todos los tipos de personas tienen la misma importancia en todos los casos:  En una web de comercio nos interesa que la mayoría de visitantes se conviertan en clientes, mientras que en una web de soporte puede ser interesante tener cuantos menos usuarios mejor, ya que eso indicará que no necesitan de nuestra ayuda de forma recurrente.</p>
+
+<p>Por lo tanto debemos tener muy claro a que tipo de web nos vamos a enfrentar antes de comenzar con el análisis.  El tipo de empresa también condicionará las herramientas a utilizar.  Por ejemplo un site de contenidos, como un periódico, que basa sus ingresos en audiencias dispondrá tanto de herramientas de medición basadas en paneles (ComScore, Nielsen...) como de herramientas basadas en tags (SiteCatalyst, Analytics, WebTrends...)</p>
+
+<p>Para complicar aún más la cosa, no todos los departamentos de una empresa necesitan la misma información por lo que nuestros informes también deben tener en cuenta a quien nos dirigimos para presentarles únicamente aquellos datos que les puedan ser de utilidad y ofrecerles nuestras recomendaciones en un lenguaje perfectamente comprensible por ellos.</p>
+
+<h2>Resumen</h2>
+
+<p>Realizar un análisis serio, riguroso y que aporte valor al cliente es un trabajo que requiere tener en cuenta muchos factores.  Hemos hablado de como enfocar el análisis de una web teniendo al visitante como centro del mismo.  En un próximo post veremos las fases en las que dividir el análisis para ofrecer información útil a nuestros clientes.</p>
+
+<h3>Recursos de interés</h3>
+
+<ul>
+<li><p><a href="http://www.visualrevenue.com/media/pdf/Implementing_WA_Nokia.pdf">Implementing Web Analytics The Nokia Way (pdf)</a></p></li>
+<li><p><a href="http://www.amazon.com/Cult-Analytics-strategies-Emarketing-Essentials/dp/1856176118">Steve Jackson - The Cult of Analytics</a></p></li>
+<li><p><a href="http://www.elartedemedir.com/">El Arte de Medir</a></p></li>
+<li><p><a href="http://www.webanalyticsdemystified.com/content/books.asp">The Big Book of KPIs</a></p></li>
+<li><p><a href="http://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0321683684/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1321314510&amp;sr=1-1">The Elements of User Experience</a></p></li>
+</ul>
+
+
+<p>[box] Si deseas un análisis que te permita conocer con detalle lo que pasa en tu página web, <a href="http://www.alvareznavarro.es/contactar/">contacta conmigo</a>.[/box]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eventos no interactivos en Google Analytics]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/eventos-no-interactivos-en-google-analytics/"/>
+    <updated>2011-11-03T20:57:45+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/eventos-no-interactivos-en-google-analytics</id>
+    <content type="html"><![CDATA[<p><strong><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/bounce-rate.jpg"><img src="http://www.alvareznavarro.es/images/2011/11/bounce-rate-300x199.jpg" alt="eventos no interactivos en Google Analytics" /></a>Hasta ahora cuando lanzábamos un evento en Google Analytics contaba como una interacción del usuario en nuestra web y anulaba el rebote.  Es decir aunque el usuario hubiera visto una sola página si había ocurrido algún evento, no existía rebote.  Desde hoy ya podemos decidir nosotros si queremos que un evento sea interactivo o no interactivo.</strong></p>
+
+<h2>Gestión de eventos en Google Analytics</h2>
+
+<p>Google ha añadido un nuevo parámetro al método _trackEvent() que nos permite decidir si queremos que nuestro evento sea interactivo y cancele el rebote o bien no interactivo y no afecte al rebote de esa visita.</p>
+
+<p>El formato del nuevo método _trackEvent queda como sigue:</p>
+
+<h4><em>_trackEvent(category, action, opt_label, opt_value, opt_noninteraction)</em></h4>
+
+<p>Hace poco publiqué un script que añades a tu web y que te permite <a href="http://www.alvareznavarro.es/6579/seguimiento-de-enlaces-externos-con-google-analytics/">saber que enlaces externos pulsan los visitantes de tu web</a>.  Por ejemplo, si tienes un post de un blog y enlazas a otras webs, cuando alguien que está leyendo tu post pulsa en ese enlace quedará contabilizado y podrás saber que enlaces tienen más éxito entre tus lectores.</p>
+
+<p>Un efecto secundario de este script es que aunque el visitante solo vea una página de tu web <strong>cuando se lanzaba el evento Google Analytics lo entendía como una interación del visitante con tu web y cancelaba el rebote</strong>.</p>
+
+<p>Desde ahora ya podemos decidir si queremos que esto sea así o no.  Por defecto, nada cambiará, es decir que si no modificas tus eventos estos seguirán siendo interpretados como una interacción del visitante y cancelarán el rebote.  Pero si añades un nuevo parámetro y pones el valor <strong><em>true </em></strong>Google Analytics contabilizará el evento y no cancelará el rebote.</p>
+
+<h2>Resumen</h2>
+
+<p>No todos los eventos tienen la misma importancia ni afectan por igual al comportamiento de los visitantes en nuestra web.  Desde ahora es responsabilidad del analista web configurar correctamente los eventos para que afecten o no afecten a la tasa de rebote.  Personalmente <strong>creo que existe mucho miedo a tener una tasa de rebote alta</strong>, cuando no siempre es un síntoma malo.  Debemos <a href="http://www.alvareznavarro.es/servicios/consultoria-web/auditoria-y-analisis-web/">analizar cada web en su contexto</a> y decidir lo más adecuado según sus circunstancias particulares.</p>
+]]></content>
+  </entry>
+  
+</feed>

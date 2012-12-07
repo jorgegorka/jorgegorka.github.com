@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>HTML 5 - Elementos obsoletos - Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="Inicio hoy una serie de posts sobre HTML5 tomando como base la charla que di en Aspgems el dia 12/1/11 y en los que intentare profundizar en los &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/html-5-elementos-obsoletos/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25210947-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jorgegorka.github.com/jorgegorka" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/" alt="Volver a la página de inicio">Inicio</a></li>
+  <li><a href="/jorge/" alt="Acerca de Jorge Alvarez">Sobre mí</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">HTML 5 - Elementos Obsoletos</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-17T09:41:00+01:00" pubdate data-updated="true">17-01-2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Inicio hoy una serie de posts sobre HTML5 tomando como base <a href="http://www.slideshare.net/jorgegorka/presentacin-en-aspgems-html5">la charla </a>que di en <a href="http://aspgems.com/">Aspgems</a> el dia 12/1/11 y en los que intentare profundizar en los principales aspectos de la especificacion HTML 5.</p>
+
+<p>Al ser <a href="http://dev.w3.org/html5/spec/Overview.html">una especificacion</a> que esta siendo debatida, modificada y actualizada inevitablemente algunas de las cosas que en estos posts se mencionen acabaran siendo incorrectas y/o incompletas.  Intentare mantener los posts actualizados y te invito a utilizar los comentarios para indicarme cualquier cambio o mejora.</p>
+
+<p>Presentacion y contenido</p>
+
+<p>HTML 5 hace especial hincapie en separar presentacion y contenido.  Para ello convierte en obsoletos muchos elementos y atributos que todavia encontramos frecuentemente en gran parte de las paginas web.  La gran mayoria de editores web wysiwyg hacen uso y abuso de estos elementos.</p>
+
+<p>Separar presentacion y contenido es una norma basica y un indicador de la calidad de una pagina web.  Aquellas webs que lo mezclan presentan 3 problemas fundamentales:</p>
+
+<p><strong>Mala accesibilidad</strong></p>
+
+<p>Cuando hablamos de accesibilidad tendemos a pensar que esto solo afecta a los usuarios con alguna discapacidad fisica sin darnos cuenta de que todos nos convertimos en discapacitados muchas veces a lo largo del dia.  Navegar sin volumen porque estamos en una sala compartida, navegar utilizando mal el puntero porque vamos en el metro o andando por la calle, tipos de letra ilegibles en un smartphone, webs en flash que no se ven en los ipad, iphone, etc&#8230;.</p>
+
+<p><strong>Mayor coste de mantenimiento</strong></p>
+
+<p>Las webs que mezclan el contenido y la presentacion son mas caras de crear y de mantener.  Si queremos cambiar el color de un texto, el tamaño de letra de un menu, etc&#8230; debemos repasar y modificar todas las paginas del sitio web mientras que hacer lo mismo en una web bien hecha requiere modificar un unico fichero CSS.</p>
+
+<p><strong>Mayor tamaño de pagina</strong></p>
+
+<p>Al incluir la presentacion en el contenido nos vemos obligados a escribir codigo redundante que detalle la apariencia de los elementos en cada una de las paginas donde aparecen.</p>
+
+<p>La gran mayoria de elementos empleados para la presentacion se han eliminado de HTML 5, excepto el elemento style y el atributo style.  Otros han cambiado su significado y ya no denotan la apariencia sino que definen el tipo de contenido que incluyen.  Estos son los elementos obsoletos:</p>
+
+<p>Listado de elementos obsoletos</p>
+
+<p><strong>basefont, big, center, font, s, strike, tt, u, frame, frameset, noframes, acronym, applet, dir, align, link, vlink, alink, </strong></p>
+
+<p><strong>bgcolor, height, width, scrolling, valign, hspace, vspace, cellpadding, cellspacing, border, target, longdesc</strong></p>
+
+<p>Elementos que cambian su significado</p>
+
+<p><strong>small</strong></p>
+
+<p>Desde ahora el elemento small se debe emplear para hacer referencia a condiciones legales, informaciones de copyright, exenciones de responsabilidad, etc..  Normalmente en España denominamos a eso como &#8220;letra pequeña&#8221; por lo que resultara muy sencillo para nosotros aplicarlo de forma correcta.</p>
+
+<p>Ejemplo:</p>
+
+<p><small>(c) 2011 Nuestra empresa.  Nuestra empresa no se hace responsable de los comentarios realizados en nuestro blog.  Siendo estos, responsabilidad de quien lo realiza</small></p>
+
+<p><strong>b</strong></p>
+
+<p>El elemento b se empleara cuando deseemos resaltar algun aspecto de un parrafo pero sin otorgarle importancia semantica al elemento resaltado.  La norma indica que b debe usarse como ultimo recurso y emplear los encabezados (h1..h6), el elemento em, strong o mark en funcion del tipo de contenido a resaltar.</p>
+
+<p><strong>i</strong></p>
+
+<p>Emplearemos i cuando queramos indicar algun aspecto diferenciador en el parrafo actual.  Por ejemplo: un nombre propio, una frase en otro idioma, una idea, un pensamiento.  Al igual que b debe ser usado en ultimo recurso cuando otros elementos como em o como dfn, por ejemplo, no encajen.</p>
+
+<p><strong>s</strong></p>
+
+<p>El elemento s indicara contenidos en un parrafo que ya no son relevantes y/o fiables.</p>
+
+<p>Por ejemplo:</p>
+
+<p>Visitanos</p>
+
+
+
+
+<p><s>Direccion antigua: Avda. de las Acacias, 22</s></p>
+
+
+
+
+<p><strong>Nueva direccion:  Avda. de las Acacias, 666</strong></p>
+
+
+<p><strong>style</strong></p>
+
+<p>Tanto el elemento style como el atributo style permanecen en la especificacion.  Si bien se desaconseja su uso y se recomienda utilizar las hojas de estilo siempre que sea posible, pueden existir situaciones especificas donde esto no sea posible o recomendable.  Es en estas situaciones excepcionales donde podremos aplicar estilos a los elementos utilizando su atributo style.</p>
+
+<p>Dos elementos que me han sorprendido que desaparezcan son <strong>target y longdesc</strong>.</p>
+
+<p>El primero, porque la unica alternativa que se propone para abrir contenido en nuevas ventanas es mediante javascript y el segundo ya que era muy empleado y util para mejorar la accesibilidad de las webs.  Seguramente en breve veremos cambios en la especificacion que propongan alternativas a ambos elementos.</p>
+
+<p>Resumen</p>
+
+<p>HTML 5 define unas bases muy acertadas para la creacion y desarrollo de webs, obligando a separar el contenido de la presentacion.  Esta forma de trabajo nos llevara a ser desarrolladores web mas eficientes y a crear paginas de mayor calidad y a menor coste.</p>
+
+<p>El uso de elementos que HTML 5 define como obsoletos es un sintoma de que nuestro proceso de desarrollo debe mejorar.  Incluso con el soporte incompleto de HTML 5 por parte de los navegadores actuales, la mayoria de elementos marcados como obsoletos son facilmente reemplazables por estilos incluidos en hojas CSS y por elementos que aportan un mayor valor semantico a nuestras webs.</p>
+
+<p>En un proximo post hablaremos de semantica y veremos las nuevas etiquetas y elementos definidos por la especificacion.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jorge</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-17T09:41:00+01:00" pubdate data-updated="true">17-01-2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jorgegorka.github.com/jorgegorka/:wordpress_id/html-5-elementos-obsoletos/" data-via="jorgealvarez" data-counturl="http://jorgegorka.github.com/jorgegorka/:wordpress_id/html-5-elementos-obsoletos/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/:wordpress_id/introduccion-al-html-5/" title="Previous Post: Introducción al HTML 5">&laquo; Introducción al HTML 5</a>
+      
+      
+        <a class="basic-alignment right" href="/:wordpress_id/la-importancia-de-la-solidaridad/" title="Next Post: La importancia de la solidaridad">La importancia de la solidaridad &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/:wordpress_id/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill/">Utiliza el API de Google Analytics de forma sencilla</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/3-consejos-para-crear-un-dashboard-de-analitica/">3 Consejos para crear un Dashboard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/comercio-electronico-no-todo-vale/">Comercio electrónico - No todo vale</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jorgealvarez", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jorgealvarez" class="twitter-follow-button" data-show-count="false">Follow @jorgealvarez</a>
+  
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/jorgegorka?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'jorgegorka';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jorgegorka.github.com/jorgegorka/:wordpress_id/html-5-elementos-obsoletos/';
+        var disqus_url = 'http://jorgegorka.github.com/jorgegorka/:wordpress_id/html-5-elementos-obsoletos/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

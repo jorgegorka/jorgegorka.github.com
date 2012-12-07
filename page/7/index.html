@@ -1,0 +1,1302 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="La función rand que incluye Firebird no funciona del todo bien y me devuelve resultados que distan mucho de ser aleatorios por lo que para ordenar &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jorgegorka.github.com/jorgegorka/page/7/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25210947-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jorgegorka.github.com/jorgegorka" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/" alt="Volver a la página de inicio">Inicio</a></li>
+  <li><a href="/jorge/" alt="Acerca de Jorge Alvarez">Sobre mí</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/si-la-montaa-no-viene-a-mahoma/">Si La Montaña No Viene a Mahoma</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-02T14:44:00+01:00" pubdate data-updated="true">02-02-2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>La función rand que incluye Firebird no funciona del todo bien y me devuelve resultados que distan mucho de ser aleatorios por lo que para ordenar los resultados de una consulta no me sirve:</p>
+
+<p><code>
+select * from tabla order by rand()</code></p>
+
+<p>Solución:  dejar que la base de datos haga lo que mejor sabe hacer, devolver registros en el menor tiempo posible y emplear ruby para el orden.</p>
+
+<p>`
+  resultados = find(:all, :limit => 10)</p>
+
+<p>  resultados.sort_by { rand }
+`</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/ruby-on-rails-firebird-y-problemas-con-insert/">Ruby on Rails Firebird Y Problemas Con Insert</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-01-26T23:29:00+01:00" pubdate data-updated="true">26-01-2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>He descargado la última versión del firebird-adapter desde gems.rubyonrails.org y cuando voy a insertar un registro me da un error diciendo que &#8220;insert is an abstract method&#8221;.</p>
+
+<p>Trasteando he visto que active-record-firebird-adapter-1.0.0 no tiene definido el método insert y lógicamente al heredar de abstract-record que si lo tiene pues se queja.</p>
+
+<p>Realmente no se si es correcto que esto sea así pero yo lo he añadido de la siguiente forma:</p>
+
+<p>`
+def insert(sql, name = nil, pk = nil, id_value = nill, sequence_name = nill)</p>
+
+<p> execute sql, name</p>
+
+<p>end
+`</p>
+
+<p>Desde entonces los insert funcionan correctamente.</p>
+
+<p>No estoy seguro al 100% de que esta forma sea la correcta y además me parece muy sospechoso que se hayan olvidado del método insert.. pero lo que es seguro es que haciendo esto todo funciona.</p>
+
+<p>Si alguien tiene una explicación mejor que me la diga.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/la-usuabilidad-no-solo-est-en-la-web/">La Usabilidad No Solo Está en La Web</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-01-25T13:12:00+01:00" pubdate data-updated="true">25-01-2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Aunque, al menos en este blog, siempre que hablo de usabilidad la enmarco en el ámbito de la web, es evidente que existen muchas areas cotidianas donde una adecuada usabilidad de los objetos, productos, servicios, nos haría la vida mucho más fácil a todos.</p>
+
+<p>Y si encima ese producto es potencialmente peligroso para la salud entonces la usabilidad adquiere una importacia enorme.</p>
+
+<p>Tengo un hijo de 3 años que ha pillado un catarro, nada grave pero le han recetado un jarabe.  Y leyendo el prospecto que incluye el jarabe veo que la posología dice textualmente:</p>
+
+<blockquote><p>De 2 a 6 años: 1mg. por kg. de peso corporal al día dividido en 4 tomas iguales</p></blockquote>
+
+<p>.</p>
+
+<p>Y encima para complicar aun más la cosa, el vaso dosificador <strong>tiene sus medidas indicadas en mililitros</strong> mientras que la administración la indican en miligramos.</p>
+
+<p>Es decir, que para saber la dosis correcta a administrar debemos:</p>
+
+<ol>
+<li><p>Dividir el peso entre cuatro para saber el número de miligramos por toma</p></li>
+<li><p>Seguir leyendo el resto de rangos de edades para saber que no se deben sobrepasar los 60mg al día y entre paréntesis 30ml.</p></li>
+<li><p>Ahora que ya tenemos una referencia 60mg = 30ml. podemos realizar los cálculos correspondientes y segun los miligramos obtenidos en el primer punto convertirlos a mililitros.</p></li>
+</ol>
+
+
+<p>Evidentemente el proceso de cálculo de la dosis es innecesariamente complicado y puede llevar a errores con facilidad.  Además la solución es tan simple como poner una tabla indicando la dosis adecuada en función del peso del paciente.  Y sobre todo, si se indican las dosis en miligramos marcar el vaso dosificador en miligramos.</p>
+
+<p>Al fin y al cabo <strong>una mala usabilidad en una web provoca usuarios descontentos pero una mala usabilidad en un medicamento puede provocar usuarios acudiendo a urgencias</strong>.</p>
+
+<p>En el píe de página del prospecto pone: &#8220;Texto revisado: Junio 2001&#8221;, aunque creo que ya le va haciendo falta una nueva revisión ¿no os parece?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/herramienta-de-colaboracin/">Herramienta De Colaboración</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-09-26T19:07:00+02:00" pubdate data-updated="true">26-09-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Ya está terminado el desarrollo de la primera versión de nuestra <a href="http://www.enmilista.com">herramienta de colaboración</a>.</p>
+
+<p>Por lo tanto ahora abrimos un periodo en el que aquellos interesados en probarla pueden <a href="http://www.enmilista.com">enviarnos su email</a> e iremos dando accesos a la aplicación.</p>
+
+<p>El lanzamiento definitivo está previsto para el 1 de Diciembre de 2007 así que permaneced atentos a las novedades.</p>
+
+<p>Para los que no la conocen os contamos que esta aplicación está pensada para aquellas empresas/personas que necesitan compartir información y/o ficheros con diversa gente dispersa geográficamente.</p>
+
+<p>La aplicación se compone de cuatro herramientas:</p>
+
+<ul>
+<li><p>Mensajería</p></li>
+<li><p>Gestión de proyectos</p></li>
+<li><p>Almacenamiento de ficheros</p></li>
+<li><p>Envíos de emails con adjuntos voluminosos</p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/posicionamiento-de-webs-inmobiliarias/">Posicionamiento De Webs Inmobiliarias</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-07-27T12:06:00+02:00" pubdate data-updated="true">27-07-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Voy a iniciar en el <a href="http://blog.oficinainmobiliaria.es/">blog de oficinainmobiliaria.es</a> una serie de artículos enfocados a mejorar el posicionamiento de webs inmobiliarias.<br/>
+Nuestra base de trabajo sera:</p>
+
+<ul>
+<li>Sencilla.- Usted es experto en el sector inmobiliario, no el informático así que hablaremos en términos sencillos, buscaremos ideas asequibles y nada complicadas de llevar a la práctica.</li>
+<li>Económica.- Promocionar una web (o cualquier otra cosa) con un presupuesto alto es muy sencillo.  Nosotros nos vamos a centrar en formas que cuesten poco ó nada.</li>
+<li>Legal.-  Los métodos legales son aquellos que son aceptados y recomendados por Google (en España el 95% de las búsquedas se hacen empleando  Google así que hablar de buscadores y hablar de Google es lo mismo).  <strong>No todo vale a la hora de promocionar una web</strong> y Google lo tiene muy en cuenta.  Si somos <em>malos</em> Google nos penalizará de la peor forma: eliminará nuestras páginas de sus resultados y, hagame caso, eso es muy malo.</li>
+</ul>
+
+
+<p>Ya está disponible la primera entrega: <a href="http://blog.oficinainmobiliaria.es/2007/07/promocionar-nuestra-web-inmobiliaria.html">introducción y objetivos</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/estadsticas-web/">Estadísticas Web</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-07-25T04:21:00+02:00" pubdate data-updated="true">25-07-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Se habla últimamente bastante sobre el tema de las estadísticas web. Si las páginas vistas ya no es una medida fiable, si el tiempo de permanencia de los usuarios en nuestro sitio es mejor, y se discute sobre los pros y contras de cada uno.</p>
+
+<p><em>Primero:</em>  ambas medidas, por si solas no son un indicativo fiable.  Las páginas vistas no sirven si empleas ajax.  El tiempo de permanencia es imposible de calcular ya que se sabe cuando entras a una web pero no cuando sales.  Y mucho menos saber si a pesar de haber cargado una página realmente la has llegado a ver, que también ocurre.</p>
+
+<p><em>Segundo:</em> En mi opinión este tipo de medidas son perfectas para el departamento de marketing, pero poco más.  Queda muy bonito decir que tienes 3 millones de usuarios únicos o que sirves 15 millones de páginas web.  Muy chulo pero poco útil.</p>
+
+<p>En mi opinión las preguntas que debemos hacernos sobre nuestra web son dos: ¿de donde vienen mis visitantes?  ¿que hacen en mi web?.<br/>
+Tenemos además la ventaja de que ambos datos son extremadamente fiables ya que es muy fácil conocer esa información.</p>
+
+<h3>¿De donde vienen mis visitantes?</h3>
+
+<p>Conocer esta información nos aportará multitud de pistas sobre nuestra web.  Existen tres formas de acceder a una web: Escribiendo la dirección en nuestro navegador, a través de un enlace en otra página y desde un buscador.  Dado el uso mayoritario de Google como buscador en España podemos afirmar que si la web de su empresa <strong>no recibe entre un 50-70% de las visitas desde Gooogle, su web necesita una revisión</strong>.  Se está perdiendo visitantes (posibles clientes) y muchos.</p>
+
+<p>Otra información a revisar constantemente son los términos de búsqueda.  Cuando alguien llega a nuestra web desde un buscador podemos conocer que era lo que había consultado.  No se trata de recibir muchas visitas sino de recibir visitas de calidad y sobre eso los términos de búsqueda tienen mucho que decir. Ejemplo: Imagine a la empresa de calcetines D. Beckham, puede decir que tiene 1 millón de visitantes mensuales, pero seguro que el 90% son adolescentes buscando noticias sobre su futbolista preferido y que nada más ver la web de calcetines se van a otro sitio.</p>
+
+<p>Los términos de búsqueda son, además, empleados por empresa que garantizan primeras posiciones en Google en 30 días y barbaridades similares.  Realmente las primeras posiciones las logran en términos secundarios y poco usados en los que es relativamente sencillo posicionarse aunque de escasa utilidad ya que nadie los emplea en sus búsquedas.</p>
+
+<h3>¿Que hacen los visitantes en mi web?</h3>
+
+<p>Otro dato absolutamente básico para conocer una web.  ¿Qué páginas son las que más vén? ¿que rutas siguen los visitantes?.  La mayoría de empresas suelen encargar remodelaciones de sus web sin conocer esta información por lo que es muy probable que estén mejorando secciones que no se ven o lo que es peor abandonando otras que reciben muchas visitas.</p>
+
+<p>Un error muy común es pensar que los visitantes comienzan su navegación en nuestra página de inicio lo cual es totalmente erróneo.  Recuerdo el caso de una inmobiliaria que nos encargo el rediseño de su web y que deseaba destacar unas viviendas que estaba construyendo para lo que había puesto un gran banner en su página de inicio.  Tras tener acceso a sus estadísticas pudimos comprobar que la mayoría de visitas accedian directamente a las páginas de los inmuebles en lugar de a la página de inicio ya que estas aparecían muy bien situadas en los buscadores.  Un pequeño cambio en la página de detalle de inmuebles aumentó las visitas a esa obra nueva en un 400% solo el primer mes.</p>
+
+<h3>Resumen</h3>
+
+<p>Debemos revisar las estadísticas de funcionamiento de nuestra web al menos una vez al mens.  No hacerlo le supone perder clientes y dinero.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/oficinainmobiliaria-50-das-despus/">Oficinainmobiliaria: 50 Días Después</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-06-12T23:39:00+02:00" pubdate data-updated="true">12-06-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hace 50 días del lanzamiento de Oficinainmobiliaria: El servicio que permite a las <a href="http://www.oficinainmobiliaria.es">agencias inmobiliarias crear su propia web y publicar sus propios inmuebles, todo gratis</a>.</p>
+
+<p>En estos 50 días nos hemos centrado en escuchar a los usuarios e intentar que el sistema les fuese útil.  Es evidente que por mucho que planifiques algo siempre se quedan cosas en el tintero o das por sentado que algo se va a utilizar de una manera y luego no es así.  Entre los cambios más importantes que hemos hecho destacaría dos:</p>
+
+<ul>
+<li>Eliminación de la publicidad.</li>
+</ul>
+
+
+<p>En la versión inicial de oficinainmobiliaria.es existía una zona destinada a mostrar anuncios de texto y que aparecía debajo de los detalles de los inmuebles.  A los usuarios esto no les gustó nada y recibimos unos cuantos mails donde nos decían que no les parecía bien que se mostrase esa publicidad.  Lo escuchamos, lo analizamos y decidimos quitarla.  De esta forma las webs que las inmobiliarias pueden crear son al 100% suyas y ellos deciden todo el contenido que aparece, tanto de textos como de inmuebles a publicar.</p>
+
+<ul>
+<li>Uso de nuestro <a href="http://www.gestioninmuebles.es">programa de gestion inmobiliaria</a>.</li>
+</ul>
+
+
+<p>Otra vez recibimos emails en los que nos comentaban la doble labor que implica mantener actualizados los inmuebles en la web y en la propia oficina.  Es evidente que cuando el número de inmuebles a publicar es elevado hay un doble trabajo bastante incomodo ya que todos los cambios y/o correciones que se hacen en la oficina se han de trasladar a la web.  La solución para eso fue rápida y efectiva.  A los usuarios registrados de oficinainmobiliaria.es les ofrecemos la posibilidad de <a href="http://www.oficinainmobiliaria.es/index.php">descargar y utilizar nuestro programa de gestión inmobiliaria: Gestioninmuebles.es completamente gratis</a>.  Con el programa pueden gestionar su oficina, su cartera de inmuebles, clientes, demandas, obra nueva, informes, etc&#8230; y con un simple click de ratón actualizar la web.</p>
+
+<p>De momento los inicios son prometedores ya hay más de 70 inmobiliarias y más de 12.000 inmuebles publicados.   Si se mantiene este ritmo de 50/60 altas al mes podemos considerarnos más que satisfechos.  Y eso que, como todo lanzamiento, la web todavía no posiciona muy bien en Google.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/mentalidad-google-o-mentalidad-microsoft/">Mentalidad Google O Mentalidad Microsoft</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-05-30T16:31:00+02:00" pubdate data-updated="true">30-05-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>En mi opinión existen hoy día dos grandes maneras de entender el negocio del software: la manera <a href="http://www.google.es">Google</a> y la manera <a href="http://www.microsoft.es">Microsoft</a>.</p>
+
+<p>Google entiende el software como un servicio.  Crea productos útiles, que cubren las necesidades de la gente y les da <strong>acceso a ellos de forma gratuita</strong>.  Una vez que la gente está usando estos productos y comprueba su utilidad puede acceder a versiones mejoradas de los mismos por una cantidad de dinero.</p>
+
+<p>Google ha eliminado las dos mayores <strong>barreras de acceso</strong> que tiene un producto de software para llegar al consumidor: las licencias y las cuotas de alta.</p>
+
+<p>Microsoft sigue un <strong>sistema más tradicional</strong> a la hora de distribuir sus productos: la venta de licencias.</p>
+
+<p>Para emplear un producto de Microsoft debemos, primeramente, pagar una licencia de uso.  Este hecho supone una gran barrera para muchos usuarios que deben pagar por algo que o bien todavía no tienen clara su utilidad o no piensan usar de forma asídua.</p>
+
+<p>Si bien la venta de licencias era una buena forma de venta de software hace unos años creo que <strong>hoy día está injustificada</strong>.  Gracias a Internet la distribución del software a los clientes tiene un coste muy cercano a cero.  Ya no es necesario disponer de una gran red de distribución para que los usuarios tengan acceso a tus productos.  El mundo entero puede tener <strong>acceso a tu software</strong> y a sus actualizaciones simplemente <strong>haciendo un click</strong> en tu web.</p>
+
+<p>Es más, la mayoría de aplicaciones están siendo portadas a versiónes web que únicamente necesitan de un navegador para funcionar.  El cliente no tiene que instalar ningún programa en su máquina.</p>
+
+<p>Esta nueva forma de funcionar hace, a mi juicio, dificilmente justificables la venta de licencias y el cobro de cuotas de alta.</p>
+
+<p>Lo que las empresas debemos hacer es procurar que el máximo número de personas empleen nuestros productos.  Si los usuarios encuentran un software sencillo y útil, al que sacan rendimiento y que les ayuda en su trabajo diario, serán los primeros en solicitar servicios añadidos, aunque éstos tengan un coste.</p>
+
+<p>Como estamos convencidos de que la <em>manera Google</em> es la correcta hemos decidido dar un cambio a nuestra política de distribución de nuestro <a href="http://www.gestioninmuebles.es">programa de gestión inmobiliaria</a>.</p>
+
+<p>A partir de ahora los usuarios de nuestro servicio <a href="http://www.oficinainmobiliaria.es">Oficinainmobiliaria.es</a> podrán descargar el programa de forma gratuita.  Rellenando <a href="http://www.oficinainmobiliaria.es/registrar.php">nuestro formulario de registro</a> cualquier agencia inmobiliaria o promotora dispondrá de un completo <a href="http://www.gestioninmuebles.es">software de gestión inmobiliaria</a> y una web personal <strong>gratis</strong> que podrá personalizar y donde publicar sus inmuebles.</p>
+
+<p>Estamos seguros que aquellas que encuentren útil nuestro programa, que saquen partido a la web y que hayan podido comprobar la utilidad de lo que ofrecemos, no tendrán ningún problema en <strong>pagar por tener mayores servicios y prestaciones</strong>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/cambios-en-el-buscador-inmobiliario/">Cambios en El Buscador Inmobiliario</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-05-16T21:05:00+02:00" pubdate data-updated="true">16-05-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hace aproximadamente un año lanzamos la web <a href="http://www.buscadorinmobiliario.es">buscador inmobiliario</a> con una intención muy clara: <strong>evitar el uso de formularios para buscar viviendas</strong>.</p>
+
+<p>La gran mayoría de webs inmobiliarias permiten consultar su oferta principalmente de dos formas: <strong>empleando un formulario</strong> donde seleccionar las características de nuestro interés o <strong>navegando sobre mapas</strong>.  Todos estamos acostumbrados al manejo de formularios por lo que su uso no debe crear ninguna dificultad sin embargo muchos procesos de búsqueda de viviendas son largos, con muchos pasos y nos obligan a estár navegando constantemente adelante y atrás si queremos cambiar los parámetros de búsqueda que hemos introducido.</p>
+
+<p>Pensando en que podría existir otra forma de buscar viviendas decidimos lanzar el <a href="http://www.buscadorinmobiliario.es">buscador inmobiliario</a>.  Ahora un año después y habiendo comprobado el uso de la web y escuchando las críticas de los usuarios hemos rediseñado y actualizado el proceso de búsqueda.</p>
+
+<p>Uno de los principales objetivos era <strong>la facilidad de uso</strong> por encima de la parte comercial del buscador.  Nuestra prioridad no es lograr el mayor número de páginas vistas al mes ni lograr el mayor número de clicks en los anuncios sino hacer algo sencillo de usar.  Esto nos ha permitido, por ejemplo, situar toda la publicidad de forma que no interfiera en el uso de la web y además sea claramente reconocible. <br/>
+También ponemos enlaces a las webs de las inmobiliarias que publican sus viviendas ya que a pesar de que esto puede hacernos perder páginas vistas creemos que es un enlace muy cómodo y demandado por los visitantes.<br/>
+Otro punto fuerte es que el usuario <strong>siempre ve resultados</strong> no se pueden seleccionar características que nos lleven a una consulta que devuelva cero resultados.  Uno de los puntos más molestos para los visitantes de webs inmobiliarias es perder su tiempo rellenado un formulario para luego obtener como resultado un mensaje del tipo <em>Lo sentimos, pero no hemos encontrado viviendas con esas características, repita la búsqueda</em>.  Esto queriamos <strong>evitarlo a toda costa</strong>.</p>
+
+<p><strong>Este es el resultado.</strong></p>
+
+<h3>Objetivos</h3>
+
+<ol>
+<li><p>Facil de usar</p></li>
+<li><p>Diseño claro y efectivo</p></li>
+<li><p>Mínima necesidad de interacción (minimizar los clicks de ratón)</p></li>
+<li><p>Estándar y accesible</p></li>
+</ol>
+
+
+<h3>Paso 1: Selección de provincia</h3>
+
+<p>El visitante selecciona la provincia de la que desea ver inmuebles.<br/>
+ Entre paréntesis le indicamos cuantos inmuebles hay disponibles en esa provincia.<br/>
+También resaltamos el punto en el que se encuentra: <em>Paso 1</em> de los tres de que consta el proceso.</p>
+
+<p><a href="http://www.buscadorinmobiliario.es/">
+<img src="http://jorgegorka.files.wordpress.com/paso1.jpg" alt="" />
+</a></p>
+
+<h3>Paso 2: Selección de ciudad</h3>
+
+<p>Selección de ciudad.  Forma de operar idéntica al paso 1.</p>
+
+<p><a href="http://www.buscadorinmobiliario.es/buscador/31">
+<img src="http://jorgegorka.files.wordpress.com/paso2.jpg" alt="" />
+</a></p>
+
+<h3>Paso 3: Detalles del inmueble / Filtros adicionales</h3>
+
+<p>En este paso tiene lugar la mayor cantidad de acciones que puede realizar el visitante.</p>
+
+<ul>
+<li><p>Para la ciudad seleccionada aparecen las viviendas agrupadas por tipo (pisos, chalets, apartamentos&#8230;) y entre paréntesis el número de ofertas disponibles. Pulsando sobre ellos acotaremos los resultados a ese tipo.</p></li>
+<li><p>Lista de resultados: Aparecen un máximo de 15 resultados en pantalla con los datos más relevantes en columnas.</p></li>
+<li><p>Pulsando en los títulos de las columnas ordenaremos los resultados por esa columna.  Una nueva pulsación invierte el orden.</p></li>
+</ul>
+
+
+<p><a href="http://www.buscadorinmobiliario.es/buscador/poblacion/20484">
+<img src="http://jorgegorka.files.wordpress.com/paso3.jpg" alt="" />
+</a></p>
+
+<ul>
+<li><p>Pulsando en los valores de las columnas acotaremos también los resultados hasta ese valor.  Ejemplo: Si pulsamos en un precio que tenga como valor 285.900 veremos resultados que tengan como tope ese precio.  Este comportamiento es igual para zonas, habitaciones y metros.</p></li>
+<li><p>Los filtros aparecen en la parte central de la pantalla y podemos desactivarlos pulsando sobre la palabra <em>quitar</em>.</p></li>
+</ul>
+
+
+<p><a href="http://www.buscadorinmobiliario.es/buscador/poblacion/20484?surface=110&amp;offset=0&amp;order=8&amp;price=309506&amp;product=4">
+<img src="http://jorgegorka.files.wordpress.com/filtro.jpg" alt="" />
+</a></p>
+
+<h3>Detalles del inmueble</h3>
+
+<p>Mostramos aquí la información disponible del inmueble.  Hemos intentado que los datos se muestren en un lenguaje cercano al empleado por la gente en lugar del típico etiqueta-valor  Ejemplo: <em>Tiene 4 habitaciones</em>.<br/>
+Como apuntabamos antes enlazamos a la web de las inmobiliarias y a su formulario de contacto para facilitar a los visitantes el acceso a más información en caso de que ese inmueble sea de su interés.<br/>
+Proporcionamos también enlaces para volver a la consulta anterior y para solicitar más información, donde les mostramos un formulario cuyo contenido va a parar a la inmobiliaria que correspondal</p>
+
+<p><a href="http://www.buscadorinmobiliario.es/inmueble/4015?offset=0&amp;place=19244&amp;product=3">
+<img src="http://jorgegorka.files.wordpress.com/detalles.jpg" alt="" />
+</a></p>
+
+<p>En definitiva hemos intentado crear un <a href="http://www.buscadorinmobiliario.es">buscador inmobiliario</a> distinto pero sencillo y fácil de usar.  Es ahora cuando los usuarios pondrán las <em>cosas en su sitio</em>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/patentes-y-derechos-de-autor/">Patentes Y Derechos De Autor</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-05-15T14:23:00+02:00" pubdate data-updated="true">15-05-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hoy coinciden tres noticias <em>curiosas</em> en la web de 20 Minutos:</p>
+
+<p>Por un lado un iluminado de Microsoft dice que: <a href="http://www.20minutos.es/noticia/233945/0/microsoft/linux/patentes/">Linux tiene calidad porque viola sus patentes</a> y luego, la voz de su amo, el señor Farré comenta: <a href="http://www.20minutos.es/noticia/234339/0/sgae/derechos/autor/">El cine y la música en Internet vulneran los derechos de autor</a>.</p>
+
+<p>Para completar el trio encontramos esta otra noticia: <a href="http://www.20minutos.es/noticia/233961/0/apple/microsoft/propiedad/">Microsoft y Apple, acusadas de violar la propiedad intelectual</a>.</p>
+
+<p>A todo el mundo se le llena la boca hablando de la propiedad intelectual, de los derechos de autor y de Internet.  Y yo personalmente como usuario y como creador de software estoy hasta las narices de toda esta gente.</p>
+
+<p>Estoy hasta las narices de que las empresas de software gasten más recursos poniendo demandas y pantentando estupideces que desarrollando tecnología.<br/>
+Estoy hasta las narices de tener que estar pendiente de si acaban colando el pésimo sistema de patentes americano aquí en Europa.<br/>
+Estoy hasta las narices de que las entidades que supuestamente gestionan los derechos de los autores lo único que buscan es llevarselo crudo.<br/>
+Estoy hasta las narices de pagar un impuesto revolucionario cada vez que hago copias de seguridad de mis programas.</p>
+
+<p>Mi reflexión:</p>
+
+<p>Si el sistema de patentes de software fuese bueno todos los creadores de software lo verían con buenos ojos, pero <strong>sólo lo ven bien los grandes</strong>.<br/>
+Si las entidades de gestión de derechos de autor fuesen útiles todos los creadores las vería bien, pero <strong>sólo lo ven bien los grandes</strong>.</p>
+
+<p>A todos los demás, <strong>que nos den por donde amargan los pepinos</strong>.</p>
+
+<p>&#8230;ya me callo.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/flash-webs-y-posicionamiento/">Flash, Webs Y Posicionamiento</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-05-09T21:12:00+02:00" pubdate data-updated="true">09-05-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Ayer Anieto2k comentaba como <a href="http://www.anieto2k.com/2007/05/07/google-banea-a-volkswagen-por-spam/">Google había eliminado la web de Volkswagen</a> de su buscador debido al uso de código oculto para mejorar su posicionamiento.</p>
+
+<p>Hoy en 20 Minutos aparece la siguiente noticia: <a href="http://www.20minutos.es/noticia/232035/0/google/buscador/posicionamiento/">Google denuncia que algunas webs utilizan &#8220;técnicas ilegítimas&#8221; para posicionarse en su buscador</a>.  Y donde se ha generado un pequeño debate en los comentarios de la misma.</p>
+
+<p>Creo que el títular es poco acertado ya que las técnicas ilegítimas para crear una web no existen.  Tu web es tuya y por lo tanto sus contenidos, textos, imágenes y la forma de programarla la decides tú.  Es decir no hay nada ilegítimo, si quieres escribir la palabra sexo 1.000 veces pues la escribes y punto.</p>
+
+<p>Por otro lado están las webs de empresas.  Estas webs buscan, por lo general, el mayor número de visitantes posibles y hoy por hoy en España 95% de las visitas desde buscadores provienen desde Google.</p>
+
+<p>Para una empresa aparecer en Google es vital y Google, como empresa privada que es, decide que páginas web aparecen en su buscador y cuales no, por lo que para aparecer en Google debemos hacer las páginas <strong>cumpliendo las normas que Google dicta</strong>.  Repito esto no es obligatorio, que cada uno haga las web como quiera pero para aparecer en Google hay que seguir sus reglas.</p>
+
+<p>Esto nos lleva a que muchos creadores de webs que no tienen conocimientos de programación web utilizan Flash para crear las webs que realizan.  Todos sabemos que Google <strong>no indexa las páginas hechas en Flash</strong>.  Es decir que para Google las webs hechas en Flash sencillamente no existen.  Esto provoca que o bien no aparecerás nunca en Google y tendrás pocas visitas o bien haces <em>trampas</em> para intentar aparecer bien situada.</p>
+
+<p>Para todo este problema hay una solución bien sencilla: <strong>contratar profesionales</strong>.<br/>
+El único motivo por el que una web está desarrollada al 100% en Flash es este: el que la ha realizado <strong>no tiene ni idea</strong> de hacer webs.  Ningún profesional creará un sitio web con Flash.  Es posible que haya elementos de la web que requieran el uso de flash (contenido multimedia, videos, animaciones&#8230;.) el resto de la web no tiene ninguna necesidad de realizarse en Flash (excepto, ya digo, si no tienes ni idea de hacer webs).</p>
+
+<p>Empleando xhtml+css podemos realizar webs elegantes, agradables y que indexan adecuadamente en Google.  Además estas webs tardan menos en cargar, son accesibles y más agradables de ver y emplear por los visitantes.  Por si esto fuera poco las webs realizadas con xhtml+css son más baratas de realizar y mantener.</p>
+
+<p>Para una empresa la diferencia entre aparecer bien o mal posicionada puede suponer mucho dinero por lo que no es algo que deban tomarse a broma.  Existen tecnologías suficientes en el mercado como para que no sea necesario recurrir a Flash a la hora de crear webs.</p>
+
+<p>Contar con el asesoramiento de profesionales es siempre una buena cosa, en Internet, donde estamos mostrando nuestra imágen a millones de personas, <strong>es vital</strong>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/nuevo-servicio-a-inmobiliarias/">Nuevo Servicio a Inmobiliarias</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-04-23T14:37:00+02:00" pubdate data-updated="true">23-04-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hemos lanzado un nuevo servicio destinado a agencias inmobiliarias y promotoras.  Se llama <a href="http://www.oficinainmobiliaria.es">Oficinainmobiliaria.es</a> y les ofrece la posibilidad de crear y personalizar su propia página web de forma gratuita.</p>
+
+<p>Todos los portales inmobiliarios (cada semana aparece uno nuevo) buscan inmobiliarias que quieran pagar por publicar inmuebles en su portal.  Nosotros ofrecemos algo totalmente distinto: <br/>
+Crear su propia web, con su propio buscador y <a href="http://www.oficinainmobiliaria.es/documentacion.php">publicar <strong>ilimitados inmuebles</strong> tanto de segunda mano como de obra nueva</a>.  Personalizar la apariencia de su web, los textos y las fotografías.  Y todo ello gratis.</p>
+
+<p>Tal y como está el mercado inmobiliario parece que vamos a contracorriente aunque estamos convencidos de que nuestra propuesta tiene mucho sentido.<br/>
+En breve vamos a lanzar una versión mejorada de <a href="http://www.oficinainmobiliaria.es">Oficinainmobiliaria.es</a>, con nuevas características y utilidades y que tendrá un coste mensual.<br/>
+Si la gente emplea nuestra versión gratuíta y le funciona, le es útil y cubre sus necesidades es muy probable que también le interesen nuestras opciones adicionales a cambio de una pequeña cuota mensual.  De todas formas <strong>siempre</strong> existirá la versión gratuíta y las opciones que ahora son gratís, continuarán siendolo.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/css-javascript-rais-y-kathy-sierra/">Css, Javascript, Rails Y Kathy Sierra</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-03-01T11:22:00+01:00" pubdate data-updated="true">01-03-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Comencemos con algunos enlaces interesantes:</p>
+
+<ul>
+<li><p>Una chuleta con las propiedades de CSS: <a href="http://gosquared.com/liquidicity/archives/33">css cheat sheet</a></p></li>
+<li><p>Un editor inline en javascript: <a href="http://gregtaff.com/misc/editRegions/">Edit Regions</a></p></li>
+<li><p>Una colección de efectos con Ajax:  <a href="http://www.miniajax.com/">MiniAjax</a></p></li>
+<li><p>Los scripts que todo administrador de máquinas con rails neceista: <a href="http://railstips.org/2007/2/28/helpful-railsmachine-scripts">Helpful Railsmachine Scripts</a></p></li>
+</ul>
+
+
+<p>Y por último <a href="http://headrush.typepad.com/creating_passionate_users/2007/02/too_many_compan.html">un interesante artículo de Kathy Sierra</a>.</p>
+
+<p>Realmente todos sus artículos son muy interesantes y recomendables pero este me ha gustado especialmente.  Habla sobre como nos tratan las compañías antes y después de comprar sus productos.</p>
+
+<p>La diferencia que existe, por ejemplo, entre un catálogo donde se nos vende un producto (atractivo, colorido, seductor, interesante) y el manual de usuario que obtenemos una vez que lo hemos comprado (Confuso, aburrido, poco interesante).</p>
+
+<p>La mayoría de empresas siguen a rajatabla este modelo:  Ahora me vienen a la menta <strong>todas las compañías de telefonía</strong> que hay en España.  Para captar usuarios todo son facilidades, atención preferente y buenas palabras.   Una vez que has firmado el contrato con ellos todo son problemas, atención al usuario muy deficiente y dificultades.</p>
+
+<p>Sin embargo existen compañías que deciden apostar por una forma diferente de hacer las cosas y darle a los usuarios la importancia que tienen: <strong>toda</strong> ya que una empresa vive de ellos.<br/>
+Citaré las dos que a mi juicio mejor lo hacen y en diferentes áreas: Apple y 37Signals.</p>
+
+<p>Comprar cualquier producto de <a href="www.apple.com">Apple</a> es una experiencia muy agradable en <strong>todos sus pasos</strong>.  Antes y después de comprarlo.  Desde el folleto de venta hasta la apariencia del producto final y su uso.  Cualquier detalle del producto es tenido en cuenta incluso el embalaje está pensado para que sea bonito, efectivo y sencillo de embalar/desembalar.</p>
+
+<p><a href="http://www.37signals.com/">37 Signals</a> tiene <a href="http://www.37signals.com/">una serie de herramientas web</a> que buscan que sus usuarios estén cómodos y satisfechos con ellas no solo al contratarlas sino durante todo su uso.  Todo son <strong>facilidades para los usuarios</strong>: por ejemplo antes de comprar el producto se puede probar gratuitamente. Las condiciones alta y baja son sencillas, con un simple click puedes dar te de baja si no te interesa seguir empleando sus productos.  Una vez que te has suscrito tienes a tu disposición diferentes formas de ayuda (videos explicativos, foros, email) para que puedas sacarle el máximo rendimiento a sus herramientas.  Nosotros vamos a lanzar una herramienta para que las <a href="http://www.gestioninmuebles.com/Noticias/su-propia-web-gratis">agencias inmobiliarias puedan crear sus propias webs y publicar sus inmuebles gratis</a> y os aseguro que desde el primer momento hemos tenido como referente del buen hacer a 37Signals.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/try-before-you-buy-pureba-y-si-te-gusta-compra/">Nueva Aplicación Y Nuevo Modelo De Negocio</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-21T17:22:00+01:00" pubdate data-updated="true">21-02-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Estamos a punto de lanzar una nueva <a href="http://www.gestioninmuebles.com/Noticias/su-propia-web-gratis">aplicación web destinada a agencias inmobiliarias</a> y con un  enfoque de modelo de negocio distinto al que hemos llevado hasta ahora.</p>
+
+<p><strong>Prueba nuestro producto, emplealo, sácale partido, obtén beneficios</strong> y luego ya hablaremos.</p>
+
+<p>La idea es la siguiente:<br/>
+Todas las agencias inmobiliarias que lo deseen van a poder crear su propia web de <strong>forma gratuita</strong>.  Podrán publicar todos los inmuebles de segunda mano y todas las promociones de obra nueva que quieran, sin límite de inmuebles ni de imágenes.  Además podrán personalizar su página de inicio, de empresa y de contacto además de tener su propio buscador, es decir su propia web a <strong>coste cero</strong>.</p>
+
+<p>Nosotros nos encargaremos de posicionar bien estas webs e intentar generar el máximo de tráfico posible hacia ellas.</p>
+
+<p>Si una inmobiliaria recibe muchas visitas y contactos será ella misma la interesada en ampliar los servicios que nosotros podemos ofrecerles ¿no?.</p>
+
+<p>Si deseas que te avisemos cuando esté operativa la aplicación <a href="http://www.gestioninmuebles.com/Noticias/su-propia-web-gratis">suscríbete al boletín de noticias de Gestioninmuebles.com</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/lo-urgente-o-lo-importante/">Lo Urgente O Lo Importante</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-13T11:52:00+01:00" pubdate data-updated="true">13-02-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>La gestión eficaz del tiempo es casi tan importante como el trabajo que realizas.  Y sin embargo en muy pocos sitios te enseñan a gestionar y organizar tu agenda diaria.</p>
+
+<p>Un error en el que suelo caer con cierta frecuencia es confundir lo urgente con lo importante.<br/>
+Lo urgente, por su propio carácter tiende a convertirse en la primera prioridad a costa, muchas veces, de dejar para luego otros asuntos que son más importantes.<br/>
+Los clientes lo tienen muy claro: lo suyo es lo más urgente y cuando te piden un cambio en su web, una mejora para el <a href="http://www.gestioninmuebles.com/">programa de gestión inmobiliaria</a> o cualquier otra cosa <strong>lo quieren para ayer</strong>.<br/>
+Si estos cambios o mejoras son sencillos de hacer dejo otras cosas que estoy haciendo, como nuevos proyectos, y me pongo con sus cambios para poder tenerlo terminado cuanto antes.<br/>
+Evidentemente los clientes están encantados si te piden algo y lo tienen listo en un par de días.  Aunque esto, realmente, es un <strong>arma de doble filo</strong> ya que si bien por un lado tienes contentos a los clientes, por el otro estás destinando menos tiempo a la creación y al desarrollo de nuevos productos.  Y esos mismos clientes que ahora están muy contentos dejarán de estarlo si el producto que emplean no evoluciona.</p>
+
+<p>Por eso intento priorizar todas mis tareas en tres grupos: necesario, urgente e importante.<br/>
+Lo primero que hago es tener muy claro <strong>cuales son mis objetivos:</strong> ¿donde quiero estár dentro de 6 meses? ¿cuales son mis metas para este periodo?&#8230; cualquier tarea a realizar que sirve para alcanzar estas metas la clasifico como importante.<br/>
+Todo aquello que tiene que hacerse pero no me sirve para alcanzar mis metas lo marco como necesario y aquellas tareas necesarias que puedan tener algún efecto negativo para mi o para los clientes, como urgentes.</p>
+
+<p>La teoría está clara, ahora solo falta llevarla a la práctica y no dejar que lo urgente me impida hacer lo importante.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/comparacin-de-gmail-yahoo-mail-y-live-hotmail/">Comparación De Gmail, Yahoo Mail Y Live Hotmail</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-09T11:38:00+01:00" pubdate data-updated="true">09-02-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://www.techcrunch.com/">Techcrunch</a> ha publicado una <a href="http://www.techcrunch.com/2007/02/08/a-comparison-of-live-hotmail-gmail-and-yahoo-mail/">comparativa entre los tres servicios de webmail más populares del mundo</a>.  Entre los tres suman 500 millones de usuarios.  Por cierto, para crear una cuenta de Gmail ya no es necesario recibir una invitación.</p>
+
+<p><img src="http://jorgegorka.files.wordpress.com/webmail.png" alt="" /></p>
+
+<p>Después de vistas las prestaciones de cada uno sólo se me ocurre una palabra para describirlo: <strong>Wow</strong></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/el-estado-de-internet-en-espaa/">El Estado De Internet en España</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-06T16:19:00+01:00" pubdate data-updated="true">06-02-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Recomiendo encarecidamente la lectura del post de Pepe Cervera sobre <a href="http://blogs.20minutos.es/retiario/post/2007/02/02/la-culpa-es-nuestra"> el estado de internet en España</a>.</p>
+
+<p><strong>Resumen:</strong> La culpa de que el número de Internautas no crezca al ritmo que debería no es por los abusivos precios de las conexiones ni por el analfabetismo digital de nuestros políticos, no.  La culpa es toda de los ciudadanos.</p>
+
+<p>Para que se nos pase el cabreo, vamos con otro tipo de lecturas más enriquecedoras:</p>
+
+<p><a href="http://www.alistapart.com/articles/multicolumnlayouts">Multi-Column Layouts Climb Out of the Box</a></p>
+
+<p><a href="http://uselessaccount.com/">Create una cuenta que no te va a servir para nada.</a>. Ideal para todos aquellos que están constantemente registrándose en todos los sitios que ven.</p>
+
+<p><a href="http://www.techcrunch.com/2007/02/05/social-music-overview/">Una revisión de programas/webs/reproductores de música con carácter social.</a>  ¿Qué es eso de &#8220;carácter social? Pues que la música que escuchas la puedes votar, comentar ó rechazar.  Puedes hacer que se reproduzcan artístas similares a los que te gustan, o de personas con gustos similares a los tuyos.  Vamos que si <a href="http://www.los40.com">escuchas lo que te impone la industria</a> es porque quieres.</p>
+
+<p>¿Quieres saber en que consistirá la web 3.0? Pues todas las aplicaciones y herramientas que se podrán crear cuando exista una fórmula sencilla y eficaz de <a href="http://www.niallkennedy.com/blog/archives/2007/01/ajax-performance-local-storage.html">almacenar datos en el cliente </a>para poder consultar páginas sin conexión.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/en-lugar-de-avanzar-retrocedemos/">En Lugar De Avanzar, Retrocedemos</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-31T13:01:00+01:00" pubdate data-updated="true">31-01-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Después de leer este artículo me he quedado un tanto sorprendido: <a href="http://www.campaignmonitor.com/blog/archives/2007/01/microsoft_takes_email_design_b.html">Microsoft hace retroceder el diseño de emails 5 años</a>.</p>
+
+<p>Aunque puede parecer alarmista y sensacionalista realmente tiene toda la razón.<br/>
+El nuevo Outlook 2007 trae como motor interno para visualizar archivos html a word en lugar de explorer.<br/>
+El problema es que word es muy malo interpretando html (se supone que para eso están los navegadores y ellos acaban de estrenar uno muy bueno y seguro, o eso dicen).<br/>
+Con lo cual todos los emails creados con css dejarán de verse correctamente.  Podeis ver un ejemplo en el artículo citado.<br/>
+Y puesto que Outlook tiene entre el 75-80% del mercado la gran mayoría de usuarios van a dejar de ver correctamente emails que sí que se veían bien en otras versiones de Outlook</p>
+
+<p>Personalmente, en un primer momento me dio por pensar que tampoco es tanto problema, es más si esto hace que se envíen más emails con solo texto pues mucho mejor.   Pero pensandolo friamente asusta un poco el poder que Microsoft tiene.  En un despacho dicen &#8220;Word mejor que Explorer&#8221; y el mundo de la creación de mails vuelve a la edad de piedra a maquetar con tablas.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/graficos-contratos-dilbert-y-esfuerzo/">Graficos, Contratos, Dilbert Y Esfuerzo</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-26T11:45:00+01:00" pubdate data-updated="true">26-01-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Un enlace a revisar con detalle: <a href="http://solutoire.com/plotr/">Gráficos con Prototype</a><br/>
+Una nueva herramienta para <a href="http://www.dnscoop.com/">conocer más información sobre tu dominio</a>. Aporta información básica sobre tu dominio y como principal ventaja es el tenerla toda concentrada en un solo punto, aunque no hay nada novedoso.</p>
+
+<p>En Digital web magazine hablan de <a href="http://www.digital-web.com/articles/web_design_contracts/">la importancia de los contratos</a>.<br/>
+Particularmente bueno este <a href="http://www.dilbert.com/comics/dilbert/archive/dilbert-20070125.html">Dilbert</a>.<br/>
+Una lectura interesante: <a href="http://sethgodin.typepad.com/seths_blog/2007/01/levels_of_effor.html">Distintos niveles de esfuerzo</a> en el marketing de una web.</p>
+
+<p>Y hablando de esfuerzo, una semana intensa esta última, no paramos de desarrollar cosas nuevas.  Tenemos tres nuevos proyectos a punto de ver la luz con la llegada de la primavera.<br/>
+Un <a href="http://www.buscadorobranueva.com">buscador de viviendas de obra nueva</a> con Google Maps, un nuevo <a href="http://www.buscamevivienda.com">buscador inmobiliario</a> (ya <a href="http://www.buscadorinmobiliario.es">tenemos otro</a> pero es un poco más &#8220;experimental&#8221;) y nuestra aplicación de colaboración.<br/>
+Después de usarla nosotros mismos y algunos de nuestros clientes durante un tiempo se está convirtiendo en una herramienta muy útil.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/:wordpress_id/accesibilidad-tractis-y-rails/">Accesibilidad, Tractis Y Rails</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-17T11:46:00+01:00" pubdate data-updated="true">17-01-2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hoy doble ración de enlaces sobre accesibilidad:</p>
+
+<p>Las <a href="http://ajaxian.com/archives/dutch-government-websites-be-accessible-or-break-the-law">normas que el gobierno de Holanda exige a todas sus webs</a> me parecen lo mínimo que se debería exigir.  ¿Para cuando aquí?.</p>
+
+<p>Dos post de Digital web magazine con el título <a href="http://www.digital-web.com/articles/seven_accessibility_mistakes_part_1/">7 errores de accesibilidad parte 1</a> y <a href="http://www.digital-web.com/articles/seven_accessibility_mistakes_part_2/">7 errores de accesibilidad parte 2</a>, aunque en mi opinión se mezclan conceptos de accesibilidad y usabilidad indistintamente.</p>
+
+<p>Ahora hablo, otra vez, de Tractis y lo bien que en mi opinión están llevando adelante una iniciativa tan complicada como la suya.<br/>
+No solo lo hacen bien sino que encima <a href="http://blog.negonation.com/es/shu-ha-ri/">comparten su experiencia y conocimiento</a> con los demás.</p>
+
+<p>Y para acabar tres enlaces interesantes a revisar sobre rails:</p>
+
+<p><a href="http://www.agilewebdevelopment.com/plugins/simplypresentable">SimplyPresentable</a></p>
+
+<p><a href="http://www.agilewebdevelopment.com/plugins/rails_informix">Rails/Informix</a></p>
+
+<p><a href="http://www.agilewebdevelopment.com/plugins/gettext_localize">gettext_localize</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/page/8/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/page/6/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/:wordpress_id/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill/">Utiliza el API de Google Analytics de forma sencilla</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/3-consejos-para-crear-un-dashboard-de-analitica/">3 Consejos para crear un Dashboard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/comercio-electronico-no-todo-vale/">Comercio electrónico - No todo vale</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jorgealvarez", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jorgealvarez" class="twitter-follow-button" data-show-count="false">Follow @jorgealvarez</a>
+  
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/jorgegorka?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'jorgegorka';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

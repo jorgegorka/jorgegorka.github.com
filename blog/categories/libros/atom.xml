@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Libros | Jorge Alvarez]]></title>
+  <link href="http://jorgegorka.github.com/jorgegorka/blog/categories/libros/atom.xml" rel="self"/>
+  <link href="http://jorgegorka.github.com/jorgegorka/"/>
+  <updated>2012-12-07T21:34:07+01:00</updated>
+  <id>http://jorgegorka.github.com/jorgegorka/</id>
+  <author>
+    <name><![CDATA[Jorge]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Nuevo pedido a Amazon]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/nuevo-pedido-a-amazon/"/>
+    <updated>2006-11-16T12:13:00+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/nuevo-pedido-a-amazon</id>
+    <content type="html"><![CDATA[<p>Acabo de pedir los siguientes libros en Amazón (plazo de entrega estimado el 6 de Diciembre):</p>
+
+<ul>
+<li><p><a href="http://www.amazon.com/gp/product/0321432061/105-1039373-3403646">Designing for Interaction: Creating Smart Applications and Clever Devices</a></p></li>
+<li><p><a href="http://www.amazon.com/gp/product/020172149X/105-1039373-3403646">The Design of Sites: Patterns, Principles, and Processes for Crafting a Customer-Centered Web Experience</a></p></li>
+<li><p><a href="http://www.amazon.com/Designing-Obvious-Common-Approach-Application/dp/032145345X/sr=1-1/qid=1164968244/ref=sr_1_1/105-1039373-3403646?ie=UTF8&amp;s=books">Designing the Obvious: A Common Sense Approach to Web Application Design</a></p></li>
+</ul>
+
+
+<p>En cuanto los vaya leyendo pondré un comentario sobre ellos.<br/>
+Si has leido alguno agradezco mucho que me des tu opinión.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Real]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/getting-real-nuevo-libro/"/>
+    <updated>2006-03-03T17:52:00+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/getting-real-nuevo-libro</id>
+    <content type="html"><![CDATA[<p><a href="https://gettingreal.37signals.com/"><img src="http://jorgegorka.files.wordpress.com/getting-real.gif" alt="portada de getting real" /></a>
+<strong>Título: <a href="https://gettingreal.37signals.com/">Getting Real</a></strong></p>
+
+<p><strong>Autor: <a href="">37 Signals</a></strong></p>
+
+<p>Comenzaré diciendo que no soy objetivo.  37 Signals me tienen ganado de antemano.  Soy un enamorado de su forma de trabajar, su filosofía y sus productos.</p>
+
+<p>En mi empresa empleamos Rails para desarrollar y Basecamp como herramienta de colaboración entre nosotros y nuestros programadores y diseñadores (trabajamos con gente que está dispersa geográficamente en sitios como Argentina, Holanda o San Sebastián y nosotros estamos afincados en Logroño).</p>
+
+<p>Dicho esto paso a comentar el libro.</p>
+
+<p>Durante el libro se explica la filosofía de trabajo que siguen en 37 signals y que les ha llevado a desarrollar sus exitosos proyectos.  Aunque en algunos puntos me paracen bastante rádicales creo que eso es bueno, si tienes una idea realizala hasta el final.  Las medias tintas nunca son buenas.</p>
+
+<p>Se hace incapié en la filosofía de <em>less is more (menos es mas)</em> que viene a decir que desarrollar programas para la web es barato y rápido.  No se necesitan grandes recursos ni de gente ni de dinero sino gente apasionada que cree en lo que hace y que sobre todo se dedica a resolver problemas reales a usuarios reales.</p>
+
+<p>Por cierto, el libro se puede <a href="https://gettingreal.37signals.com/toc.php">leer online gratis</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Design Of Everyday Things]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/the-design-of-everyday-things/"/>
+    <updated>2005-06-22T21:26:00+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/the-design-of-everyday-things</id>
+    <content type="html"><![CDATA[<p>Acabo de comenzar la lectura del <a href="http://www.jnd.org/books.html#426">libro que da título al
+post</a>. Estoy leyendo la re-edición de 2002 ya que <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0385267746/ref=pd_sxp_f/102-9009447-4880133?v=glance&amp;s=books">
+el libro</a> se publicó originalmente en 1990.</p>
+
+<p><a href="http://www.amazon.com/exec/obidos/tg/detail/-/0385267746/ref=pd_sxp_f/102-9009447-4880133?v=glance&amp;s=books"><img src="http://jorgegorka.files.wordpress.com/design_things.jpg" alt="design of everyday things" /></a></p>
+
+<p>Acabo de empezar con el primer capítulo y he de decir que la
+primera toma de contacto es positiva. Me da buenas sensaciones este
+libro. Más le vale que sea interesante porque en el mismo pedido
+recibí <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0321303474/qid=1121645479/sr=8-1/ref=pd_bbs_1/102-9009447-4880133?v=glance&amp;s=books&amp;n=507846">
+The Zen of CSS Design</a> y espero no haber aparcado su lectura en
+vano.</p>
+
+<p>De momento, primera sorpresa. No tenía ni idea de que el autor
+<a href="http://www.jnd.org/index.html">Donald A. Norman</a> es el
+socio de Jackob Nielsen en <a href="http://www.nngroup.com/">Nielsen Norman Group</a>.</p>
+
+<p>De Nielsen leí hace más o menos un año su libro <a href="http://www.amazon.com/exec/obidos/tg/detail/-/073571102X/qid=1121645985/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/102-9009447-4880133?v=glance&amp;s=books&amp;n=507846">
+Homepage Usability: 50 Websites Deconstructed</a>. Me pareció muy
+útil (un poco tajante el amigo Jackob) y todavía suelo echar mano
+de él de vez en cuando.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[50 websites deconstructed]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/50-websites-deconstructed/"/>
+    <updated>2004-04-18T17:42:00+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/50-websites-deconstructed</id>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/Homepage-Usability-50-Websites-Deconstructed/dp/073571102X/sr=1-1/qid=1163860741/ref=sr_1_1/102-4838740-6826568?ie=UTF8&amp;s=books"><img src="http://jorgegorka.files.wordpress.com/50_websites.jpg" alt="" /></a>
+<strong><a href="http://www.amazon.com/Homepage-Usability-50-Websites-Deconstructed/dp/073571102X/sr=1-1/qid=1163860741/ref=sr_1_1/102-4838740-6826568?ie=UTF8&amp;s=books">Título: 50 websites deconstructed</a></strong></p>
+
+<p><strong>Autor: Jackob Nielsen y Marie Tahir</strong></p>
+
+<p>A pesar de ser un libro escrito en el año 2001 creo que se puede calificar de atemporal.  Incluso hoy lo que se dice tiene total validez.</p>
+
+<p>Creo que es una de las ventajas de los libros de Nielsen: son caros pero lo que se dice esta bien explicado y sirve durante mucho tiempo con lo que se amortizan sin problemas.</p>
+
+<p>A través de la disección de 50 páginas de inicio nos muestra una serie de principios (101 para ser exactos) que nuestras páginas deberian cumplir para hacerlas más sencillas y apetecibles de visitar.</p>
+
+<p>Los principios a cumplir tocan temas tan variados como la estructura de la web, la navegación, las búsquedas, los textos, las tipografías, etc...</p>
+
+<p>Si te dedicas a la creación y/o diseño de páginas web es de obligada lectura, que su fecha de edición no te asuste.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The elements of user experience]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/the-elements-of-user-experience/"/>
+    <updated>2004-03-26T17:26:00+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/the-elements-of-user-experience</id>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0735712026/sr=1-1/qid=1163860628/ref=pd_bbs_sr_1/102-4838740-6826568?ie=UTF8&amp;s=books"><img src="http://jorgegorka.files.wordpress.com/elements_user_experience.jpg" alt="elements of user experience portada" /></a></p>
+
+<p><strong><a href="http://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0735712026/sr=1-1/qid=1163860628/ref=pd_bbs_sr_1/102-4838740-6826568?ie=UTF8&amp;s=books">Título: The Elements of User Experience</a></strong></p>
+
+<p><strong>Autor: Jesse James Garrett</strong></p>
+
+<p>Voy a resumir el libro en una sola frase: <em>Si creas webs y no has leido este libro <strong>no</strong> estas creando buenas webs.</em></p>
+
+<p>El libro divide en 5 apartados los pasos a seguir para desarrollar una buena web, entendiendo por una buena web aquellas que <strong>se crean pensando en la gente que las va a emplear</strong>.</p>
+
+<p>Y más vale dejar claro esto desde el principio: Una web (al menos una web empresarial) no se crea pensando en satisfacer a la empresa que te encarga la web.  Una buena web se crea pensando en satisfacer a los clientes de la empresa que te encarga la web.  Todo lo demás es accesorio, superfluo e irrelevante.</p>
+
+<p>Los pasos en los que J.J.G. divide el proceso son estos:</p>
+
+<ul>
+<li><p>Estrategia: Objetivos y necesidades de los usuarios</p></li>
+<li><p>Alcance: Especificaciones funcionales y requerimientos</p></li>
+<li><p>Estructura: Diseño de la interacción y la información</p></li>
+<li><p>Esqueleto: Interfaz, navegación y diseño de la información</p></li>
+<li><p>Superficie: Diseño visual</p></li>
+</ul>
+
+
+<p>Creo que podría contar el libro de memoria, pero no hay proyecto web que no comienze echando mano del libro y volviendolo a repasar.</p>
+]]></content>
+  </entry>
+  
+</feed>

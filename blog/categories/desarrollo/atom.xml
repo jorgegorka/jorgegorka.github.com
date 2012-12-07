@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Desarrollo | Jorge Alvarez]]></title>
+  <link href="http://jorgegorka.github.com/jorgegorka/blog/categories/desarrollo/atom.xml" rel="self"/>
+  <link href="http://jorgegorka.github.com/jorgegorka/"/>
+  <updated>2012-12-07T21:34:07+01:00</updated>
+  <id>http://jorgegorka.github.com/jorgegorka/</id>
+  <author>
+    <name><![CDATA[Jorge]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[AngularJS y el futuro del desarrollo web]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/angularjs-y-el-futuro-del-desarrollo-web/"/>
+    <updated>2012-10-17T22:24:12+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/angularjs-y-el-futuro-del-desarrollo-web</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/10/AngularJS-300x84.png" alt="javascript framework" />Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de pantallas, formas de uso (táctil, no táctil, offline, online...) quizás no sea la forma más adecuada.</p>
+
+<p><strong>El problema</strong></p>
+
+<p>Hace 2 años publiqué un post en el que hablaba sobre la necesidad de <a href="http://www.alvareznavarro.es/5832/acabaremos-todos-programando-en-javascript/">cambiar el modelo cliente/servidor en el desarrollo web</a>, donde toda la lógica de la aplicación reside en el servidor, para tender hacia un modelo donde la lógica reside en el cliente y permite el uso de aplicaciones web incluso cuando no hay conexión a Internet.</p>
+
+<p>Con el auge de los dispositivos móviles el uso de aplicaciones web cuando no hay conexión se convierte en algo necesario.</p>
+
+<p>Comentaba en dicho post que hoy por hoy en los navegadores web solo se puede programar en Javascript y por lo tanto si vamos a desarrollar nuestra aplicación en Javascript para que esté disponible en el lado del cliente, también parece lógico desarrollar en dicho lenguaje en el lado del servidor para estandarizar y aprovechar al máximo nuestro conocimiento del lenguaje.</p>
+
+<p><strong>La solución</strong></p>
+
+<p>Hasta ahora no había visto ninguna tecnología que permitiese realizar este tipo de desarrollo de forma eficiente y aunque existen muchos frameworks de desarrollo web en Javascript casi todos se basan en el modelo actual cliente/servidor.</p>
+
+<p><a href="http://angularjs.org/">AngularJS</a> cambia este <a href="http://docs.angularjs.org/guide/concepts">tipo de concepto</a> y es un framework que permite dotar de un mayor peso al cliente web y además lo hace de una forma eficiente y sencilla.</p>
+
+<p>Como principal novedad aporta una extensión del leguaje HTML que le permite manipular datos.</p>
+
+<p>Hasta ahora HTML permitia un marcado del tipo de datos a representar, su contenido y el aspecto.  AngularJS añade el <a href="http://docs.angularjs.org/guide/compiler">tratamiento de datos</a> a esta ecuación y el navegador ya dispone de información suficiente como para saber como mostrar todos los registros de un array o filtrar los registros para mostrar un subconjunto de ellos, por poner 2 ejemplos.</p>
+
+<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2012/10/view_component-300x209.png" alt="" /></p>
+
+<p>Otra característica relevante es que la conexión entre los datos en el navegador y nuestro modelo <a href="http://docs.angularjs.org/guide/dev_guide.mvc.understanding_view">se realiza de forma automática y bidireccional</a>, no tenemos que actualizar de forma manual nada, angularjs actualizará automáticamente nuestra vista cuando se produzcan cambios en el modelo y viceversa.  En el modelo actual de desarrollo cualquier cambio en el navegador del cliente implica enviar esos datos al modelo y repintar de nuevo la parte actualizada para reflejar esos cambios.  Todo ese trabajo se realiza automáticamente en AngularJS sin necesidad de repintar ni actualizar manualmente.</p>
+
+<p>AngularJS está desarrollado por Google lo que si bien no le garantiza el éxito si que garantiza un producto de calidad, con recursos y soporte.  Además quien impide a Google incluir en su navegador Chrome todas estas funcionalidades de forma nativa.</p>
+
+<p><strong>Resumen</strong></p>
+
+<p>Los grandes avances en el desarrollo de aplicaciones web dan más y más peso a Javascript como lenguaje de desarrollo.  No voy a entrar en el debate, estéril por otra parte, de si Javascript es un lenguaje adecuado y bien construido.  Es el lenguaje que entienden todos los navegadores y por lo tanto la única alternativa para desarrollar en el lado del cliente.</p>
+
+<p>AngularJS pone a nuestro alcance la posibilidad de desarrollar aplicaciones web que proporcionan una mejor experiencia a quienes la usan, que debe ser la finalidad de todo desarrollador web.  En mi opinión es hacía este tipo de desarrollos hacía donde avanzaremos en un futuro cercano.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Utiliza el API de Google Analytics de forma sencilla]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill/"/>
+    <updated>2012-05-01T09:35:43+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/04/developers-300x168.jpg" alt="Ariadna Google Analytica API for developers" />El API de Google Analytics nos permite utilizar directamente toda la información que Google Analytics almacena sobre nuestra página web.  Al tener acceso de forma directa a los datos, podemos cruzarlos, agruparlos y segmentarlos de formas que la herramienta web de Google Analytics no permite.</p>
+
+<p>Cuando tenemos que realizar informes complejos o necesitamos cruzar datos de forma no prevista por la herramienta web de Google Analytics tenemos dos opciones.  Armarnos de paciencia y realizar complejas hojas de cálculo difíciles de actualizar y de mantener libres de errores, o bien realizar un programa que recolecte y procese la información por nosotros y nos la muestre automáticamente.</p>
+
+<p>El <a href="https://developers.google.com/analytics/devguides/">API de Google Analytics</a> es una herramienta que nos permite recolectar "en bruto" los datos que Google tiene almacenados sobre nuestro sitio para posteriormente poder tratarlos a nuestro gusto.  Pero, como cualquier API, su función es intercambiar información de forma ágil entre ordenadores, no entre humanos.</p>
+
+<p>Para que podamos consumir la información que Google Analytics nos proporciona de forma sencilla y cómoda, he creado una librería que te ayudará a utilizar y sacar todo el partido de dicha API.  El nombre de la librería es <a href="https://rubygems.org/gems/ariadna">Ariadna</a>, está programada en <a href="http://www.ruby-lang.org/es/">Ruby</a> y puedes utilizarla y/o <a href="https://github.com/jorgegorka/ariadna">descargar el código fuente</a> y modificarla a tu gusto.</p>
+
+<p><a href="https://rubygems.org/gems/ariadna">Ariadna</a> extrae toda la información de Google Analytics y te la presenta en forma de objetos que puedes utilizar.</p>
+
+<p>Ariadna utiliza como <a href="https://github.com/jorgegorka/ariadna/wiki/Connexion">forma de autentificación</a> Oauth2 que es la forma recomendada por Google para acceder a su API.</p>
+
+<p>Veamos un ejemplo:</p>
+
+<pre><code>results  = profile.results.select(
+      :metrics    =&gt; [:visits, :bounces, :timeOnSite],
+      :dimensions =&gt; [:country]
+    )
+    .where(
+      :start_date =&gt; Date.today,
+      :end_date   =&gt; 2.months.ago,
+      :browser    =&gt; "==Firefox"
+    )
+    .order([:visits, :bounces])
+    .all
+</code></pre>
+
+<p>Esta consulta pide a Google todas las visitas, tasa de rebote, tiempo en el sitio y país de todas las visitas a nuestra web desde hace dos meses hasta hoy y que hayan empleado el navegador Firefox.  Además nos muestra los resultados ordenados por visitas y tasa de rebote.</p>
+
+<p>Para conocer todos los resultados solo tenemos que iterar sobre el objeto results donde toda la información enviada por Google está disponible en forma de atributos.</p>
+
+<pre><code>results.each do |result|
+  puts result.visits
+  puts result.bounces
+  puts result.timeOnSite
+  puts result.country
+end
+</code></pre>
+
+<p>Además de consultar datos, también podemos conocer toda la información de cuentas, propiedades y perfiles disponibles.</p>
+
+<pre><code>Ariadna::Analytics.new(access_token)
+
+
+
+
+accounts    = analytics.accounts.all
+
+
+
+
+properties = accounts.first.properties.all
+
+
+
+
+profiles    = properties.first.profiles.all
+</code></pre>
+
+<p>Cualquier duda o comentario sobre la gema es bienvenido y por supuesto <a href="https://github.com/jorgegorka/ariadna/wiki/Contributing">contribuciones y mejoras</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Acabaremos todos programando en Javascript?]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/acabaremos-todos-programando-en-javascript/"/>
+    <updated>2010-12-17T12:58:00+01:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/acabaremos-todos-programando-en-javascript</id>
+    <content type="html"><![CDATA[<p><img src="http://blog.alvareznavarro.es/images/2011/06/javascript-scaled600.jpg?w=300" alt="Javascript" /></p>
+
+<p>Cada día nos acercamos un poco más al futuro, para comprobar que es exactamente igual que el pasado.</p>
+
+<p>Por qué digo esta tontería, pues porque esta claro que el futuro próximo pasa por volver a usar terminales tontos, dotados exclusivamente de un navegador que se encarga de cargar todas las aplicaciones que usamos y que están en servidores remotos.</p>
+
+<p>Yo creo que ese modelo está lleno de ventajas ya que permite independencia tanto de localización física como de dispositivo.  Está claro que siempre quedarán irreductibles galos que preferirán todo en local, pero cuando salió el automóvil también había gente que prefería ir a los sitios a lomos de su caballo.</p>
+
+<p>Pero para que este modelo funcione debemos proporcionar a los usuarios de las aplicaciones una mejor experiencia de uso que las aplicaciones instaladas localmente en sus ordenadores.  Para conseguir esta mejor experiencia de uso creo que hay dos tecnologías que van a jugar un papel fundamental: <a href="http://es.wikipedia.org/wiki/HTML_5">HTML 5</a> y <a href="http://es.wikipedia.org/wiki/Javascript">Javascript</a>.</p>
+
+<p>El HTML 5 porque definitivamente deja de ser un Lenguaje de Marcado para convertirse en una herramienta de desarrollo de aplicaciones web "serias": Las nuevas pautas para la creación de formularios, la integración del multimedia, los websockets, etc.....  La web ya no es solamente una serie de páginas de texto enlazadas entre sí (dejo de ser eso hace mucho tiempo).  Algunos dicen que HTML 5 traerá la web semántica aunque en mi opinión eso de la web semántica es el nuevo hype absurdo, más humo que poder vender.</p>
+
+<p>El otro pilar en que se fundamenta esta mejora en la experiencia de usuario es el javascript.  Hace 8 años era inviable utilizar javascript para desarrollar aplicaciones web.  Las diferencias entre el javascript de Netscape Navigator e Internet Explorer eran muy grandes y existía gran cantidad de gente que no lo tenía habilitado.  Por lo tanto debías asegurarte que tu aplicación web funcionaba sin javascript si querías que fuese vista y usada por el máximo de personas.</p>
+
+<p>Luego llegaron las librerías como P<a href="http://www.prototypejs.org/">rototype</a> y <a href="http://jquery.com/">JQuery</a> que simplificaban el uso de javascript y encapsulaban esas diferencias (algunas todavía existentes).  Los nuevos navegadores se toman muy en serio javascript e incluyen unos motores de ejecución optimizados y eficientes lo que permite su uso intensivo.   Y cada día nos encontramos con nuevas y sorprendentes mejoras que dotan a los navegadores de nuevas funcionalidades que ayudarán a crear más y mejores aplicaciones web como por ejemplo la <a href="http://blog.chromium.org/2010/12/webgl-now-in-beta-here-comes-3d-web.html">integración de un API para gráficos 3D</a>.</p>
+
+<p>Hoy en día es posible crear aplicaciones web en las que toda la lógica (o la mayor parte) reside en ficheros javascript lo que evita que el usuario esté realizando constantes peticiones al servidor.  Otros usos, como <a href="http://nodejs.org/">Node.js</a> permiten la creación de aplicaciones web mucho más complejas y dinámicas.  Además empleando el API de almacenamiento en local que define HTML5 permitiré que mi aplicación te funcione cuando no estás conectado a la red y se sincronice automáticamente cuando vuelvas a estar online.</p>
+
+<p>Y si tengo que programar gran parte de la lógica de mi aplicación en javascript, porqué no programarla toda, incluso en la parte de servidor y así no tengo que estar tratando con lenguajes diferentes según donde resida dicha lógica.</p>
+
+<p><strong>Resumen:  </strong></p>
+
+<p>Hoy en día javascript es una parte muy importante en el desarrollo de aplicaciones web y la tendencia es que lo sea cada vez más.  Los navegadores modernos como Safari, Chrome o Firefox permiten un uso eficiente de javascript con independencia del dispositivo utilizado.</p>
+
+<p>Además existen librerías que nos ayudan a programar javascript de forma agradable e incluso herramientas como <a href="http://jashkenas.github.com/coffee-script/">CoffeeScript</a> que es un lenguaje que permite una sintaxis más amigable y que luego se compila a javascript.</p>
+
+<p>Otras como JavascriptMVC nos permiten utilizar paradigmas aceptados y empleados en el desarrollo web.</p>
+
+<p>La tendencia es aumentar la lógica en el lado cliente para poder permitir el uso de las aplicaciones web en entornos en los que no hay conectividad.  Por lo tanto no parece descabellado pensar que si toda la lógica de una aplicación web en el lado del cliente está programada en javascript, también pueda estarlo la del lado servidor.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[uninitialized constant REXML::VERSION]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/uninitialized-constant-rexml-version/"/>
+    <updated>2008-09-14T21:07:00+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/uninitialized-constant-rexml-version</id>
+    <content type="html"><![CDATA[<p>Al actualizar a Rails 2.1.1 aparece un pequeño problema: <strong>uninitialized constant REXML::VERSION</strong></p>
+
+<p>Esto es debido a que el fichero rexml.rb define el número de version con la palabra Version y Rails espera que dado que es una constante esté escrita en mayúsculas (ya que es así como se definen las constantes en ruby).</p>
+
+<p>Para corregirlo hay que modificar el fichero rexml.rb que se encuentra en /usr/lib/ruby/1.8/rexml/rexml.rb  y añadir otra línea (mejor que corregir la línea actual, para no cargarse nada) debajo de donde pone: <em>Version = "3.1.3"</em>  añadimos <em>VERSION = "3.1.3"</em></p>
+
+<p>Y todo volverá a la normalidad.</p>
+
+<p><a href="http://blog.brightbox.co.uk/posts/uninitialized-constant-rexmlversion-with-rails-211-and-rails-22">English version</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[attachment_fu s3 uploads with backgroundjob]]></title>
+    <link href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/attachment_fu-s3-uploads-with-backgroundjob/"/>
+    <updated>2008-07-17T04:22:00+02:00</updated>
+    <id>http://jorgegorka.github.com/jorgegorka/:wordpress_id/attachment_fu-s3-uploads-with-backgroundjob</id>
+    <content type="html"><![CDATA[<p>Thanks to Jon Guymon for his article <a href="http://blarg.slackworks.com/posts/bj-makes-attachment_fu-happy">bj-makes-attachment_fu-happy</a> that really help me solve a problem I was having with mongrel.</p>
+
+<p>Attachment_fu + s3 sometimes do very weird things that makes mongrel to freeze.  After a lot of googling I realize that the best solution to avoid problems was to do the uploads to S3 in a background proccess apart from mongrel.</p>
+
+<p>I started with Jon Guymon approach and it worked well but i needed to create thumbnails and the local files to be deleted after the uploading to S3 was finished.</p>
+
+<p>Just changing the part of attachment_fu that actually uploads the file to S3 do the trick.</p>
+
+<p>Open  vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends/s3_backend.rb and change the method save_to_storage to background the uploads.</p>
+
+<p>This is the original method:</p>
+
+<p>`
+def save_to_storage</p>
+
+<p> if save_attachment?</p>
+
+<p>S3Object.store(</p>
+
+<p>full_filename,</p>
+
+<p>(temp_path ? File.open(temp_path) : temp_data),</p>
+
+<p>bucket_name,</p>
+
+<p>   :content_type => content_type,</p>
+
+<p>   :access => attachment_options[:s3_access]</p>
+
+<pre><code>)  
+
+@old_filename = nil  
+
+true  
+</code></pre>
+
+<p>  end</p>
+
+<p>end</p>
+
+<p>`</p>
+
+<p>In my version I copy the file to a temporary directory in tmp/s3uploads (just to make sure the file does not disappear) then I add the upload task to the background queue</p>
+
+<p>`
+def save_to_storage</p>
+
+<p> if save_attachment?</p>
+
+<p>my_temp_file = RAILS_ROOT+'/tmp/s3uploading/'+"#{rand Time.now.to_i}#{filename || 'attachment'}"</p>
+
+<pre><code>         if temp_path  
+
+           File.open(my_temp_file,"w+") do |tmp|  
+
+             tmp.close  
+
+             FileUtils.cp temp_path, tmp.path  
+
+           end  
+
+         else  
+
+           File.open(my_temp_file, "w+") do |tmp|  
+
+             tmp.binmode  
+
+             tmp.write temp_data  
+
+             tmp.close  
+
+           end  
+
+           fichero = RAILS_ROOT+'/tmp/s3uploading/' + "#{rand Time.now.to_i}#{filename || 'attachment'}"  
+
+         end  
+
+
+
+         Bj.submit("./script/runner ./jobs/s3_uploader.rb " +  
+
+           full_filename + " " +  
+
+           my_temp_file  + " " +  
+
+           bucket_name  + " " +  
+
+           content_type + " " +  
+
+           attachment_options[:s3_access].to_s  
+
+         )  
+
+       end  
+
+
+
+       @old_filename = nil  
+
+       true  
+</code></pre>
+
+<p>end</p>
+
+<p>`</p>
+
+<p>This way attachment_fu will spawn a task for every file it creates.</p>
+
+<p>Now edit the file Jon Guymon created to handle the upload (jobs/s3_uploader.rb)</p>
+
+<p>This is how my file looks like</p>
+
+<p>`
+Base.establish_connection!(:access_key_id     => ACCESS_KEY,</p>
+
+<pre><code>                       :secret_access_key =&gt; SECRET_KEY)  
+</code></pre>
+
+<p>S3Object.store(ARGV[0],</p>
+
+<pre><code>            File.open(ARGV[1]),  
+
+            ARGV[2],  
+
+            :content_type =&gt; ARGV[3],  
+
+            :access =&gt; ARGV[4]  
+
+          )  
+</code></pre>
+
+<p>File.delete(ARGV[1])</p>
+
+<p>`</p>
+
+<p>A simple upload to S3 and after finishing it I delete the temporary file created in tmp/s3uploads/</p>
+
+<p>So far mongrel is doing its job with no more hangs and as a side effect users can uploads their files faster.</p>
+
+<p>There are a lot of pages about backgrounding tasks and a good recipe in Rails recipes 2</p>
+]]></content>
+  </entry>
+  
+</feed>

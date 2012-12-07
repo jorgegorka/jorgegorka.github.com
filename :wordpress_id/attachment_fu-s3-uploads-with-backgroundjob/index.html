@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>attachment_fu s3 uploads with backgroundjob - Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="Thanks to Jon Guymon for his article bj-makes-attachment_fu-happy that really help me solve a problem I was having with mongrel. Attachment_fu + s3 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jorgegorka.github.com/jorgegorka/:wordpress_id/attachment_fu-s3-uploads-with-backgroundjob/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25210947-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jorgegorka.github.com/jorgegorka" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/" alt="Volver a la página de inicio">Inicio</a></li>
+  <li><a href="/jorge/" alt="Acerca de Jorge Alvarez">Sobre mí</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Attachment_fu S3 Uploads With Backgroundjob</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-07-17T04:22:00+02:00" pubdate data-updated="true">17-07-2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Thanks to Jon Guymon for his article <a href="http://blarg.slackworks.com/posts/bj-makes-attachment_fu-happy">bj-makes-attachment_fu-happy</a> that really help me solve a problem I was having with mongrel.</p>
+
+<p>Attachment_fu + s3 sometimes do very weird things that makes mongrel to freeze.  After a lot of googling I realize that the best solution to avoid problems was to do the uploads to S3 in a background proccess apart from mongrel.</p>
+
+<p>I started with Jon Guymon approach and it worked well but i needed to create thumbnails and the local files to be deleted after the uploading to S3 was finished.</p>
+
+<p>Just changing the part of attachment_fu that actually uploads the file to S3 do the trick.</p>
+
+<p>Open  vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends/s3_backend.rb and change the method save_to_storage to background the uploads.</p>
+
+<p>This is the original method:</p>
+
+<p>`
+def save_to_storage</p>
+
+<p> if save_attachment?</p>
+
+<p>S3Object.store(</p>
+
+<p>full_filename,</p>
+
+<p>(temp_path ? File.open(temp_path) : temp_data),</p>
+
+<p>bucket_name,</p>
+
+<p>   :content_type => content_type,</p>
+
+<p>   :access => attachment_options[:s3_access]</p>
+
+<pre><code>)  
+
+@old_filename = nil  
+
+true  
+</code></pre>
+
+<p>  end</p>
+
+<p>end</p>
+
+<p>`</p>
+
+<p>In my version I copy the file to a temporary directory in tmp/s3uploads (just to make sure the file does not disappear) then I add the upload task to the background queue</p>
+
+<p>`
+def save_to_storage</p>
+
+<p> if save_attachment?</p>
+
+<p>my_temp_file = RAILS_ROOT+&#8217;/tmp/s3uploading/&#8217;+&#8221;#{rand Time.now.to_i}#{filename || &#8216;attachment&#8217;}&#8221;</p>
+
+<pre><code>         if temp_path  
+
+           File.open(my_temp_file,"w+") do |tmp|  
+
+             tmp.close  
+
+             FileUtils.cp temp_path, tmp.path  
+
+           end  
+
+         else  
+
+           File.open(my_temp_file, "w+") do |tmp|  
+
+             tmp.binmode  
+
+             tmp.write temp_data  
+
+             tmp.close  
+
+           end  
+
+           fichero = RAILS_ROOT+'/tmp/s3uploading/' + "#{rand Time.now.to_i}#{filename || 'attachment'}"  
+
+         end  
+
+
+
+         Bj.submit("./script/runner ./jobs/s3_uploader.rb " +  
+
+           full_filename + " " +  
+
+           my_temp_file  + " " +  
+
+           bucket_name  + " " +  
+
+           content_type + " " +  
+
+           attachment_options[:s3_access].to_s  
+
+         )  
+
+       end  
+
+
+
+       @old_filename = nil  
+
+       true  
+</code></pre>
+
+<p>end</p>
+
+<p>`</p>
+
+<p>This way attachment_fu will spawn a task for every file it creates.</p>
+
+<p>Now edit the file Jon Guymon created to handle the upload (jobs/s3_uploader.rb)</p>
+
+<p>This is how my file looks like</p>
+
+<p>`
+Base.establish_connection!(:access_key_id     => ACCESS_KEY,</p>
+
+<pre><code>                       :secret_access_key =&gt; SECRET_KEY)  
+</code></pre>
+
+<p>S3Object.store(ARGV[0],</p>
+
+<pre><code>            File.open(ARGV[1]),  
+
+            ARGV[2],  
+
+            :content_type =&gt; ARGV[3],  
+
+            :access =&gt; ARGV[4]  
+
+          )  
+</code></pre>
+
+<p>File.delete(ARGV[1])</p>
+
+<p>`</p>
+
+<p>A simple upload to S3 and after finishing it I delete the temporary file created in tmp/s3uploads/</p>
+
+<p>So far mongrel is doing its job with no more hangs and as a side effect users can uploads their files faster.</p>
+
+<p>There are a lot of pages about backgrounding tasks and a good recipe in Rails recipes 2</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jorge</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-07-17T04:22:00+02:00" pubdate data-updated="true">17-07-2008</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/desarrollo/'>Desarrollo</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jorgegorka.github.com/jorgegorka/:wordpress_id/attachment_fu-s3-uploads-with-backgroundjob/" data-via="jorgealvarez" data-counturl="http://jorgegorka.github.com/jorgegorka/:wordpress_id/attachment_fu-s3-uploads-with-backgroundjob/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/:wordpress_id/si-la-montaa-no-viene-a-mahoma/" title="Previous Post: Si la montaña no viene a Mahoma">&laquo; Si la montaña no viene a Mahoma</a>
+      
+      
+        <a class="basic-alignment right" href="/:wordpress_id/uninitialized-constant-rexml-version/" title="Next Post: uninitialized constant REXML::VERSION">uninitialized constant REXML::VERSION &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/:wordpress_id/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/utiliza-el-api-de-google-analytics-de-forma-sencill/">Utiliza el API de Google Analytics de forma sencilla</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/3-consejos-para-crear-un-dashboard-de-analitica/">3 Consejos para crear un Dashboard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/comercio-electronico-no-todo-vale/">Comercio electrónico - No todo vale</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/:wordpress_id/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jorgealvarez", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jorgealvarez" class="twitter-follow-button" data-show-count="false">Follow @jorgealvarez</a>
+  
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/jorgegorka?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
