@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Analitica | Jorge Alvarez]]></title>
-  <link href="http://jorgegorka.github.com/categories/analitica/atom.xml" rel="self"/>
-  <link href="http://jorgegorka.github.com/"/>
-  <updated>2012-12-07T21:48:00+01:00</updated>
-  <id>http://jorgegorka.github.com/</id>
+  <link href="http://www.alvareznavarro.es/categories/analitica/atom.xml" rel="self"/>
+  <link href="http://www.alvareznavarro.es/"/>
+  <updated>2012-12-08T00:16:25+01:00</updated>
+  <id>http://www.alvareznavarro.es/</id>
   <author>
     <name><![CDATA[Jorge]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[El análisis web no es (solo) marketing]]></title>
-    <link href="http://jorgegorka.github.com/2012/07/el-analisis-web-no-es-solo-marketing/"/>
+    <link href="http://www.alvareznavarro.es/2012/07/el-analisis-web-no-es-solo-marketing/"/>
     <updated>2012-07-02T09:25:22+02:00</updated>
-    <id>http://jorgegorka.github.com/2012/07/el-analisis-web-no-es-solo-marketing</id>
+    <id>http://www.alvareznavarro.es/2012/07/el-analisis-web-no-es-solo-marketing</id>
     <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/07/web_analytics_2_0_demystified-300x227.png" alt="El analista web no pertenece a marketing" />La mayoría de empresas que conozco tienen integrado el análisis web en el departamento de marketing.  Si bien hemos de reconocer que los primeros que supieron ver la utilidad de la analítica web fueron "los de marketing" ni mucho menos es el único departamento que puede beneficiarse de la labor de un analista cuya utilidad es mucho más transversal.</p>
 
 <p>Vamos a ver algunos ejemplos de departamentos que pueden verse beneficiados si tienen acceso a la información que proporciona nuestro analista web.</p>
@@ -44,9 +44,9 @@
   
   <entry>
     <title type="html"><![CDATA[Utiliza el API de Google Analytics de forma sencilla]]></title>
-    <link href="http://jorgegorka.github.com/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill/"/>
+    <link href="http://www.alvareznavarro.es/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill/"/>
     <updated>2012-05-01T09:35:43+02:00</updated>
-    <id>http://jorgegorka.github.com/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill</id>
+    <id>http://www.alvareznavarro.es/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill</id>
     <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/04/developers-300x168.jpg" alt="Ariadna Google Analytica API for developers" />El API de Google Analytics nos permite utilizar directamente toda la información que Google Analytics almacena sobre nuestra página web.  Al tener acceso de forma directa a los datos, podemos cruzarlos, agruparlos y segmentarlos de formas que la herramienta web de Google Analytics no permite.</p>
 
 <p>Cuando tenemos que realizar informes complejos o necesitamos cruzar datos de forma no prevista por la herramienta web de Google Analytics tenemos dos opciones.  Armarnos de paciencia y realizar complejas hojas de cálculo difíciles de actualizar y de mantener libres de errores, o bien realizar un programa que recolecte y procese la información por nosotros y nos la muestre automáticamente.</p>
@@ -112,9 +112,9 @@ profiles    = properties.first.profiles.all
   
   <entry>
     <title type="html"><![CDATA[3 Consejos para crear un Dashboard]]></title>
-    <link href="http://jorgegorka.github.com/2012/04/3-consejos-para-crear-un-dashboard-de-analitica/"/>
+    <link href="http://www.alvareznavarro.es/2012/04/3-consejos-para-crear-un-dashboard-de-analitica/"/>
     <updated>2012-04-19T14:07:24+02:00</updated>
-    <id>http://jorgegorka.github.com/2012/04/3-consejos-para-crear-un-dashboard-de-analitica</id>
+    <id>http://www.alvareznavarro.es/2012/04/3-consejos-para-crear-un-dashboard-de-analitica</id>
     <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/04/dashboard1-300x234.png" alt="Como crear un dashboard tras un analisis web" />Un dashboard condensa en un único cuadro/gráfico/página el saber hacer de un buen analista web.  Puede que suene un poco melodramático pero es la realidad.  Eres tan bueno como lo son tus dashboards.  La misión de un analista es generar buenos informes, ayudar a que la empresa que lo ha contratado mejore.</p>
 
 <p>Aunque pueda parecer extraño, a las empresas <strong>no les interesa realmente lo que pasa en sus webs, les interesa como mejorar</strong>.  Cuando estás hablando para un comité de dirección o simplemente informando a tu jefe, no te centres en lo que ha pasado, centrate en ofrecer soluciones para mejorar lo que pasa.  Habla de lo que estáis haciendo bien, para seguir haciéndolo bien y de lo que estáis haciendo mal, para mejorarlo.</p>
@@ -142,9 +142,9 @@ profiles    = properties.first.profiles.all
   
   <entry>
     <title type="html"><![CDATA[El visitante como centro del análisis web]]></title>
-    <link href="http://jorgegorka.github.com/2011/11/el-visitante-como-centro-del-analisis-web/"/>
+    <link href="http://www.alvareznavarro.es/2011/11/el-visitante-como-centro-del-analisis-web/"/>
     <updated>2011-11-15T02:55:43+01:00</updated>
-    <id>http://jorgegorka.github.com/2011/11/el-visitante-como-centro-del-analisis-web</id>
+    <id>http://www.alvareznavarro.es/2011/11/el-visitante-como-centro-del-analisis-web</id>
     <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/user-centered.jpg"><img src="http://www.alvareznavarro.es/images/2011/11/user-centered-300x188.jpg" alt="el usuario como centro del análisis web" /></a><strong>Cuando nos enfrentamos al análisis de una web lo primero que debemos tener muy claro son los objetivos y los indicadores que nos servirán para cumplir dichos objetivos.  Este es el primer paso que todo buen analista web debe realizar.  De una buena definición de objetivos y de sus indicadores, dependerá que todo el esfuerzo que realicemos después tenga éxito o no.  Si nuestros indicadores están mal elegidos o no son los correctos, las conclusiones a las que nos lleven serán erroneas y no servirán para mejorar la web analizada.</strong></p>
 
 <p>Existen diversas metodologías que nos permiten afrontar la creación de objetivos e indicadores web con garantías, y es posible encontrar mucha documentación sobre este tema (adjunto unos cuantos recursos al final de este post).</p>
@@ -201,9 +201,9 @@ profiles    = properties.first.profiles.all
   
   <entry>
     <title type="html"><![CDATA[Eventos no interactivos en Google Analytics]]></title>
-    <link href="http://jorgegorka.github.com/2011/11/eventos-no-interactivos-en-google-analytics/"/>
+    <link href="http://www.alvareznavarro.es/2011/11/eventos-no-interactivos-en-google-analytics/"/>
     <updated>2011-11-03T20:57:45+01:00</updated>
-    <id>http://jorgegorka.github.com/2011/11/eventos-no-interactivos-en-google-analytics</id>
+    <id>http://www.alvareznavarro.es/2011/11/eventos-no-interactivos-en-google-analytics</id>
     <content type="html"><![CDATA[<p><strong><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/11/bounce-rate.jpg"><img src="http://www.alvareznavarro.es/images/2011/11/bounce-rate-300x199.jpg" alt="eventos no interactivos en Google Analytics" /></a>Hasta ahora cuando lanzábamos un evento en Google Analytics contaba como una interacción del usuario en nuestra web y anulaba el rebote.  Es decir aunque el usuario hubiera visto una sola página si había ocurrido algún evento, no existía rebote.  Desde hoy ya podemos decidir nosotros si queremos que un evento sea interactivo o no interactivo.</strong></p>
 
 <h2>Gestión de eventos en Google Analytics</h2>

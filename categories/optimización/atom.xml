@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Optimización | Jorge Alvarez]]></title>
-  <link href="http://jorgegorka.github.com/categories/optimización/atom.xml" rel="self"/>
-  <link href="http://jorgegorka.github.com/"/>
-  <updated>2012-12-07T21:48:00+01:00</updated>
-  <id>http://jorgegorka.github.com/</id>
+  <link href="http://www.alvareznavarro.es/categories/optimización/atom.xml" rel="self"/>
+  <link href="http://www.alvareznavarro.es/"/>
+  <updated>2012-12-08T00:16:25+01:00</updated>
+  <id>http://www.alvareznavarro.es/</id>
   <author>
     <name><![CDATA[Jorge]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Deja que tus visitantes organicen tu web]]></title>
-    <link href="http://jorgegorka.github.com/2011/10/deja-que-tus-visitantes-organicen-tu-web/"/>
+    <link href="http://www.alvareznavarro.es/2011/10/deja-que-tus-visitantes-organicen-tu-web/"/>
     <updated>2011-10-04T15:02:00+02:00</updated>
-    <id>http://jorgegorka.github.com/2011/10/deja-que-tus-visitantes-organicen-tu-web</id>
+    <id>http://www.alvareznavarro.es/2011/10/deja-que-tus-visitantes-organicen-tu-web</id>
     <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/?attachment_id=6438"><img src="http://www.alvareznavarro.es/images/2011/10/network_people-300x225.jpg" alt="" /></a>Tu web no te pertenece a tí sino a tus visitantes.  Ellos son el único motivo por el que haces todo el esfuerzo de tiempo y dinero que requiere mantener una web de calidad.  Y tus visitantes esperan de tu web algo claro y concreto:  que les informes, que les vendas algo, que les des soporte, tus datos de contacto, conversar, etc.</p>
 
 <h2>Escucha a tus visitantes</h2>
@@ -76,9 +76,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cuanto tiempo permanecen los visitantes en mi web?]]></title>
-    <link href="http://jorgegorka.github.com/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web/"/>
+    <link href="http://www.alvareznavarro.es/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web/"/>
     <updated>2011-09-15T10:46:14+02:00</updated>
-    <id>http://jorgegorka.github.com/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web</id>
+    <id>http://www.alvareznavarro.es/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web</id>
     <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/09/time_flies2.jpg"><img src="http://www.alvareznavarro.es/images/2011/09/time_flies2.jpg" alt="Cuanto tiempo estan los visitantes en mi website" /></a>Hace unos días <a href="http://www.useit.com/alertbox/page-abandonment-time.html">Jacob Nielsen</a> se ha hecho eco de un <a href="http://dx.doi.org/10.1145/1835449.1835513">estudio realizado por Chao Liu</a> de Microsoft Research donde analizan con detalle el comportamiento de los usuarios a la hora de abandonar una página web.</p>
 
 <p>Las conclusiones de este estudio vienen a reforzar lo que ya se sabía. <strong> Tenemos poca paciencia</strong> cuando navegamos y dedicamos muy poco tiempo a comprobar si la página a la que acabamos de llegar tiene lo que buscamos.</p>
@@ -109,9 +109,9 @@
   
   <entry>
     <title type="html"><![CDATA[La paginación y el SEO]]></title>
-    <link href="http://jorgegorka.github.com/2010/10/la-paginacion-y-el-seo/"/>
+    <link href="http://www.alvareznavarro.es/2010/10/la-paginacion-y-el-seo/"/>
     <updated>2010-10-14T18:10:00+02:00</updated>
-    <id>http://jorgegorka.github.com/2010/10/la-paginacion-y-el-seo</id>
+    <id>http://www.alvareznavarro.es/2010/10/la-paginacion-y-el-seo</id>
     <content type="html"><![CDATA[<p><strong>Actualizado el 23-11-2011</strong></p>
 
 <p>La paginación es una parte muy importante de sitios web que contienen gran cantidad de información ya que permite dividir cantidades muy grandes de datos en partes más pequeñas y manejables por los usuarios.  Además puede servir también como una herramienta de navegación ya que si, por ejemplo, vemos un listado de productos ordenados por precio de menor a mayor, visitando la última página encontraremos los de mayor precio.</p>
@@ -205,9 +205,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mejora la privacidad en tu navegación]]></title>
-    <link href="http://jorgegorka.github.com/2010/07/mejora-la-privacidad-en-tu-navegacion/"/>
+    <link href="http://www.alvareznavarro.es/2010/07/mejora-la-privacidad-en-tu-navegacion/"/>
     <updated>2010-07-07T03:37:00+02:00</updated>
-    <id>http://jorgegorka.github.com/2010/07/mejora-la-privacidad-en-tu-navegacion</id>
+    <id>http://www.alvareznavarro.es/2010/07/mejora-la-privacidad-en-tu-navegacion</id>
     <content type="html"><![CDATA[<p>Cada vez que visitas un sitio web dejas un rastro.  Un pequeño archivo de texto llamado cookie se instala en tu ordenador guardando información sobre tu visita y permitiendo identificarte con posterioridad.</p>
 
 <p>Estos pequeños ficheros fueron creados inicialmente con la idea de facilitarte el acceso a los sitios que visitas frecuentemente recordándote y permitiéndote acceder sin poner otra vez el usuario y la contraseña.  Gracias a la utilidad de recordar contraseña que tienen la mayoría de navegadores esto ya no es necesario y el propio navegador te rellena dichos campos si tu así lo deseas.</p>

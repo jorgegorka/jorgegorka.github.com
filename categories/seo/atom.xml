@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: SEO | Jorge Alvarez]]></title>
-  <link href="http://jorgegorka.github.com/categories/seo/atom.xml" rel="self"/>
-  <link href="http://jorgegorka.github.com/"/>
-  <updated>2012-12-07T21:48:00+01:00</updated>
-  <id>http://jorgegorka.github.com/</id>
+  <link href="http://www.alvareznavarro.es/categories/seo/atom.xml" rel="self"/>
+  <link href="http://www.alvareznavarro.es/"/>
+  <updated>2012-12-08T00:16:25+01:00</updated>
+  <id>http://www.alvareznavarro.es/</id>
   <author>
     <name><![CDATA[Jorge]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Como vincular tu cuenta de Google Analytics con Webmaster Tools]]></title>
-    <link href="http://jorgegorka.github.com/2011/10/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/"/>
+    <link href="http://www.alvareznavarro.es/2011/10/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/"/>
     <updated>2011-10-10T11:03:28+02:00</updated>
-    <id>http://jorgegorka.github.com/2011/10/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools</id>
+    <id>http://www.alvareznavarro.es/2011/10/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools</id>
     <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/google-webmaster-toos/"><img src="http://www.alvareznavarro.es/images/2011/10/google-webmaster-toos.gif" alt="Herramienta para webmasters" /></a><strong>Por fin Google Analytics puede vincularse con Webmaster Tools.  Al igual que es necesario vincular tu cuenta de AdWords con tu cuenta de Analytics, vincular la cuenta de Webmaster Tools nos proporcionará información que nos ayudará a detectar que optimizar de nuestra web para mejorar su posicionamiento en buscadores (SEO).</strong></p>
 
 <p>Sin ninguna configuración adicional Google Analytics únicamente proporciona información de visitas a nuestra web.  Para que quede contabilizada dicha visita el código de analytics que debemos insertar en cada una de nuestras páginas, tiene que ejecutarse.  Desde la herramienta de Webmaster Tools disponemos de información sobre las consultas que se han realizado en Google en las que ha aparecido nuestra página en sus resultados (SERPS).  La combinación de ambos datos nos proporcionará información muy valiosa y necesaria para <a href="http://www.alvareznavarro.es/servicios/optimizacion-web/posicionamiento-en-buscadores-seo/">optimizar el posicionamiento de nuestra web</a> de forma efectiva.</p>
@@ -89,9 +89,9 @@
   
   <entry>
     <title type="html"><![CDATA[Utilizar guión medio o guión bajo en las url]]></title>
-    <link href="http://jorgegorka.github.com/2011/09/utilizar-guion-medio-o-guion-bajo-en-las-url/"/>
+    <link href="http://www.alvareznavarro.es/2011/09/utilizar-guion-medio-o-guion-bajo-en-las-url/"/>
     <updated>2011-09-09T11:04:38+02:00</updated>
-    <id>http://jorgegorka.github.com/2011/09/utilizar-guion-medio-o-guion-bajo-en-las-url</id>
+    <id>http://www.alvareznavarro.es/2011/09/utilizar-guion-medio-o-guion-bajo-en-las-url</id>
     <content type="html"><![CDATA[<p>Aunque no es un tema nuevo y se ha hablado bastante todavía hay veces que surgen dudas cuando creamos un nuevo sitio web y queremos que las url's de las páginas sean fáciles de recordar por quienes nos visitan.</p>
 
 <p>A la hora de crear una estructura de url's amigable y fácil de entender se suele emplear como separador de palabras el guión medio:</p>
@@ -122,9 +122,9 @@
   
   <entry>
     <title type="html"><![CDATA[Panel de control SEO con Google Analytics]]></title>
-    <link href="http://jorgegorka.github.com/2011/09/panel-de-control-seo-con-google-analytics/"/>
+    <link href="http://www.alvareznavarro.es/2011/09/panel-de-control-seo-con-google-analytics/"/>
     <updated>2011-09-07T11:03:58+02:00</updated>
-    <id>http://jorgegorka.github.com/2011/09/panel-de-control-seo-con-google-analytics</id>
+    <id>http://www.alvareznavarro.es/2011/09/panel-de-control-seo-con-google-analytics</id>
     <content type="html"><![CDATA[<p>Poder posicionar una web en los primeros puestos de los buscadores es un trabajo de constancia, de perseverancia que requiere tiempo y recursos.  Por eso es muy importante medir y evaluar el funcionamiento de nuestra web a nivel de SEO.</p>
 
 <p>Vamos a crear un panel de control (dashboard) con los datos y métricas más importantes que nos proporciona Google Analytics y que nos permitirán de un solo vistazo evaluar y controlar como va evolucionando nuestra web a nivel de SEO.</p>
@@ -205,9 +205,9 @@
   
   <entry>
     <title type="html"><![CDATA[Posicionamiento en buscadores tráfico SEO y tráfico de marca]]></title>
-    <link href="http://jorgegorka.github.com/2011/08/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca/"/>
+    <link href="http://www.alvareznavarro.es/2011/08/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca/"/>
     <updated>2011-08-31T13:17:25+02:00</updated>
-    <id>http://jorgegorka.github.com/2011/08/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca</id>
+    <id>http://www.alvareznavarro.es/2011/08/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca</id>
     <content type="html"><![CDATA[<p>Una parte muy importante del tráfico que recibe nuestra web llega a través de los buscadores, Google principalmente.  Es muy importante conocer de forma real y precisa como está posicionada nuestra web y en que términos aparecemos para enfocar nuestros esfuerzos de posicionamiento en aquellos términos que mejor rendimiento nos dan.  No queremos muchas visitas, queremos muchas visitas de calidad.</p>
 
 <p>Para poder evaluar de forma precisa el tráfico que recibimos de los buscadores es necesario dividir este tráfico en dos tipos: Tráfico SEO y Tráfico de Marca, veamos en que consisten estos dos tipos de tráfico.</p>
@@ -272,9 +272,9 @@
   
   <entry>
     <title type="html"><![CDATA[Schema.org y su impacto en el SEO y las búsquedas]]></title>
-    <link href="http://jorgegorka.github.com/2011/06/schema-org-y-su-impacto-en-el-seo-y-las-busquedas/"/>
+    <link href="http://www.alvareznavarro.es/2011/06/schema-org-y-su-impacto-en-el-seo-y-las-busquedas/"/>
     <updated>2011-06-06T10:15:00+02:00</updated>
-    <id>http://jorgegorka.github.com/2011/06/schema-org-y-su-impacto-en-el-seo-y-las-busquedas</id>
+    <id>http://www.alvareznavarro.es/2011/06/schema-org-y-su-impacto-en-el-seo-y-las-busquedas</id>
     <content type="html"><![CDATA[<p><strong>Que es Schema.org</strong></p>
 
 <p>Bing, Google y Yahoo han lanzado una iniciativa llamada <a href="http://schema.org/">Schema.org</a> que tiene como objetivo definir unos estandares de uso de metadatos comunes que sirvan indistintamente para cualquier buscador.</p>

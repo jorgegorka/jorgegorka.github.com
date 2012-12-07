@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Desarrollo | Jorge Alvarez]]></title>
-  <link href="http://jorgegorka.github.com/categories/desarrollo/atom.xml" rel="self"/>
-  <link href="http://jorgegorka.github.com/"/>
-  <updated>2012-12-07T21:48:00+01:00</updated>
-  <id>http://jorgegorka.github.com/</id>
+  <link href="http://www.alvareznavarro.es/categories/desarrollo/atom.xml" rel="self"/>
+  <link href="http://www.alvareznavarro.es/"/>
+  <updated>2012-12-08T00:16:25+01:00</updated>
+  <id>http://www.alvareznavarro.es/</id>
   <author>
     <name><![CDATA[Jorge]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[AngularJS y el futuro del desarrollo web]]></title>
-    <link href="http://jorgegorka.github.com/2012/10/angularjs-y-el-futuro-del-desarrollo-web/"/>
+    <link href="http://www.alvareznavarro.es/2012/10/angularjs-y-el-futuro-del-desarrollo-web/"/>
     <updated>2012-10-17T22:24:12+02:00</updated>
-    <id>http://jorgegorka.github.com/2012/10/angularjs-y-el-futuro-del-desarrollo-web</id>
+    <id>http://www.alvareznavarro.es/2012/10/angularjs-y-el-futuro-del-desarrollo-web</id>
     <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/10/AngularJS-300x84.png" alt="javascript framework" />Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de pantallas, formas de uso (táctil, no táctil, offline, online...) quizás no sea la forma más adecuada.</p>
 
 <p><strong>El problema</strong></p>
@@ -54,9 +54,9 @@
   
   <entry>
     <title type="html"><![CDATA[Utiliza el API de Google Analytics de forma sencilla]]></title>
-    <link href="http://jorgegorka.github.com/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill/"/>
+    <link href="http://www.alvareznavarro.es/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill/"/>
     <updated>2012-05-01T09:35:43+02:00</updated>
-    <id>http://jorgegorka.github.com/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill</id>
+    <id>http://www.alvareznavarro.es/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill</id>
     <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/04/developers-300x168.jpg" alt="Ariadna Google Analytica API for developers" />El API de Google Analytics nos permite utilizar directamente toda la información que Google Analytics almacena sobre nuestra página web.  Al tener acceso de forma directa a los datos, podemos cruzarlos, agruparlos y segmentarlos de formas que la herramienta web de Google Analytics no permite.</p>
 
 <p>Cuando tenemos que realizar informes complejos o necesitamos cruzar datos de forma no prevista por la herramienta web de Google Analytics tenemos dos opciones.  Armarnos de paciencia y realizar complejas hojas de cálculo difíciles de actualizar y de mantener libres de errores, o bien realizar un programa que recolecte y procese la información por nosotros y nos la muestre automáticamente.</p>
@@ -122,9 +122,9 @@ profiles    = properties.first.profiles.all
   
   <entry>
     <title type="html"><![CDATA[Acabaremos todos programando en Javascript?]]></title>
-    <link href="http://jorgegorka.github.com/2010/12/acabaremos-todos-programando-en-javascript/"/>
+    <link href="http://www.alvareznavarro.es/2010/12/acabaremos-todos-programando-en-javascript/"/>
     <updated>2010-12-17T12:58:00+01:00</updated>
-    <id>http://jorgegorka.github.com/2010/12/acabaremos-todos-programando-en-javascript</id>
+    <id>http://www.alvareznavarro.es/2010/12/acabaremos-todos-programando-en-javascript</id>
     <content type="html"><![CDATA[<p><img src="http://blog.alvareznavarro.es/images/2011/06/javascript-scaled600.jpg?w=300" alt="Javascript" /></p>
 
 <p>Cada día nos acercamos un poco más al futuro, para comprobar que es exactamente igual que el pasado.</p>
@@ -159,9 +159,9 @@ profiles    = properties.first.profiles.all
   
   <entry>
     <title type="html"><![CDATA[uninitialized constant REXML::VERSION]]></title>
-    <link href="http://jorgegorka.github.com/2008/09/uninitialized-constant-rexml-version/"/>
+    <link href="http://www.alvareznavarro.es/2008/09/uninitialized-constant-rexml-version/"/>
     <updated>2008-09-14T21:07:00+02:00</updated>
-    <id>http://jorgegorka.github.com/2008/09/uninitialized-constant-rexml-version</id>
+    <id>http://www.alvareznavarro.es/2008/09/uninitialized-constant-rexml-version</id>
     <content type="html"><![CDATA[<p>Al actualizar a Rails 2.1.1 aparece un pequeño problema: <strong>uninitialized constant REXML::VERSION</strong></p>
 
 <p>Esto es debido a que el fichero rexml.rb define el número de version con la palabra Version y Rails espera que dado que es una constante esté escrita en mayúsculas (ya que es así como se definen las constantes en ruby).</p>
@@ -176,9 +176,9 @@ profiles    = properties.first.profiles.all
   
   <entry>
     <title type="html"><![CDATA[attachment_fu s3 uploads with backgroundjob]]></title>
-    <link href="http://jorgegorka.github.com/2008/07/attachment_fu-s3-uploads-with-backgroundjob/"/>
+    <link href="http://www.alvareznavarro.es/2008/07/attachment_fu-s3-uploads-with-backgroundjob/"/>
     <updated>2008-07-17T04:22:00+02:00</updated>
-    <id>http://jorgegorka.github.com/2008/07/attachment_fu-s3-uploads-with-backgroundjob</id>
+    <id>http://www.alvareznavarro.es/2008/07/attachment_fu-s3-uploads-with-backgroundjob</id>
     <content type="html"><![CDATA[<p>Thanks to Jon Guymon for his article <a href="http://blarg.slackworks.com/posts/bj-makes-attachment_fu-happy">bj-makes-attachment_fu-happy</a> that really help me solve a problem I was having with mongrel.</p>
 
 <p>Attachment_fu + s3 sometimes do very weird things that makes mongrel to freeze.  After a lot of googling I realize that the best solution to avoid problems was to do the uploads to S3 in a background proccess apart from mongrel.</p>

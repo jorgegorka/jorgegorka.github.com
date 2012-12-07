@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: usabilidad | Jorge Alvarez]]></title>
-  <link href="http://jorgegorka.github.com/categories/usabilidad/atom.xml" rel="self"/>
-  <link href="http://jorgegorka.github.com/"/>
-  <updated>2012-12-07T21:48:00+01:00</updated>
-  <id>http://jorgegorka.github.com/</id>
+  <link href="http://www.alvareznavarro.es/categories/usabilidad/atom.xml" rel="self"/>
+  <link href="http://www.alvareznavarro.es/"/>
+  <updated>2012-12-08T00:16:25+01:00</updated>
+  <id>http://www.alvareznavarro.es/</id>
   <author>
     <name><![CDATA[Jorge]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cuanto tiempo permanecen los visitantes en mi web?]]></title>
-    <link href="http://jorgegorka.github.com/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web/"/>
+    <link href="http://www.alvareznavarro.es/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web/"/>
     <updated>2011-09-15T10:46:14+02:00</updated>
-    <id>http://jorgegorka.github.com/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web</id>
+    <id>http://www.alvareznavarro.es/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web</id>
     <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/09/time_flies2.jpg"><img src="http://www.alvareznavarro.es/images/2011/09/time_flies2.jpg" alt="Cuanto tiempo estan los visitantes en mi website" /></a>Hace unos días <a href="http://www.useit.com/alertbox/page-abandonment-time.html">Jacob Nielsen</a> se ha hecho eco de un <a href="http://dx.doi.org/10.1145/1835449.1835513">estudio realizado por Chao Liu</a> de Microsoft Research donde analizan con detalle el comportamiento de los usuarios a la hora de abandonar una página web.</p>
 
 <p>Las conclusiones de este estudio vienen a reforzar lo que ya se sabía. <strong> Tenemos poca paciencia</strong> cuando navegamos y dedicamos muy poco tiempo a comprobar si la página a la que acabamos de llegar tiene lo que buscamos.</p>
@@ -48,9 +48,9 @@
   
   <entry>
     <title type="html"><![CDATA[El formulario de login.   Consejos, ideas y trucos.]]></title>
-    <link href="http://jorgegorka.github.com/2010/03/el-formulario-de-login-consejos-ideas-y-trucos/"/>
+    <link href="http://www.alvareznavarro.es/2010/03/el-formulario-de-login-consejos-ideas-y-trucos/"/>
     <updated>2010-03-08T10:07:21+01:00</updated>
-    <id>http://jorgegorka.github.com/2010/03/el-formulario-de-login-consejos-ideas-y-trucos</id>
+    <id>http://www.alvareznavarro.es/2010/03/el-formulario-de-login-consejos-ideas-y-trucos</id>
     <content type="html"><![CDATA[<p>Si hemos sido buenos chicos y hemos hecho bien nuestro trabajo, los visitantes de nuestra web se habrán registrado y pasarán a convertirse en usuarios.</p>
 
 <p>En la primera parte de esta serie de artículos ya hablamos de <a href="http://jorgegorka.wordpress.com/2010/02/24/los-usuarios-para-el-que-se-los-trabaja-quid-pro-cuo-clarice/">la importancia de los usuarios</a>.  Hoy vamos a ver como crear un formulario de login adecuado para que nuestros usuarios puedan acceder a nuestra web de la forma más rápida y sencilla posible.</p>
@@ -166,9 +166,9 @@
   
   <entry>
     <title type="html"><![CDATA[La usabilidad no solo está en la web]]></title>
-    <link href="http://jorgegorka.github.com/2008/01/la-usuabilidad-no-solo-est-en-la-web/"/>
+    <link href="http://www.alvareznavarro.es/2008/01/la-usuabilidad-no-solo-est-en-la-web/"/>
     <updated>2008-01-25T13:12:00+01:00</updated>
-    <id>http://jorgegorka.github.com/2008/01/la-usuabilidad-no-solo-est-en-la-web</id>
+    <id>http://www.alvareznavarro.es/2008/01/la-usuabilidad-no-solo-est-en-la-web</id>
     <content type="html"><![CDATA[<p>Aunque, al menos en este blog, siempre que hablo de usabilidad la enmarco en el ámbito de la web, es evidente que existen muchas areas cotidianas donde una adecuada usabilidad de los objetos, productos, servicios, nos haría la vida mucho más fácil a todos.</p>
 
 <p>Y si encima ese producto es potencialmente peligroso para la salud entonces la usabilidad adquiere una importacia enorme.</p>
@@ -200,9 +200,9 @@
   
   <entry>
     <title type="html"><![CDATA[Recursos de diseño web, usabilidad y javascript]]></title>
-    <link href="http://jorgegorka.github.com/2007/01/recursos-de-diseo-web-usabilidad-y-javascript/"/>
+    <link href="http://www.alvareznavarro.es/2007/01/recursos-de-diseo-web-usabilidad-y-javascript/"/>
     <updated>2007-01-11T12:10:00+01:00</updated>
-    <id>http://jorgegorka.github.com/2007/01/recursos-de-diseo-web-usabilidad-y-javascript</id>
+    <id>http://www.alvareznavarro.es/2007/01/recursos-de-diseo-web-usabilidad-y-javascript</id>
     <content type="html"><![CDATA[<p>Un par de enlaces de recursos útiles para diseño web:</p>
 
 <p>Dar estilo a los controles de formularios y <a href="http://www.freshbooks.com/blog/2007/01/04/useful-resources-for-designers-developers/"> una colección de 5 enlaces sobre diseño</a>.</p>
@@ -219,9 +219,9 @@
   
   <entry>
     <title type="html"><![CDATA[Entrevista con Paco Underhill]]></title>
-    <link href="http://jorgegorka.github.com/2006/11/entrevista-con-paco-underhill/"/>
+    <link href="http://www.alvareznavarro.es/2006/11/entrevista-con-paco-underhill/"/>
     <updated>2006-11-29T11:54:00+01:00</updated>
-    <id>http://jorgegorka.github.com/2006/11/entrevista-con-paco-underhill</id>
+    <id>http://www.alvareznavarro.es/2006/11/entrevista-con-paco-underhill</id>
     <content type="html"><![CDATA[<p>El título de la entrevista es bastante sugerente:  <a href="http://www.boxesandarrows.com/view/from-data-to-wisdom">De los datos a la sabiduría</a>.</p>
 
 <p>Todos conocemos webs llenas de frases como : Pulsa aquí para leer este artículo... o simplemente  leer más... textos que no aclaran el contenido de lo que enlazan a no ser que leas todo el contexto... y todos sabemos que la gente en internet no lee.  <a href="http://friendlybit.com/other/click-here-to-read-this-article/">Hagamos que los enlaces tengan sentido</a>.</p>
