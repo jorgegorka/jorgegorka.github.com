@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: SEO | Jorge Alvarez]]></title>
+  <link href="http://jorgegorka.github.com/categories/seo/atom.xml" rel="self"/>
+  <link href="http://jorgegorka.github.com/"/>
+  <updated>2012-12-07T21:48:00+01:00</updated>
+  <id>http://jorgegorka.github.com/</id>
+  <author>
+    <name><![CDATA[Jorge]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Como vincular tu cuenta de Google Analytics con Webmaster Tools]]></title>
+    <link href="http://jorgegorka.github.com/2011/10/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/"/>
+    <updated>2011-10-10T11:03:28+02:00</updated>
+    <id>http://jorgegorka.github.com/2011/10/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/google-webmaster-toos/"><img src="http://www.alvareznavarro.es/images/2011/10/google-webmaster-toos.gif" alt="Herramienta para webmasters" /></a><strong>Por fin Google Analytics puede vincularse con Webmaster Tools.  Al igual que es necesario vincular tu cuenta de AdWords con tu cuenta de Analytics, vincular la cuenta de Webmaster Tools nos proporcionará información que nos ayudará a detectar que optimizar de nuestra web para mejorar su posicionamiento en buscadores (SEO).</strong></p>
+
+<p>Sin ninguna configuración adicional Google Analytics únicamente proporciona información de visitas a nuestra web.  Para que quede contabilizada dicha visita el código de analytics que debemos insertar en cada una de nuestras páginas, tiene que ejecutarse.  Desde la herramienta de Webmaster Tools disponemos de información sobre las consultas que se han realizado en Google en las que ha aparecido nuestra página en sus resultados (SERPS).  La combinación de ambos datos nos proporcionará información muy valiosa y necesaria para <a href="http://www.alvareznavarro.es/servicios/optimizacion-web/posicionamiento-en-buscadores-seo/">optimizar el posicionamiento de nuestra web</a> de forma efectiva.</p>
+
+<h2>Enlazar Google Analytics y Webmaster Tools</h2>
+
+<p>Veamos como enlazar nuestra cuenta de Google Analytics con nuestra cuenta de Webmaster Tools.</p>
+
+<p>En primer lugar entramos en la cuenta de Google Analytics y pulsamos en <em>Fuentes de tráfico</em> y allí en <em>Optimización en buscadores</em>.</p>
+
+<p>Como podemos ver en la imágen <em>Paso 1</em> aparecerá un botón sobre el que deberemos hacer click.</p>
+
+<p>[caption id="attachment_6520" align="aligncenter" width="500" caption="Paso 1 Vincular Google Analytics y Webmaster Tools"]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/configurar_google_analytics/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/configurar_google_analytics.jpg" alt="configurar optimización en buscadores en google analytics" /></a>[/caption]</p>
+
+<p>LLegaremos a una pantalla como la que se vé en la imagen Paso 2 donde deberemos hacer click en un enlace que lleva por nombre Editar.</p>
+
+<p>[caption id="attachment_6522" align="aligncenter" width="500" caption="Paso 2.- Editar configuración de Webmaster Tools"]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/enlazar_webmaster_tools/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/enlazar_webmaster_tools.jpg" alt="enlazar webmaster tools" /></a>[/caption]</p>
+
+<p>Al pulsar en este enlace llegaremos a la web de Webmaster Tools donde una vez identificados veremos un listado de todas las webs que gestionamos en Webmaster Tools (en caso de que gestionemos más de una web.  Seleccionamos la web que queremos vincular y pulsamos el botón de guardar cambios.</p>
+
+<p>[caption id="attachment_6519" align="aligncenter" width="500" caption="Paso 3.- Aprobar enlace entre Webmaster Tools y Google Analytics"]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/aprobar_webmaster_tools/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/aprobar_webmaster_tools.jpg" alt="aprobar enlace entre google analytics y webmaster tools" /></a>[/caption]</p>
+
+<p>Una vez finalizado este último paso nuestras cuentas de Google Analytics y Webmaster Tools habrán quedado vinculadas y ya podremos acceder a toda la información desde Google Analytics.</p>
+
+<h2>Que información nos aporta Webmaster Tools</h2>
+
+<p>Desde el nuevo menú llamado <em>Optimización en buscadores </em>tenemos acceso a tres nuevos informes:</p>
+
+<ul>
+<li><p>Consultas</p></li>
+<li><p>Páginas de destino</p></li>
+<li><p>Resumen geográfico</p></li>
+</ul>
+
+
+<p>Todos estos informes están orientados a conocer el rendimiento de tu sitio en Google y por lo tanto son una fuente de información muy poderosa para conocer como está funcionando el posicionamiento en buscadores de nuestro sitio web.  Veamos en detalle cada uno de estos tres informes.</p>
+
+<h3>Optimización para buscadores -> Consultas</h3>
+
+<p>Con este informe conoceremos aquellos términos de búsqueda en los que han aparecido páginas de nuestra web en los resultados.  La información que obtenemos es el  número de veces que han aparecido páginas nuestras, las veces que alguien hizo click en ellas, la posición media y el CTR, esto es el ratio entre el número de impresiones y clicks.</p>
+
+<p>[caption id="attachment_6521" align="aligncenter" width="500" caption="Optimización para buscadores -> Consultas"]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/consultas_webmaster_tools/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/consultas_webmaster_tools.jpg" alt="webmaster tools: consultas" /></a>[/caption]</p>
+
+<p>[box type="info"] Es muy interesante analizar este informe desde dos perspectivas: <a href="http://www.alvareznavarro.es/6087/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca/">Filtrando los términos puramente seo de aquellos términos que consideramos como tráfico de marca</a>. El análisis del CTR y la posición media nos ofrecerá pistas muy interesantes para poder mejorar nuestro posicionamiento en buscadores. [/box]</p>
+
+<h3>Optimización para buscadores -> Páginas de destino</h3>
+
+<p>Este informe nos muestra las páginas que Google ofrece a quienes buscan en su sitio.   La información que obtenemos es: la dirección de la página, el número de veces que nuestra página ha aparecido en los resultados, el número de clicks que hicieron los visitantes, la posición media y el CTR, esto es el ratio entre el número de impresiones y clicks.</p>
+
+<p>[caption id="attachment_6524" align="aligncenter" width="500" caption="Optimización para buscadores -> Páginas de destino"]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/paginas_de_destino/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/paginas_de_destino.jpg" alt="paginas de destino / landing pages" /></a>[/caption]</p>
+
+<p>[box type="info"] Si comparamos las páginas que reciben clicks en este informe con el informe de Páginas de Destino que hay en la sección contenido y observamos diferencias podremos descubrir páginas de nuestra web que no tienen instalado el código de Google Analytics o no lo tienen instalado correctamente.[/box]</p>
+
+<h3>Optimización para buscadores -> Resumen geográfico</h3>
+
+<p>Este tercer y último informe nos muestra la procedencia de quienes realizan las consultas.  De este informe conoceremos el pais de origen de quien hizo la consulta, el número de impresiones de páginas de nuestra web y el CTR, esto es el ratio entre el número de impresiones y clicks.</p>
+
+<p>[caption id="attachment_6525" align="aligncenter" width="500" caption="Optimización para buscadores -> Resumen geográfico"]<a href="http://www.alvareznavarro.es/6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/resumen_geografico/"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/10/resumen_geografico.jpg" alt="resumen geográfico" /></a>[/caption]</p>
+
+<p>[box type="info"] Desde este informe también podremos filtrar por tipo de propiedad de Google, es decir desde que web se ha realizado la consulta: buscador, imágenes, móvil.[/box]</p>
+
+<h2>Resumen</h2>
+
+<p>Con unos sencillos pasos tendremos vinculada la cuenta de Google Analytics y Google Webmaster Tools.  Una vez que ambas estén enlazadas tendremos acceso a <strong>información relevante para mejorar el posicionamiento en buscadores de nuestra web</strong>.  Como casi siempre, la verdadera potencia de esta información se obtiene cuando realizamos informes personalizados donde combinamos la información que más nos interesa en función de nuestra web,  hemos hablado de segmentar el tráfico SEO del tráfico de marca como personalización más evidente, pero hay muchas más opciones.</p>
+
+<p>[box] Si necesitas ayuda configurando Google Analytics o deseas obtener información avanzada y precisa de lo que ocurre en tu web <a href="http://www.alvareznavarro.es/contactar/">contacta conmigo</a>.[/box]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Utilizar guión medio o guión bajo en las url]]></title>
+    <link href="http://jorgegorka.github.com/2011/09/utilizar-guion-medio-o-guion-bajo-en-las-url/"/>
+    <updated>2011-09-09T11:04:38+02:00</updated>
+    <id>http://jorgegorka.github.com/2011/09/utilizar-guion-medio-o-guion-bajo-en-las-url</id>
+    <content type="html"><![CDATA[<p>Aunque no es un tema nuevo y se ha hablado bastante todavía hay veces que surgen dudas cuando creamos un nuevo sitio web y queremos que las url's de las páginas sean fáciles de recordar por quienes nos visitan.</p>
+
+<p>A la hora de crear una estructura de url's amigable y fácil de entender se suele emplear como separador de palabras el guión medio:</p>
+
+<p><em>http://misitio.com/esta-url-es-facil-de-recordar.html</em></p>
+
+<p>o también el guión bajo</p>
+
+<p><em>http://misitio.com/esta_url_es_facil_de_recordar.html</em></p>
+
+<p>Ambas formas son fáciles de leer y memorizar por nuestros usuarios pero para Google hay diferencias entre usar uno u otro guión como separador, veamos en que consiste esta diferencia.</p>
+
+<p><strong>Crear url's amigables para Google</strong></p>
+
+<p>Existe un vídeo de Matt Cuts donde explica (en inglés) el porqué de la diferencia entre ambos guiones, así que si sabes inglés puedes ver el vídeo que adjunto al final de este post.  Si no quieres esperar 4 minutos te lo cuento yo rápidamente.</p>
+
+<p>En sus inicios, Google estaba formada fundamentalmente por programadores y existe una convención mediante la cual cuando creas nombres de variables si las separas con un guión medio es que estás separando palabras pero si las separas con un guión bajo estas separando partes de un todo.</p>
+
+<p>Google siguió esta convención también para las urls por lo que para ellos venta-de-viajes.html está formado por 3 palabras: venta, de y viajes mientras que una url del tipo: casa_de_madera Google lo interpreta como una sola palabra: casademadera.</p>
+
+<p>Aún así Google es lo suficientemente listo para detectar si estamos usando incorrectamente el guión bajo y estamos separando palabras de esa forma e indexar nuestra web de forma correcta (evidentemente no sólo se fija en el nombre de la url, hay muchos otros factores.  Existen webs como la Wikipedia (<a href="http://en.wikipedia.org/wiki/Central_and_Eastern_Europe">http://en.wikipedia.org/wiki/Central_and_Eastern_Europe</a>) en la que se utilizan los guiones bajos para separar palabras y aún así se indexa de forma correcta.</p>
+
+<p>De todas formas si tienes que empezar una web desde cero, elegir un software de e-commerce, un gestor de contenidos es muy conveniente que te asegures de que emplea los guiones medios como separador de palabras.</p>
+
+<p>Aquí tenéis el vídeo con la explicación en inglés:</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Panel de control SEO con Google Analytics]]></title>
+    <link href="http://jorgegorka.github.com/2011/09/panel-de-control-seo-con-google-analytics/"/>
+    <updated>2011-09-07T11:03:58+02:00</updated>
+    <id>http://jorgegorka.github.com/2011/09/panel-de-control-seo-con-google-analytics</id>
+    <content type="html"><![CDATA[<p>Poder posicionar una web en los primeros puestos de los buscadores es un trabajo de constancia, de perseverancia que requiere tiempo y recursos.  Por eso es muy importante medir y evaluar el funcionamiento de nuestra web a nivel de SEO.</p>
+
+<p>Vamos a crear un panel de control (dashboard) con los datos y métricas más importantes que nos proporciona Google Analytics y que nos permitirán de un solo vistazo evaluar y controlar como va evolucionando nuestra web a nivel de SEO.</p>
+
+<p><strong>Objetivos y forma de medirlos</strong></p>
+
+<p>Ni todas las métricas ni todos los objetivos necesarios para un seguimiento de nuestras campañas de SEO se pueden medir con Google Analytics.  No se trata de hacer un seguimiento exhaustivo sino de tener unos indicadores básicos que nos permitan conocer la evolución de nuestros esfuerzos en posicionamiento SEO y detectar posibles problemas para luego profundizar en ellos y analizarlos con más detalle.</p>
+
+<p>También tenemos que tener clara la diferencia entre <a href="http://www.alvareznavarro.es/6087/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca/">tráfico SEO y tráfico de marca</a> para poder medir los resultados de forma precisa.</p>
+
+<p><strong>El panel de control SEO</strong></p>
+
+<p>Nuestro panel estará dividido en tres columnas.   En la primera de ellas mostraremos métricas e indicadores generales, en la segunda información sobre visitas y en la tercera información sobre conversiones.</p>
+
+<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/08/seo_dashboard.jpg"><img src="http://www.alvareznavarro.es/images/2011/08/seo_dashboard.jpg" alt="panel de control seo google analytics" /></a></p>
+
+<p>Comencemos creando el panel.</p>
+
+<p>Accedemos a nuestra cuenta de Google Analytics y pulsamos en la pestaña "Panel" y justo debajo tenemos el enlace llamado "+ nuevo panel" hacemos click y se abrirá una ventana que nos pedirá el nombre del nuevo panel de control le vamos a llamar "SEO" en un alarde de originalidad.</p>
+
+<p><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/08/report_name.png" alt="alta panel de control seo" /></p>
+
+<p>Pulsamos el botón "Crear panel" y ya tenemos creado nuestro panel de control SEO listo para añadir la información que nos interesa.</p>
+
+<p>Para cada uno de los Widgets que añadiremos a nuestro panel crearemos los siguientes filtros:</p>
+
+<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/08/widget_settings.jpg"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/08/widget_settings.jpg" alt="Filtros para configurar el widget filtrando tráfico seo" /></a></p>
+
+<p>Filtro 1: "mostrar solo" - "Medio" - "coincidencia exacta" - "organic"</p>
+
+<p>Filtro 2: "no mostrar" - "palabra clave" - "Expresion regular - "lista de términos de marca"</p>
+
+<p>De esta forma la información que nos mostrarán será solamente la que nos interesa y esto es la relacionada con el tráfio SEO.</p>
+
+<p>Estos son los Widgets que tienes que añadir:</p>
+
+<p><strong>Columna 1</strong></p>
+
+<ol>
+<li><p>Métrica -> Porcentaje de rebote</p></li>
+<li><p>Métrica -> Promedio de tiempo en el sitio</p></li>
+<li><p>Métrica -> Porcentaje de nuevas visitas</p></li>
+<li><p>Gráfico circular -> Visitas -> agrupado por País/Territorio</p></li>
+</ol>
+
+
+<p><strong>Columna 2</strong></p>
+
+<ol>
+<li><p>Métrica -> Visitas</p></li>
+<li><p>Tabla -> Página de inicio - Visitas - Porcentaje de rebote</p></li>
+<li><p>Tabla -> Palabra clave - Visitas - Porcentaje de rebote</p></li>
+</ol>
+
+
+<p><strong>Columna 3</strong></p>
+
+<ol>
+<li><p>Métrica -> Transacciones</p></li>
+<li><p>Tabla -> Página de inicio - Transacciones</p></li>
+<li><p>Tabla -> Palabra clave - Transacciones</p></li>
+</ol>
+
+
+<p>En la columna 1 disponemos de información general sobre la calidad de nuestro tráfico SEO.  Una elevada tasa de rebote o un tiempo en el sitio bajo serán indicadores de que no estamos captando visitantes de calidad o bien que en nuestras páginas no están encontrando lo que buscan.  El % de visitantes nuevos debe ser siempre alto ya que lo que pretendemos es captar visitantes interesados en nuestros productos o servicios.  Aquellos que ya nos conocen accederán a nuestra web escribiendo la url en su navegador o buscando nuestro nombre de marca en Google.  Conocer el pais de procedencia de nuestros visitantes es fundamental si vendemos o bien ofrecemos servicios solo a una determinada área geográfica.</p>
+
+<p>Las columnas 2 y 3 están pensadas para analizarse de forma conjunta.  Conocer el número de visitas junto al de transacciones nos permitirá evaluar la calidad de dichas visitas.  Hay que recordar que el buen SEO no busca atraer el máximo número de visitas posible sino el máximo número de visitas de calidad.  De nada nos sirve atraer mucho tráfico si luego no conseguimos rentabilizarlo.</p>
+
+<p>La tabla de páginas de entrada nos dirá por que páginas entran los visitantes cuando acceden a nuestro sitio web.  Una alta tasa de rebote en estas páginas es un indicador de que no están cumpliendo su función correctamente.  La gente accede a estas páginas y no encuentra lo que busca y se va.  Esto es malo y debemos revisar dichas páginas cuanto antes.  Comparando las páginas que más tráfico reciben con las que más transacciones generan nos permitirá detectar tanto aquellas páginas que más ingresos nos generan y que debemos mimar y cuidar, como aquellas que necesitan mejoras.</p>
+
+<p>Por último las palabras clave con las que los usuarios han buscado en Google para llegar a nosotros.  Es vital que los términos por los que la gente accede a nuestra web sean aquellos que más nos interesa, aquellos términos que nos darán visitantes de calidad.  Así mismo saber que términos nos proporcionan el mayor número de transacciones nos permitirá cuidarlos y mejorarlos y también dedicar mayores esfuerzos a posicionar los que no están funcionando también como deberían.</p>
+
+<p><strong>Resumen</strong></p>
+
+<p>El tráfico SEO o tráfico de buscadores es una parte muy importante del tráfico de cualquier sitio web.  Gracias a la personalización que nos permiten los paneles de control de Google Analytics podemos conocer de forma cómoda como evoluciona este tráfico y detectar anomalías para enfocar nuestros esfuerzos de posicionamiento allí donde sea necesario.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Posicionamiento en buscadores tráfico SEO y tráfico de marca]]></title>
+    <link href="http://jorgegorka.github.com/2011/08/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca/"/>
+    <updated>2011-08-31T13:17:25+02:00</updated>
+    <id>http://jorgegorka.github.com/2011/08/posicionamiento-en-buscadores-trafico-seo-y-trafico-de-marca</id>
+    <content type="html"><![CDATA[<p>Una parte muy importante del tráfico que recibe nuestra web llega a través de los buscadores, Google principalmente.  Es muy importante conocer de forma real y precisa como está posicionada nuestra web y en que términos aparecemos para enfocar nuestros esfuerzos de posicionamiento en aquellos términos que mejor rendimiento nos dan.  No queremos muchas visitas, queremos muchas visitas de calidad.</p>
+
+<p>Para poder evaluar de forma precisa el tráfico que recibimos de los buscadores es necesario dividir este tráfico en dos tipos: Tráfico SEO y Tráfico de Marca, veamos en que consisten estos dos tipos de tráfico.</p>
+
+<p><strong>Tráfico SEO y Tráfico de Marca</strong></p>
+
+<p><strong>Tráfico de Marca</strong></p>
+
+<p>Es el tráfico que recibimos a través de los buscadores pero que en los términos de búsqueda se incluyen palabras con nuestro nombre comercial.   Por Ejemplo:  Si tengo una empresa llamada "Inmobiliaria Alvarez" situada en Burgos habrá mucha gente que escriba en Google cosas como: "inmobiliaria alvarez" "pisos inmobiliaria alvarez", "alvarez inmobiliaria", "inmobiliaria alvarez burgos", "burgos inmo alvarez"... o incluso ocurrirá que la gente se equivoca al escribir y encontraremos términos de búsqueda como "albarez" "alvared" ó "lavarez".</p>
+
+<p><strong>Tráfico SEO</strong></p>
+
+<p>Es el tráfico que recibimos de los buscadores que no está influenciado ni motivado por nuestra marca comercial y que atribuiremos a los esfuerzos que estamos haciendo por posicionar nuestra web en Internet.  Siguiendo con el ejemplo anterior palabras de tráfico seo serían "pisos burgos" "inmobiliarias burgos" "apartamentos alquiler"</p>
+
+<p>Es muy importante distinguir entre los dos tipos de tráfico ya que a nosotros nos interesa centrar nuestros esfuerzos de <a href="http://www.alvareznavarro.es/servicios/optimizacion-web/posicionamiento-en-buscadores-seo/">posicionamiento en el tráfico SEO</a>.  Si nuestra web está hecha medianamente bien aparecer los primeros cuando la gente escriba "inmobiliaria alvarez burgos" no tiene ningún mérito.   Y además es un tráfico que se genera gracias a nuestros esfuerzos de promoción.  Si la gente me busca por mi nombre es porque yo me he dado a conocer y he generado imagen de marca.</p>
+
+<p>El tráfico SEO sin embargo es un tráfico que nos interesa mucho captar.  Si alguien escribe "inmobiliarias burgos" y llega a mi web, además de captar a gente interesada en mi producto se lo estoy quitando a mi competencia.</p>
+
+<p><strong>Filtrar el tráfico de marca y el tráfico SEO</strong></p>
+
+<p>Vamos a realizar un filtro para conocer los distintos tipos de tráfico.</p>
+
+<p>Accedemos a nuestra cuenta de Google Analytics:</p>
+
+<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/08/trafico_organico.png"><img src="http://www.alvareznavarro.es/images/2011/08/trafico_organico.png" alt="conocer tráfico orgánico" /></a></p>
+
+<ol>
+<li><p>Pulsamos en "Fuentes de tráfico"</p></li>
+<li><p>Pulsamos en "Fuentes"</p></li>
+<li><p>Pulsamos en "Búsquedas"</p></li>
+<li><p>Pulsamos en "Orgánico"</p></li>
+</ol>
+
+
+<p>Por defecto, Google Analytics nos muestra los datos de tráfico de los últimos 30 días.   Vamos a cambiar las fechas para que nos muestre datos de los últimos 6 meses para trabajar sobre un mayor número de términos de búsqueda</p>
+
+<p>Ahora pulsaremos en la palabra "avanzado" (1) y seleccionaremos "excluir" "palabra clave" "que contienen" como se muestra en el gráfico.  A continuación vamos a escribir en la casilla (2) la(s) palabra(s) clave que nos interesa ocultar.  En nuestro caso escribiremos "alvarez" y pulsaremos el botón de "Aplicar".</p>
+
+<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/08/filtro_palabras_clave.png"><img src="http://www.alvareznavarro.es/wp-content/uploads/2011/08/filtro_palabras_clave.png" alt="filtrar tráfico de marca" /></a></p>
+
+<p>Obtendremos un listado de términos de búsqueda que no incluyen nuestro nombre de marca, es decir, visitas que hemos recibido gracias al posicionamiento de nuestra web en los buscadores y no gracias a la importancia de nuestro nombre o nuestra de marca.</p>
+
+<p>Suele ocurrir que entre los términos resultantes descubrimos variaciones o formas mal escritas de nuestro nombre de marca, que también nos interesa ocultar en este informe.</p>
+
+<p>Para filtrar por más de una palabra solo tenemos que volver al filtro que hemos creado, cambiar "que contiene" por "expresión regular" y separar las palabras con el carácter | (la barra vertical).  Por ejemplo "alvarez|albarez|al varez" excluirá todas las búsquedas donde esté la palabra "alvarez" la palabra "albarez" y como está permitido el uso de espacios, en este ejemplo también filtraré las palabras "al varez" si es que alguien las ha escrito separadas.</p>
+
+<p>El listado resultante contendrá todas las palabras que la gente emplea para llegar a mi web y que no están influidas por mi marca, lo que se conoce como Términos SEO.  Analizando estos términos podré saber si mi web recibe visitas gracias a mis esfuerzos de posicionamiento en buscadores y analizando el porcentaje de rebote sabré si son visitas de calidad o no.</p>
+
+<p>Si en el filtro que hemos creado en lugar de seleccionar "excluir" "palabra clave" seleccionamos "incluir" "palabra clave" obtendremos el listado de visitas que han llegado a nosotros desde buscadores pero escribiendo nuestro nombre de marca.  Este listado nos da una idea de la influencia que nuestra marca tiene a la hora de atraer visitantes a nuestra web.</p>
+
+<p>Hay que tener en cuenta que si alguien escribe el nombre de nuestra web en el navegador Google Analytics lo contabilizará como tráfico directo mientras que si alguien escribe el nombre de nuestra web en el buscador de google y pulsa en buscar y luego pulsa en el resultado que le lleva a nuestra web, Google Analytics lo contabilizará como tráfico orgánico.</p>
+
+<p>Por lo tanto, la suma de tráfico directo más el tráfico orgánico de marca nos dará el total de visitantes que llegan a nosotros porque nos conocen y es un estupendo indicador para saber que peso tiene nuestra marca a la hora de generar tráfico hacia la web.</p>
+
+<p><strong>Resumen.</strong></p>
+
+<p>Distinguir entre el tráfico de marca y el tráfico SEO es muy importante para conocer dos cosas:  Como funciona nuestra <a href="http://www.alvareznavarro.es/servicios/optimizacion-web/posicionamiento-en-buscadores-seo/">estrategia de posicionamiento en buscadores</a> y saber el peso que nuestra marca comercial tiene en los visitantes.</p>
+
+<p>Además, una vez que hemos definido el conjunto de palabras que nos permiten segmentar entre diferentes tipos de tráfico podemos aprovechar toda la potencia de los informes personalizados y los segmentos avanzados para <a href="http://www.alvareznavarro.es/servicios/consultoria-web/informes-a-medida/">extraer información muy valiosa</a> sobre la calidad de los visitantes que llegan a nuestra web y donde centrar nuestros esfuerzos de SEO.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Schema.org y su impacto en el SEO y las búsquedas]]></title>
+    <link href="http://jorgegorka.github.com/2011/06/schema-org-y-su-impacto-en-el-seo-y-las-busquedas/"/>
+    <updated>2011-06-06T10:15:00+02:00</updated>
+    <id>http://jorgegorka.github.com/2011/06/schema-org-y-su-impacto-en-el-seo-y-las-busquedas</id>
+    <content type="html"><![CDATA[<p><strong>Que es Schema.org</strong></p>
+
+<p>Bing, Google y Yahoo han lanzado una iniciativa llamada <a href="http://schema.org/">Schema.org</a> que tiene como objetivo definir unos estandares de uso de metadatos comunes que sirvan indistintamente para cualquier buscador.</p>
+
+<p>Los metadatos (informacion sobre los datos) son muy necesarios para los buscadores ya que les ayudan a aclarar el contenido de la pagina y a disambiguar posibles problemas de interpretacion.  En determinados contextos es complicado saber si cuando buscamos Jaguar queremos saber sobre el animal o sobre la marca de coches.</p>
+
+<p>Añadiendo esta informacion a nuestras paginas ayudamos al buscador a <strong>indexar mejor nuestro contenido</strong>.  Y no solo eso sino que al hacer mas listo al buscador podremos realizar consultas mas precisas y recibir resultados relevantes.  Por ejemplo, si buscamos hoy en dia<em> "vuelos Bilbao Londres</em>" o incluso <em>"vuelos Bilbao Londres hastas 100 euros"</em> no encontraremos los vuelos directamente en los resultados sino que la mayoria de las veces acabaremos en la pagina de un operador en la que tendremos que volver a realizar la busqueda.</p>
+
+<p><strong>Como usar los metadatos</strong></p>
+
+<p>Veamos un ejemplo.  Supongamos que tenemos una tienda online de venta de vinos.  Nos gustaria que el buscador que nos visite al indexar nuestras paginas de producto sepa con claridad de que va nuestro producto, el precio, la marca, etc... para poder devolver resultados mas relevantes a quien consulta.</p>
+
+<p>La sintaxis html de una pagina de producto podria ser mas o menos asi:</p>
+
+<div class="product">
+
+
+
+
+<h1>Vino Tinto Reserva de CondeDuque</h1>
+
+
+
+
+<h2>Cosecha de 2006 - 90% tempranillo 10% mazuelo</h2>
+
+
+
+
+<h3>Bodegas Conde Duque</h3>
+
+
+
+
+<p>Este vino ha sido elaborado y bla bla bla.......</p>
+
+
+
+
+<p>Precio.- 23.99 euros IVA Incluido botella de 75cl.</p>
+
+
+
+
+<p>Articulo en stock</p>
+
+
+
+
+</div>
+
+
+<p>Si le aplicamos la informacion de metadatos nos quedaria algo asi:</p>
+
+<div class="product" itemscope itemtype="http://schema.org/Product">
+
+
+
+
+<h1 itemprop="name">Vino Tinto Reserva de CondeDuque</h1>
+
+
+
+
+<h2 itemprop="model">Cosecha de 2006 - 90% tempranillo 10% mazuelo</h2>
+
+
+
+
+<h3 itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Bodegas Conde Duque</span></h3>
+
+
+
+
+<p itemprop="description">Este vino ha sido elaborado y bla bla bla.......</p>
+
+
+
+
+<p>Precio.- <span itemprop="price">23.99 euros</span> IVA Incluido botella de 75cl.</p>
+
+
+
+
+<p itemprop="availability">Articulo en stock</p>
+
+
+
+
+</div>
+
+
+<p>De esta forma le estamos indicando claramente a los navegadores cual es el nombre del producto, la descripcion, el precio, la empresa que lo fabrica, etc...  Estamos <strong>ayudando al buscador a entender mejor la informacion</strong> que proporcionamos en nuestra web.</p>
+
+<p>En la web <a href="http://schema.org/">Schema.org</a> hay un <a href="http://schema.org/docs/full.html">listado detallado</a> de todas las especificaciones y la informacion disponible para cada una de ellas.</p>
+
+<p><strong>El impacto de Schema.org en el SEO</strong></p>
+
+<p>Si los buscadores tienen informacion detallada y relevante de los productos que se venden o fabrican <strong>podran devolver resultados mas fiables y precisos</strong>.  Si conocen la localizacion de la empresa que las vende podran respondernos a preguntas como <em>"tienda mas cercana con stock de Whisky Chic Reserva 12 años"</em>.</p>
+
+<p>Se calcula que el 40% de las busquedas tienen caracter local lo cual es un mercado muy importante del total de busquedas y los metadatos jugaran un papel fundamental en ayudar a los buscadores a devolver resultados certeros.</p>
+
+<p>La relevancia y la calidad de los contenidos seguira siendo fundamental.  En la informacion de metadatos tambien se pueden incluir factores que afectan a la calidad de los contenidos como por ejemplo <a href="http://schema.org/Review">las reviews</a> o <a href="http://schema.org/AggregateRating">los rankings</a>.</p>
+
+<p>Un factor a tener en cuenta es si al buscar <em>"vuelo madrid barcelona"</em> y recibir una lista de productos que cumplen ese criterio, <strong>podria ordenar los resultados por precio</strong>.  En ese caso una simple centesima de menos en el precio de mi producto podria auparle a las primeras posiciones lo que nos lleva a una interesante reflexion sobre la estrategia a seguir para el posicionamiento.</p>
+
+<p><strong>Las busquedas sociales</strong></p>
+
+<p>Cuando hablamos de busquedas sociales todos pensamos en botones de +1, me gusta o en sitios como Facebook.</p>
+
+<p>Creo que los buscadores, muy inteligentemente, han trasladado el componente social a las propias paginas de las empresas.  Con metadatos como <a href="http://schema.org/Event">Event</a>, <a href="http://schema.org/Recipe">Recipe</a>, <a href="http://schema.org/Review">Review</a>, <a href="http://schema.org/AggregateRating">AggregateRating</a>, <a href="http://schema.org/Offer">Offer</a> o <a href="http://schema.org/AggregateOffer">AggregateOffer</a> podemos ofrecer informacion "social" de calidad y que aporta valor a nuestros visitantes.  Ademas los buscadores seran conscientes de ello y podran indexarnos mejor.</p>
+
+<p>Por ejemplo si la web de Apple ha combinando informacion de Event con <a href="http://schema.org/Person">Person</a> podriamos buscar <em>"ira Steve Jobs al proximo Webdevelopers Conference"</em> o preguntar por cualquier otro asistente/ponente.  No solo eso sino que podriamos saber la puntuacion de sus anteriores ponencias y las opiniones de los usuarios.</p>
+
+<p><strong>Resumen</strong></p>
+
+<p>Creo que <a href="http://schema.org/">Schema.org</a> es una jugada muy inteligente y apropiada no solo para ofrecer resultados de mejor calidad a los usuarios sino para competir con ventaja contra posibles nuevos competidores en el mercado de las busquedas, como podria ser Facebook que por sus caracteristicas ya posee una detallada informacion de eventos, personas, valoraciones y comentarios.</p>
+
+<p>Ademas, a corto plazo, puede ser una estrategia de diferenciacion para quienes implementen desde ya estos metadatos en sus webs.  Sobre todo para las pymes que tienen aqui una ventaja estrategica importante frente a las lentas y pesadas grandes corporaciones.</p>
+]]></content>
+  </entry>
+  
+</feed>

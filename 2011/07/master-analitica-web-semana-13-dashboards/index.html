@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Master Analítica Web semana 13 - Dashboards - Jorge Alvarez</title>
+  <meta name="author" content="Jorge">
+
+  
+  <meta name="description" content="El curso va avanzando.  Vamos conociendo como definir objetivos, recolectar datos, interpretarlos y generar propuestas de mejora.  LLega el momento &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jorgegorka.github.com/2011/07/master-analitica-web-semana-13-dashboards/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jorge Alvarez" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25210947-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jorge Alvarez</a></h1>
+  
+    <h2>Desarrollador y analista web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jorgegorka.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/" alt="Volver a la página de inicio">Inicio</a></li>
+  <li><a href="/jorge/" alt="Acerca de Jorge Alvarez">Sobre mí</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Master Analítica Web Semana 13 - Dashboards</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-14T14:28:44+02:00" pubdate data-updated="true">14-07-2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>El curso va avanzando.  Vamos conociendo como definir objetivos, recolectar datos, interpretarlos y generar propuestas de mejora.  LLega el momento de presentar toda esta información a los diferentes departamentos y atender sus distintas necesidades.  Debemos ser capaces de transmitir la información que poseemos de forma entendible para todo el mundo.</p>
+
+<p>Para saber como presentar los datos nada mejor que una clase con <a href="http://kschool.com/analitica-web/profesores/gema-munoz/">Gemma Muñoz</a> en la que nos habló de Dashboards.  Paneles donde la información que hemos obtenido se muestra a nuestras diferentes audiencias/departamentos (marketing, dirección, producción, IT, etc.)</p>
+
+<p>Gemma nos dió consejos muy útiles para crear informes que aporten valor.</p>
+
+<ul>
+<li><p>No centrarse en los datos sino en aportar soluciones</p></li>
+<li><p>No mostrar siempre los mismos datos.  Tener en cuenta factores como la estacionalidad, periodos claves, campañas, etc.</p></li>
+<li><p>El reporting NO es analítica web.  Si quieren reporting que usen Google Analytics, nosotros damos dashboards según el departamento y la necesidad.</p></li>
+</ul>
+
+
+<p>Tras una Gemma llegó otra: <a href="http://kschool.com/analitica-web/profesores/gema-mora/">Gema Mora</a> que es la responsable de analítica web del grupo<a href="http://www.vocento.com/">Vocento</a> y nos habló de los retos que supone gestionar la analítica de un grupo tan grande y con tantas cabeceras.  Muy interesante su labor de evangelización entre los periodistas para que comprendan los cambios que suponen trabajar en el medio online.</p>
+
+<p>El sábado tuvimos con nosotros a <a href="http://elartedepresentar.com/">Gonzalo Alvarez</a> (El Arte de Presentar) que nos dió consejos y recomendaciones para hablar en público y realizar presentaciones que transmitan nuestro mensaje de forma clara y sin aburrir a la audiencia.</p>
+
+<p>Algunas frases de su charla:</p>
+
+<ul>
+<li><p>Receta directa a la mediocridad: Querer contentar a todos.</p></li>
+<li><p>Saber que problema queremos resolver y que le interesa a nuestra audiencia para poder aportarles valor.</p></li>
+<li><p>El diseño también comunica.</p></li>
+<li><p>Debes ser capaz de resumir el contenido de tu presentación en una sola frase.</p></li>
+</ul>
+
+
+<p>El business case del sábado corrió a cargo de <a href="http://kschool.com/analitica-web/profesores/noemi-santos/">Noemí Santos</a> que es la responsable de analítica y seo de <a href="http://www.toprural.com/">Top Rural</a>.  Noemí es una mujer del renacimiento, multitarea ya que se encarga de la analítica, el seo, las campañas de mailing, los afiliados y el adserver dentro de Top Rural.</p>
+
+<p>Además de todo esto Top Rural tiene presencia en 8 países con lo que todas las actividades que realiza Noemí hay que multiplicarlas por cada país, con sus particularidades de cultura, idioma, etc.</p>
+
+<p>Noemí nos habló de como utiliza la analítica web en cada uno de los diferentes apartados de su día a día para el seguimiento y la toma de decisiones.</p>
+
+<p>Destaco la frase final de su presentación que me parece muy inteligente:</p>
+
+<blockquote><p> Equivócate&#8230;. es la única manera de aprender.</p></blockquote>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jorge</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-14T14:28:44+02:00" pubdate data-updated="true">14-07-2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/analitica/'>Analitica</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jorgegorka.github.com/2011/07/master-analitica-web-semana-13-dashboards/" data-via="jorgealvarez" data-counturl="http://jorgegorka.github.com/2011/07/master-analitica-web-semana-13-dashboards/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2011/07/master-analitica-web-semana-12-modulo-tecnico/" title="Previous Post: Master Analítica Web semana 12 - Módulo Técnico">&laquo; Master Analítica Web semana 12 - Módulo Técnico</a>
+      
+      
+        <a class="basic-alignment right" href="/2011/07/master-analitica-web-semana-14-social-media/" title="Next Post: Master Analítica Web semana 14 - Social Media">Master Analítica Web semana 14 - Social Media &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/10/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/07/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/">Eres tan bueno como tus usuarios dicen que eres</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/07/el-aviso-de-confidencialidad-la-excusa-de-los-torpes/">El aviso de confidencialidad - La excusa de los torpes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/07/el-analisis-web-no-es-solo-marketing/">El análisis web no es (solo) marketing</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/06/la-publicidad-en-la-era-de-los-smartphones/">La publicidad en la era de los smartphones</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/05/utiliza-el-api-de-google-analytics-de-forma-sencill/">Utiliza el API de Google Analytics de forma sencilla</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/3-consejos-para-crear-un-dashboard-de-analitica/">3 Consejos para crear un Dashboard</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/11/comercio-electronico-no-todo-vale/">Comercio electrónico - No todo vale</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/11/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/11/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jorgealvarez", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jorgealvarez" class="twitter-follow-button" data-show-count="false">Follow @jorgealvarez</a>
+  
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/jorgegorka?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jorge -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'alvareznavarro';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jorgegorka.github.com/2011/07/master-analitica-web-semana-13-dashboards/';
+        var disqus_url = 'http://jorgegorka.github.com/2011/07/master-analitica-web-semana-13-dashboards/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

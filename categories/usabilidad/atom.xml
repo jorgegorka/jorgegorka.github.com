@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: usabilidad | Jorge Alvarez]]></title>
+  <link href="http://jorgegorka.github.com/categories/usabilidad/atom.xml" rel="self"/>
+  <link href="http://jorgegorka.github.com/"/>
+  <updated>2012-12-07T21:48:00+01:00</updated>
+  <id>http://jorgegorka.github.com/</id>
+  <author>
+    <name><![CDATA[Jorge]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Cuanto tiempo permanecen los visitantes en mi web?]]></title>
+    <link href="http://jorgegorka.github.com/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web/"/>
+    <updated>2011-09-15T10:46:14+02:00</updated>
+    <id>http://jorgegorka.github.com/2011/09/cuanto-tiempo-permanecen-los-visitantes-en-mi-web</id>
+    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/09/time_flies2.jpg"><img src="http://www.alvareznavarro.es/images/2011/09/time_flies2.jpg" alt="Cuanto tiempo estan los visitantes en mi website" /></a>Hace unos días <a href="http://www.useit.com/alertbox/page-abandonment-time.html">Jacob Nielsen</a> se ha hecho eco de un <a href="http://dx.doi.org/10.1145/1835449.1835513">estudio realizado por Chao Liu</a> de Microsoft Research donde analizan con detalle el comportamiento de los usuarios a la hora de abandonar una página web.</p>
+
+<p>Las conclusiones de este estudio vienen a reforzar lo que ya se sabía. <strong> Tenemos poca paciencia</strong> cuando navegamos y dedicamos muy poco tiempo a comprobar si la página a la que acabamos de llegar tiene lo que buscamos.</p>
+
+<p><strong>A cada página le dedicamos una media de entre 10 y 20 segundos de atención para decidir si nos interesa o no.</strong></p>
+
+<p>El estudio apunta a que los 10 primeros segundos son críticos.  Si en 10 segundos el usuario no ha logrado encontrar nada de interés se marchará de nuestra web.  Por el contrario, cada segundo de más que el usuario permanece en nuestro sitio ayudará mucho a reducir su tasa de abandono.</p>
+
+<p>A pesar de que estas cifras pueden ser de utilidad a la hora de marcarnos unos objetivos y poder medir el funcionamiento de nuestra web, no debemos tomarlas como la única referencia válida.</p>
+
+<p>Según el tipo de página de aterrizaje que hayamos creado los tiempos de estancia de nuestros visitantes variarán sensiblemente e incluso puede ser una medida absolutamente irrelevante.</p>
+
+<p>Si creamos una landing cuyo objetivo es suscribir visitantes a nuestra newsletter, por ejemplo, el tiempo de permanencia no nos sirve como medida de éxito, sino el número de visitantes que se suscriban.  Si el tiempo de permanencia de los visitantes en nuestra página es bajo, pero el número de suscripciones es alto la realidad es que estamos haciendo las cosas bien y la página cumple con su cometido.</p>
+
+<p>Esta misma norma se puede aplicar a páginas que pretenden que realicemos una actividad, descargar un pdf, rellenar un formulario, visitar un enlace... el éxito de estas páginas no debemos basarla en el tiempo de estancia sino en el cumplimiento del objetivo para el que fue creada.</p>
+
+<p>Por otra parte, si nuestra página pretende que leamos un texto o ver un vídeo entonces el tiempo que pasemos en la página será determinante para valorar su éxito y deberemos medirlo.</p>
+
+<p><strong>Resumen</strong></p>
+
+<p>Como regla general pensar que los visitantes tardarán entre 10 y 20 segundos en valorar nuestra página web es una medida aceptada como válida.  Sin embargo no debemos convertirla en referencia para todo el sitio web, <strong>cada página debe medirse en función de sus características y en función de los objetivos para los que fue creada</strong>.</p>
+
+<p>Además cada herramienta mide el tiempo en página de forma distinta. Si utilizas Google Analytics, aquí tienes <a href="http://services.google.com/analytics/breeze/en/interpreting_reports_time/index.html">un vídeo donde se explica como medirlo</a>.</p>
+
+<p>Photo by <a href="http://www.flickr.com/photos/werkunz/5160818883/">Werner Kunz</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[El formulario de login.   Consejos, ideas y trucos.]]></title>
+    <link href="http://jorgegorka.github.com/2010/03/el-formulario-de-login-consejos-ideas-y-trucos/"/>
+    <updated>2010-03-08T10:07:21+01:00</updated>
+    <id>http://jorgegorka.github.com/2010/03/el-formulario-de-login-consejos-ideas-y-trucos</id>
+    <content type="html"><![CDATA[<p>Si hemos sido buenos chicos y hemos hecho bien nuestro trabajo, los visitantes de nuestra web se habrán registrado y pasarán a convertirse en usuarios.</p>
+
+<p>En la primera parte de esta serie de artículos ya hablamos de <a href="http://jorgegorka.wordpress.com/2010/02/24/los-usuarios-para-el-que-se-los-trabaja-quid-pro-cuo-clarice/">la importancia de los usuarios</a>.  Hoy vamos a ver como crear un formulario de login adecuado para que nuestros usuarios puedan acceder a nuestra web de la forma más rápida y sencilla posible.</p>
+
+<p>[caption id="attachment_5777" align="aligncenter" width="450" caption="Un formulario correcto pero muy mejorable"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/facturagem.png"><img src="http://blog.alvareznavarro.es/images/2010/03/facturagem.png" alt="" /></a>[/caption]</p>
+
+<h3>Objetivos</h3>
+
+<p>Este debe ser el primer paso a tener claro antes de hacer cualquier pantalla de cualquier aplicación.  Que pretendemos conseguir con ella?.</p>
+
+<p>En nuestro caso los objetivos a conseguir son estos:</p>
+
+<ul>
+<li><p>Dar acceso a los usuarios registrados de forma rápida y sencilla.  (Molestar lo menos posible).</p></li>
+<li><p>Facilitar información si nuestro usuario no recuerda algún dato (usuario y/o contraseña)</p></li>
+<li><p>Ayudar a quienes han confundido el formulario de login con el de alta de usuarios.</p></li>
+</ul>
+
+
+<p>Una vez que tenemos claros los objetivos a conseguir ya nos podemos poner manos a la obra.</p>
+
+<h3>Dar acceso a los usuarios registrados de forma rápida y sencilla.   (Molestar lo menos posible).</h3>
+
+<p>Existe unanimidad en cuanto a la cantidad de datos necesarios para que un usuario pueda identificarse en una web: Un usuario y una contraseña.</p>
+
+<p>La primera duda surge al pensar en el nombre de usuario.  Personalmente no soy partidario de utilizar un nombre de usuario como dato a solicitar en el formulario de login.</p>
+
+<p>Si el nombre de usuario nos va a permitir identificarnos debe ser único (es decir que no podrá haber dos nombres de usuario iguales) y esto es un poco frustrante si cuando queremos darnos de alta en una web comprobamos que nuestro nombre de usuario ya está seleccionado.   Esto provoca que debamos elegir otro nombre de usuario al que no estamos acostumbrados y la próxima vez que regresemos a este sitio probablemente ya no recordemos cual era.</p>
+
+<p>El dato correcto a solicitar es una dirección de email.  La dirección de email es única, fácil de recordar y nos sirve para prevenir la creación de múltiples cuentas de forma automatizada si obligamos a validar dicha cuenta.</p>
+
+<p>Un problema que puede tener solicitar una dirección de email es que las direcciones de email suelen ser más largas que un nombre de usuario y obligamos al visitante a escribir más y por lo tanto le damos mayor posibilidad de equivocarse.   De todas formas con los navegadores actuales y su función de recordar contraseñas este problema se minimiza bastante.</p>
+
+<p>Sobre la contraseña poco podemos hablar ya que es el el formulario de alta de usuarios donde habremos definido sus características (tamaño mínimo, autogenerada, fortaleza, etc....).</p>
+
+<p>Tumblr nos presenta un formulario también muy agradable y cómodo de  utilizar con la palabra "Welcome Back" lo que ya nos da una idea de que  no estamos registrándonos sino accediendo de nuevo a su web.</p>
+
+<p><a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/tumblr_login.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/tumblr_login.png" alt="" /></a></p>
+
+<pre><code>Claro, cómodo y fácil de usar
+</code></pre>
+
+<p>Si olvidamos la contraseña el enlace nos lleva a otro formulario más  sencillo.</p>
+
+<p>[caption id="" align="aligncenter" width="450" caption="El propio botón indica la acción a realizar cuando pulsemos sobre él"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/tumblr_forgot.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/tumblr_forgot.png" alt="" /></a>[/caption]</p>
+
+<p>La disponsición de los títulos de los campos y los propios campos también es importante para que el usuario pueda leer y asociar el título del campo con el contenido que se espera de forma sencilla y moviendo la vista lo menos posible.  Para ello lo correcto es que los títulos de los campos aparezcan encima del propio campo ya que evita que tengamos que mover la vista de izquierda a derecha para asociar un campo con su título y resulta más cómodo de leer.</p>
+
+<p>[caption id="attachment_5773" align="aligncenter" width="429" caption="La vista debe desplazarse en zig-zag"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/rentobile2.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/rentobile2.png" alt="" /></a>[/caption]</p>
+
+<p>Con los títulos encima de los campos es más fácil leer el formulario.</p>
+
+<p>[caption id="attachment_5774" align="aligncenter" width="260" caption="El flujo vertical hace más cómoda la lectura"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/twitter.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/twitter.png" alt="" /></a>[/caption]</p>
+
+<h3>Facilitar información si nuestro usuario no recuerda algún dato (usuario  y/o contraseña)</h3>
+
+<p>A todos nos ha ocurrido intentar acceder a un sitio, sobre todo si no los visitamos con frecuencia, y no recordar cual era el usuario y/o la contraseña asignados.  Como a nuestros usuarios también les ocurrirá debemos ponernos en su lugar y ayudarles para que dicho olvido no sea un problema.</p>
+
+<p>Para intentar resolver este problema de la mejor forma posible debemos primero tener en consideración el tipo de información que se maneja en nuestra web.   Si manejamos información sensible (bancos, abogados, médicos, etc...) debemos disponer medidas de seguridad avanzadas que dificulten el acceso a posibles delincuentes.</p>
+
+<ul>
+<li><p>El formulario de login <strong>empleará el protocolo https</strong> que utiliza encriptación de las páginas mediante certificados SSL.</p></li>
+<li><p>Cuando existan un determinado número de <strong>intentos de login fallidos bloqueará la cuenta.</strong> Entre 3 y 5 es un número de intentos adecuado.</p></li>
+<li><p><strong>Se debería controlar la dirección I.P. desde la que accedemos normalmente</strong> para comprobar si es una dirección I.P. dinámica o fija.  Si la dirección I.P. suele ser la misma y un día cambia, deberemos solicitar información adicional (el dni, un teléfono), avisando al cliente de este hecho.  Si es dinámica podemos controlar los rangos en los que se mueve y alertar si un día el acceso es desde otra ubicación.</p></li>
+<li><p><strong>Los mensajes de error no deben mostrar información que resulte de utilidad a un posible intruso.</strong> Por ejemplo si decimos: Nombre de usuario incorrecto, el atacante ya sabe que dicho usuario no existe y rastreará en busca de otros.  Si el mensaje de error que mostramos indica:  Los datos no son correctos.  Aunque para nosotros como usuarios no son de utilidad ya que no indican si nos hemos equivocado al escribir nuestro usuario o nuestra contraseña, tampoco aportan información a un posible intruso.</p></li>
+<li><p><strong>NUNCA enviar información sensible vía email.</strong> Los emails viajan de forma totalmente insegura por la red y además no debemos acostumbrar a los usuarios al uso del email como forma de recibir información sensible.  Por ejemplo, Amazon nos solicita nuestro email (debemos introducirlo dos veces) y luego escribir los caracteres que aparecen en una imagen antes de enviarnos un email con una dirección desde la que podremos cambiar la contraseña.  Esta dirección solo está activa un tiempo por lo que si alguien solicita el cambio de contraseña de nuestra cuenta introduciendo nuestro email, no recibirá el enlace y nosotros no tenemos más que  ignorarlo y dejar que caduque para no cambiar nada.  Este sistema, que es lo suficientemente seguro para sitios como Amazón no serviría para un banco donde la seguridad debe ser extrema.</p></li>
+</ul>
+
+
+<p>[caption id="attachment_5761" align="aligncenter" width="450" caption="Recuperación de contraseña: Amazon"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/amazon.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/amazon.png" alt="" /></a>[/caption]</p>
+
+<p>Si nuestro sitio no maneja datos confidenciales no hace falta tomar tantas precauciones y podremos, si problemas, saltarnos alguna de estas normas y, por ejemplo, enviar la información del usuario por email.</p>
+
+<p>Por lo tanto para una web con seguridad media/baja es muy recomendable añadir al formulario de login un enlace que diga "He olvidado mi contraseña" y en la que al introducir nuestro usuario recibamos en el email un enlace temporal donde poder cambiarla por otra nueva.</p>
+
+<p>Business Catalyist hace un buen trabajo añadiendo un enlace donde no solo nos pregunta si hemos perdido nuestra contraseña, sino que además nos pregunta si necesitamos ayuda y nos conduce a un wiki con documentación (si bien podría facilitarnos las cosas todavía más conduciendonos a la documentación relativa a acceso y seguridad).</p>
+
+<p>[caption id="attachment_5763" align="aligncenter" width="450" caption="Has olvidado tu contraseña? o necesitas ayuda?"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/businesscatalyst.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/businesscatalyst.png" alt="" /></a>[/caption]</p>
+
+<p>Wufoo hace un buen trabajo y el enlace de ayuda nos lleva directamente a la documentación sobre el login.  Sin embargo el botón de cancelar sobra ya que lo único que puede conseguir es que introduzcamos nuestros datos y pulsemos ese botón en lugar de el de login con la consiguiente molestia y cabreo por nuestra parte.  Además parece que no tener una cuenta y crear una nueva son dos procesos distintos, aunque el enlace lleva al mismo sitio, pero visualmente la raya horizontal de separación nos hace dudar sobre donde debemos hacer click.</p>
+
+<p>[caption id="attachment_5764" align="aligncenter" width="450" caption="Botón cancel fuera y mejorar aspecto visual de crear nueva cuenta"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/wufoo.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/wufoo.png" alt="" /></a>[/caption]</p>
+
+<h3>Ayudar a quienes han confundido el formulario de login con el de alta de  usuarios.</h3>
+
+<p>El tercer objetivo que nos hemos marcado también es muy importante ya que ayudará tanto a tener más usuarios registrados como a que estos estén cómodos visitando nuestra web.</p>
+
+<p>Es inevitable que o bien por pulsar rápidamente en un enlace o por confusión a la hora de nombrarlos algunas personas que desean crear una cuenta accedan a nuestro formulario de login.   Nuestra misión siempre debe ser la de ayudar y facilitar el uso de nuestra web a los visitantes lo máximo posible.</p>
+
+<p>Tuts+ presenta un formulario visualmente atractivo.  Con indicadores claros, campos de texto grandes y nos indica que si no estamos dados de alta podemos registrarnos.  El problema es que existen tres acciones posibles y las tres se realizan con botones visualmente idénticos.  Esto sin duda generará muchos errores en personas que una vez introducido el usuario y la contraseña pulsen accidentalmente el botón de registrarse o bien el de recuperar contraseña.</p>
+
+<p>[caption id="attachment_5765" align="aligncenter" width="450" caption="Formulario estéticamente impecable pero poco usable"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/tuts.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/tuts.png" alt="" /></a>[/caption]</p>
+
+<p>Si detectamos que el usuario que intenta introducir no existe (y si la seguridad de nuestra web nos lo permite) debemos indicar al visitante si lo que desea realmente es crear una nueva cuenta.</p>
+
+<p>Virb nos indica claramente que estamos ante un formulario de login para inmediatamente indicarnos que si no estamos registrados todavía podemos conocer más, haciendo un tour de su web o bien registrarnos.  Además y como plus de calidad nos permite registrarnos utilizando OpenId que es un sistema de identificación de usuarios centralizado que nos permite acceder a diferentes webs empleando los mismos datos y sobre todo sin necesidad de facilitar las contraseñas a dichas webs.</p>
+
+<p>[caption id="attachment_5769" align="aligncenter" width="450" caption="Virb lo tiene todo y muy bien organizado"]<a href="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/virb.png"><img src="http://blog.alvareznavarro.es/wp-content/uploads/2010/03/virb.png" alt="" /></a>[/caption]</p>
+
+<h3>Resumen</h3>
+
+<p>Debemos convertir el proceso de login en nuestra web en un mero trámite.  De cara al los usuarios el proceso debe ser sencillo y rápido.  Además tenemos que anticiparnos a sus necesidades y ayudarles si no recuerdan algún dato o bien no es este el sitio donde querían estar.</p>
+
+<p>Enlaces de interés:</p>
+
+<p><a href="http://www.flickr.com/photos/factoryjoe/sets/72157600010029792/">Capturas de pantalla de formularios de login</a></p>
+
+<p><a href="http://dzineblog.com/2009/03/interface-design-inspiration-36-beautiful-login-pageform-designs.html">36 Beautiful Login Page/Form Designs</a></p>
+
+<p><a href="http://designreviver.com/inspiration/100-sites-with-outstanding-login-forms/">100  Outstanding Login Forms</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[La usabilidad no solo está en la web]]></title>
+    <link href="http://jorgegorka.github.com/2008/01/la-usuabilidad-no-solo-est-en-la-web/"/>
+    <updated>2008-01-25T13:12:00+01:00</updated>
+    <id>http://jorgegorka.github.com/2008/01/la-usuabilidad-no-solo-est-en-la-web</id>
+    <content type="html"><![CDATA[<p>Aunque, al menos en este blog, siempre que hablo de usabilidad la enmarco en el ámbito de la web, es evidente que existen muchas areas cotidianas donde una adecuada usabilidad de los objetos, productos, servicios, nos haría la vida mucho más fácil a todos.</p>
+
+<p>Y si encima ese producto es potencialmente peligroso para la salud entonces la usabilidad adquiere una importacia enorme.</p>
+
+<p>Tengo un hijo de 3 años que ha pillado un catarro, nada grave pero le han recetado un jarabe.  Y leyendo el prospecto que incluye el jarabe veo que la posología dice textualmente:</p>
+
+<blockquote><p>De 2 a 6 años: 1mg. por kg. de peso corporal al día dividido en 4 tomas iguales</p></blockquote>
+
+<p>.</p>
+
+<p>Y encima para complicar aun más la cosa, el vaso dosificador <strong>tiene sus medidas indicadas en mililitros</strong> mientras que la administración la indican en miligramos.</p>
+
+<p>Es decir, que para saber la dosis correcta a administrar debemos:</p>
+
+<ol>
+<li><p>Dividir el peso entre cuatro para saber el número de miligramos por toma</p></li>
+<li><p>Seguir leyendo el resto de rangos de edades para saber que no se deben sobrepasar los 60mg al día y entre paréntesis 30ml.</p></li>
+<li><p>Ahora que ya tenemos una referencia 60mg = 30ml. podemos realizar los cálculos correspondientes y segun los miligramos obtenidos en el primer punto convertirlos a mililitros.</p></li>
+</ol>
+
+
+<p>Evidentemente el proceso de cálculo de la dosis es innecesariamente complicado y puede llevar a errores con facilidad.  Además la solución es tan simple como poner una tabla indicando la dosis adecuada en función del peso del paciente.  Y sobre todo, si se indican las dosis en miligramos marcar el vaso dosificador en miligramos.</p>
+
+<p>Al fin y al cabo <strong>una mala usabilidad en una web provoca usuarios descontentos pero una mala usabilidad en un medicamento puede provocar usuarios acudiendo a urgencias</strong>.</p>
+
+<p>En el píe de página del prospecto pone: "Texto revisado: Junio 2001", aunque creo que ya le va haciendo falta una nueva revisión ¿no os parece?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Recursos de diseño web, usabilidad y javascript]]></title>
+    <link href="http://jorgegorka.github.com/2007/01/recursos-de-diseo-web-usabilidad-y-javascript/"/>
+    <updated>2007-01-11T12:10:00+01:00</updated>
+    <id>http://jorgegorka.github.com/2007/01/recursos-de-diseo-web-usabilidad-y-javascript</id>
+    <content type="html"><![CDATA[<p>Un par de enlaces de recursos útiles para diseño web:</p>
+
+<p>Dar estilo a los controles de formularios y <a href="http://www.freshbooks.com/blog/2007/01/04/useful-resources-for-designers-developers/"> una colección de 5 enlaces sobre diseño</a>.</p>
+
+<p>Hasta las ventanas más obvias y que empleamos de forma habitual se pueden revisar y mejorar.  Hoy <a href="http://rhjr.net">Robert Hoekman</a> nos enseña <a href="http://rhjr.net/theblog/2007/01/05/design-stories-okcancel-buttons/">como mejorar la presentación de los botones OK/Cancel</a>.</p>
+
+<p>Cuando creamos una web podemos pensar en los usuarios o podemos pensar en nosotros mismos.  La mayoría de veces ocurre esto último y creamos páginas web buscando el máximo de diseño y el mínimo de funcionalidad lo que las convierte en <strong>inservibles para los usuarios.</strong>.  El Pioneer Theatre de Salt Lake City, piensa en sus usuarios y para facilitarles la elección de su asiento <a href="http://www.37signals.com/svn/posts/166-screens-around-town-pioneer-theatre-mailbuild-and-firefox">muestra la disposición de los mismos y además la vista que se tiene del escenario</a> desde cada uno. (via 37signals)</p>
+
+<p><a href="http://headrush.typepad.com/creating_passionate_users/2007/01/what_comes_afte.html">Que viene después de la usabilidad?</a></p>
+
+<p><a href="http://shaneosullivan.wordpress.com/2007/01/08/first-beta-release-of-dojo-build-tool/">Dojo GUI build tool</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Entrevista con Paco Underhill]]></title>
+    <link href="http://jorgegorka.github.com/2006/11/entrevista-con-paco-underhill/"/>
+    <updated>2006-11-29T11:54:00+01:00</updated>
+    <id>http://jorgegorka.github.com/2006/11/entrevista-con-paco-underhill</id>
+    <content type="html"><![CDATA[<p>El título de la entrevista es bastante sugerente:  <a href="http://www.boxesandarrows.com/view/from-data-to-wisdom">De los datos a la sabiduría</a>.</p>
+
+<p>Todos conocemos webs llenas de frases como : Pulsa aquí para leer este artículo... o simplemente  leer más... textos que no aclaran el contenido de lo que enlazan a no ser que leas todo el contexto... y todos sabemos que la gente en internet no lee.  <a href="http://friendlybit.com/other/click-here-to-read-this-article/">Hagamos que los enlaces tengan sentido</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
