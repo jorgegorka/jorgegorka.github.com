@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Desarrollo | Jorge Alvarez]]></title>
   <link href="http://www.alvareznavarro.es/categories/desarrollo/atom.xml" rel="self"/>
   <link href="http://www.alvareznavarro.es/"/>
-  <updated>2012-12-08T00:16:25+01:00</updated>
+  <updated>2012-12-08T13:01:12+01:00</updated>
   <id>http://www.alvareznavarro.es/</id>
   <author>
     <name><![CDATA[Jorge]]></name>
@@ -19,6 +19,9 @@
     <updated>2012-10-17T22:24:12+02:00</updated>
     <id>http://www.alvareznavarro.es/2012/10/angularjs-y-el-futuro-del-desarrollo-web</id>
     <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2012/10/AngularJS-300x84.png" alt="javascript framework" />Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de pantallas, formas de uso (táctil, no táctil, offline, online...) quizás no sea la forma más adecuada.</p>
+
+<!--more-->
+
 
 <p><strong>El problema</strong></p>
 
