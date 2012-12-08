@@ -9,7 +9,8 @@
   <meta name="author" content="Jorge">
 
   
-  <meta name="description" content="[youtube=http://www.youtube.com/watch?v=a_O6QtwFtkk&amp;hl=en&amp;fs=1&amp;] Ayreon -Come back to me Let me take you back To the time when we were &hellip;">
+  <meta name="description" content="Las 10 razones, como los mandamientos, se pueden resumir en dos: Si necesitas razones mejor no crees un blog ni una cuenta en Twitter
+K.I.I.S.  Keep &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +77,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/10/10-razones-para-usar-blogs-y-twitter-en-la-empresa/">10 Razones Para Usar Blogs Y Twitter en La Empresa</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-03T03:46:05+02:00" pubdate data-updated="true">03-10-2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://blog.alvareznavarro.es/images/2009/10/chemical_at_work.jpg?w=150" alt="chemical_at_work" />Las 10 razones, como los mandamientos, se pueden resumir en dos:</p>
+
+<ol>
+<li><p>Si necesitas razones mejor no crees un blog ni una cuenta en Twitter</p></li>
+<li><p>K.I.I.S.  Keep It Informal Stupid</p></li>
+</ol>
+
+
+<p>Y hasta aquí puedo leer&#8230;.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -1059,181 +1104,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/07/attachment_fu-s3-uploads-with-backgroundjob/">Attachment_fu S3 Uploads With Backgroundjob</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-07-17T04:22:00+02:00" pubdate data-updated="true">17-07-2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Thanks to Jon Guymon for his article <a href="http://blarg.slackworks.com/posts/bj-makes-attachment_fu-happy">bj-makes-attachment_fu-happy</a> that really help me solve a problem I was having with mongrel.</p>
-
-<p>Attachment_fu + s3 sometimes do very weird things that makes mongrel to freeze.  After a lot of googling I realize that the best solution to avoid problems was to do the uploads to S3 in a background proccess apart from mongrel.</p>
-
-<p>I started with Jon Guymon approach and it worked well but i needed to create thumbnails and the local files to be deleted after the uploading to S3 was finished.</p>
-
-<p>Just changing the part of attachment_fu that actually uploads the file to S3 do the trick.</p>
-
-<p>Open  vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends/s3_backend.rb and change the method save_to_storage to background the uploads.</p>
-
-<p>This is the original method:</p>
-
-<p>`
-def save_to_storage</p>
-
-<p> if save_attachment?</p>
-
-<p>S3Object.store(</p>
-
-<p>full_filename,</p>
-
-<p>(temp_path ? File.open(temp_path) : temp_data),</p>
-
-<p>bucket_name,</p>
-
-<p>   :content_type => content_type,</p>
-
-<p>   :access => attachment_options[:s3_access]</p>
-
-<pre><code>)  
-
-@old_filename = nil  
-
-true  
-</code></pre>
-
-<p>  end</p>
-
-<p>end</p>
-
-<p>`</p>
-
-<p>In my version I copy the file to a temporary directory in tmp/s3uploads (just to make sure the file does not disappear) then I add the upload task to the background queue</p>
-
-<p>`
-def save_to_storage</p>
-
-<p> if save_attachment?</p>
-
-<p>my_temp_file = RAILS_ROOT+&#8217;/tmp/s3uploading/&#8217;+&#8221;#{rand Time.now.to_i}#{filename || &#8216;attachment&#8217;}&#8221;</p>
-
-<pre><code>         if temp_path  
-
-           File.open(my_temp_file,"w+") do |tmp|  
-
-             tmp.close  
-
-             FileUtils.cp temp_path, tmp.path  
-
-           end  
-
-         else  
-
-           File.open(my_temp_file, "w+") do |tmp|  
-
-             tmp.binmode  
-
-             tmp.write temp_data  
-
-             tmp.close  
-
-           end  
-
-           fichero = RAILS_ROOT+'/tmp/s3uploading/' + "#{rand Time.now.to_i}#{filename || 'attachment'}"  
-
-         end  
-
-
-
-         Bj.submit("./script/runner ./jobs/s3_uploader.rb " +  
-
-           full_filename + " " +  
-
-           my_temp_file  + " " +  
-
-           bucket_name  + " " +  
-
-           content_type + " " +  
-
-           attachment_options[:s3_access].to_s  
-
-         )  
-
-       end  
-
-
-
-       @old_filename = nil  
-
-       true  
-</code></pre>
-
-<p>end</p>
-
-<p>`</p>
-
-<p>This way attachment_fu will spawn a task for every file it creates.</p>
-
-<p>Now edit the file Jon Guymon created to handle the upload (jobs/s3_uploader.rb)</p>
-
-<p>This is how my file looks like</p>
-
-<p>`
-Base.establish_connection!(:access_key_id     => ACCESS_KEY,</p>
-
-<pre><code>                       :secret_access_key =&gt; SECRET_KEY)  
-</code></pre>
-
-<p>S3Object.store(ARGV[0],</p>
-
-<pre><code>            File.open(ARGV[1]),  
-
-            ARGV[2],  
-
-            :content_type =&gt; ARGV[3],  
-
-            :access =&gt; ARGV[4]  
-
-          )  
-</code></pre>
-
-<p>File.delete(ARGV[1])</p>
-
-<p>`</p>
-
-<p>A simple upload to S3 and after finishing it I delete the temporary file created in tmp/s3uploads/</p>
-
-<p>So far mongrel is doing its job with no more hangs and as a side effect users can uploads their files faster.</p>
-
-<p>There are a lot of pages about backgrounding tasks and a good recipe in Rails recipes 2</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/7/">&larr; Older</a>
@@ -1249,6 +1119,10 @@ Base.establish_connection!(:access_key_id     => ACCESS_KEY,</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/12/comercio-electronico-cuando-saber-espanol-penaliza/">Comercio electrónico: Cuando saber español penaliza</a>
+      </li>
     
       <li class="post">
         <a href="/2012/10/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
@@ -1284,10 +1158,6 @@ Base.establish_connection!(:access_key_id     => ACCESS_KEY,</p>
     
       <li class="post">
         <a href="/2011/11/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/11/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
       </li>
     
   </ul>

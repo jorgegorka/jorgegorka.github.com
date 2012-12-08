@@ -9,7 +9,7 @@
   <meta name="author" content="Jorge">
 
   
-  <meta name="description" content="La función rand que incluye Firebird no funciona del todo bien y me devuelve resultados que distan mucho de ser aleatorios por lo que para ordenar &hellip;">
+  <meta name="description" content="Thanks to Jon Guymon for his article bj-makes-attachment_fu-happy that really help me solve a problem I was having with mongrel. Attachment_fu + s3 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,181 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/07/attachment_fu-s3-uploads-with-backgroundjob/">Attachment_fu S3 Uploads With Backgroundjob</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-07-17T04:22:00+02:00" pubdate data-updated="true">17-07-2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Thanks to Jon Guymon for his article <a href="http://blarg.slackworks.com/posts/bj-makes-attachment_fu-happy">bj-makes-attachment_fu-happy</a> that really help me solve a problem I was having with mongrel.</p>
+
+<p>Attachment_fu + s3 sometimes do very weird things that makes mongrel to freeze.  After a lot of googling I realize that the best solution to avoid problems was to do the uploads to S3 in a background proccess apart from mongrel.</p>
+
+<p>I started with Jon Guymon approach and it worked well but i needed to create thumbnails and the local files to be deleted after the uploading to S3 was finished.</p>
+
+<p>Just changing the part of attachment_fu that actually uploads the file to S3 do the trick.</p>
+
+<p>Open  vendor/plugins/attachment_fu/lib/technoweenie/attachment_fu/backends/s3_backend.rb and change the method save_to_storage to background the uploads.</p>
+
+<p>This is the original method:</p>
+
+<p>`
+def save_to_storage</p>
+
+<p> if save_attachment?</p>
+
+<p>S3Object.store(</p>
+
+<p>full_filename,</p>
+
+<p>(temp_path ? File.open(temp_path) : temp_data),</p>
+
+<p>bucket_name,</p>
+
+<p>   :content_type => content_type,</p>
+
+<p>   :access => attachment_options[:s3_access]</p>
+
+<pre><code>)  
+
+@old_filename = nil  
+
+true  
+</code></pre>
+
+<p>  end</p>
+
+<p>end</p>
+
+<p>`</p>
+
+<p>In my version I copy the file to a temporary directory in tmp/s3uploads (just to make sure the file does not disappear) then I add the upload task to the background queue</p>
+
+<p>`
+def save_to_storage</p>
+
+<p> if save_attachment?</p>
+
+<p>my_temp_file = RAILS_ROOT+&#8217;/tmp/s3uploading/&#8217;+&#8221;#{rand Time.now.to_i}#{filename || &#8216;attachment&#8217;}&#8221;</p>
+
+<pre><code>         if temp_path  
+
+           File.open(my_temp_file,"w+") do |tmp|  
+
+             tmp.close  
+
+             FileUtils.cp temp_path, tmp.path  
+
+           end  
+
+         else  
+
+           File.open(my_temp_file, "w+") do |tmp|  
+
+             tmp.binmode  
+
+             tmp.write temp_data  
+
+             tmp.close  
+
+           end  
+
+           fichero = RAILS_ROOT+'/tmp/s3uploading/' + "#{rand Time.now.to_i}#{filename || 'attachment'}"  
+
+         end  
+
+
+
+         Bj.submit("./script/runner ./jobs/s3_uploader.rb " +  
+
+           full_filename + " " +  
+
+           my_temp_file  + " " +  
+
+           bucket_name  + " " +  
+
+           content_type + " " +  
+
+           attachment_options[:s3_access].to_s  
+
+         )  
+
+       end  
+
+
+
+       @old_filename = nil  
+
+       true  
+</code></pre>
+
+<p>end</p>
+
+<p>`</p>
+
+<p>This way attachment_fu will spawn a task for every file it creates.</p>
+
+<p>Now edit the file Jon Guymon created to handle the upload (jobs/s3_uploader.rb)</p>
+
+<p>This is how my file looks like</p>
+
+<p>`
+Base.establish_connection!(:access_key_id     => ACCESS_KEY,</p>
+
+<pre><code>                       :secret_access_key =&gt; SECRET_KEY)  
+</code></pre>
+
+<p>S3Object.store(ARGV[0],</p>
+
+<pre><code>            File.open(ARGV[1]),  
+
+            ARGV[2],  
+
+            :content_type =&gt; ARGV[3],  
+
+            :access =&gt; ARGV[4]  
+
+          )  
+</code></pre>
+
+<p>File.delete(ARGV[1])</p>
+
+<p>`</p>
+
+<p>A simple upload to S3 and after finishing it I delete the temporary file created in tmp/s3uploads/</p>
+
+<p>So far mongrel is doing its job with no more hangs and as a side effect users can uploads their files faster.</p>
+
+<p>There are a lot of pages about backgrounding tasks and a good recipe in Rails recipes 2</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -1106,57 +1281,6 @@ Después de usarla nosotros mismos y algunos de nuestros clientes durante un tie
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2007/01/accesibilidad-tractis-y-rails/">Accesibilidad, Tractis Y Rails</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-01-17T11:46:00+01:00" pubdate data-updated="true">17-01-2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hoy doble ración de enlaces sobre accesibilidad:</p>
-
-<p>Las <a href="http://ajaxian.com/archives/dutch-government-websites-be-accessible-or-break-the-law">normas que el gobierno de Holanda exige a todas sus webs</a> me parecen lo mínimo que se debería exigir.  ¿Para cuando aquí?.</p>
-
-<p>Dos post de Digital web magazine con el título <a href="http://www.digital-web.com/articles/seven_accessibility_mistakes_part_1/">7 errores de accesibilidad parte 1</a> y <a href="http://www.digital-web.com/articles/seven_accessibility_mistakes_part_2/">7 errores de accesibilidad parte 2</a>, aunque en mi opinión se mezclan conceptos de accesibilidad y usabilidad indistintamente.</p>
-
-<p>Ahora hablo, otra vez, de Tractis y lo bien que en mi opinión están llevando adelante una iniciativa tan complicada como la suya.<br/>
-No solo lo hacen bien sino que encima <a href="http://blog.negonation.com/es/shu-ha-ri/">comparten su experiencia y conocimiento</a> con los demás.</p>
-
-<p>Y para acabar tres enlaces interesantes a revisar sobre rails:</p>
-
-<p><a href="http://www.agilewebdevelopment.com/plugins/simplypresentable">SimplyPresentable</a></p>
-
-<p><a href="http://www.agilewebdevelopment.com/plugins/rails_informix">Rails/Informix</a></p>
-
-<p><a href="http://www.agilewebdevelopment.com/plugins/gettext_localize">gettext_localize</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/8/">&larr; Older</a>
@@ -1172,6 +1296,10 @@ No solo lo hacen bien sino que encima <a href="http://blog.negonation.com/es/shu
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/12/comercio-electronico-cuando-saber-espanol-penaliza/">Comercio electrónico: Cuando saber español penaliza</a>
+      </li>
     
       <li class="post">
         <a href="/2012/10/angularjs-y-el-futuro-del-desarrollo-web/">AngularJS y el futuro del desarrollo web</a>
@@ -1207,10 +1335,6 @@ No solo lo hacen bien sino que encima <a href="http://blog.negonation.com/es/shu
     
       <li class="post">
         <a href="/2011/11/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/11/entrevista-con-alejandro-doncell/">Entrevista con Alejandro Doncel</a>
       </li>
     
   </ul>
