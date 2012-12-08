@@ -15,7 +15,7 @@ tags:
 
 ![javascript framework](http://www.alvareznavarro.es/images/2012/10/AngularJS-300x84.png)Estamos desarrollando aplicaciones web con arquitecturas concebidas hace más de 10 años.  En el mudo actual con todo tipo de dispositivos, tamaños de pantallas, formas de uso (táctil, no táctil, offline, online...) quizás no sea la forma más adecuada.
 
-
+<!--more-->
 
 **El problema**
 

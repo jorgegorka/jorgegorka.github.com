@@ -3,7 +3,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: 'http://www.alvareznavarro.es'
+url: http://www.alvareznavarro.es
 title: 'Jorge Alvarez'
 subtitle: 'Desarrollador y analista web'
 author: 'Jorge'
