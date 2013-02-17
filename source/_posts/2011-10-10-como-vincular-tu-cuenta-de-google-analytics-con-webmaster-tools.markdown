@@ -5,7 +5,6 @@ layout: post
 slug: como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools
 title: Como vincular tu cuenta de Google Analytics con Webmaster Tools
 alias: [6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/, 6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools]
-alias: [6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools/, 6516/como-vincular-tu-cuenta-de-google-analytics-con-webmaster-tools]
 wordpress_id: 6516
 categories:
 - Analitica
@@ -21,7 +20,7 @@ tags:
 
 Sin ninguna configuración adicional Google Analytics únicamente proporciona información de visitas a nuestra web.  Para que quede contabilizada dicha visita el código de analytics que debemos insertar en cada una de nuestras páginas, tiene que ejecutarse.  Desde la herramienta de Webmaster Tools disponemos de información sobre las consultas que se han realizado en Google en las que ha aparecido nuestra página en sus resultados (SERPS).  La combinación de ambos datos nos proporcionará información muy valiosa y necesaria para [optimizar el posicionamiento de nuestra web](http://www.alvareznavarro.es/servicios/optimizacion-web/posicionamiento-en-buscadores-seo/) de forma efectiva.
 
-
+<!--more-->
 
 ## Enlazar Google Analytics y Webmaster Tools
 

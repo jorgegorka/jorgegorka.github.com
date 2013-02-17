@@ -5,7 +5,6 @@ layout: post
 slug: el-visitante-como-centro-del-analisis-web
 title: El visitante como centro del análisis web
 alias: [6637/el-visitante-como-centro-del-analisis-web/, 6637/el-visitante-como-centro-del-analisis-web]
-alias: [6637/el-visitante-como-centro-del-analisis-web/, 6637/el-visitante-como-centro-del-analisis-web]
 wordpress_id: 6637
 categories:
 - Analitica
@@ -16,7 +15,7 @@ tags:
 
 [![el usuario como centro del análisis web](http://www.alvareznavarro.es/images/2011/11/user-centered-300x188.jpg)](http://www.alvareznavarro.es/wp-content/uploads/2011/11/user-centered.jpg)**Cuando nos enfrentamos al análisis de una web lo primero que debemos tener muy claro son los objetivos y los indicadores que nos servirán para cumplir dichos objetivos.  Este es el primer paso que todo buen analista web debe realizar.  De una buena definición de objetivos y de sus indicadores, dependerá que todo el esfuerzo que realicemos después tenga éxito o no.  Si nuestros indicadores están mal elegidos o no son los correctos, las conclusiones a las que nos lleven serán erroneas y no servirán para mejorar la web analizada.**
 
-
+<!--more-->
 
 Existen diversas metodologías que nos permiten afrontar la creación de objetivos e indicadores web con garantías, y es posible encontrar mucha documentación sobre este tema (adjunto unos cuantos recursos al final de este post).
 

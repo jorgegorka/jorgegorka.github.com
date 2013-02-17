@@ -12,7 +12,7 @@ categories:
 
 ![El analista web no pertenece a marketing](http://www.alvareznavarro.es/images/2012/07/web_analytics_2_0_demystified-300x227.png)La mayoría de empresas que conozco tienen integrado el análisis web en el departamento de marketing.  Si bien hemos de reconocer que los primeros que supieron ver la utilidad de la analítica web fueron "los de marketing" ni mucho menos es el único departamento que puede beneficiarse de la labor de un analista cuya utilidad es mucho más transversal.
 
-
+<!--more-->
 
 Vamos a ver algunos ejemplos de departamentos que pueden verse beneficiados si tienen acceso a la información que proporciona nuestro analista web.
 

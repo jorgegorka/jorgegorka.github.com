@@ -5,7 +5,6 @@ layout: post
 slug: eres-tan-bueno-como-tus-usuarios-dicen-que-eres
 title: Eres tan bueno como tus usuarios dicen que eres
 alias: [6749/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/, 6749/eres-tan-bueno-como-tus-usuarios-dicen-que-eres]
-alias: [6749/eres-tan-bueno-como-tus-usuarios-dicen-que-eres/, 6749/eres-tan-bueno-como-tus-usuarios-dicen-que-eres]
 wordpress_id: 6749
 categories:
 - Empresa
@@ -13,6 +12,8 @@ categories:
 ---
 
 ![Eres tan bueno como tus usuarios dicen que eres](http://www.alvareznavarro.es/images/2012/07/users_first-300x199.jpeg)En Internet hay una única medida de satisfacción válida: lo que dicen tus usuarios.  Tu web vale tanto como quienes la usan dicen que vale.  Ni más ni menos.  Tener la mejor tecnología, la mejor estrategia de marketing o el mejor comité de dirección no te va a servir de nada si quienes usan tu web piensan que es mala.
+
+<!--more-->
 
 La verdad está ahí fuera, decía una famosa serie de televisión, y en el caso de las empresas de Internet no es solo un dicho, es un axioma.  Una buena web se crea pensando en quien la va a utilizar.  Desde el tamaño del logotipo hasta la terminología empleada.  Todo debe estar pensado por y para quienes van a visitar esa web.
 

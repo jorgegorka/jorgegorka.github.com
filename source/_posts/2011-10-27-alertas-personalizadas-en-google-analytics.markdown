@@ -5,7 +5,6 @@ layout: post
 slug: alertas-personalizadas-en-google-analytics
 title: Alertas personalizadas en Google Analytics
 alias: [6611/alertas-personalizadas-en-google-analytics/, 6611/alertas-personalizadas-en-google-analytics]
-alias: [6611/alertas-personalizadas-en-google-analytics/, 6611/alertas-personalizadas-en-google-analytics]
 wordpress_id: 6611
 categories:
 - Analitica
@@ -15,6 +14,8 @@ tags:
 ---
 
 **[![Google Analytics - Jorge Alvarez](http://www.alvareznavarro.es/images/2011/10/google-analytics.png)](http://www.alvareznavarro.es/wp-content/uploads/2011/10/google-analytics.png)Una de las funciones que menos se utilizan de Google Analytics son sus alertas.  Sin embargo es una de las herramientas más útiles que nos proporciona Google Analytics para controlar lo que sucede en nuestra web.  Veamos para que sirven y como se utilizan las alertas.**
+
+<!--more-->
 
 Las alertas es una funcionalidad que está englobada dentro de "Eventos de Inteligencia".
 

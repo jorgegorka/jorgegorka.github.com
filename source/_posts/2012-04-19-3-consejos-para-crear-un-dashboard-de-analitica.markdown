@@ -12,7 +12,7 @@ categories:
 
 ![Como crear un dashboard tras un analisis web](http://www.alvareznavarro.es/images/2012/04/dashboard1-300x234.png)Un dashboard condensa en un único cuadro/gráfico/página el saber hacer de un buen analista web.  Puede que suene un poco melodramático pero es la realidad.  Eres tan bueno como lo son tus dashboards.  La misión de un analista es generar buenos informes, ayudar a que la empresa que lo ha contratado mejore.
 
-
+<!--more-->
 
 Aunque pueda parecer extraño, a las empresas **no les interesa realmente lo que pasa en sus webs, les interesa como mejorar**.  Cuando estás hablando para un comité de dirección o simplemente informando a tu jefe, no te centres en lo que ha pasado, centrate en ofrecer soluciones para mejorar lo que pasa.  Habla de lo que estáis haciendo bien, para seguir haciéndolo bien y de lo que estáis haciendo mal, para mejorarlo.
 

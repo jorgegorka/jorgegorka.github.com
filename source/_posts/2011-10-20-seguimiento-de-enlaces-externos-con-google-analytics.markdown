@@ -15,19 +15,9 @@ tags:
 
 [![enlaces salientes con google analytics](http://www.alvareznavarro.es/images/2011/10/enlaces-salientes.png)](http://www.alvareznavarro.es/6579/seguimiento-de-enlaces-externos-con-google-analytics/enlaces-salientes/)**Enlazar a nuestras fuentes de datos, contenido adicional, sitios relacionados, etc.. aporta valor a quienes visitan nuestro sitio web.  Aquí tienes un fichero javascript que te permitirá contabilizar automáticamente en Google Analytics cuando alguien pulse un enlace de tu web que lleva a otras webs.**
 
+<!--more-->
 
-
-
-
-
-
-
-
-
-
-
-
-Para que sirve saber que enlaces externos son los más visitados
+#Para que sirve saber que enlaces externos son los más visitados
 
 Saber que enlaces externos son los más visitados nos permite conocer mejor a nuestros visitantes.  Cuando escribimos un artículo, un post o la descripción de un producto y añadimos enlaces externos, como por ejemplo un vídeo de Youtube, estamos aportando información útil a nuestros visitantes y saber quien pulsa en estos enlaces nos dirá si efectivamente ellos también han encontrado interesante esta información.
 

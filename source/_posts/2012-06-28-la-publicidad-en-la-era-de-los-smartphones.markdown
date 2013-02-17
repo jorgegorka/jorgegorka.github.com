@@ -14,7 +14,7 @@ categories:
 
 ![publicidad en la era de los smartphones](http://www.alvareznavarro.es/images/2012/06/publicidad-300x258.jpeg)Cuando estoy viendo una serie o una película por televisión y empiezan los anuncios lo primero que hago es coger mi iPad y si no lo tengo a mano me levanto y lo busco.  Esto es así.  Incluso a veces me "disgusta" que las pausas sean tan cortas que no puedo terminar de leer alguna noticia o terminar de responder un email.
 
-
+<!--more-->
 
 Seguro que a muchos os pasa lo mismo, si no es con el iPad es con otra tableta o bien con el móvil.  La publicidad nos sirve para actualizar Twitter o hablar por Whatsapp.
 

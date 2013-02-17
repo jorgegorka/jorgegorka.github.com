@@ -5,7 +5,6 @@ layout: post
 slug: entrevista-con-alejandro-doncell
 title: Entrevista con Alejandro Doncel
 alias: [6649/entrevista-con-alejandro-doncell/, 6649/entrevista-con-alejandro-doncell]
-alias: [6649/entrevista-con-alejandro-doncell/, 6649/entrevista-con-alejandro-doncell]
 wordpress_id: 6649
 categories:
 - Marketing
@@ -18,7 +17,7 @@ tags:
 
 **Inicio hoy una serie en la que iré entrevistando a personalidades relevantes del marketing online.  No busco entrevistar a gurús mediáticos sino a gente que está en el día a día del marketing online, que experimenta, que se equivoca, que aprende... gente que nos pueda aportar su visión y su perspectiva sobre esta disciplina que cambia día a día.  Inauguramos la sección con todo un referente del marketing online en España:  Alejandro Doncel.**
 
-
+<!--more-->
 
 Para iniciar una serie de entrevistas como esta nada mejor que empezar por **una de las personalidades más relevantes del panorama actual del marketing en España**.  Se trata de [Alejandro Doncel](http://alejandrodoncel.com/).
 

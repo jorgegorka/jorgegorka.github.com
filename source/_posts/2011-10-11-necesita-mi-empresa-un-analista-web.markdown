@@ -2,10 +2,9 @@
 comments: true
 date: 2011-10-11 12:51:29
 layout: post
-slug: '%c2%bfnecesita-mi-empresa-un-analista-web'
+slug: 'necesita-mi-empresa-un-analista-web'
 title: ¿Necesita mi empresa un analista web?
-alias: [6557/%c2%bfnecesita-mi-empresa-un-analista-web/, 6557/%c2%bfnecesita-mi-empresa-un-analista-web]
-alias: [6557/%c2%bfnecesita-mi-empresa-un-analista-web/, 6557/%c2%bfnecesita-mi-empresa-un-analista-web]
+alias: [6557/¿necesita-mi-empresa-un-analista-web/, 6557/%c2%bfnecesita-mi-empresa-un-analista-web/, 6557/¿necesita-mi-empresa-un-analista-web, 6557/%c2%bfnecesita-mi-empresa-un-analista-web]
 wordpress_id: 6557
 categories:
 - Analitica
@@ -16,12 +15,7 @@ tags:
 
 [![](http://www.alvareznavarro.es/images/2011/10/webanalytics.jpg)](http://www.alvareznavarro.es/6557/%c2%bfnecesita-mi-empresa-un-analista-web/webanalytics/)**Esta pregunta junto con la de ¿para qué sirve un analista web? son las preguntas más usuales que te realizan cuando hablas con empresas y les cuentas que eres analista web. Voy a tratar de aclarar estas cuestiones y explicar las funciones de un analista web y las ventajas que aporta a una empresa.**
 
-
-
-## 
-
-
-
+<!--more-->
 
 ## Cuando es necesario contar con los servicios de un analista web
 

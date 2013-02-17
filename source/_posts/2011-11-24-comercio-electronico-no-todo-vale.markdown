@@ -5,7 +5,6 @@ layout: post
 slug: comercio-electronico-no-todo-vale
 title: Comercio electrónico - No todo vale
 alias: [6673/comercio-electronico-no-todo-vale/, 6673/comercio-electronico-no-todo-vale]
-alias: [6673/comercio-electronico-no-todo-vale/, 6673/comercio-electronico-no-todo-vale]
 wordpress_id: 6673
 categories:
 - Comercio electrónico
@@ -19,6 +18,7 @@ La mayoría de estudios coinciden en que 2011 está siendo el año del despegue 
 
 Pero no todo vale.
 
+<!--more-->
 
 ## En comercio electrónico el cliente no es lo primero, es lo único
 
