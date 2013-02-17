@@ -4,7 +4,7 @@
   <title><![CDATA[Jorge Alvarez]]></title>
   <link href="http://www.alvareznavarro.es/atom.xml" rel="self"/>
   <link href="http://www.alvareznavarro.es/"/>
-  <updated>2012-12-08T16:15:34+01:00</updated>
+  <updated>2013-02-17T22:53:35+01:00</updated>
   <id>http://www.alvareznavarro.es/</id>
   <author>
     <name><![CDATA[Jorge]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[El dichoso sistema educativo]]></title>
+    <link href="http://www.alvareznavarro.es/2013/02/el-dichoso-sistema-educativo/"/>
+    <updated>2013-02-17T21:50:00+01:00</updated>
+    <id>http://www.alvareznavarro.es/2013/02/el-dichoso-sistema-educativo</id>
+    <content type="html"><![CDATA[<p><img src="http://www.alvareznavarro.es/images/2013/02/oldschool.jpg" alt="old_school" />
+El sistema educativo español está anticuado y desfasado.  Ni es la primera vez que hablo de este tema ni será la última.  Me preocupa mucho como estamos preparando a las nuevas generaciones.</p>
+
+<!--more-->
+
+
+<h2>Los libros son el pasado</h2>
+
+<p>He leído una noticia que publica el periódico El Mundo sobre <a href="http://www.elmundo.es/elmundosalud/2013/02/15/codigosalud/1360941358.html">las ventajas de incorporar las nuevas tecnologías al sistema educativo</a>.  En el artículo hablan de las ventajas que supone integrar nuevas herramientas a la formación de los estudiantes, en este caso <strong>estudiantes de medicina, a los que han sustituido los libros por iPads</strong>.</p>
+
+<p><span class='pullquote-right' data-pullquote='Integrar la tecnología no es solo dar un iPad o un portátil, y convertir los libros de texto a PDF'>
+Integrar la tecnología no es solo dar un iPad o un portátil, y convertir los libros de texto a PDF
+  Lo bueno de este cambio es que se ha adaptado totalmente la forma de enseñar para ayudar al máximo a los alumnos, es decir, al contrario de lo que hace la prensa actual para quienes estar online significa que puedas ver la versión en PDF de sus periódicos.
+</span></p>
+
+<h3>Tecnología sí, pero con fundamento</h3>
+
+<p>Las clases están grabadas en podcasts, por lo que los alumnos pueden escucharlas más de una vez, repitiendo las partes que no han entendido o en las que quieren profundizar.</p>
+
+<p>Las lecciones magistrales, que antes requerían de presencia, también están grabadas para que los alumnos puedan verlas una y otra vez.</p>
+
+<p>Se aporta material complementario, como enlaces a revistas con artículos de interés sobre el tema tratado e incluso cuestionarios de autoevaluación que permiten al alumno conocer sus progresos y medir sus conocimientos.</p>
+
+<p>El tiempo que los profesores ganan al no dar clases lo invierten en resolver dudas de sus alumnos de forma más personalizada.</p>
+
+<p>El resultado es que <strong>las notas de estos alumnos son un 23% superiores a las de alumnos de promociones anteriores</strong>.</p>
+
+<h3>Queremos ser líderes o seguidores?</h3>
+
+<p>Tenemos la inmensa suerte de disponer de nuevos medios que facilitan el aprendizaje.  Podemos hacer de nuestros hijos personas más formadas y mejor preparadas pero hace falta saber como utilizar los medios a nuestro alcance.</p>
+
+<p>En España hablar de nuevas tecnologías en la educación es, como mucho, hablar de pizarras electrónicas que sirven para que el profesor no levante polvo al borrar.</p>
+
+<p><span class='pullquote-right' data-pullquote='Enseñamos a los niños del siglo XXI con sistemas del siglo XIX'>
+Enseñamos a los niños del siglo XXI con sistemas del siglo XIX
+Necesitamos un cambio en la manera de enseñar.  El profesor ya no es la fuente del saber y todo el conocimiento emana de él.  Los profesores deben convertirse en catalizadores en ayudantes necesarios para que nuestros hijos aprendan a buscar soluciones, a ser creativos, a que no existe una sola respuesta correcta, en definitiva a aceptar que vivirán en un mundo en constante cambio que les obligará a estar en contínua formación.
+</span></p>
+
+<p>Ya hay gente que se ha dado cuenta y están formado a sus hijos así.  Si nosotros no lo hacemos serán ellos los que lideren el mañana.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Comercio electrónico: Cuando saber español penaliza]]></title>
@@ -1294,91 +1341,6 @@ var my_site     = "yoursite.com"
 <p>Webs aparentemente similares como las de prensa online organizan sus contenidos de forma totalmente distinta e incluso los llaman de distinta manera.</p>
 
 <p><strong>La clave es entender a tus usuarios y darles lo que buscan de la forma en que ellos esperan encontrarlo.</strong></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Resumen del Tweet Trip]]></title>
-    <link href="http://www.alvareznavarro.es/2011/09/resumen-del-tweet-trip/"/>
-    <updated>2011-09-29T10:59:43+02:00</updated>
-    <id>http://www.alvareznavarro.es/2011/09/resumen-del-tweet-trip</id>
-    <content type="html"><![CDATA[<p><a href="http://www.alvareznavarro.es/wp-content/uploads/2011/09/tweet_trip_logo.png"><img src="http://www.alvareznavarro.es/images/2011/09/tweet_trip_logo.png" alt="la tierra con nombre de vino" /></a>El pasado martes 27 se celebró en Logroño el primer <a href="http://tweettrip.wordpress.com/">Tweet Trip</a> organizado por La Rioja Turismo.</p>
-
-<p>El evento se compuso de tres mesas redondas donde se trataron diversos temas relacionados con el turismo y Twitter principalmente aunque sin olvidar otras redes sociales.</p>
-
-<p>Estas fueron las tres mesas redondas que se celebraron:</p>
-
-<p><strong># RT: Reputación en Twitter. La influencia y el Turismo. </strong></p>
-
-<p>La importancia de la marca personal como referencia de prescripción en Twitter. Casos de éxito a tener en cuenta en las estrategias de las empresas turísticas.</p>
-
-<ul>
-<li><p>Alfonso Alcántara (<a href="http://twitter.com/yoriento">@yoriento</a>)</p></li>
-<li><p>Andrés Pérez (<a href="http://twitter.com/marcapersonal">@marcapersonal</a>)</p></li>
-<li><p>Diana González (<a href="http://twitter.com/dianagonzalez">@dianagonzalez</a>)</p></li>
-<li><p>Emilio Rey (<a href="http://twitter.com/digitalmeteo">@digitalmeteo</a>)</p></li>
-<li><p>Iván Rodríguez (<a href="http://twitter.com/twittboy">@twittboy</a>)</p></li>
-<li><p>Javier Marín (<a href="http://twitter.com/loogic">@loogic</a>)</p></li>
-</ul>
-
-
-<p>Como no podía ser de otra manera con estos ponentes se habló principalmente de marca personal.  De como, cuando haces lo que te gusta y lo complementas con esfuerzo y calidad la gente lo reconoce y te conviertes en una referencia para tu tema.  Una frase de @yoriento:  <em>No basta con ser experto, también hay que ser experto en parecerlo.</em></p>
-
-<p>@marcapersonal tocó también un tema que a mí me parece muy importante pero del que apenas se habló.  Muchas empresas debido al boom de las redes sociales, están basando toda su presencia online en las redes sociales, anunciando únicamente su página de Facebook y dejando de lado su página de empresa y/o su blog.  Esto es un error muy grave ya que como bien dice @marcapersonal tus opciones dependen exclusivamente de lo que Mark Zuckenberg decida que se puede hacer.   Estas dejando tu empresa en manos de otras personas.</p>
-
-<p>La siguiente mesa redonda fue:</p>
-
-<p><strong># TT: Twitter y Turismo. Tendencias y tópicos. </strong></p>
-
-<p>Twitter como canal para difundir un relato único, dotado de contenido diferencial, con valor y trascendencia; casos de éxito que aprovechan al máximo la potencia de la red. Un viaje que abarca desde la casa rural a la cadena hotelera, pasando por la organización de eventos.</p>
-
-<ul>
-<li><p>Ana Santos (<a href="http://twitter.com/eventosfera">@eventosfera</a> / <a href="http://twitter.com/gastrosfera">@gastrosfera</a>)</p></li>
-<li><p>Fernando Goñi (<a href="http://twitter.com/fgoni">@fgoni</a>)</p></li>
-<li><p>Juan Carlos Sanjuán (<a href="http://twitter.com/olympiavalencia">@olympiavalencia</a>)</p></li>
-<li><p>Laura Lafarinelli (<a href="http://twitter.com/nomaders">@nomaders</a> / <a href="http://twitter.com/laura_lafari">@Laura_LaFari</a>)</p></li>
-<li><p>Lorena G. Díaz (<a href="http://twitter.com/hoteleshusa">@hoteleshusa</a> / <a href="http://twitter.com/lorenagdiaz">@lorenagdiaz</a>)</p></li>
-<li><p>Marta Bonet Barceló (<a href="http://twitter.com/peppersantblai">@peppersantblai</a> / <a href="http://twitter.com/marta_bonet">@marta_bonet</a>)</p></li>
-</ul>
-
-
-<p>Me parecieron muy interesantes las intervenciones de Marta Bonet, Juan Carlos Sanjuán y Fernando Goñi.  En mi opinión son las pequeñas empresas las que más tienen que ganar con su presencia en redes sociales ya que al ser pequeñas el trato con el cliente puede ser directo.  Juan Carlos que dirige un <a href="http://www.olympiahotelvalencia.com/">hotel-spa en Valencia</a> contó una anécdota, muy significativa, de una huésped que le hizo una petición algo delicada, que no se atrevía a pedir al recepcionista pero puesto que a Juan Carlos <a href="http://webtv.olympiagrupo.com/">ya lo había visto en un vídeo</a> antes de ir al hotel y ya existia una cierta &#8220;familiaridad&#8221;.  Una gran frase de Juan Carlos:<em> A los hoteles que cobran el Wi-Fi habría que denunciarlos</em>.</p>
-
-<p>Marta que tiene un <a href="http://santblai.com/">hotel rural en Mallorca</a> también habló de como su estrategia de emplear al burro @peppersantblai como representante de su establecimiento en las redes sociales ha funcionado muy bien acercando sus establecimiento a mucha gente y recibiendo visitantes, atraidos por la fama del burro, que luego se convierten en clientes.</p>
-
-<p>Creo que el trato directo en redes sociales, <a href="http://www.alvareznavarro.es/5867/tu-empresa-no-necesita-un-community-manager/">sin intermediarios ni community managers</a>, donde los propios empleados son los que se involucran y participan, donde hablas con gente que toma decisiones, que conoce su trabajo y tus problemas y preocupaciones es <strong>la diferenciación de calidad que hace que aportes valor</strong> y los visitantes se conviertan en clientes.</p>
-
-<p>Y llegamos a la última mesa redonda de la mañana.</p>
-
-<p><strong># DM: Directo al Mantel. Gastronomía como motor del Turismo. </strong></p>
-
-<p>Cuando la cocina es Twitter. Estrategias que se guisan en 140 caracteres, y que transforman la red en el centro de operaciones de las iniciativas gastronómicas y turísticas.</p>
-
-<ul>
-<li><p>Alicia Estrada (<a href="http://twitter.com/vinoturismo">@vinoturismo</a>)</p></li>
-<li><p>Cristina Martínez (<a href="http://twitter.com/garbancita">@garbancita</a>)</p></li>
-<li><p>Diego Coquillat (<a href="http://twitter.com/elranchomadrid">@elranchomadrid</a>)</p></li>
-<li><p>Erika Silva (<a href="http://twitter.com/erisofi">@erisofi</a>)</p></li>
-<li><p>Robert Mcintosh (<a href="http://twitter.com/thirstforwine">@thirstforwine</a>)</p></li>
-<li><p>Txaber Allué Martí (<a href="http://twitter.com/elcocinerofiel">@elcocinerofiel</a>)</p></li>
-</ul>
-
-
-<p>Muy reveladora la visión de @vinoturismo acerca de como conseguir atraer a un mundo tan tradicional y 1.0 como es el de las bodegas a un mundo mucho más participativo y colaborativo.  No es algo que se pueda hacer de la noche a la mañana sino que hay que ir por fases y poco a poco, midiendo mucho los pasos y los tiempos.</p>
-
-<p>La presentación de @elranchomadrid fue también de las que más me gustó.  Como han ido evolucionando e integrando todas aquellas redes que les permitían aportar valor a sus clientes y mejorar la experiencia de acudir a su restaurante.  No se trata de estar por estar, sino estar con un objetivo claro, definido y medible.  Al tratarse de un <a href="http://www.elranchomadrid.com/">restaurante argentino en Madrid</a> ellos tienen cowmunnity managers, muy apropiado y da una idea de lo bien que han llevado a cabo la integración de las redes sociales en el propio restaurante.</p>
-
-<p><strong>Resumen</strong></p>
-
-<p>Quedó claro que lo primero que debemos hacer antes de lanzarnos al mundo de las redes sociales es tener una estrategia clara y definida.</p>
-
-<p>Las empresas pequeñas con su trato directo y cercano pueden llegar de forma más convincente al usuario y establecer auténticas conversaciones.</p>
-
-<p>Una pregunta que se me quedó en la recamara era saber si algunos de los presentes medía el impacto de sus acciones.  De nada sirve tener un objetivo si luego no podemos medirlo para saber si ha funcionado.  Poder medir el retorno de la inversión (ROI) de cada acción que realizamos tanto en redes sociales como en cualquier otro medio, es fundamental.</p>
-
-<p>Como sugerencia para posteriores ediciones quizás convendría evitar que cada invitado se presente, ya que a veces las presentaciones se alargaban y quedaba luego poco tiempo para el debate.</p>
-
-<p>Agradecer a <a href="http://lariojaturismo.com/">La Rioja Turismo</a> su amabilidad al facilitarme una invitación y felicitar a <a href="http://www.historiasdemarketing.com/">Puy Trigueros</a> que ejerció de excelente moderadora y anfitriona.</p>
 ]]></content>
   </entry>
   

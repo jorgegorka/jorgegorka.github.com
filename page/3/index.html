@@ -9,7 +9,7 @@
   <meta name="author" content="Jorge">
 
   
-  <meta name="description" content="Durante los dos días de esta semana hemos contado con la presencia de Fernando Maciá socio y fundador de Human Level Communications. Fernando nos ha &hellip;">
+  <meta name="description" content="Que es Schema.org Bing, Google y Yahoo han lanzado una iniciativa llamada Schema.org que tiene como objetivo definir unos estandares de uso de &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,160 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2011/06/schema-org-y-su-impacto-en-el-seo-y-las-busquedas/">Schema.org Y Su Impacto en El SEO Y Las Búsquedas</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-06T10:15:00+02:00" pubdate data-updated="true">06-06-2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>Que es Schema.org</strong></p>
+
+<p>Bing, Google y Yahoo han lanzado una iniciativa llamada <a href="http://schema.org/">Schema.org</a> que tiene como objetivo definir unos estandares de uso de metadatos comunes que sirvan indistintamente para cualquier buscador.</p>
+
+<p>Los metadatos (informacion sobre los datos) son muy necesarios para los buscadores ya que les ayudan a aclarar el contenido de la pagina y a disambiguar posibles problemas de interpretacion.  En determinados contextos es complicado saber si cuando buscamos Jaguar queremos saber sobre el animal o sobre la marca de coches.</p>
+
+<p>Añadiendo esta informacion a nuestras paginas ayudamos al buscador a <strong>indexar mejor nuestro contenido</strong>.  Y no solo eso sino que al hacer mas listo al buscador podremos realizar consultas mas precisas y recibir resultados relevantes.  Por ejemplo, si buscamos hoy en dia<em> &#8220;vuelos Bilbao Londres</em>&#8221; o incluso <em>&#8220;vuelos Bilbao Londres hastas 100 euros&#8221;</em> no encontraremos los vuelos directamente en los resultados sino que la mayoria de las veces acabaremos en la pagina de un operador en la que tendremos que volver a realizar la busqueda.</p>
+
+<p><strong>Como usar los metadatos</strong></p>
+
+<p>Veamos un ejemplo.  Supongamos que tenemos una tienda online de venta de vinos.  Nos gustaria que el buscador que nos visite al indexar nuestras paginas de producto sepa con claridad de que va nuestro producto, el precio, la marca, etc&#8230; para poder devolver resultados mas relevantes a quien consulta.</p>
+
+<p>La sintaxis html de una pagina de producto podria ser mas o menos asi:</p>
+
+<div class="product">
+
+
+
+
+<h1>Vino Tinto Reserva de CondeDuque</h1>
+
+
+
+
+<h2>Cosecha de 2006 - 90% tempranillo 10% mazuelo</h2>
+
+
+
+
+<h3>Bodegas Conde Duque</h3>
+
+
+
+
+<p>Este vino ha sido elaborado y bla bla bla&#8230;&#8230;.</p>
+
+
+
+
+<p>Precio.- 23.99 euros IVA Incluido botella de 75cl.</p>
+
+
+
+
+<p>Articulo en stock</p>
+
+
+
+
+</div>
+
+
+<p>Si le aplicamos la informacion de metadatos nos quedaria algo asi:</p>
+
+<div class="product" itemscope itemtype="http://schema.org/Product">
+
+
+
+
+<h1 itemprop="name">Vino Tinto Reserva de CondeDuque</h1>
+
+
+
+
+<h2 itemprop="model">Cosecha de 2006 - 90% tempranillo 10% mazuelo</h2>
+
+
+
+
+<h3 itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Bodegas Conde Duque</span></h3>
+
+
+
+
+<p itemprop="description">Este vino ha sido elaborado y bla bla bla&#8230;&#8230;.</p>
+
+
+
+
+<p>Precio.- <span itemprop="price">23.99 euros</span> IVA Incluido botella de 75cl.</p>
+
+
+
+
+<p itemprop="availability">Articulo en stock</p>
+
+
+
+
+</div>
+
+
+<p>De esta forma le estamos indicando claramente a los navegadores cual es el nombre del producto, la descripcion, el precio, la empresa que lo fabrica, etc&#8230;  Estamos <strong>ayudando al buscador a entender mejor la informacion</strong> que proporcionamos en nuestra web.</p>
+
+<p>En la web <a href="http://schema.org/">Schema.org</a> hay un <a href="http://schema.org/docs/full.html">listado detallado</a> de todas las especificaciones y la informacion disponible para cada una de ellas.</p>
+
+<p><strong>El impacto de Schema.org en el SEO</strong></p>
+
+<p>Si los buscadores tienen informacion detallada y relevante de los productos que se venden o fabrican <strong>podran devolver resultados mas fiables y precisos</strong>.  Si conocen la localizacion de la empresa que las vende podran respondernos a preguntas como <em>&#8220;tienda mas cercana con stock de Whisky Chic Reserva 12 años&#8221;</em>.</p>
+
+<p>Se calcula que el 40% de las busquedas tienen caracter local lo cual es un mercado muy importante del total de busquedas y los metadatos jugaran un papel fundamental en ayudar a los buscadores a devolver resultados certeros.</p>
+
+<p>La relevancia y la calidad de los contenidos seguira siendo fundamental.  En la informacion de metadatos tambien se pueden incluir factores que afectan a la calidad de los contenidos como por ejemplo <a href="http://schema.org/Review">las reviews</a> o <a href="http://schema.org/AggregateRating">los rankings</a>.</p>
+
+<p>Un factor a tener en cuenta es si al buscar <em>&#8220;vuelo madrid barcelona&#8221;</em> y recibir una lista de productos que cumplen ese criterio, <strong>podria ordenar los resultados por precio</strong>.  En ese caso una simple centesima de menos en el precio de mi producto podria auparle a las primeras posiciones lo que nos lleva a una interesante reflexion sobre la estrategia a seguir para el posicionamiento.</p>
+
+<p><strong>Las busquedas sociales</strong></p>
+
+<p>Cuando hablamos de busquedas sociales todos pensamos en botones de +1, me gusta o en sitios como Facebook.</p>
+
+<p>Creo que los buscadores, muy inteligentemente, han trasladado el componente social a las propias paginas de las empresas.  Con metadatos como <a href="http://schema.org/Event">Event</a>, <a href="http://schema.org/Recipe">Recipe</a>, <a href="http://schema.org/Review">Review</a>, <a href="http://schema.org/AggregateRating">AggregateRating</a>, <a href="http://schema.org/Offer">Offer</a> o <a href="http://schema.org/AggregateOffer">AggregateOffer</a> podemos ofrecer informacion &#8220;social&#8221; de calidad y que aporta valor a nuestros visitantes.  Ademas los buscadores seran conscientes de ello y podran indexarnos mejor.</p>
+
+<p>Por ejemplo si la web de Apple ha combinando informacion de Event con <a href="http://schema.org/Person">Person</a> podriamos buscar <em>&#8220;ira Steve Jobs al proximo Webdevelopers Conference&#8221;</em> o preguntar por cualquier otro asistente/ponente.  No solo eso sino que podriamos saber la puntuacion de sus anteriores ponencias y las opiniones de los usuarios.</p>
+
+<p><strong>Resumen</strong></p>
+
+<p>Creo que <a href="http://schema.org/">Schema.org</a> es una jugada muy inteligente y apropiada no solo para ofrecer resultados de mejor calidad a los usuarios sino para competir con ventaja contra posibles nuevos competidores en el mercado de las busquedas, como podria ser Facebook que por sus caracteristicas ya posee una detallada informacion de eventos, personas, valoraciones y comentarios.</p>
+
+<p>Ademas, a corto plazo, puede ser una estrategia de diferenciacion para quienes implementen desde ya estos metadatos en sus webs.  Sobre todo para las pymes que tienen aqui una ventaja estrategica importante frente a las lentas y pesadas grandes corporaciones.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -1387,52 +1541,6 @@ pageTracker._trackPageLoadTime();
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/01/introduccion-al-html-5/">Introducción Al HTML 5</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-01-13T16:25:27+01:00" pubdate data-updated="true">13-01-2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><pre><code>Estas son las diapositivas de la charla de introducción al HTML 5 que   
-</code></pre>
-
-<p>ofrecí en Aspgems el 12/01/11</p>
-
-<p>Durante los próximos días publicaré los contenidos mucho más <br/>
-desarrollados y detallados.</p>
-
-<p><strong><a href="http://www.slideshare.net/jorgegorka/presentacin-en-aspgems-html5">Presentación en Aspgems html5</a></strong><a href="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=aspgemshtml5-110113091958-phpapp01&amp;stripped_title=presentacin-en-aspgems-html5&amp;userName=jorgegorka">http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=aspgemshtml5-110113091958-phpapp01&amp;stripped_title=presentacin-en-aspgems-html5&amp;userName=jorgegorka</a></p>
-
-<p>View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/jorgegorka">jorgegorka</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/4/">&larr; Older</a>
@@ -1448,6 +1556,10 @@ desarrollados y detallados.</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/02/el-dichoso-sistema-educativo/">El dichoso sistema educativo</a>
+      </li>
     
       <li class="post">
         <a href="/2012/12/comercio-electronico-cuando-saber-espanol-penaliza/">Comercio electrónico: Cuando saber español penaliza</a>
@@ -1483,10 +1595,6 @@ desarrollados y detallados.</p>
     
       <li class="post">
         <a href="/2011/11/comercio-electronico-no-todo-vale/">Comercio electrónico - No todo vale</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/11/datos-de-uso-de-internet-comscore-septiembre-de-2011/">Datos de uso de Internet - comScore Septiembre de 2011</a>
       </li>
     
   </ul>
@@ -1526,7 +1634,7 @@ desarrollados y detallados.</p>
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Jorge -
+  Copyright &copy; 2013 - Jorge -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
